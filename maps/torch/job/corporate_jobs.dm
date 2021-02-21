@@ -10,8 +10,8 @@
 	minimal_player_age = 0
 	minimum_character_age = list(SPECIES_HUMAN = 25)
 	outfit_type = /decl/hierarchy/outfit/job/torch/passenger/workplace_liaison
-	allowed_branches = list(/datum/mil_branch/civilian)
-	allowed_ranks = list(/datum/mil_rank/civ/contractor)
+	allowed_branches = list(/datum/mil_branch/nanotrasen)
+	allowed_ranks = list(/datum/mil_rank/nt/rep)
 	min_skill = list(   SKILL_BUREAUCRACY	= SKILL_EXPERT,
 	                    SKILL_FINANCE		= SKILL_BASIC)
 	skill_points = 20
