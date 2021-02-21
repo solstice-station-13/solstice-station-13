@@ -86,6 +86,7 @@ GLOBAL_REAL(Master, /datum/controller/master) = new
 	return QDEL_HINT_HARDDEL_NOW
 
 /datum/controller/master/Shutdown()
+	report_progress("Master controller shutdown started...")
 	processing = FALSE
 	sortTim(subsystems, /proc/cmp_subsystem_init)
 	reverseRange(subsystems)
@@ -231,6 +232,7 @@ GLOBAL_REAL(Master, /datum/controller/master) = new
 	report_progress("Master starting processing")
 	var/rtn = Loop()
 	if (rtn > 0 || processing < 0)
+		report_progress("Master controller returned cleanly, returning from StartProcessing..")
 		return //this was suppose to happen.
 	//loop ended, restart the mc
 	log_game("MC crashed or runtimed, restarting")

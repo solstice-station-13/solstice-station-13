@@ -77,6 +77,7 @@ SUBSYSTEM_DEF(ticker)
 			return
 		if(CHOOSE_GAMEMODE_RESTART)
 			to_world("<B>Unable to choose playable game mode.</B> Restarting world.")
+			report_progress("<B>Unable to choose playable game mode.</B> Restarting world.")
 			world.Reboot("Failure to select gamemode. Tried [english_list(bad_modes)].")
 			return
 	// This means we succeeded in picking a game mode.
@@ -145,6 +146,7 @@ SUBSYSTEM_DEF(ticker)
 		if(END_GAME_ENDING)
 			restart_timeout -= (world.time - last_fire)
 			if(restart_timeout <= 0)
+				report_progress("Post game tick - world ending...")
 				world.Reboot()
 			if(delay_end)
 				notify_delay()
@@ -211,6 +213,7 @@ Helpers
 
 	//Decide on the mode to try.
 	if(!bypass_gamemode_vote && gamemode_vote_results)
+		log_debug("bypass_gamemode_vote && gamemode_vote_results")
 		gamemode_vote_results -= bad_modes
 		if(length(gamemode_vote_results))
 			mode_to_try = gamemode_vote_results[1]
@@ -218,18 +221,35 @@ Helpers
 		else
 			mode_to_try = "extended"
 
-	if(!mode_to_try)
-		return
-	if(mode_to_try in bad_modes)
-		return
-
 	//Find the relevant datum, resolving secret in the process.
 	var/list/base_runnable_modes = config.get_runnable_modes() //format: list(config_tag = weight)
+	log_debug("Number of runnable modes is [LAZYLEN(base_runnable_modes)]")
+
+	// Okay, no.  If the alterative is rebooting the server and going though all of this shit again, just pick something else if we have
+	// any valid options.  The other option is a force start bypassing startRequirements
+	if(. == CHOOSE_GAMEMODE_RESTART && !LAZYISIN(base_runnable_modes, mode_to_try))
+		var/nextBestOption = pickweight(base_runnable_modes)
+		log_debug("Desired (previous?) game mode [mode_to_try] is not avaliable, and we are attempting to start immedately.  Selecting [nextBestOption]")
+		mode_to_try = nextBestOption
+
+	if(!mode_to_try)
+		log_debug("No mode to try in choose_gamemode")
+		return
+	if(mode_to_try in bad_modes)
+		log_debug("Mode to try is bad...")
+		return
+
+
+
+
 	if((mode_to_try=="random") || (mode_to_try=="secret"))
+		log_debug("Trying random mode ('[mode_to_try]') which is random or secret")
 		var/list/runnable_modes = base_runnable_modes - bad_modes
 		if(secret_force_mode != "secret") // Config option to force secret to be a specific mode.
+			log_debug("Forced secret mode  to [secret_force_mode]")
 			mode_datum = config.pick_mode(secret_force_mode)
 		else if(!length(runnable_modes))  // Indicates major issues; will be handled on return.
+			log_debug("No runnable modes?")
 			bad_modes += mode_to_try
 			return
 		else
@@ -237,8 +257,11 @@ Helpers
 			if(length(runnable_modes) > 1) // More to pick if we fail; we won't tell anyone we failed unless we fail all possibilities, though.
 				. = CHOOSE_GAMEMODE_SILENT_REDO
 	else
+		log_debug("mode_to_try is [mode_to_try]")
 		mode_datum = config.pick_mode(mode_to_try)
+
 	if(!istype(mode_datum))
+		log_debug("mode_datum is typeless")
 		bad_modes += mode_to_try
 		return
 
@@ -248,10 +271,12 @@ Helpers
 	mode_datum.pre_setup() // Makes lists of viable candidates; performs candidate draft for job-override roles; stores the draft result both internally and on the draftee.
 	SSjobs.divide_occupations(mode_datum) // Gives out jobs to everyone who was not selected to antag.
 
-	if(mode_datum.startRequirements())
+	var/startRequirementsResult = mode_datum.startRequirements()
+	if(startRequirementsResult)
 		mode_datum.fail_setup()
 		SSjobs.reset_occupations()
 		bad_modes += mode_datum.config_tag
+		log_debug("[mode_datum] failed startRequirements ([startRequirementsResult])")
 		return
 
 	//Declare victory, make an announcement.

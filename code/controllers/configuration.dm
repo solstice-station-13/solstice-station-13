@@ -865,7 +865,9 @@ var/list/gamemode_cache = list()
 /datum/configuration/proc/get_runnable_modes()
 	var/list/runnable_modes = list()
 	for(var/game_mode in gamemode_cache)
+		log_debug("get_runnable_modes: game mode being evaluated is [game_mode]")
 		var/datum/game_mode/M = gamemode_cache[game_mode]
 		if(M && !M.startRequirements() && !isnull(config.probabilities[M.config_tag]) && config.probabilities[M.config_tag] > 0)
+			log_debug("get_runnable_modes: [game_mode] - [M] passed all checks")
 			runnable_modes[M.config_tag] = config.probabilities[M.config_tag]
 	return runnable_modes

@@ -483,6 +483,9 @@ var/world_topic_spam_protect_time = world.timeofday
 		sound_to(world, sound(pick('sound/AI/newroundsexy.ogg','sound/misc/apcdestroyed.ogg','sound/misc/bangindonk.ogg')))// random end sounds!! - LastyBatsy
 
 		*/
+	report_progress("world/Reboot invoked!  World is going down (reason given was: '[reason]')...")
+
+	sleep(1000) // Wait one second for messages to propagate to connected clients before we shoot ourselves in the head.
 
 	Master.Shutdown()
 
@@ -500,9 +503,12 @@ var/world_topic_spam_protect_time = world.timeofday
 		to_world("<span class=danger>World reboot waiting for external scripts. Please be patient.</span>")
 		return
 
+
+
 	..(reason)
 
 /world/Del()
+	report_progress("World being deleted...")
 	callHook("shutdown")
 	return ..()
 
