@@ -705,8 +705,7 @@
  */
  
  /datum/mil_rank/nt/rep
-	name = "NanoTrasen Representative"
-	name_short = "REP"
+	name = "NT Rep"
 
 /datum/mil_rank/nt/scientist
 	name = "NT Scientist"
