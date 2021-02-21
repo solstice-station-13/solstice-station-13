@@ -1,28 +1,27 @@
 /decl/cultural_info/faction/scg
 	name = FACTION_SOL_CENTRAL
-	description = "The Sol Central Government, commonly referred to as SolGov or the SCG, is a federal republic \
+	description = "The Terran Federation, commonly referred to as just 'The Federation', is a federal republic \
 	composed of numerous human member states spanning many systems.\
 	Based in the Sol System and with most seats of Government on Olympus, Mars,\
-	the SCG governs the majority of human space. Currently engaged in a cold war with the Confederation of Gilgamesh \
+	the Federation governs the majority of human space. Despite the last war, they are still in a cold war with the Confederation of Gilgamesh \
 	Its primary governing bodies are the Assemblies which are led by an Assembly-elected secretary general. \
-	Member states have a great degree of freedom in their actions, though the SCG manages sapient rights, \
-	domestic security, economic policy, and diplomacy for humanity as a whole. The SCG's population is diverse \
-	including many non-humans (though they are not citizens) and encompassing a wide range of systems, territories \
+	Member states have a great degree of freedom in their actions, though the Federation manages sapient rights, \
+	domestic security, economic policy, and diplomacy for humanity as a whole. The Federation's population is diverse, \
+	including many non-humans (though they are not citizens). It encompasses a wide range of systems, territories, \
 	habitats, and celestial bodies. However, it is large, cumbersome, divided and slow to respond to issues due to \
-	its massive bureaucracy and the distance between worlds. Through its member states, the SCG governs as one of the \
+	its massive bureaucracy and the distance between worlds. Through its member states, the Federation governs as one of the \
 	most advanced and powerful civilisations in the known galaxy."
 
 /decl/cultural_info/faction/scg/fleet
 	name = FACTION_FLEET
-	description = "The Fleet is the primary component of the SCG Defence Forces. It mostly protects SCG space from pirates, smugglers, \
-	and occasional vox raiders, with its last serious military engagement being the Gaia war over 10 years ago. \
+	description = "The Fleet is the primary component of the Federal Armed Forces. It mostly protects Federation space from pirates, smugglers, \
+	and occasional vox raiders, with its last serious military engagement being the Great Terran War of 2557, which ended in 2570. \
 	The oldest component of the Defence Forces, the Fleet considers itself the pinnacle of Human military accomplishment. \
 	It is well funded, but seen as complacent and bloated. It is made up of five Fleets, with missions ranging from \
 	diplomatic security for Sol dignitaries, to border patrol along the vast frontier and quick reaction force duties. \
-	Any SCG human citizen with at least a secondary school level of education can enlist into the Fleet, going through \
+	Any Federation human citizen with at least a secondary school level of education can enlist into the Fleet, going through \
 	basic training and on-ship training for their rating (speciality). Commissioned officer candidates require at least a \
-	Bachelor degree and go through a lengthy training process before being assigned to a warship. \
-	Recently Sol-made IPCs were also permitted to enlist, provided they agree to install a law shackle."
+	Bachelor degree and go through a lengthy training process before being assigned to a warship."
 
 /decl/cultural_info/faction/torchco
 	name = FACTION_CORPORATE
@@ -32,7 +31,7 @@
 	directors, made up of corporate representatives and members of Expeditionary Corps command and the Committee for the Economy. \
 	While on the surface the Expeditionary Corps Organisation appears to have noble goals, it is in reality a compromise between the noble ideals of pioneering \
 	science, and the corporate desire to make a quick buck off whatever is found. Rumours also abound about shady practices, hidden \
-	protocols, and xenoartifacts being 'lost' in transit, but nothing has been conclusively proven as of yet, and SCG doubtless is \
+	protocols, and xenoartifacts being 'lost' in transit, but nothing has been conclusively proven as of yet, and the Federation is \
 	reluctant to harpoon their own project."
 	economic_power = 1.2
 	subversive_potential = 35
@@ -43,16 +42,16 @@
 	bordered by the Sol Central Government towards the galactic centre. The capital of the Confederation is the city of Ameranth on the planet of Terra \
 	in the Gilgamesh system. Externally heavily militant and isolationist, the GCC, internally, is heavily libertarian, with \
 	a strong focus on independent planetary government with the GCC itself only handling defence, foreign relations and some intergalactic trade. \
-	Increasingly anti non-human, the GCC is in a cold war with the Sol Central Government following  the Gaia Conflict, a large \
-	scale conflict between the SCG and GCC that saw a great deal of death and destruction. In Sol space \"Indies\" as they are known are \
-	heavily mistrusted and in some instances, met with downright hostility. Today the GCC continues to be an economic powerhouse following \
-	a period of steady economic recovery, with most of its exports being manufactured goods, primarily armaments."
+	Increasingly anti non-human, the GCC is in a cold war with the Terran Federation following the Great Terran War, a large \
+	scale conflict between the Federation and GCC that saw a great deal of death and destruction. In Federation space \"Indies\" as they are known are \
+	heavily mistrusted and in some instances, met with downright hostility. Today the GCC continues to suffer from the galactic depression, but going through \
+	a slow economic recovery, with most of its exports being manufactured goods, primarily armaments."
 	economic_power = 0.9
 	subversive_potential = 50
 
 /decl/cultural_info/faction/remote
 	name = FACTION_EXPEDITIONARY
-	description = "The Expeditionary Corps is an SCG agency tasked with exploration of uncharted space and worlds, \
+	description = "The Expeditionary Corps is a Federation agency tasked with exploration of uncharted space and worlds, \
 	mineralogy surveys and xenoarchaeological studies and, more recently, the discovery of new alien life. \
 	The EC performs a variety of tasks: discovering and cataloging stellar objects in Observatory, \
 	initial surveys of prospective colony sites, indepth exploration of uncharted worlds, staffing \
@@ -63,12 +62,12 @@
 
 /decl/cultural_info/faction/police
 	name = FACTION_SPACECOPS
-	description = "The Sol Federal (SFP) is a government law enforcement agency tasked with enforcing Sol Central Government law, \
+	description = "The Federal Marshals Service is a government law enforcement agency tasked with enforcing Sol Central Government law, \
 	investigating breaches of law, fugitive recovery and transport, and securing ports of entry. \
-	Some Agents embedded with other organizations (e.g. an <l>Expeditionary Corps</l> ship) and are expected to answer to their superiours from those organizations. \
+	Some Agents embedded with other organizations (e.g. an <l>Expeditionary Corps</l> ship) and are expected to answer to their superiors from those organizations. \
 	Notable units are Organized Crime & Vice (self-explanatory), Territory Support (ports of entry and helping local law enforcement), \
 	Special Investigations (sensitive and urgent cases) and Fugitive Recovery Division (for when local authorities are unable or unwilling to arrest someone). \
-	The contractor SFP Trackers are also used find and arrest low-profile fugitives from justice."
+	The contractor FMS Trackers are also used find and arrest low-profile fugitives from justice."
 
 /decl/cultural_info/faction/remote/nanotrasen
 	name = FACTION_NANOTRASEN
@@ -105,7 +104,7 @@
 /decl/cultural_info/faction/free
 	name = FACTION_FREETRADE
 	description = "The Free Trade Union, commonly referred to as the FTU, is is an employee-owned conglomerate of tens of thousands of \
-	various traders and merchants from all over SCG space and beyond. Colloquially known as the 'fifth megacorp', they control a sizeable fleet \
+	various traders and merchants from all over Federation space and beyond. Colloquially known as the 'fifth megacorp', they control a sizeable fleet \
 	of trading ships which are form the backbone of their trading force along with a large contingent of combat capable vessels that cruise the shipping lanes, \
 	keeping FTU members free from pirates. The FTU has a large amount of economic power across Sol space and operates large trade hubs and stations near most \
 	Gateway installations and planets. Somewhat unscrupulous, FTU stations and merchants are known for \
