@@ -708,6 +708,10 @@
 
 /datum/mil_rank/nt/scientist
 	name = "NanoTrasen Scientist"
+	
+/datum/mil_rank/nt/assetprotection
+	name = "Asset Protection"
+	name_short = "APA"
 
 /*
  *  Terrans
