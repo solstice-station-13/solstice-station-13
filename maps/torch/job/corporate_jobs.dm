@@ -31,7 +31,7 @@
 	var/my_title = "\a ["\improper [(person.mind ? (person.mind.role_alt_title ? person.mind.role_alt_title : person.mind.assigned_role) : "Asset Protection Agent")]"]"
 	for(var/mob/M in GLOB.player_list)
 		if(M.client && M.mind)
-			if(M.mind.assigned_role == "Executive Assistant")
+			if(M.mind.assigned_role == "Asset Protection Agent")
 				to_chat(M, SPAN_NOTICE("<b>One of your employers, [my_title] named [person.real_name], is present on [GLOB.using_map.full_name].</b>"))
 	..()
 
@@ -70,7 +70,7 @@
 /datum/job/bodyguard/is_position_available()
 	if(..())
 		for(var/mob/M in GLOB.player_list)
-			if(M.client && M.mind && M.mind.assigned_role == "Workplace Liaison")
+			if(M.client && M.mind && M.mind.assigned_role == "NanoTrasen Representative")
 				return TRUE
 	return FALSE
 
