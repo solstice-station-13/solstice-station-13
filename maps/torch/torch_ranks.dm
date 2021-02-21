@@ -269,12 +269,14 @@
 
 	rank_types = list(
 		/datum/mil_rank/nt/rep,
-		/datum/mil_rank/nt/scientist
+		/datum/mil_rank/nt/scientist,
+		/datum/mil_rank/nt/assetprotection
 	)
 
 	spawn_rank_types = list(
 		/datum/mil_rank/nt/rep,
-		/datum/mil_rank/nt/scientist
+		/datum/mil_rank/nt/scientist,
+		/datum/mil_rank/nt/assetprotection
 	)
 
 /datum/mil_branch/terran
