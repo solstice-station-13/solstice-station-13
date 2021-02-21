@@ -111,7 +111,7 @@
 /datum/mil_branch/expeditionary_corps
 	name = "Expeditionary Corps"
 	name_short = "SCGEC"
-	email_domain = "torch.ec.scg"
+	email_domain = "solstice.ec.scg"
 
 	rank_types = list(
 		/datum/mil_rank/ec/e3,
@@ -142,7 +142,7 @@
 /datum/mil_branch/fleet
 	name = "Fleet"
 	name_short = "SCGF"
-	email_domain = "torch.fleet.mil"
+	email_domain = "solstice.fleet.mil"
 
 	rank_types = list(
 		/datum/mil_rank/fleet/e1,
@@ -250,7 +250,7 @@
 /datum/mil_branch/solgov
 	name = "SolGov Employee"
 	name_short = "SCG"
-	email_domain = "torch.scg"
+	email_domain = "solstice.scg"
 
 	rank_types = list(
 		/datum/mil_rank/sol/gov,
@@ -267,7 +267,7 @@
 /datum/mil_branch/nanotrasen
 	name = "NanoTrasen Employee"
 	name_short = "NT"
-	email_domain = "torch.nt"
+	email_domain = "solstice.nt"
 
 	rank_types = list(
 		/datum/mil_rank/nt/rep,
@@ -706,13 +706,13 @@
  
  /datum/mil_rank/nt/rep
 	name = "NanoTrasen Representative"
-	name_short = "NTR"
+	name_short = "REP"
 
 /datum/mil_rank/nt/scientist
-	name = "NanoTrasen Scientist"
+	name = "NT Scientist"
 	
 /datum/mil_rank/nt/assetprotection
-	name = "Asset Protection"
+	name = "Asset Protection Agent"
 	name_short = "APA"
 
 /*
