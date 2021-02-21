@@ -262,6 +262,21 @@
 		/datum/mil_rank/sol/scientist
 	)
 
+/datum/mil_branch/nanotrasen
+	name = "NanoTrasen Employee"
+	name_short = "NT"
+	email_domain = "torch.nt"
+
+	rank_types = list(
+		/datum/mil_rank/nt/rep,
+		/datum/mil_rank/nt/scientist
+	)
+
+	spawn_rank_types = list(
+		/datum/mil_rank/nt/rep,
+		/datum/mil_rank/nt/scientist
+	)
+
 /datum/mil_branch/terran
 	name = "Independent Navy"
 	name_short = "ICCGN"
@@ -679,6 +694,18 @@
 /datum/mil_rank/sol/scientist
 	name = "Government Scientist"
 	name_short = "GOVT"
+	
+/*
+ *  NT Employees
+ *  == =========
+ */
+ 
+ /datum/mil_rank/nt/rep
+	name = "NanoTrasen Representative"
+	name_short = "NTR"
+
+/datum/mil_rank/nt/scientist
+	name = "NanoTrasen Scientist"
 
 /*
  *  Terrans
