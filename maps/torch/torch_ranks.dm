@@ -11,6 +11,7 @@
 		/datum/mil_branch/fleet,
 		/datum/mil_branch/civilian,
 		/datum/mil_branch/solgov,
+		/datum/mil_branch/nanotrasen,
 		/datum/mil_branch/army,
 		/datum/mil_branch/alien,
 		/datum/mil_branch/skrell_fleet
@@ -21,6 +22,7 @@
 		/datum/mil_branch/fleet,
 		/datum/mil_branch/civilian,
 		/datum/mil_branch/solgov,
+		/datum/mil_branch/nanotrasen,
 		/datum/mil_branch/alien,
 		/datum/mil_branch/skrell_fleet
 	)
