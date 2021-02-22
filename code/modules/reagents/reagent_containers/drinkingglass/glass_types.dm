@@ -150,8 +150,8 @@
 	base_name = "heart cup"
 
 /obj/item/weapon/reagent_containers/food/drinks/glass2/coffeecup/SCG
-	name = "\improper SCG coffee cup"
-	desc = "A blue coffee cup emblazoned with the crest of the Sol Central Government."
+	name = "\improper Terran coffee cup"
+	desc = "A blue coffee cup emblazoned with the crest of the Terran Federation."
 	icon_state = "coffeecup_SCG"
 	base_name = "\improper SCG cup"
 
