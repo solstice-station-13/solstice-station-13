@@ -155,7 +155,8 @@
 		/datum/mil_rank/ec/o1,
 		/datum/mil_rank/ec/o3,
 		/datum/mil_rank/ec/o5,
-		/datum/mil_rank/ec/o6
+		/datum/mil_rank/ec/o6,
+		/datum/mil_rank/ec/o8,
 	)
 
 	spawn_rank_types = list(
