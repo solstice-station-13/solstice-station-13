@@ -95,7 +95,7 @@
 				/datum/mil_rank/ec/e7
 			)
 		),
-		/datum/species/unathi/humanathi = list(
+		/datum/species/humanathi = list(
 			/datum/mil_branch/expeditionary_corps = list(
 				/datum/mil_rank/ec/e3,
 				/datum/mil_rank/ec/e5,
