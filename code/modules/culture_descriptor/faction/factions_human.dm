@@ -39,7 +39,7 @@
 /decl/cultural_info/faction/gcc
 	name = FACTION_INDIE_CONFED
 	description = "The Independent Colonial Confederation of Gilgamesh, commonly referred to as the Gilgamesh Colonial Confederation (GCC), is a regional power in human space,\
-	bordered by the Sol Central Government towards the galactic centre. The capital of the Confederation is the city of Ameranth on the planet of Terra \
+	bordered by the Terran Federation towards the galactic centre. The capital of the Confederation is the city of Ameranth on the planet of Terra \
 	in the Gilgamesh system. Externally heavily militant and isolationist, the GCC, internally, is heavily libertarian, with \
 	a strong focus on independent planetary government with the GCC itself only handling defence, foreign relations and some intergalactic trade. \
 	Increasingly anti non-human, the GCC is in a cold war with the Terran Federation following the Great Terran War, a large \
@@ -62,7 +62,7 @@
 
 /decl/cultural_info/faction/police
 	name = FACTION_SPACECOPS
-	description = "The Federal Marshals Service is a government law enforcement agency tasked with enforcing Sol Central Government law, \
+	description = "The Terran Marshals Service is a government law enforcement agency tasked with enforcing Terran Federation law, \
 	investigating breaches of law, fugitive recovery and transport, and securing ports of entry. \
 	Some Agents embedded with other organizations (e.g. an <l>Expeditionary Corps</l> ship) and are expected to answer to their superiors from those organizations. \
 	Notable units are Organized Crime & Vice (self-explanatory), Territory Support (ports of entry and helping local law enforcement), \

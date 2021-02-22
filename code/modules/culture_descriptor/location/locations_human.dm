@@ -147,8 +147,8 @@
 	<br><br>The Tersten people are separated into various cultures. For example, urban Tersteners, known as 'Pinascs', live around Tersten City, and are often seen in the defence forces.  \
 	Rural Tersteners, known as 'Nevokies', live in the south central region around the city of Nevada.  Many Martian and Earthling enclaves exist on the planet, significantly in South Harelstone. \
 	The divide between north and south could also be considered a divide between rich and poor. Even the poorest city dweller will likely be richer than most farmers. \
-	Typically untrusting, once a Terstener has made a friend, they will often be that way for life.  Known for their community and attitudes to strangers, they are considered the cowboys of Sol Central. \
-	Many Tersteners serve in the Defence Forces, and many gave their lives in the Gaian Conflict."
+	Typically untrusting, once a Terstener has made a friend, they will often be that way for life.  Known for their community and attitudes to strangers, they are considered the cowboys of the Federation. \
+	Many Tersteners serve in the Defence Forces, and many gave their lives in the Great Terran War."
 	capital = "Tersten City"
 	economic_power = 1.0
 

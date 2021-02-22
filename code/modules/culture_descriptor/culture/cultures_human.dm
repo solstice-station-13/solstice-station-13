@@ -152,6 +152,23 @@
 		LANGUAGE_SPACER,
 		LANGUAGE_GUTTER,
 		LANGUAGE_SIGN)
+		
+/decl/cultural_info/culture/human/xeno
+	name = CULTURE_HUMAN_XENO
+	description = "There are worlds that the Federation has conquered with native species. The cultural imperialism of the Federation has often replaced the culture of these \
+	once alien worlds. A common joke is that these species were Terraformed. But wherever you came from, your native culture is gone, and you have likely rarely if ever heard \
+	of what it once was. While physically alien, you are culturally Human, and isn't that what ultimately matters?"
+	economic_power = 0.9
+	secondary_langs = list (LANGUAGE_HUMAN_EURO,
+		LANGUAGE_HUMAN_CHINESE,
+		LANGUAGE_HUMAN_ARABIC,
+		LANGUAGE_HUMAN_INDIAN,
+		LANGUAGE_HUMAN_IBERIAN,
+		LANGUAGE_HUMAN_RUSSIAN,
+		LANGUAGE_SPACER,
+		LANGUAGE_GUTTER,
+		LANGUAGE_SIGN)
+	
 
 /decl/cultural_info/culture/human/vatgrown
 	name = CULTURE_HUMAN_VATGROWN
