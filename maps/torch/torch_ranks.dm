@@ -722,13 +722,13 @@
  */
 
 /datum/mil_rank/sol/gov
-	name = "SolGov Representative"
+	name = "Terran Representative"
 	name_short = "SGR"
 	accessory = list(/obj/item/clothing/accessory/badge/solgov/representative)
 
 /datum/mil_rank/sol/agent
-	name = "SFP Agent"
-	name_short = "AGT"
+	name = "Terran Marshal"
+	name_short = "MAR"
 	accessory = list(/obj/item/clothing/accessory/badge/agent)
 
 /datum/mil_rank/sol/scientist
