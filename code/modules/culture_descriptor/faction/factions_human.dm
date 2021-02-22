@@ -57,7 +57,7 @@
 	initial surveys of prospective colony sites, indepth exploration of uncharted worlds, staffing \
 	long-term scientific outposts, and studying anomalies and xenoarcheological sites. \
 	While not military, it was modelled in a naval style, with employees having ranks and uniforms. \
-	Any SCG citizen of age (18 and older) with no outstanding SCG-wide warrants can sign up for a 2-year contract. \
+	Any Federation citizen of age (18 and older) with no outstanding Federation-wide warrants can sign up for a 2-year contract. \
 	Officer candidates are required to have at least a bachelor's degree in a relevant field (astrogation, engineering, xenoarcheology, etc)."
 
 /decl/cultural_info/faction/police

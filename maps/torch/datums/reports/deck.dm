@@ -4,7 +4,7 @@
 
 /datum/computer_file/report/recipient/docked
 	logo = "\[solcrest\]"
-	form_name = "SCG-SUP-12"
+	form_name = "FED-SUP-12"
 	title = "Docked Vessel Report"
 	available_on_ntnet = TRUE
 
@@ -15,7 +15,7 @@
 
 /datum/computer_file/report/recipient/docked/generate_fields()
 	..()
-	add_field(/datum/report_field/text_label/header, "SEV Torch Supply and Hangar Management Department")
+	add_field(/datum/report_field/text_label/header, "TEV Solstice Supply and Hangar Management Department")
 	add_field(/datum/report_field/text_label/header, "General Info")
 	add_field(/datum/report_field/date, "Date")
 	add_field(/datum/report_field/simple_text, "Vessel Name")

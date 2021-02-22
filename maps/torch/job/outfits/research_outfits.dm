@@ -24,9 +24,9 @@
 	id_types = list(/obj/item/weapon/card/id/torch/crew/research/scientist)
 
 /decl/hierarchy/outfit/job/torch/passenger/research/assist/solgov
-	name = OUTFIT_JOB_NAME("Research Assistant - SCG")
+	name = OUTFIT_JOB_NAME("Research Assistant - Federation")
 	head = /obj/item/clothing/head/beret/solgov/research
 
 /decl/hierarchy/outfit/job/torch/passenger/research/scientist/solgov
-	name = OUTFIT_JOB_NAME("Scientist - SCG")
+	name = OUTFIT_JOB_NAME("Scientist - Federation")
 	head = /obj/item/clothing/head/beret/solgov/research

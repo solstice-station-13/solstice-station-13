@@ -8,13 +8,13 @@
 	set_access(access_heads, override = 0)
 
 /datum/computer_file/report/recipient/sec/incident
-	form_name = "SCG-SEC-01"
+	form_name = "FED-SEC-01"
 	title = "Security Incident Report"
 	available_on_ntnet = TRUE
 
 /datum/computer_file/report/recipient/sec/incident/generate_fields()
 	..()
-	add_field(/datum/report_field/text_label/header, "SEV Torch Security Department")
+	add_field(/datum/report_field/text_label/header, "TEV Solstice Security Department")
 	add_field(/datum/report_field/text_label/instruction, "To be filled out by Officer on duty responding to the Incident. Report must be signed and submitted before the end of the shift!")
 	add_field(/datum/report_field/people/from_manifest, "Reporting Officer")
 	add_field(/datum/report_field/simple_text, "Offense/Incident Type")
@@ -31,13 +31,13 @@
 	set_access(access_edit = access_security)
 
 /datum/computer_file/report/recipient/sec/investigation
-	form_name = "SCG-SEC-02"
+	form_name = "FED-SEC-02"
 	title = "Investigation Report"
 	available_on_ntnet = TRUE
 
 /datum/computer_file/report/recipient/sec/investigation/generate_fields()
 	..()
-	add_field(/datum/report_field/text_label/header, "SEV Torch Security Department")
+	add_field(/datum/report_field/text_label/header, "TEV Solstice Security Department")
 	add_field(/datum/report_field/text_label/instruction, "For internal use only.")
 	add_field(/datum/report_field/people/from_manifest, "Name")
 	add_field(/datum/report_field/date, "Date")
@@ -49,14 +49,14 @@
 	set_access(access_edit = access_security)
 
 /datum/computer_file/report/recipient/sec/evidence
-	form_name = "SCG-SEC-02b"
+	form_name = "FED-SEC-02b"
 	title = "Evidence and Property Form"
 	available_on_ntnet = TRUE
 
 /datum/computer_file/report/recipient/sec/evidence/generate_fields()
 	..()
 	var/datum/report_field/temp_field
-	add_field(/datum/report_field/text_label/header, "SEV Torch Security Department")
+	add_field(/datum/report_field/text_label/header, "TEV Solstice Security Department")
 	add_field(/datum/report_field/date, "Date")
 	add_field(/datum/report_field/time, "Time")
 	add_field(/datum/report_field/people/from_manifest, "Confiscated from")
@@ -68,13 +68,13 @@
 	temp_field.set_access(access_edit = list(access_security, access_forensics_lockers))
 
 /datum/computer_file/report/recipient/sec/statement
-	form_name = "SCG-SEC-02c"
+	form_name = "FED-SEC-02c"
 	title = "Written Statement"
 	available_on_ntnet = TRUE
 
 /datum/computer_file/report/recipient/sec/statement/generate_fields()
 	..()
-	add_field(/datum/report_field/text_label/header, "SEV Torch Security Department")
+	add_field(/datum/report_field/text_label/header, "TEV Solstice Security Department")
 	add_field(/datum/report_field/text_label/instruction, "To be filled out by crewmember involved to document their side of an incident.")
 	add_field(/datum/report_field/people/from_manifest, "Submitting Individual")
 	add_field(/datum/report_field/simple_text, "Offense/Incident Type")
@@ -91,13 +91,13 @@
 	set_access(access_edit = access_security)
 
 /datum/computer_file/report/recipient/sec/arrest
-	form_name = "SCG-SEC-03"
+	form_name = "FED-SEC-03"
 	title = "Arrest Report"
 	available_on_ntnet = TRUE
 
 /datum/computer_file/report/recipient/sec/arrest/generate_fields()
 	..()
-	add_field(/datum/report_field/text_label/header, "SEV Torch Security Department")
+	add_field(/datum/report_field/text_label/header, "TEV Solstice Security Department")
 	add_field(/datum/report_field/text_label/instruction, "To be filled out by Arresting Officer or Brig Chief. Report must be signed and submitted before the end of the shift!")
 	add_field(/datum/report_field/people/from_manifest, "Booking Officer")
 	add_field(/datum/report_field/people/list_from_manifest, "Arresting Officer(s)")
@@ -123,13 +123,13 @@
 	set_access(access_edit = access_security)
 
 /datum/computer_file/report/recipient/sec/restraining
-	form_name = "SCG-SEC-04"
+	form_name = "FED-SEC-04"
 	title = "Restraining Order"
 	available_on_ntnet = TRUE
 
 /datum/computer_file/report/recipient/sec/restraining/generate_fields()
 	..()
-	add_field(/datum/report_field/text_label/header, "SEV Torch Security Department")
+	add_field(/datum/report_field/text_label/header, "TEV Solstice Security Department")
 	add_field(/datum/report_field/text_label/instruction, "To be filled out by the Chief of Security, Executive Officer, or Commanding Officer. Report must be signed and submitted for the order to be considered valid. Any paper copies must be stamped.")
 	add_field(/datum/report_field/people/from_manifest, "Plantiff")
 	add_field(/datum/report_field/people/from_manifest, "Defendant(s)")
@@ -140,13 +140,13 @@
 	set_access(access_edit = access_hos)
 
 /datum/computer_file/report/recipient/sec/ltc
-	form_name = "SCG-SEC-05"
+	form_name = "FED-SEC-05"
 	title = "License to Carry"
 	available_on_ntnet = TRUE
 
 /datum/computer_file/report/recipient/sec/ltc/generate_fields()
 	..()
-	add_field(/datum/report_field/text_label/header, "SEV Torch Security Department")
+	add_field(/datum/report_field/text_label/header, "TEV Solstice Security Department")
 	add_field(/datum/report_field/text_label/instruction, "To be filled out by the Chief of Security, Executive Officer, or Commanding Officer. Report must be signed and submitted for the order to be considered valid. Any paper copies must be stamped.")
 	add_field(/datum/report_field/people/from_manifest, "Licensee")
 	add_field(/datum/report_field/date, "Date Effective")

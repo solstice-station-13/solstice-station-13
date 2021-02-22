@@ -15,12 +15,12 @@ medals
 
 /obj/item/clothing/accessory/medal/solgov/iron/star
 	name = "iron star medal"
-	desc = "An iron star awarded to members of the Terran Armed Forces for meritorious achievement or service in a combat zone."
+	desc = "An iron star awarded to members of the Federal Armed Forces for meritorious achievement or service in a combat zone."
 	icon_state = "iron_star"
 
 /obj/item/clothing/accessory/medal/solgov/iron/sol
 	name = "\improper Terran expeditionary medal"
-	desc = "An iron medal awarded to members of the Terran Armed Forces for service outside of the borders of the Sol Central Government."
+	desc = "An iron medal awarded to members of the Federal Armed Forces for service outside of the borders of the Terran Federation."
 	icon_state = "iron_sol"
 
 /obj/item/clothing/accessory/medal/solgov/bronze/heart
@@ -30,7 +30,7 @@ medals
 
 /obj/item/clothing/accessory/medal/solgov/bronze/sol
 	name = "\improper Terran defensive operations medal"
-	desc = "A bronze medal awarded for members of the SCG for service defending the border regions."
+	desc = "A bronze medal awarded for members of the Federal Armed Forces for service defending the border regions."
 	icon_state = "bronze_sol"
 
 /obj/item/clothing/accessory/medal/solgov/silver/sword
@@ -139,7 +139,7 @@ scarves
 *****/
 /obj/item/clothing/accessory/solgov/ec_scarf
 	name = "expeditionary scarf"
-	desc = "An SCG blue silk scarf, meant to be worn with Expeditionary Corps uniforms."
+	desc = "A Federation blue silk scarf, meant to be worn with Expeditionary Corps uniforms."
 	icon = 'icons/obj/clothing/obj_accessories.dmi'
 	accessory_icons = list(slot_w_uniform_str = 'icons/mob/onmob/onmob_accessories.dmi', slot_wear_suit_str = 'icons/mob/onmob/onmob_accessories.dmi')
 	icon_state = "whitescarf"
@@ -245,7 +245,7 @@ specialty pins
 
 /obj/item/clothing/accessory/solgov/specialty/pilot
 	name = "pilot's qualification pin"
-	desc = "An iron pin denoting the qualification to fly SCG spacecraft."
+	desc = "An iron pin denoting the qualification to fly Terran spacecraft."
 	icon_state = "pin_pilot"
 
 /*****
@@ -261,14 +261,14 @@ badges
 	desc = "A silver law enforcement badge. Stamped with the words 'Master at Arms'."
 	icon_state = "silverbadge"
 	slot_flags = SLOT_TIE
-	badge_string = "Sol Central Government"
+	badge_string = "Terran Federation"
 
 /obj/item/clothing/accessory/badge/solgov/tags
 	name = "dog tags"
 	desc = "Plain identification tags made from a durable metal. They are stamped with a variety of informational details."
 	gender = PLURAL
 	icon_state = "tags"
-	badge_string = "Sol Central Government"
+	badge_string = "Terran Federation"
 	slot_flags = SLOT_MASK | SLOT_TIE
 	var/owner_rank
 	var/owner_name
@@ -293,7 +293,7 @@ badges
 	desc = "A leather-backed plastic badge with a variety of information printed on it. Belongs to a representative of the Terran Federation."
 	icon_state = "solbadge"
 	slot_flags = SLOT_TIE
-	badge_string = "Sol Central Government"
+	badge_string = "Terran Federation"
 
 /*******
 armbands

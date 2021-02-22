@@ -1450,7 +1450,7 @@
 "Fb" = (
 /obj/structure/showcase{
 	color = "#800080";
-	desc = "A large, complex chunk of machinery similar to the bluespace drive found on some SCG ships. This one is definitely not Skrell design, and seems to have been destroyed in its last jump.";
+	desc = "A large, complex chunk of machinery similar to the bluespace drive found on some Federation ships. This one is definitely not Skrell design, and seems to have been destroyed in its last jump.";
 	icon = 'icons/obj/power.dmi';
 	icon_state = "tracker";
 	name = "burned-out bluespace drive"

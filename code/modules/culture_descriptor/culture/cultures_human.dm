@@ -123,7 +123,7 @@
 
 /decl/cultural_info/culture/human/spacer_frontier
 	name = CULTURE_HUMAN_SPAFRO
-	description =  "You are from the void between worlds, though you are in the distant, vast frontier of SCG space and beyond. Out here things like national identity and culture mean less; \
+	description =  "You are from the void between worlds, though you are in the distant, vast frontier of Federation space and beyond. Out here things like national identity and culture mean less; \
 	those who live so far from anything only look to their close family and friends rather than any larger group. Raised on one of the long haul freighters that move between frontier worlds delivering \
 	vital goods, a lonely outpost on the edge of a dreary backwater, such people are raised in small, confined environments with few others, and tend to be most familiar with older, reliable but outdated \
 	technology. An independent sort, people on the frontier are more likely to be isolationist and self-driven."
