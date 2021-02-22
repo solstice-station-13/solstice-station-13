@@ -17,6 +17,11 @@
 	can_be_printed = FALSE
 
 	var/can_use_mmi = TRUE
+
+// Solstice Station Start
+	var/clone_source = FALSE
+// Solstice Station End
+
 	var/mob/living/carbon/brain/brainmob = null
 	var/const/damage_threshold_count = 10
 	var/damage_threshold_value

@@ -136,7 +136,7 @@
 		access_petrov_analysis, access_petrov_phoron, access_petrov_toxins, access_petrov_chemistry, access_petrov_rd,
 		access_petrov_security, access_petrov_maint, access_pathfinder, access_explorer, access_eva, access_solgov_crew,
 		access_expedition_shuttle, access_expedition_shuttle_helm, access_maint_tunnels, access_torch_fax, access_radio_comm,
-		access_radio_sci, access_radio_exp
+		access_radio_sci, access_radio_exp, access_genetics, access_genetics
 	)
 
 	minimal_access = list()
@@ -183,7 +183,7 @@
 		access_chapel_office, access_crematorium, access_chemistry, access_virology, access_aquila,
 		access_cmo, access_surgery, access_RC_announce, access_keycard_auth, access_psychiatrist,
 		access_medical_equip, access_solgov_crew, access_senmed, access_hangar, access_torch_fax, access_radio_comm,
-		access_radio_med
+		access_radio_med, access_genetics
 	)
 
 	minimal_access = list()

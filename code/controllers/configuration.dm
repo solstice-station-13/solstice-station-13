@@ -108,6 +108,10 @@ var/list/gamemode_cache = list()
 	var/bones_can_break = 1
 	var/limbs_can_break = 1
 
+// Solstice Station Start
+	var/revival_pod_plants = 1
+	var/revival_cloning = 1
+// Solstice Station End
 	var/revival_brain_life = -1
 
 	var/use_loyalty_implants = 0
@@ -748,6 +752,12 @@ var/list/gamemode_cache = list()
 			switch(name)
 				if("health_threshold_dead")
 					config.health_threshold_dead = value
+// Solstice Station Start
+				if("revival_pod_plants")
+					config.revival_pod_plants = value
+				if("revival_cloning")
+					config.revival_cloning = value
+// Solstice Station End
 				if("revival_brain_life")
 					config.revival_brain_life = value
 				if("organ_health_multiplier")

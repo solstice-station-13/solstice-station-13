@@ -56,6 +56,13 @@
 	next_click = world.time + 1
 
 	var/list/modifiers = params2list(params)
+
+
+	//Solstice Station edit START - Adds shift+middle click shortcut. This edit is not modularised due to the performance impact of modular callbacks on such an essential proc.
+	if(modifiers["shift"] && modifiers["middle"])
+		ShiftMiddleClickOn(A)
+		return 1
+	//Solstice Station edit END
 	if(modifiers["shift"] && modifiers["ctrl"])
 		CtrlShiftClickOn(A)
 		return 1
