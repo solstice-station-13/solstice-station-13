@@ -175,8 +175,8 @@
 	badge_string = "Corporate Executive Body"
 
 /obj/item/clothing/accessory/badge/agent
-	name = "\improper SFP Agent's badge"
-	desc = "A leather-backed gold badge displaying the crest of the Sol Federal Police."
+	name = "\improper TMB Agent's badge"
+	desc = "A leather-backed gold badge displaying the crest of the Terran Marshals Bureau."
 	icon_state = "agentbadge"
 	slot_flags = SLOT_BELT | SLOT_TIE | SLOT_MASK
 	slot = ACCESSORY_SLOT_INSIGNIA
