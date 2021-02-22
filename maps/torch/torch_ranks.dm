@@ -54,6 +54,7 @@
 		/datum/species/tajaran		= list(/datum/mil_branch/nanotrasen, /datum/mil_branch/civilian, /datum/mil_branch/expeditionary_corps),
 		/datum/species/vasilissan	= list(/datum/mil_branch/nanotrasen, /datum/mil_branch/civilian),
 		/datum/species/vulpkanin	= list(/datum/mil_branch/nanotrasen, /datum/mil_branch/civilian, /datum/mil_branch/expeditionary_corps),
+		/datum/species/machine		= list(/datum/mil_branch/nanotrasen, /datum/mil_branch/civilian, /datum/mil_branch/expeditionary_corps),
 	)
 
 	species_to_rank_blacklist = list(
@@ -117,6 +118,15 @@
 				/datum/mil_rank/ec/o1,
 				/datum/mil_rank/ec/o3,
 				/datum/mil_rank/ec/o5
+			)
+		),
+		/datum/species/machine = list(
+			/datum/mil_branch/expeditionary_corps = list(
+				/datum/mil_rank/ec/e3,
+				/datum/mil_rank/ec/e5,
+				/datum/mil_rank/ec/e7,
+				/datum/mil_rank/ec/o1,
+				/datum/mil_rank/ec/o3
 			)
 		),
 		/datum/species/vox = list(
