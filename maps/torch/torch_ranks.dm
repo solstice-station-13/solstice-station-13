@@ -723,7 +723,7 @@
 
 /datum/mil_rank/sol/gov
 	name = "Terran Representative"
-	name_short = "SGR"
+	name_short = "TFR"
 	accessory = list(/obj/item/clothing/accessory/badge/solgov/representative)
 
 /datum/mil_rank/sol/agent
