@@ -17,7 +17,7 @@
 	discovered. This was due to already being in the atomic era when they were found by the now-defunct NanoTrasen Surveyor Corps. They've integrated rather well \
 	into interstellar society, with only a few hiccups in political relations, mostly involving the fact they are spiders."
 
-	spawn_flags = SPECIES_IS_ICONBASE
+	spawn_flags = SPECIES_CAN_JOIN | SPECIES_IS_ICONBASE
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_SKIN_COLOR | HAS_EYE_COLOR
 
 	sexybits_location = BP_GROIN //this is possibly my favorite variable just because of how out of place it is. - cebu | what the hell does it even do -tori | Basically it just defines where you can hit them for massive (pain) damage. An entire variable dedicated to nutshots. -cebu  | do these guys even have junk in their groin??? -cebu
