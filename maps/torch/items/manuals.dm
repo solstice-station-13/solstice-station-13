@@ -1,6 +1,6 @@
 /obj/item/weapon/book/manual/solgov_law
 	name = "Terran Federation Law"
-	desc = "A brief overview of SolGov Law."
+	desc = "A brief overview of Terran Law."
 	icon_state = "bookSolGovLaw"
 	author = "The Terran Federation"
 	title = "Terran Federation Law"
