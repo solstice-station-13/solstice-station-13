@@ -153,7 +153,7 @@
 	name = "\improper Terran coffee cup"
 	desc = "A blue coffee cup emblazoned with the crest of the Terran Federation."
 	icon_state = "coffeecup_SCG"
-	base_name = "\improper SCG cup"
+	base_name = "\improper Terran cup"
 
 /obj/item/weapon/reagent_containers/food/drinks/glass2/coffeecup/NT
 	name = "\improper NT coffee cup"
