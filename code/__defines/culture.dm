@@ -89,6 +89,10 @@
 #define RELIGION_SHINTO        "Shinto"
 #define RELIGION_TAOISM        "Taoism"
 
+// Solstice Station Start
+#define CULTURE_SYMBIOTIC      "Symbiote Host"
+// Solstice Station End
+
 // Skrellian cultures.
 #define CULTURE_SKRELL_QERR     "Qerr-Katish"
 #define CULTURE_SKRELL_MALISH   "Malish-Katish"
@@ -201,3 +205,14 @@
 #define FACTION_ASCENT_ALATE     "Ascent Alate"
 #define FACTION_ASCENT_SERPENTID "Ascent Serpentid"
 #define RELIGION_KHARMAANI       "Nest-Lineage Veneration"
+
+// Solstice Station Begin
+// Sergal culture
+#define CULTURE_SERGAL "The Sergals"
+#define HOME_SYSTEM_SERGALTAL "Tal"
+#define FACTION_SERGAL_SHIGU "Shigu Dukedom"
+#define FACTION_SERGAL_GOLD_RING "Gold ring megalopolis"
+#define FACTION_SERGAL_REONO "Reono lands"
+#define RELIGION_SERGAL_ANIMISM "northern religions"
+#define RELIGION_SERGAL_GOLD_RING "religion of Gold ring"
+// Solstice Station End

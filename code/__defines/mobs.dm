@@ -306,9 +306,49 @@
 #define SPECIES_MULE        "Mule"
 #define SPECIES_MONKEY      "Monkey"
 
-#define UNRESTRICTED_SPECIES list(SPECIES_HUMAN, SPECIES_DIONA, SPECIES_IPC, SPECIES_UNATHI, SPECIES_SKRELL, SPECIES_TRITONIAN, SPECIES_SPACER, SPECIES_VATGROWN, SPECIES_GRAVWORLDER, SPECIES_MULE)
-#define RESTRICTED_SPECIES   list(SPECIES_VOX, SPECIES_ALIEN, SPECIES_GOLEM, SPECIES_MANTID_GYNE, SPECIES_MANTID_ALATE, SPECIES_MONARCH_WORKER, SPECIES_MONARCH_QUEEN)
-#define HUMAN_SPECIES        list(SPECIES_HUMAN, SPECIES_VATGROWN, SPECIES_SPACER, SPECIES_GRAVWORLDER, SPECIES_MULE)
+// Solstice Station Start
+#define SPECIES_SERGAL      "Sergal"
+#define SPECIES_NORTHERN    "Northern Sergal"
+#define SPECIES_EASTERN     "Eastern Sergal"
+#define SPECIES_PLASMASANS  "Phoron Restructurant Human"
+#define SPECIES_AKULA       "Akula"
+#define SPECIES_CUSTOM      "Genemodder"
+#define SPECIES_VULP        "Vulpkanin"
+#define SPECIES_VASS        "Vasilissan"
+#define SPECIES_TAJ         "Tajaran"
+#define SPECIES_OLDUNATHI   "Veteris'Unathi" //Placeholder name.
+#define SPECIES_HUMAN2      "Custom Human" //Placeholder name maybe.
+
+#define UNRESTRICTED_SPECIES list(	SPECIES_HUMAN, 		\
+									SPECIES_DIONA, 		\
+									SPECIES_IPC, 		\
+									SPECIES_UNATHI,		\
+									SPECIES_SKRELL, 	\
+									SPECIES_TRITONIAN,	\
+									SPECIES_SPACER, 	\
+									SPECIES_VATGROWN, 	\
+									SPECIES_GRAVWORLDER,\
+									SPECIES_MULE,		\
+									SPECIES_AKULA,		\
+									SPECIES_CUSTOM,		\
+									SPECIES_VULP,		\
+									SPECIES_TAJ,		\
+									SPECIES_OLDUNATHI,	\
+									SPECIES_HUMAN2)
+#define RESTRICTED_SPECIES   list(	SPECIES_VOX, 		   \
+									SPECIES_ALIEN, 		   \
+									SPECIES_GOLEM, 		   \
+									SPECIES_MANTID_GYNE,   \
+									SPECIES_MANTID_ALATE,  \
+									SPECIES_MONARCH_WORKER,\
+									SPECIES_MONARCH_QUEEN)
+
+#define HUMAN_SPECIES        list(SPECIES_HUMAN, 	  \
+								  SPECIES_VATGROWN,   \
+								  SPECIES_SPACER,	  \
+								  SPECIES_GRAVWORLDER,\
+								  SPECIES_MULE)
+// Solstice Station End
 
 #define SPECIES_NABBER         "giant armoured serpentid"
 #define SPECIES_MONARCH_WORKER "Monarch Serpentid Worker"

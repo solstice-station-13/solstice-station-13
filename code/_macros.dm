@@ -121,6 +121,10 @@
 #define send_link(target, url)                to_target(target, link(url))
 #define send_output(target, msg, control)     to_target(target, output(msg, control))
 #define to_file(handle, value)                to_target(handle, value)
+// Solstice Station Start
+#define from_file(handle, target_var)         from_target(handle, target_var)
+// Solstice Station End
+
 #define to_save(handle, value)                to_target(handle, value) //semantics
 #define from_save(handle, target_var)         from_target(handle, target_var)
 

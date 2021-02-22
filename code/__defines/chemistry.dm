@@ -26,6 +26,17 @@
 #define IS_NABBER  6
 #define IS_MANTID  7
 
+// Solstice Station Start
+#define IS_SERGAL  8
+#define IS_OLDUNATHI 9
+#define IS_PLASMASANS 10
+
+//These are similar to the above, used to make species into carnivores
+#define IS_CARNIVORE 1
+#define IS_HERBIVORE 2
+
+// Solstice Station End
+
 #define CE_STABLE        "stable"       // Inaprovaline
 #define CE_ANTIBIOTIC    "antibiotic"   // Spaceacilin
 #define CE_BLOODRESTORE  "bloodrestore" // Iron/nutriment

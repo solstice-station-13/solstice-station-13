@@ -58,6 +58,14 @@
 	desc = "Toxins Lab"
 	region = ACCESS_REGION_RESEARCH
 
+// Solstice Station Start
+/var/const/access_genetics = "ACCESS_GENETICS'" //9
+/datum/access/genetics
+	id = access_genetics
+	desc = "Genetics Lab"
+	region = ACCESS_REGION_MEDBAY
+// Solstice Station End
+
 /var/const/access_engine = "ACCESS_ENGINEERING" //10
 /datum/access/engine
 	id = access_engine
