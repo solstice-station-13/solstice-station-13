@@ -1,15 +1,15 @@
 /obj/structure/solbanner
-	name = "\improper SCG banner"
+	name = "\improper Terran banner"
 	icon = 'maps/torch/icons/obj/solbanner.dmi'
 	icon_state = "wood"
-	desc = "A wooden pole bearing a banner of Sol Central Government. Ave."
+	desc = "A wooden pole bearing a banner of the Terran Federation. Ave."
 	anchored = 1
 	obj_flags = OBJ_FLAG_ANCHORABLE
 	layer = ABOVE_HUMAN_LAYER
 
 /obj/structure/solbanner/exo
-	name = "exoplanet SCG banner"
-	desc = "A rugged metal frame with a banner of Sol Central Government on it. Resistant to radiation bleaching."
+	name = "exoplanet Terran banner"
+	desc = "A rugged metal frame with a banner of the Terran Federation on it. Resistant to radiation bleaching."
 	icon_state = "steel"
 	obj_flags = 0
 	var/plantedby
@@ -24,8 +24,8 @@
 		to_chat(user, "<span class='notice'>[plantedby]</span>")
 
 /obj/item/solbanner
-	name = "\improper SCG banner capsule"
-	desc = "SCG banner packed in a rapid deployment capsule. Used for staking claims on new worlds in the name of Sol Central Government."
+	name = "\improper Terran banner capsule"
+	desc = "Terran Federation banner packed in a rapid deployment capsule. Used for staking claims on new worlds in the name of the Terran Federation."
 	icon = 'maps/torch/icons/obj/uniques.dmi'
 	icon_state = "banner_stowed"
 	w_class = ITEM_SIZE_HUGE
