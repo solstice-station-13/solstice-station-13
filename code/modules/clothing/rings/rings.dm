@@ -19,13 +19,13 @@
 	icon_state = "mariner-grad"
 
 /obj/item/clothing/ring/fleet
-	name = "Fleet ring"
-	desc = "A ring commemorating honorable service with the Sol Government's Fleet."
+	name = "Navy ring"
+	desc = "A ring commemorating honorable service with the the Terran Navy."
 	icon_state = "fleet"
 
 /obj/item/clothing/ring/ec
 	name = "Expeditionary Corps ring"
-	desc = "A ring commemorating honorable service with the Sol Government's Expeditionary Corps."
+	desc = "A ring commemorating honorable service with the Terran Federation Expeditionary Corps."
 	icon_state = "ec"
 
 /////////////////////////////////////////
@@ -91,8 +91,8 @@
 	icon = 'icons/obj/clothing/obj_hands_ring.dmi'
 
 /obj/item/clothing/ring/seal/secgen
-	name = "Secretary-General's official seal"
-	desc = "The official seal of the Secretary-General of the Sol Central Government, featured prominently on a silver ring."
+	name = "President's official seal"
+	desc = "The official seal of the President of the Terran Federation, featured prominently on a silver ring."
 	icon_state = "seal-secgen"
 
 /obj/item/clothing/ring/seal/mason
