@@ -16,7 +16,7 @@
 
 /obj/item/clothing/under/solgov/pt/expeditionary
 	name = "expeditionary pt uniform"
-	desc = "A baggy shirt bearing the seal of the SCG Expeditionary Corps and some dorky looking blue shorts."
+	desc = "A baggy shirt bearing the seal of the Terran Expeditionary Corps and some dorky looking blue shorts."
 	icon_state = "expeditionpt"
 	worn_state = "expeditionpt"
 	sprite_sheets = list(
@@ -54,7 +54,7 @@
 
 /obj/item/clothing/under/solgov/utility/expeditionary
 	name = "expeditionary uniform"
-	desc = "The utility uniform of the SCG Expeditionary Corps, made from biohazard resistant material. This one has silver trim."
+	desc = "The utility uniform of the Terran Expeditionary Corps, made from biohazard resistant material. This one has silver trim."
 	icon_state = "blackutility_crew"
 	worn_state = "blackutility_crew"
 	sprite_sheets = list(
@@ -102,7 +102,7 @@
 
 /obj/item/clothing/under/solgov/utility/expeditionary/officer
 	name = "expeditionary officer's uniform"
-	desc = "The utility uniform of the SCG Expeditionary Corps, made from biohazard resistant material. This one has gold trim."
+	desc = "The utility uniform of the Terran Expeditionary Corps, made from biohazard resistant material. This one has gold trim."
 	icon_state = "blackutility_com"
 	worn_state = "blackutility_com"
 
@@ -132,7 +132,7 @@
 
 /obj/item/clothing/under/solgov/utility/fleet
 	name = "fleet coveralls"
-	desc = "The utility uniform of the SCG Fleet, made from an insulated material."
+	desc = "The utility uniform of the Terran Navy, made from an insulated material."
 	icon_state = "navyutility"
 	item_state = "jensensuit"
 	worn_state = "navyutility"
@@ -163,38 +163,38 @@
 
 /obj/item/clothing/under/solgov/utility/fleet/polopants
 	name = "fleet polo and pants"
-	desc = "An alternative utility uniform of the SCG Fleet, specially designed for engineering staff. The pants sports some yellow reflective stripes, and have knee pads."
+	desc = "An alternative utility uniform of the Terran Navy, specially designed for engineering staff. The pants sports some yellow reflective stripes, and have knee pads."
 	icon_state = "navypolopants"
 	worn_state = "navypolopants"
 
 /obj/item/clothing/under/solgov/utility/fleet/polopants/command
-	desc = "An alternative utility uniform of the SCG Fleet. The pants have knee pads."
+	desc = "An alternative utility uniform of the Terran Navy. The pants have knee pads."
 	icon_state = "navypolopantsnostripe"
 	worn_state = "navypolopantscom"
 
 /obj/item/clothing/under/solgov/utility/fleet/polopants/security
-	desc = "An alternative utility uniform of the SCG Fleet. The pants have knee pads."
+	desc = "An alternative utility uniform of the Terran Navy. The pants have knee pads."
 	icon_state = "navypolopantsnostripe"
 	worn_state = "navypolopantssec"
 
 /obj/item/clothing/under/solgov/utility/fleet/polopants/medical
-	desc = "An alternative utility uniform of the SCG Fleet, specially designed for medics and doctors. The pants have knee pads."
+	desc = "An alternative utility uniform of the Terran Navy, specially designed for medics and doctors. The pants have knee pads."
 	icon_state = "navypolopantsnostripe"
 	worn_state = "navypolopantsmed"
 
 /obj/item/clothing/under/solgov/utility/fleet/polopants/supply
-	desc = "An alternative utility uniform of the SCG Fleet. The pants have knee pads."
+	desc = "An alternative utility uniform of the Terran Navy. The pants have knee pads."
 	icon_state = "navypolopantsnostripe"
 	worn_state = "navypolopantssup"
 
 /obj/item/clothing/under/solgov/utility/fleet/polopants/service
-	desc = "An alternative utility uniform of the SCG Fleet. The pants have knee pads."
+	desc = "An alternative utility uniform of the Terran Navy. The pants have knee pads."
 	icon_state = "navypolopantsnostripe"
 	worn_state = "navypolopantssrv"
 
 /obj/item/clothing/under/solgov/utility/fleet/combat
 	name = "fleet fatigues"
-	desc = "Alternative utility uniform of the SCG Fleet, for when coveralls are impractical."
+	desc = "Alternative utility uniform of the Terran Navy, for when coveralls are impractical."
 	icon_state = "navycombat"
 	worn_state = "navycombat"
 
@@ -212,7 +212,7 @@
 
 /obj/item/clothing/under/solgov/utility/fleet/officer
 	name = "fleet officer's coveralls"
-	desc = "Alternative utility uniform of the SCG Fleet, for officers."
+	desc = "Alternative utility uniform of the Terran Navy, for officers."
 	icon_state = "navyutilityoff"
 	worn_state = "navyutilityoff"
 
@@ -230,7 +230,7 @@
 
 /obj/item/clothing/under/solgov/utility/army
 	name = "army fatigues"
-	desc = "The utility uniform of the SCG Army, made from durable material."
+	desc = "The utility uniform of the Terran Army, made from durable material."
 	icon_state = "greenutility"
 	item_state = "jensensuit"
 	worn_state = "greenutility"
@@ -261,14 +261,14 @@
 
 /obj/item/clothing/under/solgov/utility/army/urban
 	name = "urban fatigues"
-	desc = "An urban version of the SCG Army utility uniform, made from durable material."
+	desc = "An urban version of the Terran Army utility uniform, made from durable material."
 	icon_state = "greyutility"
 	item_state = "gy_suit"
 	worn_state = "greyutility"
 
 /obj/item/clothing/under/solgov/utility/army/tan
 	name = "tan fatigues"
-	desc = "A tan version of the SCG Army utility uniform, made from durable material."
+	desc = "A tan version of the Terran Army utility uniform, made from durable material."
 	icon_state = "tanutility"
 	item_state = "johnny"
 	worn_state = "tanutility"
@@ -284,7 +284,7 @@
 
 /obj/item/clothing/under/solgov/service/fleet
 	name = "fleet service uniform"
-	desc = "The service uniform of the SCG Fleet, made from immaculate white fabric."
+	desc = "The service uniform of the Terran Navy, made from immaculate white fabric."
 	icon_state = "whiteservice"
 	item_state = "nursesuit"
 	worn_state = "whiteservice"
@@ -292,13 +292,13 @@
 
 /obj/item/clothing/under/solgov/service/fleet/skirt
 	name = "fleet service skirt"
-	desc = "The service uniform skirt of the SCG Fleet, made from immaculate white fabric."
+	desc = "The service uniform skirt of the Terran Navy, made from immaculate white fabric."
 	icon_state = "whiteservicefem"
 	worn_state = "whiteservicefem"
 
 /obj/item/clothing/under/solgov/service/army
 	name = "army service uniform"
-	desc = "The service uniform of the SCG Army. Slimming."
+	desc = "The service uniform of the Terran Army. Slimming."
 	icon_state = "greenservice"
 	item_state = "johnny"
 	worn_state = "greenservice"
@@ -306,13 +306,13 @@
 
 /obj/item/clothing/under/solgov/service/army/skirt
 	name = "army service skirt"
-	desc = "The service uniform skirt of the SCG Army. Slimming."
+	desc = "The service uniform skirt of the Terran Army. Slimming."
 	icon_state = "greenservicefem"
 	worn_state = "greenservicefem"
 
 /obj/item/clothing/under/solgov/service/army/command
 	name = "marine officer's service uniform"
-	desc = "The service uniform of the SCG Army. Slimming and stylish."
+	desc = "The service uniform of the Terran Army. Slimming and stylish."
 	icon_state = "greenservice_com"
 	item_state = "johnny"
 	worn_state = "greenservice_com"
@@ -320,7 +320,7 @@
 
 /obj/item/clothing/under/solgov/service/army/command/skirt
 	name = "marine officer's service skirt"
-	desc = "The service uniform skirt of the SCG Army. Slimming and stylish."
+	desc = "The service uniform skirt of the Terran Army. Slimming and stylish."
 	icon_state = "greenservicefem_com"
 	worn_state = "greenservicefem_com"
 
@@ -334,25 +334,25 @@
 
 /obj/item/clothing/under/solgov/mildress/army
 	name = "army dress uniform"
-	desc = "The dress uniform of the SCG Army, class given form."
+	desc = "The dress uniform of the Terran Army, class given form."
 	icon_state = "blackdress"
 	worn_state = "blackdress"
 
 /obj/item/clothing/under/solgov/mildress/army/skirt
 	name = "army dress skirt"
-	desc = "A  feminine version of the SCG Army dress uniform, class given form."
+	desc = "A  feminine version of the Terran Army dress uniform, class given form."
 	icon_state = "blackdressfem"
 	worn_state = "blackdressfem"
 
 /obj/item/clothing/under/solgov/mildress/army/command
 	name = "army officer's dress uniform"
-	desc = "The dress uniform of the SCG Army, even classier in gold."
+	desc = "The dress uniform of the Terran Army, even classier in gold."
 	icon_state = "blackdress"
 	worn_state = "blackdress_com"
 
 /obj/item/clothing/under/solgov/mildress/army/command/skirt
 	name = "army officer's dress skirt"
-	desc = "A feminine version of the SCG Army dress uniform, even classier in gold."
+	desc = "A feminine version of the Terran Army dress uniform, even classier in gold."
 	icon_state = "blackdressfem"
 	worn_state = "blackdressfem_com"
 
@@ -360,7 +360,7 @@
 
 /obj/item/clothing/under/solgov/dress/expeditionary
 	name = "expeditionary dress uniform"
-	desc = "The dress uniform of the SCG Expeditionary Corps in silver trim."
+	desc = "The dress uniform of the Terran Expeditionary Corps in silver trim."
 	icon_state = "greydress"
 	worn_state = "greydress"
 	sprite_sheets = list(
@@ -383,7 +383,7 @@
 
 /obj/item/clothing/under/solgov/dress/expeditionary/skirt
 	name = "expeditionary dress skirt"
-	desc = "A feminine version of the SCG Expeditionary Corps dress uniform in silver trim."
+	desc = "A feminine version of the Terran Expeditionary Corps dress uniform in silver trim."
 	icon_state = "greydressfem"
 	worn_state = "greydressfem"
 
@@ -403,7 +403,7 @@
 
 /obj/item/clothing/under/solgov/dress/expeditionary/command
 	name = "expeditionary officer's dress uniform"
-	desc = "The dress uniform of the SCG Expeditionary Corps in gold trim."
+	desc = "The dress uniform of the Terran Expeditionary Corps in gold trim."
 	icon_state = "greydress_com"
 	worn_state = "greydress_com"
 
@@ -423,7 +423,7 @@
 
 /obj/item/clothing/under/solgov/dress/expeditionary/command/skirt
 	name = "expeditionary officer's dress skirt"
-	desc = "A feminine version of the SCG Expeditionary Corps dress uniform in gold trim."
+	desc = "A feminine version of the Terran Expeditionary Corps dress uniform in gold trim."
 	icon_state = "greydressfem_com"
 	worn_state = "greydressfem_com"
 
@@ -449,7 +449,7 @@
 
 /obj/item/clothing/under/solgov/utility/expeditionary/monkey
 	name = "adjusted expeditionary uniform"
-	desc = "The utility uniform of the SCG Expeditionary Corps, made from biohazard resistant material. This one has silver trim. It was also mangled to fit a monkey. This better be worth the NJP you'll get for making it."
+	desc = "The utility uniform of the Terran Expeditionary Corps, made from biohazard resistant material. This one has silver trim. It was also mangled to fit a monkey. This better be worth the NJP you'll get for making it."
 	species_restricted = list(SPECIES_MONKEY)
 	sprite_sheets = list("Monkey" = 'icons/mob/species/monkey/onmob_under_monkey.dmi')
 	starting_accessories = list(/obj/item/clothing/accessory/solgov/rank/fleet/officer/wo1_monkey)
