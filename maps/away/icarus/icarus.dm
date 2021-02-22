@@ -39,7 +39,7 @@
 /datum/map_template/ruin/away_site/icarus
 	name = "Fallen Icarus"
 	id = "awaysite_icarus"
-	description = "The crashlanding site of the SEV Icarus."
+	description = "The crashlanding site of the TEV Icarus."
 	suffixes = list("icarus/icarus-1.dmm", "icarus/icarus-2.dmm")
 	cost = 2
 	generate_mining_by_z = list(1, 2)
@@ -77,7 +77,7 @@
 
 /obj/item/weapon/disk/icarus
 	name = "black box backup disk"
-	desc = "Digital storage. Inscription says: \"Deliver to Sol Goverment Expeditionary Corps Command!\". Content is encrypted with quantum crypthography methods."
+	desc = "Digital storage. Inscription says: \"Deliver to Terran Federation Expeditionary Corps Command!\". Content is encrypted with quantum crypthography methods."
 	icon = 'icons/obj/items.dmi'
 	icon_state = "nucleardisk"
 	item_state = "card-id"
@@ -118,7 +118,7 @@
 /obj/item/weapon/paper/icarus/crew_roster
 	name = "Printed piece of paper"
 	info = "<center>\[solcrest]<BR>\
-			<b>SEV Icarus</b><br>\
+			<b>TEV Icarus</b><br>\
 			Crew roster</center><br>\
 			<b>Command</b><br>\
 			\[list]\
@@ -156,29 +156,29 @@
 			\[list]"
 
 /obj/item/toy/ship_model
-	name = "table-top SEV Icarus model"
-	desc = "A small model of a spaceship mounted on a wooden stand. On the stand is engraved: \"SEV Icarus 1:278th scale\". The small lights on the hull and the engine exhaust still light up and blink."
+	name = "table-top TEV Icarus model"
+	desc = "A small model of a spaceship mounted on a wooden stand. On the stand is engraved: \"TEV Icarus 1:278th scale\". The small lights on the hull and the engine exhaust still light up and blink."
 	icon = 'maps/away/icarus/icarus_sprites.dmi'
 	icon_state = "model"
 
 //to pass tests and make vesrion not depending on Torch code. Sol gov floor decal had to go though :(
 /obj/structure/sign/icarus/solgov
-	name = "\improper SolGov Seal"
-	desc = "A familiar seal showing this vessel is SolGov property."
+	name = "\improper Terran Seal"
+	desc = "A familiar seal showing this vessel is Terran property."
 	icon = 'maps/away/icarus/icarus_sprites.dmi'
 	icon_state = "solgovseal"
 
 /obj/item/clothing/under/icarus/ec_uniform
 	name = "expeditionary uniform"
-	desc = "An older model of the utility uniform of the SCG Expeditionary Corps. It has a patch on the left sleeve signifying the wearer served on the SEV Icarus."
+	desc = "An older model of the utility uniform of the Terran Expeditionary Corps. It has a patch on the left sleeve signifying the wearer served on the TEV Icarus."
 	icon_state = "blackutility_crew"
 	worn_state = "blackutility_crew"
 	icon = 'maps/away/icarus/icarus_sprites.dmi'
 	item_icons = list(slot_w_uniform_str = 'maps/away/icarus/icarus_sprites.dmi')
 
 /obj/structure/sign/double/icarus/solgovflag
-	name = "Sol Central Government Flag"
-	desc = "The iconic flag of the Sol Central Government, a symbol with many different meanings."
+	name = "Terran Federation Flag"
+	desc = "The iconic flag of the Terran Federation, a symbol with many different meanings."
 	icon = 'maps/away/icarus/icarus_sprites.dmi'
 
 /obj/structure/sign/double/icarus/solgovflag/left

@@ -1,6 +1,6 @@
 /datum/gear/head/solberet
-	display_name = "SolGov beret selection"
-	description = "A beret denoting service in an organization within SolGov."
+	display_name = "Terran beret selection"
+	description = "A beret denoting service in an organization within the Federation."
 	path = /obj/item/clothing/head/beret/solgov
 	allowed_branches = SOLGOV_BRANCHES
 
@@ -23,7 +23,7 @@
 	allowed_branches = CIVILIAN_BRANCHES
 
 /datum/gear/head/solhat
-	display_name = "sol central government hat"
+	display_name = "Terran Federation hat"
 	path = /obj/item/clothing/head/soft/solgov
 	allowed_branches = SOLGOV_BRANCHES
 

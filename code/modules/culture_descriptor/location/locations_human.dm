@@ -97,13 +97,13 @@
 	description = "Ceti Epsilon, the only habitable planet in the Tau Ceti system, is home to its largest population centre. \
 	The planet itself is effectively covered in one large city with a few 'green' areas dispersed throughout. The most urban location \
 	in the wider Federation, the planet attracts many to its glittering neon lights and easy to get lost in streets. More importantly, \
-	Ceti Epsilon is home to the Ceti Institute of Technology, the premier learning location in Sol and, arguably, all of humanity. \
+	Ceti Epsilon is home to the Ceti Institute of Technology, the premier learning location in the Federation and, arguably, all of humanity. \
 	The Ceti Institute of Technology is a public university and, for the most part, offers free tuition to all. However, places are \
 	competitive and preference is given to natives to the Tau Ceti system. The universe attracts as many newcomers as the rest of the cityscape \
 	combined. Today Ceti Epsilon is a major technology and population hub, being a destination for those seeking a better life, or to simply get \
 	lost.<br><br>The people of Ceti Epsilon are some of the most, well, average in the Federation. Being from a largely built up world with a focus on \
 	the cutting edge, most Episoloners are tech-savvy, at the very least and are usually well educated, with a focus on the sciences. The people \
-	of Ceti Episilon have developed a reputation for being some of the best and brightest that Sol has to offer."
+	of Ceti Episilon have developed a reputation for being some of the best and brightest that the Federation has to offer."
 	capital = "Verlize"
 	economic_power = 1.4
 
@@ -139,11 +139,11 @@
 	distance = "52 light years"
 	description = "Tersten is a large plains world in the Gavil system.  With vast mountain ranges, prairie, mesas, forests and deserts, it is a diverse planet. \
 	The capital city is known as Tersten City, or locally as Freetown. Originally founded as a penal colony, the planet abolished this system in 2480. \
-	It is the 4th largest producer of food in the Sol Central Government. Additional exports include building materials and electronics. \
+	It is the 4th largest producer of food in the Terran Federation. Additional exports include building materials and electronics. \
 	The planet's population is primarily divided into northern, urban Tersteners who often are seen in the military; and southern, rural Tersteners, who make up the farmers and ranchers of the planet. \
 	While much of the North has been developed, large parts of the South remain undeveloped. \
 	Tersten is an isolated border world, with little influence in the larger community. Still, it is a proud member of the Federation, and Tersten City has become a haunt for Third Fleet forces on shore leave. \
-	The SFP maintain an office in the city of Moore, and various Trans-Stellar Corporations have a foothold in the city of South Harelstone. \
+	The Marshals maintain an office in the city of Moore, and various Trans-Stellar Corporations have a foothold in the city of South Harelstone. \
 	<br><br>The Tersten people are separated into various cultures. For example, urban Tersteners, known as 'Pinascs', live around Tersten City, and are often seen in the defence forces.  \
 	Rural Tersteners, known as 'Nevokies', live in the south central region around the city of Nevada.  Many Martian and Earthling enclaves exist on the planet, significantly in South Harelstone. \
 	The divide between north and south could also be considered a divide between rich and poor. Even the poorest city dweller will likely be richer than most farmers. \
@@ -159,7 +159,7 @@
 	Because of this, the planet's cities are either domed or built into mountains. Its economy is built around a technological backbone, providing the technology \
 	and the people skilled to use them.  Its infrastructure is developed enough to support mass transit across the planet. Its capital city is called The Hub, a massive domed structure \
 	that serves both as a spaceport, administrative hub, and habitation zone. It remains the only place on the planet accessible to non-Lorrimanians. \
-	Despite its isolation, the Scientific Institute of Gessshire remains amicable with Sol Central.  The Institute is a technocratic republic led by Dr. Johan Montgomery. \
+	Despite its isolation, the Scientific Institute of Gessshire remains amicable with the Federation.  The Institute is a technocratic republic led by Dr. Johan Montgomery. \
 	It is known by most Defence Forces personnel to act begrudgingly towards any requests given, and only a select few have visited the planet itself.<br><br>\
 	Lorrimanians are a quiet, unassuming, academically-driven bunch. They are often sought as researchers or other scientifically-driven career.  It is rare for anyone to immigrate \
 	to the planet, but exceptions have been made. A scientifically driven people, they have served many organisations loyally."
@@ -169,7 +169,7 @@
 /decl/cultural_info/location/human/cinu
 	name = HOME_SYSTEM_CINU
 	distance = "48 light years"
-	description = "Cinu is an occupied desert planet, located in the Lucinaer system. It is today part of a greater community within the Sol Central Government. \
+	description = "Cinu is an occupied desert planet, located in the Lucinaer system. It is today part of a greater community within the Terran Federation. \
 	Twice the size of Earth, much of its surface is unoccupied desert, with the vast majority of population living around either the various oases, or in the less \
 	harsh northern regions.  Home to around 20 Million people, it welcomes nearly 50,000 immigrants yearly. Cinu's capital, 'Al-Mular', is home to several major \
 	Peacekeeping Forces offices, with nearly 30,000 Cinuans serving every year.  The Republic of Cinu is comprised of seven political regions, and maintained by \
@@ -186,7 +186,7 @@
 	name = HOME_SYSTEM_YUKLID
 	distance = "42 light years"
 	description = "Yuklid V is an occupied jungle world in the Yuklid system.  It is home to large medical facilities and corporate holdings, serving as home to this region of space's medical academia. \
-	Large parts of Yuklid have been retained as nature and botanical reserves.  Most medicines produced in the outer regions of Sol Central can trace their origins to this planet. \
+	Large parts of Yuklid have been retained as nature and botanical reserves.  Most medicines produced in the outer regions of the Federation can trace their origins to this planet. \
 	Much of Yuklid is uncolonised, with infrastructure focused around the planet's poles.  One such facility is the Vey-Med Operational Headquarters. \
 	The Republic of Yuklid is a minor political player within the Federation, and the Expeditionary Corps use the planet for exoplanet training. It is protected by the Third Fleet. \
 	<br><br>The Yuklid people mostly keep to themselves, with little emigration.  The population that do leave the planet typically pursue careers in medicine. \
@@ -205,7 +205,7 @@
 	it could become one in the next 300 years. The planet enjoys warm relations with its neighbor Kingston. Lordania can be described as an aristocratic republic, and have historical \
 	ties with the political families of Luna. <br><br>  The people of Lordania are divided into two parts, Upper and Lower Lordanians.  Upper Lordanians are wealthy, and are \
 	typically only seen on the planet, or in entertainment medias. Lower Lordanians are more common, and many opt leave their home planet. Historically, Lordanians have a superiority complex, \
-	and often see themselves as better. Most Lordanians are seen as untrustworthy, or selfish. As such, they are rarely seen within Sol's Defence Forces."
+	and often see themselves as better. Most Lordanians are seen as untrustworthy, or selfish. As such, they are rarely seen within the Federal Armed Forces."
 	capital = "New Ares"
 	economic_power = 1.2
 
@@ -218,7 +218,7 @@
 	tourists and workers alike. Many of the islands on the planet have been created via tectonic plates or volcanic eruption, making the planet more geologically active than Earth. \
 	Despite this, technology of the 26th century has developed enough to mitigate most structural damage done in the event of earthquakes or tsunamis. \
 	Formally the United Nations of Kingston, the planet is made up of multiple island nations and several planetary representatives.<br><br>The people of Kingston are relatively unassuming. They have much in common with \
-	their Sol brothers, and are usually seen onboard most Federation Vessels.  Growing up on a waterworld, most Kingstonians can sail a boat, something rare in the 26th Century.  \
+	their Terran brothers, and are usually seen onboard most Federation Vessels.  Growing up on a waterworld, most Kingstonians can sail a boat, something rare in the 26th Century.  \
 	Typically dark in skin due to the planet's proximity to it's sun, Kingstonians come in various forms."
 	capital = "New Havana"
 	economic_power = 1.1
@@ -227,11 +227,11 @@
 	name = HOME_SYSTEM_GAIA
 	distance = "14 light years"
 	description = "Gaia is the sole planet in the Galilei system, serving as the DMZ between the Federation and the GCC. \
-	It is an agricultural world, though various conflicts across the planet's surface have left it scarred. The planet is divided into \
-	Sol-Controlled <b>Southern Gaia</b> and Independent-Controlled <b>Northern Gaia</b>, with New Venice remaining a neutral zone inside the DMZ. \
+	It is an agricultural world, though various conflicts across the planet's surface and the most recent war have left it deeply scarred. The planet is divided into \
+	Terran-Controlled <b>Southern Gaia</b> and Independent-Controlled <b>Northern Gaia</b>, with New Venice remaining a neutral zone inside the DMZ. \
 	The planet's population remain divided even 10 years after the Gaian Conflict. New Venice sits on the edge of Lake Cabot. While Gaia is divided \
 	the current Mayor of New Venice serves as a vital mediator between both sides. <br><br> The Gaian People are tired of war, and long to see their families \
-	once again.  They suffered hard twenty years prior, and fear they may suffer again."
+	once again."
 	capital = "New Venice"
 	economic_power = 1.0
 

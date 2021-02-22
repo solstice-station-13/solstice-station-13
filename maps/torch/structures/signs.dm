@@ -1,10 +1,10 @@
 /obj/structure/sign/dedicationplaque
-	name = "\improper SEV Torch dedication plaque"
+	name = "\improper TEV Solstice dedication plaque"
 	icon_state = "lightplaque"
 
 /obj/structure/sign/dedicationplaque/Initialize()
 	. = ..()
-	desc = "S.E.V. Torch - Mako Class - Sol Expeditionary Corps Registry 95519 - Shiva Fleet Yards, Mars - First Vessel To Bear The Name - Launched [GLOB.using_map.game_year - 5] - Sol Central Government - 'Never was anything great achieved without danger.'"
+	desc = "T. E. V. Solstice - Mako Class - Sol Expeditionary Corps Registry 95519 - Shiva Fleet Yards, Mars - First Vessel To Bear The Name - Launched [GLOB.using_map.game_year - 27] - Sol Central Government - 'Never was anything great achieved without danger.'"
 
 /obj/structure/sign/ecplaque
 	name = "\improper Expeditionary Directives"
@@ -57,14 +57,14 @@
 	icon_state = "center"
 
 /obj/structure/sign/solgov
-	name = "\improper SolGov Seal"
+	name = "\improper Terran Seal"
 	desc = "A sign which signifies who this vessel belongs to."
 	icon = 'maps/torch/icons/obj/solgov-decals.dmi'
 	icon_state = "solgovseal"
 
 /obj/structure/sign/double/solgovflag
-	name = "Sol Central Government Flag"
-	desc = "The flag of the Sol Central Government, a symbol of many things to many people."
+	name = "Terran Federation Flag"
+	desc = "The flag of the Terran Federation, a symbol of many things to many people."
 	icon = 'maps/torch/icons/obj/solgov-decals.dmi'
 
 /obj/structure/sign/double/solgovflag/left

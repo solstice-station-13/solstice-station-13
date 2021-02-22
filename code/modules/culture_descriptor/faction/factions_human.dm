@@ -14,7 +14,7 @@
 
 /decl/cultural_info/faction/scg/fleet
 	name = FACTION_FLEET
-	description = "The Fleet is the primary component of the Federal Armed Forces. It mostly protects Federation space from pirates, smugglers, \
+	description = "The Terran Navy is the primary component of the Federal Armed Forces. It mostly protects Federation space from pirates, smugglers, \
 	and occasional vox raiders, with its last serious military engagement being the Great Terran War of 2557, which ended in 2570. \
 	The oldest component of the Defence Forces, the Fleet considers itself the pinnacle of Human military accomplishment. \
 	It is well funded, but seen as complacent and bloated. It is made up of five Fleets, with missions ranging from \
@@ -133,8 +133,8 @@
 /decl/cultural_info/faction/dais
 	name = FACTION_DAIS
 	description = "Deimos Advanced Information Systems (DAIS) is a large corporation specializing in information technology such as computer hardware \
-	and software, telecommunications equipment, and networking equipment based on Mars. It is the number one supplier of computer technology in The Sol Central \
-	 Government, its systems used by most consumers and businesses within SolGov. DAIS is actually older than the Sol Central Government and is one of the very \
+	and software, telecommunications equipment, and networking equipment based on Mars. It is the number one supplier of computer technology in the Terran \
+	Federation, its systems used by most consumers and businesses within the Federation. DAIS is actually older than the Terran Federation and is one of the very \
 	few corporate members of the Solar Assembly. DAIS is also a major investor in the Torch project, and is on the Expeditionary Corps Organization board of directors. \
 	Currently DAIS is invested in bluespace computing research and artificial intelligence research. Despite recent intrusions by NanoTrasen into their sector with NTNet \
 	and related products, they still remain the market leader in computer technologies."

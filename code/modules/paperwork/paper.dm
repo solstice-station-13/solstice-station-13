@@ -486,18 +486,18 @@
 	info = "Bruises sustained in the holodeck can be healed simply by sleeping."
 
 /obj/item/weapon/paper/workvisa
-	name = "Sol Work Visa"
-	info = "<center><b><large>Work Visa of the Sol Central Government</large></b></center><br><center><img src = sollogo.png><br><br><i><small>Issued on behalf of the Secretary-General.</small></i></center><hr><BR>This paper hereby permits the carrier to travel unhindered through Sol territories, colonies, and space for the purpose of work and labor."
-	desc = "A flimsy piece of laminated cardboard issued by the Sol Central Government."
+	name = "Terran Work Visa"
+	info = "<center><b><large>Work Visa of the Terran Federation</large></b></center><br><center><img src = sollogo.png><br><br><i><small>Issued on behalf of the Secretary-General.</small></i></center><hr><BR>This paper hereby permits the carrier to travel unhindered through Federation territories, colonies, and space for the purpose of work and labor."
+	desc = "A flimsy piece of laminated cardboard issued by the Terran Federation."
 
 /obj/item/weapon/paper/workvisa/New()
 	..()
 	icon_state = "workvisa" //Has to be here or it'll assume default paper sprites.
 
 /obj/item/weapon/paper/travelvisa
-	name = "Sol Travel Visa"
-	info = "<center><b><large>Travel Visa of the Sol Central Government</large></b></center><br><center><img src = sollogo.png><br><br><i><small>Issued on behalf of the Secretary-General.</small></i></center><hr><BR>This paper hereby permits the carrier to travel unhindered through Sol territories, colonies, and space for the purpose of pleasure and recreation."
-	desc = "A flimsy piece of laminated cardboard issued by the Sol Central Government."
+	name = "Terran Travel Visa"
+	info = "<center><b><large>Travel Visa of the Terran Federation</large></b></center><br><center><img src = sollogo.png><br><br><i><small>Issued on behalf of the Secretary-General.</small></i></center><hr><BR>This paper hereby permits the carrier to travel unhindered through Federation territories, colonies, and space for the purpose of pleasure and recreation."
+	desc = "A flimsy piece of laminated cardboard issued by the Terran Federation."
 
 /obj/item/weapon/paper/travelvisa/New()
 	..()

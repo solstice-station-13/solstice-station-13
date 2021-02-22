@@ -9,15 +9,15 @@
 	return typesof(/obj/item/weapon/paper/memo)
 
 /obj/random/summarydocument/scgr
-	name = "scgr summary documents"
-	desc = "This may spawn one of the SCGR Summary Documents."
+	name = "federal summary documents"
+	desc = "This may spawn one of the Federation Summary Documents."
 
 /obj/random/summarydocument/scgr/spawn_choices()
 	return subtypesof(/obj/item/weapon/paper/memo/scgr) + typesof(/obj/item/weapon/paper/memo/dept)
 
 /obj/random/summarydocument/sol
-	name = "sol summary documents"
-	desc = "This may spawn one of the Sol Summary Documents."
+	name = "federal summary documents"
+	desc = "This may spawn one of the Federation Summary Documents."
 
 /obj/random/summarydocument/sol/spawn_choices()
 	return subtypesof(/obj/item/weapon/paper/memo/sol) + typesof(/obj/item/weapon/paper/memo/dept)
@@ -128,7 +128,7 @@
  * Documents Start
  * Contains:
  * Department, /dept/ (generic, applicable to all dept)
- * Sol Central Government Representative, /scgr/
+ * Terran Federation Representative, /scgr/
  * Sol, /sol/ (General Command or XO documents, intended for Bridge)
  * Support, /sup/ (Combined service and supply)
  * Engineering, /eng/
@@ -159,20 +159,20 @@
 	desc = "Some \"internal use only\" reports on inter-departmental communications, reminding personnel that unless the document specifies it is from and issued by EXO or Expeditionary Command, it is not offical policy and should not be referenced as a definitive reasoning for any action."
 
 /*
- * Sol Central Government Representative, /scgr/
+ * Terran Federation Representative, /scgr/
  */
 
 /obj/item/weapon/paper/memo/scgr/skrelljokes
 	name = "internal conversation record"
-	desc = "A \"confidential\" discussion between several Sol Government Representatives, including some crass jokes on if Skrell being squished would burst like a water balloon or squish like a jam sandwich."
+	desc = "A \"confidential\" discussion between several Federation Representatives, including some crass jokes on if Skrell being squished would burst like a water balloon or squish like a jam sandwich."
 
 /obj/item/weapon/paper/memo/scgr/spicypolitics
 	name = "internal conversation record"
-	desc = "A \"confidential\" discussion between several Sol Government Representatives, including some interesting political tidbits. Seems like most of them are going to be supporting more conservative, Sol-centric parties next election, voicing annoyance at having to deal with hissing lizards and warbling frogs."
+	desc = "A \"confidential\" discussion between several Federation Representatives, including some interesting political tidbits. Seems like most of them are going to be supporting more conservative, Sol-centric parties next election, voicing annoyance at having to deal with hissing lizards and warbling frogs."
 
 /obj/item/weapon/paper/memo/scgr/deskfires
 	name = "important notice"
-	desc = "A \"confidential\" notice issued to Sol Government Representatives, informing them of an office fire caused by improper cigarette ash management."
+	desc = "A \"confidential\" notice issued to Federation Representatives, informing them of an office fire caused by improper cigarette ash management."
 
 /obj/item/weapon/paper/memo/scgr/boringreports
 	name = "\improper Torch project status update #132"
@@ -180,7 +180,7 @@
 
 /obj/item/weapon/paper/memo/scgr/documentdamage
 	name = "important notice"
-	desc = "A \"confidential\" notice issued to Sol Government Representatives, informing them that many documents were damaged last week due to \"inappropriate sleep management\". It urges all diplomatic staff to self-monitor their sleeping schedule and to regulate their caffeine intake."
+	desc = "A \"confidential\" notice issued to Federation Representatives, informing them that many documents were damaged last week due to \"inappropriate sleep management\". It urges all diplomatic staff to self-monitor their sleeping schedule and to regulate their caffeine intake."
 
 /obj/item/weapon/paper/memo/scgr/documentdisposal
 	name = "proper document disposal"
@@ -188,11 +188,11 @@
 
 /obj/item/weapon/paper/memo/scgr/yourjob
 	name = "\improper SCG and you"
-	desc = "Some \"confidential\" briefing documents, detailing the job of the SCGR in brief. It highlights they are a civilian, first and foremost, who functions as a general-purpose civil servant aboard the SEV Torch. They also should advise the Commanding Officer, assisting with bureaucratic affairs where required, and spearheading diplomatic negotations."
+	desc = "Some \"confidential\" briefing documents, detailing the job of the Representatve in brief. It highlights they are a civilian, first and foremost, who functions as a general-purpose civil servant aboard the TEV Solstice. They also should advise the Commanding Officer, assisting with bureaucratic affairs where required, and spearheading diplomatic negotations."
 
 /obj/item/weapon/paper/memo/scgr/perdiemdeny
 	name = "per diem denials"
-	desc = "An \"internal use only\" document, explaining what not to file per diem reimbursement requests on. It lists examples of many per diem requests SCG representatives have filed in the past that have been denied. Some of the more interesting ones include casino debts, a request for per diem to cover the increased tax on alcohol on a station, and one odd case involving a possum, engineering PPE, and two injuries."
+	desc = "An \"internal use only\" document, explaining what not to file per diem reimbursement requests on. It lists examples of many per diem requests Federation representatives have filed in the past that have been denied. Some of the more interesting ones include casino debts, a request for per diem to cover the increased tax on alcohol on a station, and one odd case involving a possum, engineering PPE, and two injuries."
 
 /*
  * Sol, /sol/ (General Command or XO documents, intended for Bridge)
@@ -424,7 +424,7 @@ obj/item/documents/generic/sol/realitybreak
 
 /obj/item/weapon/paper/memo/explo/survivors
 	name = "interactions with survivors"
-	desc = "Some \"internal use only\" reports discussing the process of dealing with survivors, off-ship personnel, or in-distress civilians. This one details three points that all explorers, Fleet servicemembers, or contractor personnel should attempt to follow when dealing with off-ship persons: First, treat them with the utmost respect at all times, as they are the ones who need aid. Second, do not directly order them around, unless they happen to be getting in the way of SCG objectives. Third, remind them of their rights - they are requiring aid and are to be treated with the best handling, but remind them that they are still on SCG property, and are subject to SCG law at all times."
+	desc = "Some \"internal use only\" reports discussing the process of dealing with survivors, off-ship personnel, or in-distress civilians. This one details three points that all explorers, Fleet servicemembers, or contractor personnel should attempt to follow when dealing with off-ship persons: First, treat them with the utmost respect at all times, as they are the ones who need aid. Second, do not directly order them around, unless they happen to be getting in the way of Federation objectives. Third, remind them of their rights - they are requiring aid and are to be treated with the best handling, but remind them that they are still on Federation property, and are subject to Federal law at all times."
 
 /obj/item/weapon/paper/memo/explo/cigarettes
 	name = "cigarettes with helmets"
@@ -472,7 +472,7 @@ obj/item/documents/generic/sol/realitybreak
 
 /obj/item/weapon/paper/memo/corp/bodyarmourbad
 	name = "\improper LPA recommendations"
-	desc = "Some \"internal use only\" corporate documents, detailing that having loss prevention associates openly wear body armor and a smartgun is an extreme violation of trust between EXO and the SCG and will result in harsh penalties. It also notes that this issue will be brought up at every 3 months during contract renewal."
+	desc = "Some \"internal use only\" corporate documents, detailing that having loss prevention associates openly wear body armor and a smartgun is an extreme violation of trust between EXO and the Federation and will result in harsh penalties. It also notes that this issue will be brought up at every 3 months during contract renewal."
 
 /obj/item/weapon/paper/memo/corp/stipendcut
 	name = "corporate spending records"

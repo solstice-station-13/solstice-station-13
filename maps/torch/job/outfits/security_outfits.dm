@@ -38,7 +38,7 @@
 	shoes = /obj/item/clothing/shoes/dutyboots
 
 /decl/hierarchy/outfit/job/torch/crew/security/forensic_tech/agent
-	name = OUTFIT_JOB_NAME("Forensic Technician - SFP Agent")
+	name = OUTFIT_JOB_NAME("Forensic Technician - TMB Agent")
 	uniform = /obj/item/clothing/under/det/grey
 	suit = /obj/item/clothing/suit/storage/toggle/agent_jacket
 	shoes = /obj/item/clothing/shoes/dress
