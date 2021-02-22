@@ -16,7 +16,7 @@
 	description = "Akula are a shark-like species from the planet Koster-4. Predictably, the name of the species was earned due to their appearance. The planet was occupied by \
 	the Terran Federation shortly after discovery. The occupation has been ongoing for centuries, and Akula culture has long since been replaced by human culture."
 
-	spawn_flags = SPECIES_IS_RESTRICTED | SPECIES_IS_ICONBASE
+	spawn_flags = SPECIES_IS_ICONBASE
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_SKIN_COLOR | HAS_EYE_COLOR
 
 	sexybits_location = BP_GROIN //this is possibly my favorite variable just because of how out of place it is.
