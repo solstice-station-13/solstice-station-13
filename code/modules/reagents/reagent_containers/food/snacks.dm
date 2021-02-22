@@ -3167,7 +3167,7 @@
 /obj/item/weapon/reagent_containers/food/snacks/canned/tomato
 	name = "tomato soup"
 	icon_state = "tomato"
-	desc = "Plain old unseasoned tomato soup. This can predates the formation of the SCG."
+	desc = "Plain old unseasoned tomato soup. This can predates the formation of the Federation."
 	trash = /obj/item/trash/tomato
 	filling_color = "#ae0000"
 	center_of_mass = "x=15;y=9"
