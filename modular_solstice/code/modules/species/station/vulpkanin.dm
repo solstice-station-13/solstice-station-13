@@ -18,7 +18,7 @@
 	ago. Since discovery, they've been occupied by the Terran Federation. Over those centuries, their old culture is indistinguishable from Terran culture, and their past \
 	and cultural traditions are largely forgotten."
 
-	spawn_flags = SPECIES_CAN_JOIN /*SPECIES_IS_RESTRICTED --why?*/ | SPECIES_IS_ICONBASE
+	spawn_flags = SPECIES_CAN_JOIN | SPECIES_IS_ICONBASE
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_SKIN_COLOR | HAS_EYE_COLOR
 
 	sexybits_location = BP_GROIN //this is possibly my favorite variable just because of how out of place it is. - cebu | what the hell does it even do -tori | Basically it just defines where you can hit them for massive (pain) damage. An entire variable dedicated to nutshots. -cebu
