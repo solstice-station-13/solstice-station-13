@@ -2,12 +2,12 @@
 	name = "Security"
 
 /decl/hierarchy/supply_pack/security/lightarmorsol
-	name = "Armor - SCG light"
+	name = "Armor - Federation light"
 	contains = list(/obj/item/clothing/suit/armor/pcarrier/light/sol = 4,
 					/obj/item/clothing/head/helmet/solgov =4)
 	cost = 30
 	containertype = /obj/structure/closet/crate/secure
-	containername = "\improper SolGov light armor crate"
+	containername = "\improper Federation light armor crate"
 	access = access_security
 
 /decl/hierarchy/supply_pack/security/secarmor
