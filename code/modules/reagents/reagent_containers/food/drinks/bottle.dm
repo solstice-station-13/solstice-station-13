@@ -380,7 +380,7 @@
 
 /obj/item/weapon/reagent_containers/food/drinks/bottle/sake
 	name = "Takeo Sadow's Combined Sake"
-	desc = "Finest Sake allowed for import in the SCG."
+	desc = "Finest Sake allowed for import in the Federation."
 	icon_state = "sake"
 	center_of_mass = "x=16;y=4"
 
