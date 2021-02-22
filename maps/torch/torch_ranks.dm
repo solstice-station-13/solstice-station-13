@@ -146,7 +146,7 @@
 /datum/mil_branch/expeditionary_corps
 	name = "Expeditionary Corps"
 	name_short = "TFEC"
-	email_domain = "solstice.ec.scg"
+	email_domain = "solstice.ec.fed"
 
 	rank_types = list(
 		/datum/mil_rank/ec/e3,
