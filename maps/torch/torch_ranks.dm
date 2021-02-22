@@ -145,7 +145,7 @@
 
 /datum/mil_branch/expeditionary_corps
 	name = "Expeditionary Corps"
-	name_short = "SCGEC"
+	name_short = "TFEC"
 	email_domain = "solstice.ec.scg"
 
 	rank_types = list(
@@ -156,7 +156,7 @@
 		/datum/mil_rank/ec/o3,
 		/datum/mil_rank/ec/o5,
 		/datum/mil_rank/ec/o6,
-		/datum/mil_rank/ec/o8,
+		/datum/mil_rank/ec/o8
 	)
 
 	spawn_rank_types = list(
@@ -176,8 +176,8 @@
 						SKILL_EVA     = SKILL_BASIC)
 
 /datum/mil_branch/fleet
-	name = "Fleet"
-	name_short = "SCGF"
+	name = "Terran Navy"
+	name_short = "TFN"
 	email_domain = "solstice.fleet.mil"
 
 	rank_types = list(
@@ -230,8 +230,8 @@
 						SKILL_EVA     = SKILL_BASIC)
 
 /datum/mil_branch/army
-	name = "Army"
-	name_short = "SCGA"
+	name = "Terran Army"
+	name_short = "TFA"
 	email_domain = "army.mil"
 
 	rank_types = list(
