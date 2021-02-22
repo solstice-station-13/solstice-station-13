@@ -9,7 +9,7 @@
 	max_goals = 3
 
 /datum/goal/department/planet_claim
-	description = "Plant the SCG banner on the surface of an exoplanet."
+	description = "Plant the Federation banner on the surface of an exoplanet."
 
 /datum/goal/department/planet_claim/check_success()
 	return (SSstatistics.get_field(STAT_FLAGS_PLANTED) > 0)
