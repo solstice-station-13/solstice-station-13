@@ -15,57 +15,57 @@ medals
 
 /obj/item/clothing/accessory/medal/solgov/iron/star
 	name = "iron star medal"
-	desc = "An iron star awarded to members of the SCG for meritorious achievement or service in a combat zone."
+	desc = "An iron star awarded to members of the Terran Armed Forces for meritorious achievement or service in a combat zone."
 	icon_state = "iron_star"
 
 /obj/item/clothing/accessory/medal/solgov/iron/sol
-	name = "\improper Sol expeditionary medal"
-	desc = "An iron medal awarded to members of the SCG for service outside of the borders of the Sol Central Government."
+	name = "\improper Terran expeditionary medal"
+	desc = "An iron medal awarded to members of the Terran Armed Forces for service outside of the borders of the Sol Central Government."
 	icon_state = "iron_sol"
 
 /obj/item/clothing/accessory/medal/solgov/bronze/heart
 	name = "bronze heart medal"
-	desc = "A bronze heart awarded to members of the SCG for injury or death in the line of duty."
+	desc = "A bronze heart awarded to members of the Federal Armed Forces for injury or death in the line of duty."
 	icon_state = "bronze_heart"
 
 /obj/item/clothing/accessory/medal/solgov/bronze/sol
-	name = "\improper Sol defensive operations medal"
+	name = "\improper Terran defensive operations medal"
 	desc = "A bronze medal awarded for members of the SCG for service defending the border regions."
 	icon_state = "bronze_sol"
 
 /obj/item/clothing/accessory/medal/solgov/silver/sword
 	name = "combat action medal"
-	desc = "A silver medal awarded to members of the SCG for honorable service while under enemy fire."
+	desc = "A silver medal awarded to members of the Federal Armed Forces for honorable service while under enemy fire."
 	icon_state = "silver_sword"
 
 /obj/item/clothing/accessory/medal/solgov/silver/sol
-	name = "\improper Sol valor medal"
-	desc = "A silver medal awarded for members of the SCG for acts of exceptional valor."
+	name = "\improper Terran valor medal"
+	desc = "A silver medal awarded for members of the Federal Armed Forces for acts of exceptional valor."
 	icon_state = "silver_sol"
 
 /obj/item/clothing/accessory/medal/solgov/gold/star
 	name = "gold star medal"
-	desc = "A gold star awarded to members of the SCG for acts of heroism in a combat zone."
+	desc = "A gold star awarded to members of the Federal Armed Forces for acts of heroism in a combat zone."
 	icon_state = "gold_star"
 
 /obj/item/clothing/accessory/medal/solgov/gold/sun
 	name = "solar service medal"
-	desc = "A gold medal awarded to members of the SCG by the Secretary General for significant contributions to the Sol Central Government."
+	desc = "A gold medal awarded to members of the Federal Armed Forces by the President for significant contributions to the Terran Federation."
 	icon_state = "gold_sun"
 
 /obj/item/clothing/accessory/medal/solgov/gold/crest
-	name = "solar honor medal"
-	desc = "A gold medal awarded to members of the Defense Forces by the Secretary General for personal acts of valor and heroism above and beyond the call of duty."
+	name = "terran honor medal"
+	desc = "A gold medal awarded to members of the Federal Armed Forces by the Secretary General for personal acts of valor and heroism above and beyond the call of duty."
 	icon_state = "gold_crest"
 
 /obj/item/clothing/accessory/medal/solgov/gold/sol
-	name = "\improper Sol sapientarian medal"
-	desc = "A gold medal awarded for members of the SCG for significant contributions to sapient rights."
+	name = "\improper Terran sapientarian medal"
+	desc = "A gold medal awarded for members of the Federal Armed Forces for significant contributions to sapient rights."
 	icon_state = "gold_sol"
 
 /obj/item/clothing/accessory/medal/solgov/heart
 	name = "medical medal"
-	desc = "A white heart emblazoned with a red cross awarded to members of the SCG for service as a medical professional in a combat zone."
+	desc = "A white heart emblazoned with a red cross awarded to members of the Federal Armed Forces for service as a medical professional in a combat zone."
 	icon_state = "white_heart"
 
 /obj/item/clothing/accessory/solgov
@@ -89,7 +89,7 @@ patches
 *****/
 /obj/item/clothing/accessory/solgov/ec_patch
 	name = "\improper Observatory patch"
-	desc = "A laminated shoulder patch, carrying the symbol of the Sol Central Government Expeditionary Corpss Observatory, or SCGEO for short, the eyes and ears of the Expeditionary Corps' missions."
+	desc = "A laminated shoulder patch, carrying the symbol of the Terran Federation Expeditionary Corps Observatory, or TFECO for short, the eyes and ears of the Expeditionary Corps' missions."
 	icon_state = "ecpatch1"
 	on_rolled = list("down" = "none")
 	slot = ACCESSORY_SLOT_INSIGNIA
@@ -97,12 +97,12 @@ patches
 
 /obj/item/clothing/accessory/solgov/ec_patch/fieldops
 	name = "\improper Field Operations patch"
-	desc = "A radiation-shielded shoulder patch, carrying the symbol of the Sol Central Government Expeditionary Corps Field Operations, or SCGECFO for short, the hands-on workers of every Expeditionary Corps mission."
+	desc = "A radiation-shielded shoulder patch, carrying the symbol of the Terran Federation Expeditionary Corps Field Operations, or TFECFO for short, the hands-on workers of every Expeditionary Corps mission."
 	icon_state = "ecpatch2"
 
 /obj/item/clothing/accessory/solgov/cultex_patch
 	name = "\improper Cultural Exchange patch"
-	desc = "A radiation-shielded shoulder patch, denoting service in the the Sol Central Government Expeditionary Corps Cultural Exchange program."
+	desc = "A radiation-shielded shoulder patch, denoting service in the the Terran Federation Expeditionary Corps Cultural Exchange program."
 	icon_state = "ecpatch3"
 	slot = ACCESSORY_SLOT_INSIGNIA
 	check_codex_val = FACTION_EXPEDITIONARY
@@ -116,12 +116,12 @@ patches
 
 /obj/item/clothing/accessory/solgov/fleet_patch/second
 	name = "\improper Second Fleet patch"
-	desc = "A well-worn shoulder patch carrying insignia of Second Fleet, the Home Guard, tasked with defense of Sol territories."
+	desc = "A well-worn shoulder patch carrying insignia of Second Fleet, the Home Guard, tasked with defense of Terran territories."
 	icon_state = "fleetpatch2"
 
 /obj/item/clothing/accessory/solgov/fleet_patch/third
 	name = "\improper Third Fleet patch"
-	desc = "A scuffed shoulder patch carrying insignia of Third Fleet, the Border Guard, guarding borders of Sol territory against Vox and pirates."
+	desc = "A scuffed shoulder patch carrying insignia of Third Fleet, the Border Guard, guarding borders of Terran territory against Vox and pirates."
 	icon_state = "fleetpatch3"
 
 /obj/item/clothing/accessory/solgov/fleet_patch/fourth
@@ -172,22 +172,22 @@ ribbons
 
 /obj/item/clothing/accessory/ribbon/solgov/marksman
 	name = "marksmanship ribbon"
-	desc = "A military decoration awarded to members of the SCG for good marksmanship scores in training. Common in the days of energy weapons."
+	desc = "A military decoration awarded to members of the Federal Armed Forces for good marksmanship scores in training. Common in the days of energy weapons."
 	icon_state = "ribbon_marksman"
 
 /obj/item/clothing/accessory/ribbon/solgov/peace
 	name = "peacekeeping ribbon"
-	desc = "A military decoration awarded to members of the SCG for service during a peacekeeping operation."
+	desc = "A military decoration awarded to members of the Federal Armed Forces for service during a peacekeeping operation."
 	icon_state = "ribbon_peace"
 
 /obj/item/clothing/accessory/ribbon/solgov/frontier
 	name = "frontier ribbon"
-	desc = "A military decoration awarded to members of the SCG for service along the frontier."
+	desc = "A military decoration awarded to members of the Federal Armed Forces for service along the frontier."
 	icon_state = "ribbon_frontier"
 
 /obj/item/clothing/accessory/ribbon/solgov/instructor
 	name = "instructor ribbon"
-	desc = "A military decoration awarded to members of the SCG for service as an instructor."
+	desc = "A military decoration awarded to members of the Federal Armed Forces for service as an instructor."
 	icon_state = "ribbon_instructor"
 
 /*************
@@ -290,7 +290,7 @@ badges
 
 /obj/item/clothing/accessory/badge/solgov/representative
 	name = "representative's badge"
-	desc = "A leather-backed plastic badge with a variety of information printed on it. Belongs to a representative of the Sol Central Government."
+	desc = "A leather-backed plastic badge with a variety of information printed on it. Belongs to a representative of the Terran Federation."
 	icon_state = "solbadge"
 	slot_flags = SLOT_TIE
 	badge_string = "Sol Central Government"
@@ -325,8 +325,8 @@ armbands
 armour attachments
 *****************/
 /obj/item/clothing/accessory/armor/tag/solgov
-	name = "\improper SCG Flag"
-	desc = "An emblem depicting the Sol Central Government's flag."
+	name = "\improper Federal Flag"
+	desc = "An emblem depicting the Terran Federation's flag."
 	icon_override = 'maps/torch/icons/obj/obj_accessories_solgov.dmi'
 	icon = 'maps/torch/icons/obj/obj_accessories_solgov.dmi'
 	accessory_icons = list(slot_w_uniform_str = 'maps/torch/icons/mob/onmob_accessories_solgov.dmi', slot_wear_suit_str = 'maps/torch/icons/mob/onmob_accessories_solgov.dmi')
@@ -335,7 +335,7 @@ armour attachments
 
 /obj/item/clothing/accessory/armor/tag/solgov/ec
 	name = "\improper Expeditionary Corps crest"
-	desc = "An emblem depicting the crest of the SCG Expeditionary Corps."
+	desc = "An emblem depicting the crest of the Terran Federation Expeditionary Corps."
 	icon_state = "ecflag"
 
 /obj/item/clothing/accessory/armor/tag/solgov/sec
@@ -349,13 +349,13 @@ armour attachments
 	icon_state = "medictag"
 
 /obj/item/clothing/accessory/armor/tag/solgov/agent
-	name = "\improper SFP AGENT tag"
-	desc = "An armor tag with the words SFP AGENT printed in gold lettering on it."
+	name = "\improper Marshals tag"
+	desc = "An armor tag with the word MARSHALS printed in gold lettering on it."
 	icon_state = "agenttag"
 
 /obj/item/clothing/accessory/armor/tag/solgov/com
-	name = "\improper SCG tag"
-	desc = "An armor tag with the words SOL CENTRAL GOVERNMENT printed in gold lettering on it."
+	name = "\improper Federation tag"
+	desc = "An armor tag with the words TERRAN FEDERATION printed in gold lettering on it."
 	icon_state = "comtag"
 
 /obj/item/clothing/accessory/armor/tag/solgov/com/sec
@@ -364,7 +364,7 @@ armour attachments
 
 /obj/item/clothing/accessory/armor/helmcover/blue/sol
 	name = "peacekeeper helmet cover"
-	desc = "A fabric cover for armored helmets. This one is in SCG peacekeeper colors."
+	desc = "A fabric cover for armored helmets. This one is in Federation peacekeeper colors."
 
 /**************
 department tags
