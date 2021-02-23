@@ -19,29 +19,29 @@
 	name = "Traits"
 	sort_order = 2
 
-/datum/category_item/player_setup_item/vore/traits/load_character(var/savefile/S)
-	from_file(S["custom_species"], pref.custom_species)
-	from_file(S["custom_base"], pref.custom_base)
-	from_file(S["pos_traits"], pref.pos_traits)
-	from_file(S["neu_traits"], pref.neu_traits)
-	from_file(S["neg_traits"], pref.neg_traits)
-	from_file(S["blood_color"], pref.blood_color)
+/datum/category_item/player_setup_item/vore/traits/load_character(datum/pref_record_reader/R)
+	 pref.pos_traits = R.read("pos_traits")
+	 pref.neu_traits = R.read("neu_traits")
+	 pref.neg_traits = R.read("neg_traits")
+	 pref.blood_color = R.read("blood_color")
 
-	from_file(S["traits_cheating"], pref.traits_cheating)
-	from_file(S["max_traits"], pref.max_traits)
-	from_file(S["trait_points"], pref.starting_trait_points)
+	 pref.traits_cheating = R.read("traits_cheating")
+	 pref.max_traits = R.read("max_traits")
+	 pref.starting_trait_points = R.read("trait_points")
 
-/datum/category_item/player_setup_item/vore/traits/save_character(var/savefile/S)
-	to_file(S["custom_species"], pref.custom_species)
-	to_file(S["custom_base"], pref.custom_base)
-	to_file(S["pos_traits"], pref.pos_traits)
-	to_file(S["neu_traits"], pref.neu_traits)
-	to_file(S["neg_traits"], pref.neg_traits)
-	to_file(S["blood_color"], pref.blood_color)
 
-	to_file(S["traits_cheating"], pref.traits_cheating)
-	to_file(S["max_traits"], pref.max_traits)
-	to_file(S["trait_points"], pref.starting_trait_points)
+
+/datum/category_item/player_setup_item/vore/traits/save_character(datum/pref_record_writer/W)
+	W.write("custom_species",  pref.custom_species)
+	W.write("custom_base",  pref.custom_base)
+	W.write("pos_traits",  pref.pos_traits)
+	W.write("neu_traits",  pref.neu_traits)
+	W.write("neg_traits",  pref.neg_traits)
+	W.write("blood_color",  pref.blood_color)
+
+	W.write("traits_cheating",  pref.traits_cheating)
+	W.write("max_traits",  pref.max_traits)
+	W.write("trait_points",  pref.starting_trait_points)
 
 /datum/category_item/player_setup_item/vore/traits/sanitize_character()
 	if(!pref.pos_traits) pref.pos_traits = list()
