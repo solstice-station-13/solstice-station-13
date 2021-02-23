@@ -63,6 +63,7 @@ datum/preferences
 		else
 			load_data()
 
+
 	sanitize_preferences()
 	if(client && istype(client.mob, /mob/new_player))
 		var/mob/new_player/np = client.mob
@@ -80,8 +81,10 @@ datum/preferences
 				// If there's no old save, there'll be nothing to load.
 				return
 
-		stage = "load"
+		stage = "loadprefs"
 		load_preferences()
+
+		stage = "loadchar"
 		load_character()
 	catch(var/exception/E)
 		load_failed = "{[stage]} [E]"
