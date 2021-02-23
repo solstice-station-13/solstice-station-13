@@ -1,3 +1,8 @@
+// Branch-specific defines
+#define UNRESTRICTED /datum/mil_branch/civilian, /datum/mil_branch/nanotrasen, /datum/mil_branch/expeditionary_corps, /datum/mil_branch/solgov, /datum/mil_branch/fleet
+#define SEMIRESTRICTED /datum/mil_branch/civilian, /datum/mil_branch/nanotrasen, /datum/mil_branch/expeditionary_corps
+#define RESTRICTED /datum/mil_branch/civilian, /datum/mil_branch/nanotrasen
+
 /datum/job/submap
 	branch = /datum/mil_branch/civilian
 	rank =   /datum/mil_rank/civ/civ
@@ -41,103 +46,22 @@
 	)
 
 	species_to_branch_whitelist = list(
-		/datum/species/diona        = list(/datum/mil_branch/nanotrasen, /datum/mil_branch/civilian),
-		/datum/species/nabber       = list(/datum/mil_branch/civilian),
-		/datum/species/skrell       = list(/datum/mil_branch/nanotrasen, /datum/mil_branch/civilian, /datum/mil_branch/expeditionary_corps, /datum/mil_branch/skrell_fleet),
-		/datum/species/unathi       = list(/datum/mil_branch/nanotrasen, /datum/mil_branch/civilian, /datum/mil_branch/expeditionary_corps),
-		/datum/species/unathi/yeosa = list(/datum/mil_branch/nanotrasen, /datum/mil_branch/civilian, /datum/mil_branch/expeditionary_corps),
-		/datum/species/adherent     = list(/datum/mil_branch/civilian),
+		/datum/species/diona        = list(RESTRICTED),
+		/datum/species/nabber       = list(RESTRICTED),
+		/datum/species/skrell       = list(SEMIRESTRICTED),
+		/datum/species/unathi       = list(SEMIRESTRICTED),
+		/datum/species/unathi/yeosa = list(SEMIRESTRICTED),
+		/datum/species/adherent     = list(RESTRICTED),
 		/datum/species/vox          = list(/datum/mil_branch/alien),
-		/datum/species/akula		= list(/datum/mil_branch/nanotrasen, /datum/mil_branch/civilian, /datum/mil_branch/expeditionary_corps),
-		/datum/species/humanathi	= list(/datum/mil_branch/nanotrasen, /datum/mil_branch/civilian, /datum/mil_branch/expeditionary_corps),
-		/datum/species/sergal		= list(/datum/mil_branch/civilian),
-		/datum/species/tajaran		= list(/datum/mil_branch/nanotrasen, /datum/mil_branch/civilian, /datum/mil_branch/expeditionary_corps),
-		/datum/species/vasilissan	= list(/datum/mil_branch/nanotrasen, /datum/mil_branch/civilian),
-		/datum/species/vulpkanin	= list(/datum/mil_branch/nanotrasen, /datum/mil_branch/civilian, /datum/mil_branch/expeditionary_corps),
-		/datum/species/machine		= list(/datum/mil_branch/nanotrasen, /datum/mil_branch/civilian, /datum/mil_branch/expeditionary_corps),
+		/datum/species/akula		= list(SEMIRESTRICTED),
+		/datum/species/humanathi	= list(SEMIRESTRICTED),
+		/datum/species/sergal		= list(SEMIRESTRICTED),
+		/datum/species/tajaran		= list(SEMIRESTRICTED),
+		/datum/species/vasilissan	= list(SEMIRESTRICTED),
+		/datum/species/vulpkanin	= list(SEMIRESTRICTED),
+		/datum/species/machine		= list(RESTRICTED)
 	)
-
-	species_to_rank_blacklist = list(
-		/datum/species/machine = list(
-			/datum/mil_branch/solgov = list(
-				/datum/mil_rank/sol/agent,
-				/datum/mil_rank/sol/gov
-			)
-		)
-	)
-
-	species_to_rank_whitelist = list(
-		/datum/species/machine = list(
-			/datum/mil_branch/expeditionary_corps = list(
-				/datum/mil_rank/ec/e3,
-				/datum/mil_rank/ec/e5,
-				/datum/mil_rank/ec/e7
-			),
-		),
-		/datum/species/skrell = list(
-			/datum/mil_branch/expeditionary_corps = list(
-				/datum/mil_rank/ec/e3,
-				/datum/mil_rank/ec/e5,
-				/datum/mil_rank/ec/e7,
-				/datum/mil_rank/ec/o1
-			)
-		),
-		/datum/species/unathi = list(
-			/datum/mil_branch/expeditionary_corps = list(
-				/datum/mil_rank/ec/e3,
-				/datum/mil_rank/ec/e5,
-				/datum/mil_rank/ec/e7
-			)
-		),
-		/datum/species/unathi/yeosa = list(
-			/datum/mil_branch/expeditionary_corps = list(
-				/datum/mil_rank/ec/e3,
-				/datum/mil_rank/ec/e5,
-				/datum/mil_rank/ec/e7
-			)
-		),
-		/datum/species/humanathi = list(
-			/datum/mil_branch/expeditionary_corps = list(
-				/datum/mil_rank/ec/e3,
-				/datum/mil_rank/ec/e5,
-				/datum/mil_rank/ec/e7
-			)
-		),
-		/datum/species/tajaran = list(
-			/datum/mil_branch/expeditionary_corps = list(
-				/datum/mil_rank/ec/e3,
-				/datum/mil_rank/ec/e5,
-				/datum/mil_rank/ec/e7
-			)
-		),
-		/datum/species/vulpkanin = list(
-			/datum/mil_branch/expeditionary_corps = list(
-				/datum/mil_rank/ec/e3,
-				/datum/mil_rank/ec/e5,
-				/datum/mil_rank/ec/e7,
-				/datum/mil_rank/ec/o1,
-				/datum/mil_rank/ec/o3,
-				/datum/mil_rank/ec/o5,
-				/datum/mil_rank/ec/o6,
-				/datum/mil_rank/ec/o8
-			)
-		),
-		/datum/species/machine = list(
-			/datum/mil_branch/expeditionary_corps = list(
-				/datum/mil_rank/ec/e3,
-				/datum/mil_rank/ec/e5,
-				/datum/mil_rank/ec/e7,
-				/datum/mil_rank/ec/o1,
-				/datum/mil_rank/ec/o3
-			)
-		),
-		/datum/species/vox = list(
-			/datum/mil_branch/alien = list(
-				/datum/mil_rank/alien
-			)
-		)
-	)
-
+	
 /*
  *  Branches
  *  ========
@@ -866,3 +790,8 @@
 
 /datum/mil_rank/alien
 	name = "Alien"
+
+//End of Defines
+#undef UNRESTRICTED
+#undef SEMIRESTRICTED
+#undef RESTRICTED
