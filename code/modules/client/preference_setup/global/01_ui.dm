@@ -1,5 +1,5 @@
 /datum/preferences
-	var/clientfps = 0
+	var/clientfps = CLIENT_RECOMMENDED_FPS_SENTINEL
 	var/ooccolor = "#010000" //Whatever this is set to acts as 'reset' color and is thus unusable as an actual custom color
 
 	var/UI_style = "Midnight"
@@ -43,7 +43,7 @@
 			. += "<a href='?src=\ref[src];select_ooc_color=1'><b>Using Default</b></a><br>"
 		else
 			. += "<a href='?src=\ref[src];select_ooc_color=1'><b>[pref.ooccolor]</b></a> <table style='display:inline;' bgcolor='[pref.ooccolor]'><tr><td>__</td></tr></table> <a href='?src=\ref[src];reset=ooc'>reset</a><br>"
-	. += "<b>Client FPS:</b> <a href='?src=\ref[src];select_fps=1'><b>[pref.clientfps]</b></a><br>"
+	. += "<b>Client FPS:</b> <a href='?src=\ref[src];select_fps=1'><b>[pref.clientfps >= 0 ? pref.clientfps : CLIENT_RECOMMENDED_FPS]</b></a><br>"
 
 /datum/category_item/player_setup_item/player_global/ui/OnTopic(var/href,var/list/href_list, var/mob/user)
 	if(href_list["select_style"])
@@ -76,9 +76,9 @@
 			version_message = "\nYou need to be using byond version 511 or later to take advantage of this feature, your version of [user.client.byond_version] is too low"
 		if (world.byond_version < 511)
 			version_message += "\nThis server does not currently support client side fps. You can set now for when it does."
-		var/new_fps = input(user, "Choose your desired fps.[version_message]\n(0 = synced with server tick rate (currently:[world.fps]))", "Global Preference") as num|null
+		var/new_fps = input(user, "Choose your desired fps.[version_message]\n(Set this to -1 to use the recommended value.\n0 = synced with server tick rate (currently:[world.fps]))", "Global Preference") as num|null
 		if (isnum(new_fps) && CanUseTopic(user))
-			pref.clientfps = Clamp(new_fps, CLIENT_MIN_FPS, CLIENT_MAX_FPS)
+			pref.clientfps = Clamp(new_fps, CLIENT_RECOMMENDED_FPS_SENTINEL, CLIENT_MAX_FPS)
 
 			var/mob/target_mob = preference_mob()
 			if(target_mob && target_mob.client)
