@@ -8,7 +8,7 @@
 	var/blood_color = "#f5e400"
 
 	var/list/pos_traits	= list()	// What traits they've selected for their custom species
-	var/list/neu_traits = list()
+	var/list/neu_traits = list()	// These are NAME -> Instance of trait datum
 	var/list/neg_traits = list()
 
 	var/traits_cheating = 0 //Varedit by admins allows saving new maximums on people who apply/etc
@@ -20,6 +20,10 @@
 	sort_order = 2
 
 /datum/category_item/player_setup_item/vore/traits/load_character(datum/pref_record_reader/R)
+
+	 pref.custom_species = R.read("custom_species")
+	 pref.custom_base = R.read("custom_base")
+
 	 pref.pos_traits = R.read("pos_traits")
 	 pref.neu_traits = R.read("neu_traits")
 	 pref.neg_traits = R.read("neg_traits")
@@ -191,24 +195,24 @@ datum/preferences/copy_to(mob/living/carbon/human/character, is_preview_copy = F
 		return TOPIC_REFRESH
 
 	else if(href_list["clicked_pos_trait"])
-		var/datum/trait/trait = text2path(href_list["clicked_pos_trait"])
+		var/datum/trait/trait = positive_traits[href_list["clicked_pos_trait"]]
 		var/choice = alert("Remove [initial(trait.name)] and regain [initial(trait.cost)] points?","Remove Trait","Remove","Cancel")
 		if(choice == "Remove")
-			pref.pos_traits -= trait
+			pref.pos_traits -= initial(trait.name)
 		return TOPIC_REFRESH
 
 	else if(href_list["clicked_neu_trait"])
-		var/datum/trait/trait = text2path(href_list["clicked_neu_trait"])
+		var/datum/trait/trait = neutral_traits[href_list["clicked_neu_trait"]]
 		var/choice = alert("Remove [initial(trait.name)]?","Remove Trait","Remove","Cancel")
 		if(choice == "Remove")
-			pref.neu_traits -= trait
+			pref.neu_traits -= initial(trait.name)
 		return TOPIC_REFRESH
 
 	else if(href_list["clicked_neg_trait"])
-		var/datum/trait/trait = text2path(href_list["clicked_neg_trait"])
+		var/datum/trait/trait = negative_traits[href_list["clicked_neg_trait"]]
 		var/choice = alert("Remove [initial(trait.name)] and lose [initial(trait.cost)] points?","Remove Trait","Remove","Cancel")
 		if(choice == "Remove")
-			pref.neg_traits -= trait
+			pref.neg_traits -= initial(trait.name)
 		return TOPIC_REFRESH
 
 	else if(href_list["add_trait"])
@@ -233,11 +237,6 @@ datum/preferences/copy_to(mob/living/carbon/human/character, is_preview_copy = F
 		if(isnull(mylist))
 			return TOPIC_REFRESH
 
-		var/list/nicelist = list()
-		for(var/P in picklist)
-			var/datum/trait/T = picklist[P]
-			nicelist[T.name] = P
-
 		var/points_left = pref.starting_trait_points
 		for(var/T in pref.pos_traits + pref.neu_traits + pref.neg_traits)
 			points_left -= traits_costs[T]
@@ -248,11 +247,12 @@ datum/preferences/copy_to(mob/living/carbon/human/character, is_preview_copy = F
 		var/done = FALSE
 		while(!done)
 			var/message = "\[Remaining: [points_left] points, [traits_left] traits\] Select a trait to read the description and see the cost."
-			trait_choice = input(message,"Trait List") as null|anything in nicelist
+			trait_choice = input(message,"Trait List") as null|anything in picklist
 			if(!trait_choice)
 				done = TRUE
-			if(trait_choice in nicelist)
-				var/datum/trait/path = nicelist[trait_choice]
+			if(trait_choice in picklist)
+				var/datum/trait/path = picklist[trait_choice]
+
 				var/choice = alert("\[Cost:[initial(path.cost)]\] [initial(path.desc)]",initial(path.name),"Take Trait","Cancel","Go Back")
 				if(choice == "Cancel")
 					trait_choice = null
@@ -261,9 +261,8 @@ datum/preferences/copy_to(mob/living/carbon/human/character, is_preview_copy = F
 
 		if(!trait_choice)
 			return TOPIC_REFRESH
-		else if(trait_choice in nicelist)
-			var/datum/trait/path = nicelist[trait_choice]
-			var/datum/trait/instance = all_traits[path]
+		else if(trait_choice in picklist)
+			var/datum/trait/instance = all_traits[trait_choice]
 
 			var/conflict = FALSE
 
@@ -273,7 +272,7 @@ datum/preferences/copy_to(mob/living/carbon/human/character, is_preview_copy = F
 			varconflict:
 				for(var/P in pref.pos_traits + pref.neu_traits + pref.neg_traits)
 					var/datum/trait/instance_test = all_traits[P]
-					if(path in instance_test.excludes)
+					if(trait_choice in instance_test.excludes)
 						conflict = instance_test.name
 						break varconflict
 
@@ -287,7 +286,7 @@ datum/preferences/copy_to(mob/living/carbon/human/character, is_preview_copy = F
 				Please remove that trait, or pick another trait to add.","Error")
 				return TOPIC_REFRESH
 
-			mylist += path
+			mylist += trait_choice
 			return TOPIC_REFRESH
 
 	return ..()

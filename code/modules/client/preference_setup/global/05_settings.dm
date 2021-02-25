@@ -88,7 +88,8 @@
 		else
 			return null
 	else
-		log_error("Client is lacking preferences: [log_info_line(src)]")
+		game_log("ERROR", "Failed to get [preference] for [src]")
+		log_error("Client is lacking preferences: [src]")
 
 /client/proc/set_preference(var/preference, var/set_preference)
 	var/datum/client_preference/cp = get_client_preference(preference)
