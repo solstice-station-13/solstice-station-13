@@ -3,7 +3,7 @@
 #define SHIELD_DAMTYPE_HEAT 3		// Heat damage - Lasers, fire
 
 #define ENERGY_PER_HP (40 KILOWATTS)// Base amount energy that will be deducted from the generator's internal reserve per 1 HP of damage taken
-#define ENERGY_UPKEEP_PER_TILE (3 KILOWATTS)	// Base upkeep per tile protected. Multiplied by various enabled shield modes. Without them the field does literally nothing.
+#define ENERGY_UPKEEP_PER_TILE (1 KILOWATTS)	// Base upkeep per tile protected. Multiplied by various enabled shield modes. Without them the field does literally nothing.
 #define ENERGY_UPKEEP_IDLE 40                  // Base upkeep when idle; modified by other factors.
 
 #define MINOR_BREACH_THRESHOLD 99
