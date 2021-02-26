@@ -194,6 +194,19 @@ var/list/gear_datums = list()
 					bad_job = 1
 			allowed = good_job || !bad_job
 			entry += "[english_list(jobchecks)]</i>"
+			
+		if(G.allowed_roles)
+			. += "</font><font size = 1>("
+			var/role_count = 0
+			for(var/role in G.allowed_roles)
+				. += "[role]"
+				role_count++
+				if(role_count == G.allowed_roles.len)
+					. += ")"
+					break
+				else
+					. += ", "
+		. += "</font></td></tr>"
 
 		if(allowed && G.allowed_branches)
 			var/list/branches = list()
