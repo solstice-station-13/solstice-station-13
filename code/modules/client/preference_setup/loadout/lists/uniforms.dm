@@ -3,6 +3,10 @@
 	slot = slot_w_uniform
 	category = /datum/gear/uniform
 
+/datum/gear/uniform/fleetfatigues
+	display_name = "navy fatigues"
+	path = /obj/item/clothing/under/solgov/utility/fleet/combat
+
 /datum/gear/uniform/jumpsuit
 	display_name = "jumpsuit, colour select"
 	path = /obj/item/clothing/under/color
