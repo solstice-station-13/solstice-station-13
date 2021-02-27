@@ -5,6 +5,7 @@
 	in the economic centers, or what counts as such. Some have embraced the coming of the Federation, and the spreading of Terran culture. Others \
 	resent it. The fact remains that it has overall been a boon for the planet however."
 	economic_power = 0.7
+	language = LANGUAGE_SERGAL
 	secondary_langs = list(
 		LANGUAGE_SIGN,
 		LANGUAGE_GUTTER,
