@@ -39,6 +39,9 @@
 #define LANGUAGE_MANTID_VOCAL      "Ascent-Voc"
 #define LANGUAGE_MANTID_BROADCAST  "Worldnet"
 
+//Solstice Specific
+#define LANGUAGE_SERGAL				"Sergal"
+
 // Language flags.
 #define WHITELISTED  1   // Language is available if the speaker is whitelisted.
 #define RESTRICTED   2   // Language can only be acquired by spawning or an admin.
