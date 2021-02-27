@@ -99,7 +99,7 @@
 	min_skill = list(   SKILL_HAULING = SKILL_ADEPT,
 	                    SKILL_EVA     = SKILL_BASIC)
 
-	max_skill = list(   SKILL_PILOT       = SKILL_MAX
+	max_skill = list(   SKILL_PILOT       = SKILL_MAX,
 						SKILL_CONSTRUCTION = SKILL_EXPERT)
 
 	outfit_type = /decl/hierarchy/outfit/job/torch/passenger/research/prospector
