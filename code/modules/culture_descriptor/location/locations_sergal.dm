@@ -6,4 +6,5 @@
 	a host of unclassified or undocumented species, such as a fish, insects, worms, mollusks, and plants inhabiting everywhere \
 	from urban or suburban areas to a virgin forest and deep wilderness. Those creatures are native to Tal and generally \
 	classified as 'Primitive creatures', and recognize as 'alien biomes' from Eltus races."
-	economic_power = 1
+	capital = "Gold Ring"
+	economic_power = 0.9
