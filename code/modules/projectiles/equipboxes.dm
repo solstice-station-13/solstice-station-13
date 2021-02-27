@@ -1,4 +1,4 @@
-//BASIC CODE
+//BASIC CODE/MAA
 /obj/item/gunbox
 	name = "equipment kit"
 	desc = "A secure box containing a sidearm."
@@ -20,3 +20,23 @@
 		qdel(src)
 
 //OTHER KITS
+
+//SEA/BRIG CHIEF/COS
+/obj/item/gunbox/bc
+	name = "large equipment kit"
+	desc = "A secure box containing a sidearm."
+	icon = 'icons/obj/storage.dmi'
+	icon_state = "ammo" //temp
+
+/obj/item/gunbox/attack_self(mob/living/user)
+	var/list/options = list()
+	options["Ballistic - Military Pistol/Shotgun"] = list(/obj/item/weapon/gun/projectile/pistol/military,/obj/item/ammo_magazine/pistol/double/rubber,/obj/item/ammo_magazine/pistol/double/rubber, /obj/item/weapon/gun/projectile/shotgun/pump,/obj/item/ammo_magazine/shotholder/beanbag,/obj/item/ammo_magazine/shotholder/beanbag)
+	options["Energy - Smartgun"] = list(/obj/item/weapon/gun/energy/gun/secure)
+	var/choice = input(user,"What type of equipment?") as null|anything in options
+	if(src && choice)
+		var/list/things_to_spawn = options[choice]
+		for(var/new_type in things_to_spawn)
+			var/atom/movable/AM = new new_type(get_turf(src))
+			if(istype(AM, /obj/item/weapon/gun/))
+				to_chat(user, "You have chosen \the [AM]. This is probably worth more than what your paycheck can be used for.")
+		qdel(src)
