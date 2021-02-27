@@ -90,8 +90,7 @@
 		/obj/item/clothing/accessory/storage/holster/waist,
 		/obj/item/weapon/melee/telebaton,
 		/obj/item/clothing/head/beret/sec/corporate/hos,
-		/obj/item/device/holowarrant,
-		/obj/item/gunbox/bc
+		/obj/item/device/holowarrant
 	)
 
 /obj/structure/closet/secure_closet/warden
@@ -118,10 +117,10 @@
 		/obj/item/weapon/storage/belt/holster/security,
 		/obj/item/weapon/reagent_containers/spray/pepper,
 		/obj/item/weapon/melee/baton/loaded,
+		/obj/item/weapon/gun/energy/gun,
 		/obj/item/weapon/storage/box/holobadge,
 		/obj/item/clothing/head/beret/sec/corporate/warden,
-		/obj/item/device/holowarrant,
-		/obj/item/gunbox/bc
+		/obj/item/device/holowarrant
 	)
 
 /obj/structure/closet/secure_closet/security
@@ -147,9 +146,8 @@
 		/obj/item/clothing/accessory/storage/black_vest,
 		/obj/item/clothing/head/soft/sec/corp,
 		/obj/item/clothing/under/rank/security/corp,
-		/obj/item/device/holowarrant,
 		/obj/item/weapon/gun/energy/taser,
-		/obj/item/gunbox
+		/obj/item/device/holowarrant,
 	)
 
 /obj/structure/closet/secure_closet/security/cargo/WillContain()
