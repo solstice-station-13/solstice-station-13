@@ -56,7 +56,7 @@
 		/obj/item/device/flashlight/maglight,
 		/obj/item/weapon/storage/belt/security,
 		/obj/item/weapon/material/knife/folding/swiss/sec,
-		/obj/item/gunbox/,
+		/obj/item/gunbox/security,
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/security, /obj/item/weapon/storage/backpack/satchel/sec)),
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/dufflebag/sec, /obj/item/weapon/storage/backpack/messenger/sec))
 	)
@@ -96,7 +96,7 @@
 		/obj/item/device/taperecorder,
 		/obj/item/weapon/material/knife/folding/swiss/officer,
 		/obj/item/device/personal_shield,
-		/obj/item/gunbox/bc,
+		/obj/item/gunbox/brigchief,
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/security, /obj/item/weapon/storage/backpack/satchel/sec)),
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/dufflebag/sec, /obj/item/weapon/storage/backpack/messenger/sec))
 	)
@@ -129,7 +129,7 @@
 		/obj/item/clothing/gloves/thick,
 		/obj/item/device/flashlight/maglight,
 		/obj/item/weapon/material/knife/folding/swiss/sec,
-		/obj/item/gunbox/bc,
+		/obj/item/gunbox/brigchief,
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/security, /obj/item/weapon/storage/backpack/satchel/sec)),
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/dufflebag/sec, /obj/item/weapon/storage/backpack/messenger/sec))
 	)
