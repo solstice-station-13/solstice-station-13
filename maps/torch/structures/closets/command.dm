@@ -102,7 +102,7 @@
 		/obj/item/device/holowarrant,
 		/obj/item/weapon/folder/blue,
 		/obj/item/weapon/material/knife/folding/swiss/officer,
-		/obj/item/gunbox/bc,
+		/obj/item/gunbox/brigchief,
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack, /obj/item/weapon/storage/backpack/satchel/grey)),
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/dufflebag, /obj/item/weapon/storage/backpack/messenger))
 	)
