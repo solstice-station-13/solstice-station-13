@@ -1,9 +1,14 @@
-/decl/cultural_info/location/sergal
-	name = HOME_SYSTEM_SERGALTAL
-	description = "Primary species in Tal are divided into two broad groups: Eltus and Talyxians. Those two group are \
-	totally different from each other in everything almost. Primary sapient species that Tal hosts are the three races \
-	from Eltus species - Sergals, Agudners, and Nevreans. Tal's most of the wildlife consists of Talyxian creatures and \
-	a host of unclassified or undocumented species, such as a fish, insects, worms, mollusks, and plants inhabiting everywhere \
-	from urban or suburban areas to a virgin forest and deep wilderness. Those creatures are native to Tal and generally \
-	classified as 'Primitive creatures', and recognize as 'alien biomes' from Eltus races."
-	economic_power = 1
+ /decl/cultural_info/culture/sergal
+	name = CULTURE_SERGAL
+	description = "Sergal culture is a culture in flux. They are neither truly Sergals of the past, or human despite Terran occupation. The urban \
+	areas of the planet have become home to a mix of Federation technology and primitive methods of the homeworld. Federation control is strongest \
+	in the economic centers, or what counts as such. Some have embraced the coming of the Federation, and the spreading of Terran culture. Others \
+	resent it. The fact remains that it has overall been a boon for the planet however."
+	economic_power = 0.7
+	language = LANGUAGE_SERGAL
+	secondary_langs = list(
+		LANGUAGE_SIGN,
+		LANGUAGE_GUTTER,
+		LANGUAGE_SPACER,
+		LANGUAGE_HUMAN_EURO
+		)
