@@ -92,7 +92,6 @@
 		/obj/item/clothing/suit/armor/pcarrier/medium/command,
 		/obj/item/clothing/head/helmet/solgov/command,
 		/obj/item/weapon/storage/belt/holster/general,
-		/obj/item/weapon/gun/energy/confuseray,
 		/obj/item/device/radio/headset/sea,
 		/obj/item/device/radio/headset/sea/alt,
 		/obj/item/weapon/storage/belt/general,
@@ -103,6 +102,7 @@
 		/obj/item/device/holowarrant,
 		/obj/item/weapon/folder/blue,
 		/obj/item/weapon/material/knife/folding/swiss/officer,
+		/obj/item/gunbox/brigchief,
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack, /obj/item/weapon/storage/backpack/satchel/grey)),
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/dufflebag, /obj/item/weapon/storage/backpack/messenger))
 	)
