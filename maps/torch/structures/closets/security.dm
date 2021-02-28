@@ -162,6 +162,7 @@
 		/obj/item/weapon/storage/belt/holster/security,
 		/obj/item/weapon/storage/belt/security,
 		/obj/item/clothing/gloves/thick,
+		/obj/item/gunbox/security,
 		/obj/item/weapon/material/knife/folding/swiss/sec,
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/security, /obj/item/weapon/storage/backpack/satchel/sec)),
 		new /datum/atom_creator/weighted(list(/obj/item/weapon/storage/backpack/dufflebag/sec, /obj/item/weapon/storage/backpack/messenger/sec))
