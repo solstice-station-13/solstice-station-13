@@ -176,7 +176,7 @@
 
 /obj/item/clothing/accessory/badge/agent
 	name = "\improper Marshal's badge"
-	desc = "A leather-backed gold badge displaying the crest of the Terran Marshals Bureau."
+	desc = "A leather-backed gold badge displaying the crest of the Terran Marshals Service."
 	icon_state = "agentbadge"
 	slot_flags = SLOT_BELT | SLOT_TIE | SLOT_MASK
 	slot = ACCESSORY_SLOT_INSIGNIA
@@ -184,7 +184,7 @@
 
 /obj/item/clothing/accessory/badge/tracker
 	name = "\improper Tracker's badge"
-	desc = "A blue leather-backed gold badge displaying the crest of the Terran Marshals Bureau."
+	desc = "A blue leather-backed gold badge displaying the crest of the Terran Marshals Service."
 	icon_state = "trackerbadge"
 	slot_flags = SLOT_BELT | SLOT_TIE
 	slot = ACCESSORY_SLOT_INSIGNIA
