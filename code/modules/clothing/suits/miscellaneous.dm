@@ -368,8 +368,8 @@
 	icon_closed = "brown_jacket_nt"
 
 /obj/item/clothing/suit/storage/toggle/agent_jacket
-	name = "agent jacket"
-	desc = "A black leather jacket belonging to an agent of the Sol Federal Police."
+	name = "marshal jacket"
+	desc = "A black leather jacket belonging to a Marshal of the Terran Marshals Service."
 	icon_state = "agent_jacket"
 	icon_open = "agent_jacket_open"
 	icon_closed = "agent_jacket"
