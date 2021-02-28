@@ -1,4 +1,3 @@
-
 /obj/machinery/computer/shuttle_control/explore/verne
 	name = "shuttle control console"
 	shuttle_tag = "SRV Venerable Catfish"
