@@ -26,7 +26,7 @@
 	icon = 'icons/obj/storage.dmi'
 	icon_state = "ammo" //temp
 
-/obj/item/gunbox/attack_self(mob/living/user)
+/obj/item/gunbox/security/attack_self(mob/living/user)
 	var/list/options = list()
 	options["Ballistic - Military Pistol"] = list(/obj/item/weapon/gun/projectile/pistol/military,/obj/item/ammo_magazine/pistol/double/rubber,/obj/item/ammo_magazine/pistol/double/rubber)
 	options["Energy - Smartgun"] = list(/obj/item/weapon/gun/energy/gun/secure)
@@ -47,7 +47,7 @@
 	icon = 'icons/obj/storage.dmi'
 	icon_state = "ammo" //temp
 
-/obj/item/gunbox/attack_self(mob/living/user)
+/obj/item/gunbox/brigchief/attack_self(mob/living/user)
 	var/list/options = list()
 	options["Ballistic - Military Pistol/Shotgun"] = list(/obj/item/weapon/gun/projectile/pistol/military,/obj/item/ammo_magazine/pistol/double/rubber,/obj/item/ammo_magazine/pistol/double/rubber, /obj/item/weapon/gun/projectile/shotgun/pump,/obj/item/ammo_magazine/shotholder/beanbag,/obj/item/ammo_magazine/shotholder/beanbag)
 	options["Energy - Smartgun"] = list(/obj/item/weapon/gun/energy/gun/secure)
