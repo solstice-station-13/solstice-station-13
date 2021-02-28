@@ -1,6 +1,6 @@
 /datum/gear/accessory/solawardmajor
-	display_name = "SolGov major award selection"
-	description = "A medal or ribbon awarded to SolGov personnel for significant accomplishments."
+	display_name = "Federation major award selection"
+	description = "A medal or ribbon awarded to Federation personnel for significant accomplishments."
 	path = /obj/item/clothing/accessory
 	cost = 8
 	allowed_branches = SOLGOV_BRANCHES
@@ -19,8 +19,8 @@
 	gear_tweaks += new/datum/gear_tweak/path(solmajors)
 
 /datum/gear/accessory/solawardminor
-	display_name = "SolGov minor award selection"
-	description = "A medal or ribbon awarded to SolGov personnel for minor accomplishments."
+	display_name = "Federation minor award selection"
+	description = "A medal or ribbon awarded to Federation personnel for minor accomplishments."
 	path = /obj/item/clothing/accessory
 	cost = 5
 	allowed_branches = SOLGOV_BRANCHES
@@ -54,9 +54,9 @@
 	allowed_branches = list(/datum/mil_branch/expeditionary_corps)
 
 /datum/gear/accessory/torch_patch
-	display_name = "Torch mission patch"
+	display_name = "Solstice mission patch"
 	path = /obj/item/clothing/accessory/solgov/torch_patch
-	description = "A shoulder patch representing the SEV Torch and its mission. Given to all the oddjobs pulled from various branches to work on the Torch."
+	description = "A shoulder patch representing the TEV Solstice and its mission. Given to all the oddjobs pulled from various branches to work on the Torch."
 
 /datum/gear/accessory/pilot_pin
 	display_name = "pilot's qualification pin"
