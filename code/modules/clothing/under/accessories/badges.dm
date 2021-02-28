@@ -175,7 +175,7 @@
 	badge_string = "Corporate Executive Body"
 
 /obj/item/clothing/accessory/badge/agent
-	name = "\improper TMB Agent's badge"
+	name = "\improper Marshal's badge"
 	desc = "A leather-backed gold badge displaying the crest of the Terran Marshals Bureau."
 	icon_state = "agentbadge"
 	slot_flags = SLOT_BELT | SLOT_TIE | SLOT_MASK
@@ -184,7 +184,7 @@
 
 /obj/item/clothing/accessory/badge/tracker
 	name = "\improper Tracker's badge"
-	desc = "A blue leather-backed gold badge displaying the crest of the Sol Federal Police."
+	desc = "A blue leather-backed gold badge displaying the crest of the Terran Marshals Bureau."
 	icon_state = "trackerbadge"
 	slot_flags = SLOT_BELT | SLOT_TIE
 	slot = ACCESSORY_SLOT_INSIGNIA
