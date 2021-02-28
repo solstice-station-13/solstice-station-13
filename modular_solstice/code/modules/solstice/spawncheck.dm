@@ -99,6 +99,7 @@
 	if(!character)
 		return 0
 
+	move_to_spawnpoint(character, job.title, 1)
 	character = SSjobs.equip_rank(character, job.title, 1)					//equips the human
 //	equip_custom_items(character)
 

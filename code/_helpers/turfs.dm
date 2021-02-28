@@ -41,6 +41,14 @@
 	if(turfs.len)
 		return pick(turfs)
 
+/proc/is_turf_atmos_unsafe(var/turf/T)
+	if(istype(T, /turf/space)) // Space tiles
+		return "Spawn location is open to space."
+	var/datum/gas_mixture/air = T.return_air()
+	if(!air)
+		return "Spawn location lacks atmosphere."
+	return get_atmosphere_issues(air, 1)
+
 /proc/screen_loc2turf(text, turf/origin)
 	if(!origin)
 		return null
