@@ -31,7 +31,7 @@
 \[xynlogo\] - Inserts the Xyngergy logo.<br>
 \[iccgseal\] - Inserts ICCG seal.<br>
 \[fleetlogo\] - Inserts the logo of the Terran Navy.<br>
-\[sfplogo\] - Inserts the logo of the Terran Marshals Bureau.<br><br>
+\[sfplogo\] - Inserts the logo of the Terran Marshals Service.<br><br>
 <b>Digital exclusive commands (NanoWord, emails, reports, text files, etc):</b><br>
 \[pre\] - \[/pre\] : Adds preformatted text, forcing the text to be fixed width.<br>
 \[fontred\] - \[/font\] : Makes the text red.<br>
