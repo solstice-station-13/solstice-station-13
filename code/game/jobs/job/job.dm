@@ -449,6 +449,16 @@
 
 	return spawnpos
 
+
+
+
+
+
+
+
+
+
+
 /datum/job/proc/post_equip_rank(var/mob/person, var/alt_title)
 	if(is_semi_antagonist && person.mind)
 		GLOB.provocateurs.add_antagonist(person.mind)

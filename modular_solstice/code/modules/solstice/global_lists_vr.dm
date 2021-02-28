@@ -11,6 +11,7 @@ var/global/list/positive_traits = list()	// Positive custom species traits, inde
 var/global/list/traits_costs = list()		// Just path = cost list, saves time in char setup
 var/global/list/all_traits = list() // All of 'em at once (same instances)
 var/global/list/custom_species_bases = list() // Species that can be used for a Custom Species icon base
+var/global/list/all_jobs = list()			// All jobs
 
 /hook/startup/proc/init_vore_datum_ref_lists() //TODO: Restructure this to remove 'vore' if possible
 	var/paths

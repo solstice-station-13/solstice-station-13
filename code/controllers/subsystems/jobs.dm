@@ -26,6 +26,12 @@ SUBSYSTEM_DEF(jobs)
 	var/list/job_icons =               list()
 
 /datum/controller/subsystem/jobs/Initialize(timeofday)
+	// Create list of all known jobs
+
+	for(var/jtype in subtypesof(/datum/job))
+		var/datum/job/job = jtype
+		report_progress("aaa '[job]' '' '[initial(job.title)]'")
+		all_jobs += initial(job.title)
 
 	// Create main map jobs.
 	primary_job_datums.Cut()
@@ -474,21 +480,6 @@ SUBSYSTEM_DEF(jobs)
 
 	H.job = rank
 
-	if(!joined_late || job.latejoin_at_spawnpoints)
-		var/obj/S = job.get_roundstart_spawnpoint()
-
-		if(istype(S, /obj/effect/landmark/start) && istype(S.loc, /turf))
-			H.forceMove(S.loc)
-		else
-			var/datum/spawnpoint/spawnpoint = job.get_spawnpoint(H.client)
-			H.forceMove(pick(spawnpoint.turfs))
-			spawnpoint.after_join(H)
-
-		// Moving wheelchair if they have one
-		if(H.buckled && istype(H.buckled, /obj/structure/bed/chair/wheelchair))
-			H.buckled.forceMove(H.loc)
-			H.buckled.set_dir(H.dir)
-
 	// If they're head, give them the account info for their department
 	if(H.mind && job.head_position)
 		var/remembered_info = ""
@@ -563,3 +554,72 @@ SUBSYSTEM_DEF(jobs)
 			continue
 		empty_playable_ai_cores += new /obj/structure/AIcore/deactivated(get_turf(S))
 	return 1
+
+
+
+/**
+ *  Return appropriate /datum/spawnpoint for given client and rank
+ *
+ *  Spawnpoint will be the one set in preferences for the client, unless the
+ *  preference is not set, or the preference is not appropriate for the rank, in
+ *  which case a fallback will be selected.
+ */
+/datum/controller/subsystem/jobs/proc/get_spawnpoint_for(var/client/C, var/rank, late = FALSE)
+
+	if(!C)
+		CRASH("Null client passed to get_spawnpoint_for() proc!")
+
+	var/mob/H = C.mob
+	var/pref_spawn = C.prefs.spawnpoint
+
+	var/datum/spawnpoint/SP
+
+
+
+	//First of all, lets try to get the "default" spawning point.
+	if(late)
+		if(pref_spawn)
+			SP = get_spawn_point(pref_spawn, late = TRUE)
+		else
+			SP = get_spawn_point(GLOB.using_map.default_spawn, late = TRUE)
+			to_chat(H, SPAN_WARNING("You have not selected spawnpoint in preference menu."))
+	else
+		SP = get_spawn_point(rank)
+
+	//Test the default spawn we just got
+	//Feeding true to the report var here will allow the user to choose to spawn anyway
+	if (SP && SP.can_spawn(H, rank, TRUE))
+		return SP
+
+	else
+		//The above didn't work, okay lets start testing spawnpoints at random until we find a place we can spawn
+		//Todo: Add in pref options to specify an ordered priority list for spawning locations
+		var/list/spawns = get_late_spawntypes()
+		var/list/possibilities = spawns.Copy() //The above proc returns a pointer to the list, we need to copy it so we dont modify the original
+		if (istype(SP))
+			possibilities -= SP.display_name //Lets subtract the one we already tested
+		SP = null
+
+		while (possibilities.len)
+			//Randomly pick things from our shortlist
+			var/spawn_name = pick(possibilities)
+			SP = possibilities[spawn_name]
+			possibilities -= spawn_name //Then remove them from that list of course
+
+			if(SP.can_spawn(H, rank))
+				return SP
+			else
+				to_chat(H, SPAN_WARNING("Unable to spawn you at [SP.display_name].")) // you will be assigned default one which is \"[SP.display_name]\"."
+
+	// No spawn point? Something is fucked.
+	// Pick the default one.
+	to_chat(H, SPAN_WARNING("Unable to locate any safe spawn point. Have fun!"))
+	SP = get_spawn_point("Aft Cryogenic Storage")
+
+	// Still no spawn point? Return the first spawn point on the list.
+	if(!SP)
+		var/list/possibilities = get_late_spawntypes()
+		SP = possibilities[possibilities[1]]
+
+	return SP
+

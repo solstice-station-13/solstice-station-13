@@ -54,6 +54,7 @@
 		<option value='?_src_=vars;remorgan=\ref[src]'>Remove Organ</option>
 
 		<option value='?_src_=vars;fix_nano=\ref[src]'>Fix NanoUI</option>
+		<option value='?_src_=vars;saveTemplate=\ref[src]'>Save as Template</option>
 
 		<option value='?_src_=vars;addverb=\ref[src]'>Add Verb</option>
 		<option value='?_src_=vars;remverb=\ref[src]'>Remove Verb</option>

@@ -533,6 +533,9 @@
 			message_admins("<span class='notice'>[key_name(usr)] dealt [amount] amount of [Text] damage to [L]</span>")
 			href_list["datumrefresh"] = href_list["mobToDamage"]
 
+	else if(href_list["saveTemplate"])
+		save_mob_template(href, href_list, hsrc)
+
 	else if(href_list["call_proc"])
 		var/datum/D = locate(href_list["call_proc"])
 		if(istype(D) || istype(D, /client)) // can call on clients too, not just datums

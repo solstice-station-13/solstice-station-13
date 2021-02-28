@@ -304,3 +304,15 @@ var/list/slot_equipment_priority = list( \
 		var/obj/item/I = entry
 		if(I.body_parts_covered & body_parts)
 			. += I
+
+/mob/proc/equip_to_mob_best_effort(obj/item/Item)
+	if(!Item)
+		return
+
+	if(equip_to_appropriate_slot(Item))
+		return Item
+
+	if(src.equip_to_storage_or_drop(Item))
+		return Item
+
+	return Item

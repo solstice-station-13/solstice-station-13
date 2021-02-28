@@ -3202,6 +3202,7 @@
 #include "modular_solstice\code\__defines\species.dm"
 #include "modular_solstice\code\_onclick\click.dm"
 #include "modular_solstice\code\datums\mutable_appearance.dm"
+#include "modular_solstice\code\game\admin\verbs\randomverbs\characterspawning.dm"
 #include "modular_solstice\code\game\dna\dna_modifier.dm"
 #include "modular_solstice\code\game\machinery\cloning.dm"
 #include "modular_solstice\code\game\machinery\cryopod.dm"

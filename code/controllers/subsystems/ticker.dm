@@ -321,6 +321,7 @@ Helpers
 			if(player.mind.assigned_role == "Captain")
 				captainless=0
 			if(!player_is_antag(player.mind, only_offstation_roles = 1))
+				move_to_spawnpoint(player, player.mind.assigned_role, 0)
 				SSjobs.equip_rank(player, player.mind.assigned_role, 0)
 				SScustomitems.equip_custom_items(player)
 	if(captainless)
