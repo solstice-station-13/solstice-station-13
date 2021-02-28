@@ -7,7 +7,7 @@
 /obj/effect/overmap/visitable/ship/landable/verne
 	name = "SRV Venerable Catfish"
 	shuttle = "SRV Venerable Catfish"
-	desc = "An SSE-U17 long range shuttle, broadcasting SCGRV codes and the callsign \"SRV Verne-1 Venerable Catfish\"."
+	desc = "An SSE-U17 long range shuttle, broadcasting TFRV codes and the callsign \"SRV Verne-1 Venerable Catfish\"."
 	fore_dir = NORTH
 	vessel_size = SHIP_SIZE_SMALL
 	moving_state = "ship_moving"
@@ -55,7 +55,7 @@
 	landmark_tag = "nav_verne_4"
 
 /obj/effect/shuttle_landmark/nav_verne/torch
-	name = "SEV Torch Venerable Catfish Dock"
+	name = "TEV Solstice Venerable Catfish Dock"
 	landmark_tag = "nav_verne_5"
 
 /obj/effect/shuttle_landmark/transit/verne
