@@ -40,7 +40,7 @@
 	department_flag = COM
 	minimal_player_age = 14
 	economic_power = 14
-	minimum_character_age = list(SPECIES_HUMAN = 35)
+	minimum_character_age = 35
 	ideal_character_age = 45
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/XO
 	allowed_branches = list(
