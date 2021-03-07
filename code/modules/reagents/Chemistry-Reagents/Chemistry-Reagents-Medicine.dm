@@ -50,6 +50,32 @@
 			if(E.status & ORGAN_ARTERY_CUT && prob(2))
 				E.status &= ~ORGAN_ARTERY_CUT
 
+/datum/reagent/vermicetol
+	name = "Vermicetol"
+	description = "A potent chemical that treats physical damage at an exceptional rate."
+	taste_description = "bitter meat"
+	taste_mult = 3
+	reagent_state = LIQUID
+	color = "#bf0000"
+	overdose = REAGENTS_OVERDOSE * 0.5
+	scannable = 1
+	flags = IGNORE_MOB_SIZE
+	value = 5.9
+
+/datum/reagent/vermicetol/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
+	if(alien != IS_DIONA)
+		M.heal_organ_damage(8 * removed, 0)
+		M.add_chemical_effect(CE_PAINKILLER, 10)
+
+/datum/reagent/vermicetol/overdose(var/mob/living/carbon/M, var/alien)
+	..()
+	if(ishuman(M))
+		M.add_chemical_effect(CE_BLOCKAGE, (15 + volume - overdose)/100)
+		var/mob/living/carbon/human/H = M
+		for(var/obj/item/organ/external/E in H.organs)
+			if(E.status & ORGAN_ARTERY_CUT && prob(2))
+				E.status &= ~ORGAN_ARTERY_CUT
+
 /datum/reagent/kelotane
 	name = "Kelotane"
 	description = "Kelotane is a drug used to treat burns."
@@ -105,6 +131,47 @@
 		M.add_up_to_chemical_effect(CE_ANTITOX, 1)
 
 	var/removing = (4 * removed)
+	var/datum/reagents/ingested = M.get_ingested_reagents()
+	for(var/datum/reagent/R in ingested.reagent_list)
+		if((remove_generic && istype(R, /datum/reagent/toxin)) || (R.type in remove_toxins))
+			ingested.remove_reagent(R.type, removing)
+			return
+	for(var/datum/reagent/R in M.reagents.reagent_list)
+		if((remove_generic && istype(R, /datum/reagent/toxin)) || (R.type in remove_toxins))
+			M.reagents.remove_reagent(R.type, removing)
+			return
+
+/datum/reagent/carthatoline
+	name = "Carthatoline"
+	description = "Carthatoline is a strong evacuant used to treat severe poisoning."
+	taste_description = "bitter gauze"
+	reagent_state = LIQUID
+	color = "#225722"
+	scannable = 1
+	flags = IGNORE_MOB_SIZE
+	value = 2.1
+	var/remove_generic = 1
+	var/list/remove_toxins = list(
+		/datum/reagent/toxin/zombiepowder
+	)
+
+/datum/reagent/carthatoline/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
+	if(alien == IS_DIONA)
+		return
+
+	if(ishuman(M))
+		var/mob/living/carbon/human/H = M
+		var/obj/item/organ/internal/liver/L = H.internal_organs_by_name[BP_LIVER]
+		if(H && istype(H))
+			if(L.damage > 0)
+				L.damage = max(L.damage - 3 * removed, 0)
+
+	if(remove_generic)
+		M.drowsyness = max(0, M.drowsyness - 6 * removed)
+		M.adjust_hallucination(-9 * removed)
+		M.add_up_to_chemical_effect(CE_ANTITOX, 1)
+
+	var/removing = (8 * removed)
 	var/datum/reagents/ingested = M.get_ingested_reagents()
 	for(var/datum/reagent/R in ingested.reagent_list)
 		if((remove_generic && istype(R, /datum/reagent/toxin)) || (R.type in remove_toxins))
@@ -463,6 +530,50 @@
 					if(I.damage >= I.min_bruised_damage)
 						continue
 				I.heal_damage(removed)
+
+/datum/reagent/peridaxonplus
+	name = "Peridaxon Plus"
+	description = "Used in extreme emergencies to repair internal damages. Extreme caution is needed when medicating."
+	taste_description = "bitterness"
+	reagent_state = LIQUID
+	color = "#561ec3"
+	overdose = 5
+	scannable = 1
+	flags = IGNORE_MOB_SIZE
+	value = 12
+
+/datum/reagent/peridaxonplus/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
+	if(ishuman(M))
+		var/mob/living/carbon/human/H = M
+		for(var/obj/item/organ/internal/I in H.internal_organs)
+			if(!BP_IS_ROBOTIC(I))
+				if(I.organ_tag == BP_BRAIN)
+					// if we have located an organic brain, apply side effects
+					H.confused++
+					H.drowsyness++
+					// peridaxon only heals minor brain damage
+					if(I.damage >= I.min_bruised_damage)
+						continue
+				I.heal_damage(removed)
+
+/datum/reagent/respirodaxon
+	name = "Respirodaxon"
+	description = "Used to treat damage to the lungs."
+	taste_description = "bitter air"
+	reagent_state = LIQUID
+	color = "#000080"
+	overdose = 10
+	scannable = 1
+	flags = IGNORE_MOB_SIZE
+	value = 5
+
+/datum/reagent/respirodaxon/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
+	if(ishuman(M))
+		var/mob/living/carbon/human/H = M
+		var/obj/item/organ/internal/lungs/L = H.internal_organs_by_name[BP_LUNGS]
+		if(H && istype(H))
+			if(L.damage > 0)
+				L.damage = max(L.damage - 5 * removed, 0)
 
 /datum/reagent/ryetalyn
 	name = "Ryetalyn"
