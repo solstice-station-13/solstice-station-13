@@ -11,7 +11,7 @@
 	display_name = "army fatigues selection"
 	path = /obj/item/clothing/under/solgov/utility/army
 	
-/datum/gear/uniform/dress/New()
+/datum/gear/uniform/armyfatigues/New()
 	..()
 	var/armyfatigues = list()
 	armyfatigues += /obj/item/clothing/under/solgov/utility/army/urban
