@@ -14,11 +14,9 @@
 
 	utility_under = /obj/item/clothing/under/solgov/utility/army
 	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban
-	utility_under_tan = /obj/item/clothing/under/solgov/utility/army/tan
 	utility_shoes = /obj/item/clothing/shoes/dutyboots
 	utility_hat = /obj/item/clothing/head/solgov/utility/army
 	utility_hat_urban = /obj/item/clothing/head/solgov/utility/army/urban
-	utility_hat_tan = /obj/item/clothing/head/solgov/utility/army/tan
 	utility_extra = list(
 		/obj/item/clothing/head/beret/solgov,
 		/obj/item/clothing/head/ushanka/solgov/army,
@@ -49,7 +47,6 @@
 
 	utility_under = /obj/item/clothing/under/solgov/utility/army/command
 	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/command
-	utility_under_tan = /obj/item/clothing/under/solgov/utility/army/tan/command
 	utility_extra = list(
 		/obj/item/clothing/under/solgov/utility/army/command,
 		/obj/item/clothing/head/beret/solgov,
@@ -80,7 +77,6 @@
 
 	utility_under = /obj/item/clothing/under/solgov/utility/army/engineering
 	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/engineering
-	utility_under_tan = /obj/item/clothing/under/solgov/utility/army/tan/engineering
 	utility_extra = list(
 		/obj/item/clothing/head/beret/solgov,
 		/obj/item/clothing/head/ushanka/solgov/army,
@@ -140,7 +136,6 @@
 
 	utility_under = /obj/item/clothing/under/solgov/utility/army/security
 	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/security
-	utility_under_tan = /obj/item/clothing/under/solgov/utility/army/tan/security
 	utility_extra = list(
 		/obj/item/clothing/head/beret/solgov,
 		/obj/item/clothing/head/ushanka/solgov/army,
@@ -200,7 +195,6 @@
 
 	utility_under = /obj/item/clothing/under/solgov/utility/army/medical
 	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/medical
-	utility_under_tan = /obj/item/clothing/under/solgov/utility/army/tan/medical
 	utility_extra = list(
 		/obj/item/clothing/head/ushanka/solgov/army,
 		/obj/item/clothing/head/ushanka/solgov/army/green,
@@ -259,7 +253,6 @@
 
 	utility_under = /obj/item/clothing/under/solgov/utility/army/supply
 	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/supply
-	utility_under_tan = /obj/item/clothing/under/solgov/utility/army/tan/supply
 	utility_extra = list(
 		/obj/item/clothing/head/ushanka/solgov/army,
 		/obj/item/clothing/head/ushanka/solgov/army/green,
@@ -330,7 +323,6 @@
 
 	utility_under = /obj/item/clothing/under/solgov/utility/army/service
 	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/service
-	utility_under_tan = /obj/item/clothing/under/solgov/utility/army/tan/service
 	utility_extra = list(
 		/obj/item/clothing/head/ushanka/solgov/army,
 		/obj/item/clothing/head/ushanka/solgov/army/green,
@@ -378,7 +370,6 @@
 
 	utility_under = /obj/item/clothing/under/solgov/utility/army/exploration
 	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/exploration
-	utility_under_tan = /obj/item/clothing/under/solgov/utility/army/tan/exploration
 	utility_extra = list(
 		/obj/item/clothing/head/ushanka/solgov/army,
 		/obj/item/clothing/head/ushanka/solgov/army/green,
@@ -454,7 +445,6 @@
 
 	utility_under = /obj/item/clothing/under/solgov/utility/army/command
 	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/command
-	utility_under_tan = /obj/item/clothing/under/solgov/utility/army/tan/command
 
 	service_hat = /obj/item/clothing/head/solgov/service/army/command
 	service_over = /obj/item/clothing/suit/storage/solgov/service/army/command
@@ -480,7 +470,6 @@
 
 	utility_under = /obj/item/clothing/under/solgov/utility/army/command
 	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/command
-	utility_under_tan = /obj/item/clothing/under/solgov/utility/army/tan/command
 
 	service_hat = /obj/item/clothing/head/solgov/service/army/command
 	service_over = /obj/item/clothing/suit/storage/solgov/service/army/command
