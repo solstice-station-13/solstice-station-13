@@ -1,5 +1,5 @@
 // Branch-specific defines
-#define UNRESTRICTED /datum/mil_branch/civilian, /datum/mil_branch/nanotrasen, /datum/mil_branch/expeditionary_corps, /datum/mil_branch/solgov, /datum/mil_branch/fleet
+#define UNRESTRICTED /datum/mil_branch/civilian, /datum/mil_branch/nanotrasen, /datum/mil_branch/expeditionary_corps, /datum/mil_branch/solgov, /datum/mil_branch/army, /datum/mil_branch/fleet
 #define SEMIRESTRICTED /datum/mil_branch/civilian, /datum/mil_branch/nanotrasen, /datum/mil_branch/expeditionary_corps
 #define RESTRICTED /datum/mil_branch/civilian, /datum/mil_branch/nanotrasen
 
