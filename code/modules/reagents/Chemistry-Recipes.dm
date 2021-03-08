@@ -91,6 +91,13 @@
 	required_reagents = list(/datum/reagent/silicon = 1, /datum/reagent/potassium = 1, /datum/reagent/ammonia = 1)
 	result_amount = 3
 
+/datum/chemical_reaction/carthatoline
+	name = "Carthatoline"
+	result = /datum/reagent/carthatoline
+	required_reagents = list(/datum/reagent/dylovene = 2, /datum/reagent/toxin/phoron = 1)
+	catalysts = list(/datum/reagent/toxin/phoron = 5)
+	result_amount = 2
+
 /datum/chemical_reaction/tramadol
 	name = "Tramadol"
 	result = /datum/reagent/tramadol
@@ -183,6 +190,20 @@
 	catalysts = list(/datum/reagent/toxin/phoron = 5)
 	result_amount = 2
 
+/datum/chemical_reaction/peridaxonplus
+	name = "Peridaxon Plus"
+	result = /datum/reagent/peridaxonplus
+	required_reagents = list(/datum/reagent/bicaridine = 2, /datum/reagent/respirodaxon = 2, /datum/reagent/toxin/phoron = 1)
+	catalysts = list(/datum/reagent/toxin/phoron = 5)
+	result_amount = 1
+
+/datum/chemical_reaction/respirodaxon
+	name = "Respirodaxon"
+	result = /datum/reagent/respirodaxon
+	required_reagents = list(/datum/reagent/bicaridine = 2, /datum/reagent/dexalinp = 2)
+	catalysts = list(/datum/reagent/toxin/phoron = 5)
+	result_amount = 2
+
 /datum/chemical_reaction/leporazine
 	name = "Leporazine"
 	result = /datum/reagent/leporazine
@@ -236,6 +257,13 @@
 	result = /datum/reagent/bicaridine
 	required_reagents = list(/datum/reagent/inaprovaline = 1, /datum/reagent/carbon = 1)
 	inhibitors = list(/datum/reagent/sugar = 1) // Messes up with inaprovaline
+	result_amount = 2
+
+/datum/chemical_reaction/vermicetol
+	name = "Vermicetol"
+	result = /datum/reagent/vermicetol
+	required_reagents = list(/datum/reagent/bicaridine = 2, /datum/reagent/dermaline = 2, /datum/reagent/toxin/phoron = 1)
+	catalysts = list(/datum/reagent/toxin/phoron = 5)
 	result_amount = 2
 
 /datum/chemical_reaction/hyperzine
