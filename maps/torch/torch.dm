@@ -22,6 +22,7 @@
 	#include "torch_unit_testing.dm"
 
 	#include "datums/uniforms.dm"
+	#include "datums/uniforms_army.dm"
 	#include "datums/uniforms_expedition.dm"
 	#include "datums/uniforms_fleet.dm"
 	#include "datums/game_modes/torch_traitor.dm"
