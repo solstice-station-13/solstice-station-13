@@ -11,7 +11,7 @@
 /datum/gear/tactical/solgov
 	display_name = "Federation Flag tag"
 	path = /obj/item/clothing/accessory/armor/tag/solgov
-	allowed_branches = SOLGOV_BRANCHES
+	allowed_branches = list(/datum/mil_branch/fleet, /datum/mil_branch/army, /datum/mil_branch/expeditionary_corps)
 	cost = 0 // Uniformed branches would require one.
 	
 // Separating main's certain armor customization items.
