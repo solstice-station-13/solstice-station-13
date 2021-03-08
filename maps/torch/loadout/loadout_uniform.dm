@@ -4,6 +4,11 @@
 	
 /datum/gear/uniform/fleetfatigues
 	allowed_branches = list(/datum/mil_branch/fleet)
+	cost = 0
+	
+/datum/gear/uniform/armyfatigues
+	allowed_branches = list(/datum/mil_branch/army)
+	cost = 0
 
 /datum/gear/uniform/utility
 	display_name = "Contractor Utility Uniform"
