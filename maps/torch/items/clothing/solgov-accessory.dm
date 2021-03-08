@@ -713,11 +713,11 @@ ranks - marines
 	icon_state = "armyrank_enlisted"
 
 /obj/item/clothing/accessory/solgov/rank/army/enlisted/e2
-	name = "ranks (E-2 private second class)"
+	name = "ranks (E-2 private first class)"
 	desc = "Insignia denoting the rank of Private Second Class."
 
 /obj/item/clothing/accessory/solgov/rank/army/enlisted/e3
-	name = "ranks (E-3 private first class)"
+	name = "ranks (E-3 lance corporal)"
 	desc = "Insignia denoting the rank of Private First Class."
 
 /obj/item/clothing/accessory/solgov/rank/army/enlisted/e4
@@ -733,8 +733,8 @@ ranks - marines
 	desc = "Insignia denoting the rank of Staff Sergeant."
 
 /obj/item/clothing/accessory/solgov/rank/army/enlisted/e7
-	name = "ranks (E-7 sergeant first class)"
-	desc = "Insignia denoting the rank of Sergeant First Class."
+	name = "ranks (E-7 gunnery sergeant)"
+	desc = "Insignia denoting the rank of Gunnery Sergeant."
 
 /obj/item/clothing/accessory/solgov/rank/army/enlisted/e8
 	name = "ranks (E-8 master sergeant)"
@@ -745,12 +745,12 @@ ranks - marines
 	desc = "Insignia denoting the rank of First Sergeant."
 
 /obj/item/clothing/accessory/solgov/rank/army/enlisted/e9
-	name = "ranks (E-9 sergeant major)"
-	desc = "Insignia denoting the rank of Sergeant Major."
+	name = "ranks (E-9 master gunnery sergeant)"
+	desc = "Insignia denoting the rank of Master Gunnery Sergeant."
 
 /obj/item/clothing/accessory/solgov/rank/army/enlisted/e9_alt1
-	name = "ranks (E-9 command sergeant major)"
-	desc = "Insignia denoting the rank of Command Sergeant Major."
+	name = "ranks (E-9 sergeant major)"
+	desc = "Insignia denoting the rank of Sergeant Major."
 
 /obj/item/clothing/accessory/solgov/rank/army/enlisted/e9_alt2
 	name = "ranks (E-9 sergeant major of the Army)"
