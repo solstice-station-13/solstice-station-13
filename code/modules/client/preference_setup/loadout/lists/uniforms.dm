@@ -6,6 +6,17 @@
 /datum/gear/uniform/fleetfatigues
 	display_name = "navy fatigues"
 	path = /obj/item/clothing/under/solgov/utility/fleet/combat
+	
+/datum/gear/uniform/armyfatigues
+	display_name = "army fatigues selection"
+	path = /obj/item/clothing/under/solgov/utility/army
+	
+/datum/gear/uniform/armyfatigues/New()
+	..()
+	var/armyfatigues = list()
+	armyfatigues += /obj/item/clothing/under/solgov/utility/army/urban
+	armyfatigues += /obj/item/clothing/under/solgov/utility/army/navy
+	gear_tweaks += new/datum/gear_tweak/path/specified_types_list(armyfatigues)
 
 /datum/gear/uniform/jumpsuit
 	display_name = "jumpsuit, colour select"

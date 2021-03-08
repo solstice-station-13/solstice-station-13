@@ -3,6 +3,17 @@
 	slot = slot_head
 	category = /datum/gear/head
 
+/datum/gear/head/armycover
+	display_name = "army cover selection"
+	path = /obj/item/clothing/head/solgov/utility/army/
+	
+/datum/gear/head/armycover/New()
+	..()
+	var/armycover = list()
+	armycover += /obj/item/clothing/head/solgov/utility/army/urban
+	armycover += /obj/item/clothing/head/solgov/utility/army/navy
+	gear_tweaks += new/datum/gear_tweak/path/specified_types_list(armycover)
+
 /datum/gear/head/beret
 	display_name = "beret, colour select"
 	path = /obj/item/clothing/head/beret/plaincolor

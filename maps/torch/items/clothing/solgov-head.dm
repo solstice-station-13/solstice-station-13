@@ -64,6 +64,11 @@
 	name = "urban utility cover"
 	desc = "A grey utility cover bearing the crest of the Terran Army."
 	icon_state = "greyutility"
+	
+/obj/item/clothing/head/solgov/utility/army/navy
+	name = "navy utility cover"
+	desc = "A navy blue utility cover bearing the crest of the Terran Army."
+	icon_state = "navyutility"
 
 //Service
 
