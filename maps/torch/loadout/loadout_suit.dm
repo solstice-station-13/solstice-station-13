@@ -104,7 +104,7 @@
 /datum/gear/tactical/pcarrier/navy
 	display_name = "navy blue plate carrier"
 	path = /obj/item/clothing/suit/armor/pcarrier/navy
-	allowed_branches = list(/datum/mil_branch/fleet, /datum/mil_branch/civilian)
+	allowed_branches = list(/datum/mil_branch/fleet, /datum/mil_branch/army, /datum/mil_branch/civilian)
 
 /datum/gear/tactical/pcarrier/misc
 	display_name = "miscellaneous plate carrier selection"
@@ -119,7 +119,7 @@
 	gear_tweaks += new/datum/gear_tweak/path(armors)
 
 /datum/gear/suit/sfp
-	display_name = "Agent's jacket"
+	display_name = "marshal's jacket"
 	path = /obj/item/clothing/suit/storage/toggle/agent_jacket
 	allowed_roles = list(/datum/job/detective)
 	allowed_branches = list(/datum/mil_branch/solgov)
