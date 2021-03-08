@@ -32,6 +32,19 @@
 	path = /obj/item/clothing/head/solgov/utility/fleet
 	cost = 0
 	allowed_branches = list(/datum/mil_branch/fleet)
+	
+/datum/gear/head/armycover
+	display_name = "utilty cover selection"
+	path = /obj/item/clothing/head/solgov/utility/army/
+	cost = 0
+	allowed_branches = list(/datum/mil_branch/army)
+	
+/datum/gear/head/armycover/New()
+	..()
+	var/armycover = list()
+	armycover = /obj/item/clothing/head/solgov/utility/army/urban
+	armycover = /obj/item/clothing/head/solgov/utility/army/navy
+	gear_tweaks += new/datum/gear_tweak/path(armycover)
 
 /datum/gear/head/fleetcap
 	display_name = "fleet cap"
