@@ -357,7 +357,7 @@
 		/datum/mil_rank/fleet/e8,
 		/datum/mil_rank/fleet/e9_alt1,
 		/datum/mil_rank/fleet/e9,
-		/datum/mil_rank/army/e8,
+		/datum/mil_rank/army/e8_alt,
 		/datum/mil_rank/army/e9_alt1,
 		/datum/mil_rank/army/e9
 	)
