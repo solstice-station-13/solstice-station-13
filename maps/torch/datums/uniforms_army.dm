@@ -46,7 +46,7 @@
 	departments = COM
 
 	utility_under = /obj/item/clothing/under/solgov/utility/army/command
-	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/command
+	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban
 	utility_extra = list(
 		/obj/item/clothing/under/solgov/utility/army/command,
 		/obj/item/clothing/head/beret/solgov,
@@ -76,7 +76,7 @@
 	departments = ENG
 
 	utility_under = /obj/item/clothing/under/solgov/utility/army/engineering
-	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/engineering
+	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban
 	utility_extra = list(
 		/obj/item/clothing/head/beret/solgov,
 		/obj/item/clothing/head/ushanka/solgov/army,
@@ -135,7 +135,7 @@
 	departments = SEC
 
 	utility_under = /obj/item/clothing/under/solgov/utility/army/security
-	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/security
+	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban
 	utility_extra = list(
 		/obj/item/clothing/head/beret/solgov,
 		/obj/item/clothing/head/ushanka/solgov/army,
@@ -194,7 +194,7 @@
 	departments = MED
 
 	utility_under = /obj/item/clothing/under/solgov/utility/army/medical
-	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/medical
+	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban
 	utility_extra = list(
 		/obj/item/clothing/head/ushanka/solgov/army,
 		/obj/item/clothing/head/ushanka/solgov/army/green,
@@ -252,7 +252,7 @@
 	departments = SUP
 
 	utility_under = /obj/item/clothing/under/solgov/utility/army/supply
-	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/supply
+	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban
 	utility_extra = list(
 		/obj/item/clothing/head/ushanka/solgov/army,
 		/obj/item/clothing/head/ushanka/solgov/army/green,
@@ -322,7 +322,7 @@
 	departments = SRV
 
 	utility_under = /obj/item/clothing/under/solgov/utility/army/service
-	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/service
+	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban
 	utility_extra = list(
 		/obj/item/clothing/head/ushanka/solgov/army,
 		/obj/item/clothing/head/ushanka/solgov/army/green,
@@ -369,7 +369,7 @@
 	departments = EXP
 
 	utility_under = /obj/item/clothing/under/solgov/utility/army/exploration
-	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/exploration
+	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban
 	utility_extra = list(
 		/obj/item/clothing/head/ushanka/solgov/army,
 		/obj/item/clothing/head/ushanka/solgov/army/green,
@@ -416,7 +416,7 @@
 	departments = SPT
 
 	utility_under = /obj/item/clothing/under/solgov/utility/army/command
-	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/command
+	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban
 
 /decl/hierarchy/mil_uniform/army/spt/noncom
 	name = "Army support NCO"
@@ -444,7 +444,7 @@
 	)
 
 	utility_under = /obj/item/clothing/under/solgov/utility/army/command
-	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/command
+	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban
 
 	service_hat = /obj/item/clothing/head/solgov/service/army/command
 	service_over = /obj/item/clothing/suit/storage/solgov/service/army/command
@@ -469,7 +469,7 @@
 	)
 
 	utility_under = /obj/item/clothing/under/solgov/utility/army/command
-	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban/command
+	utility_under_urban = /obj/item/clothing/under/solgov/utility/army/urban
 
 	service_hat = /obj/item/clothing/head/solgov/service/army/command
 	service_over = /obj/item/clothing/suit/storage/solgov/service/army/command
