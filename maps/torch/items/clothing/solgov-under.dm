@@ -266,12 +266,90 @@
 	item_state = "gy_suit"
 	worn_state = "greyutility"
 
+/obj/item/clothing/under/solgov/utility/army/urban/command
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/command/army)
+
+/obj/item/clothing/under/solgov/utility/army/urban/engineering
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/engineering/army)
+
+/obj/item/clothing/under/solgov/utility/army/urban/security
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/security/army)
+
+/obj/item/clothing/under/solgov/utility/army/urban/medical
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/medical/army)
+
+/obj/item/clothing/under/solgov/utility/army/urban/medical/banded
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/medical/army, /obj/item/clothing/accessory/armband/medblue)
+
+/obj/item/clothing/under/solgov/utility/army/urban/supply
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/supply/army)
+
+/obj/item/clothing/under/solgov/utility/army/urban/service
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/service/army)
+
+/obj/item/clothing/under/solgov/utility/army/urban/exploration
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/exploration/army)
+
 /obj/item/clothing/under/solgov/utility/army/tan
 	name = "tan fatigues"
 	desc = "A tan version of the Terran Army utility uniform, made from durable material."
 	icon_state = "tanutility"
 	item_state = "johnny"
 	worn_state = "tanutility"
+	
+/obj/item/clothing/under/solgov/utility/army/tan/command
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/command/army)
+
+/obj/item/clothing/under/solgov/utility/army/tan/engineering
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/engineering/army)
+
+/obj/item/clothing/under/solgov/utility/army/tan/security
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/security/army)
+
+/obj/item/clothing/under/solgov/utility/army/tan/medical
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/medical/army)
+
+/obj/item/clothing/under/solgov/utility/army/tan/medical/banded
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/medical/army, /obj/item/clothing/accessory/armband/medblue)
+
+/obj/item/clothing/under/solgov/utility/army/tan/supply
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/supply/army)
+
+/obj/item/clothing/under/solgov/utility/army/tan/service
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/service/army)
+
+/obj/item/clothing/under/solgov/utility/army/tan/exploration
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/exploration/army)
+	
+/obj/item/clothing/under/solgov/utility/army/navy
+	name = "navy fatigues"
+	desc = "Alternative utility uniform of the Terran Army, designed for ship use."
+	icon_state = "navycombat"
+	worn_state = "navycombat"
+	
+/obj/item/clothing/under/solgov/utility/army/navy/command
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/command/army)
+
+/obj/item/clothing/under/solgov/utility/army/navy/engineering
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/engineering/army)
+
+/obj/item/clothing/under/solgov/utility/army/navy/security
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/security/army)
+
+/obj/item/clothing/under/solgov/utility/army/navy/medical
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/medical/army)
+
+/obj/item/clothing/under/solgov/utility/army/navy/medical/banded
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/medical/army, /obj/item/clothing/accessory/armband/medblue)
+
+/obj/item/clothing/under/solgov/utility/army/navy/supply
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/supply/army)
+
+/obj/item/clothing/under/solgov/utility/army/navy/service
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/service/army)
+
+/obj/item/clothing/under/solgov/utility/army/navy/exploration
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/exploration/army)
 
 //Service
 
