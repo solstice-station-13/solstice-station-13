@@ -1,6 +1,8 @@
 /decl/hierarchy/mil_uniform
+	var/utility_under_navy = null
 	var/utility_under_urban = null
 	var/utility_under_tan = null
+	var/utility_hat_navy = null
 	var/utility_hat_urban = null
 	var/utility_hat_tan = null
 
