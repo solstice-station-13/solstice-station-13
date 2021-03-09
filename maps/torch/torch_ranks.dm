@@ -559,7 +559,7 @@
 
 /datum/mil_rank/army/e9
 	name = "Master Gunnery Sergeant"
-	name_short = "MgySgt"
+	name_short = "MGySgt"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/army/enlisted/e9)
 	sort_order = 9
 
