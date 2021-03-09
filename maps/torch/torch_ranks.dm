@@ -102,7 +102,7 @@
 
 /datum/mil_branch/fleet
 	name = "Terran Navy"
-	name_short = "TFN"
+	name_short = "Navy"
 	email_domain = "solstice.fleet.mil"
 
 	rank_types = list(
@@ -156,7 +156,7 @@
 
 /datum/mil_branch/army
 	name = "Terran Army"
-	name_short = "TFA"
+	name_short = "Army"
 	email_domain = "army.mil"
 
 	rank_types = list(
