@@ -102,7 +102,7 @@
 
 /datum/mil_branch/fleet
 	name = "Terran Navy"
-	name_short = "TFN"
+	name_short = "Navy"
 	email_domain = "solstice.fleet.mil"
 
 	rank_types = list(
@@ -156,7 +156,7 @@
 
 /datum/mil_branch/army
 	name = "Terran Army"
-	name_short = "TFA"
+	name_short = "Army"
 	email_domain = "army.mil"
 
 	rank_types = list(
@@ -559,7 +559,7 @@
 
 /datum/mil_rank/army/e9
 	name = "Master Gunnery Sergeant"
-	name_short = "MgySgt"
+	name_short = "MGySgt"
 	accessory = list(/obj/item/clothing/accessory/solgov/rank/army/enlisted/e9)
 	sort_order = 9
 
