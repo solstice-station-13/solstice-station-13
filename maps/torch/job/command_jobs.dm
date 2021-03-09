@@ -348,7 +348,7 @@
 	economic_power = 11
 	minimum_character_age = list(SPECIES_HUMAN = 35)
 	ideal_character_age = 45
-	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/sea/fleet
+	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/sea/
 	allowed_branches = list(
 		/datum/mil_branch/fleet,
 		/datum/mil_branch/army
