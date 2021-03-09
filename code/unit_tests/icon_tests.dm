@@ -11,7 +11,7 @@
 
 /datum/unit_test/icon_test/robots_shall_have_eyes_for_each_state/start_test()
 	var/missing_states = 0
-	var/list/valid_states = icon_states('icons/mob/robots.dmi') + icon_states('icons/mob/robots_drones.dmi') + icon_states('icons/mob/robots_flying.dmi')
+	var/list/valid_states = icon_states('icons/mob/robots.dmi') + icon_states('icons/mob/robots_drones.dmi') + icon_states('icons/mob/robots_flying.dmi') + icon_states('icons/mob/robots_wide.dmi')
 
 	var/list/original_valid_states = valid_states.Copy()
 	for(var/icon_state in valid_states)
