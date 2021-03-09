@@ -236,28 +236,28 @@
 	worn_state = "greenutility"
 
 /obj/item/clothing/under/solgov/utility/army/command
-	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/command/army)
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/command/fleet)
 
 /obj/item/clothing/under/solgov/utility/army/engineering
-	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/engineering/army)
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/engineering/fleet)
 
 /obj/item/clothing/under/solgov/utility/army/security
-	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/security/army)
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/security/fleet)
 
 /obj/item/clothing/under/solgov/utility/army/medical
-	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/medical/army)
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/medical/fleet)
 
 /obj/item/clothing/under/solgov/utility/army/medical/banded
 	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/medical/army, /obj/item/clothing/accessory/armband/medblue)
 
 /obj/item/clothing/under/solgov/utility/army/supply
-	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/supply/army)
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/supply/fleet)
 
 /obj/item/clothing/under/solgov/utility/army/service
-	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/service/army)
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/service/fleet)
 
 /obj/item/clothing/under/solgov/utility/army/exploration
-	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/exploration/army)
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/exploration/fleet)
 
 /obj/item/clothing/under/solgov/utility/army/urban
 	name = "urban fatigues"
@@ -267,28 +267,28 @@
 	worn_state = "greyutility"
 
 /obj/item/clothing/under/solgov/utility/army/urban/command
-	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/command/army)
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/command/fleet)
 
 /obj/item/clothing/under/solgov/utility/army/urban/engineering
-	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/engineering/army)
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/engineering/fleet)
 
 /obj/item/clothing/under/solgov/utility/army/urban/security
-	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/security/army)
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/security/fleet)
 
 /obj/item/clothing/under/solgov/utility/army/urban/medical
-	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/medical/army)
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/medical/fleet)
 
 /obj/item/clothing/under/solgov/utility/army/urban/medical/banded
 	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/medical/army, /obj/item/clothing/accessory/armband/medblue)
 
 /obj/item/clothing/under/solgov/utility/army/urban/supply
-	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/supply/army)
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/supply/fleet)
 
 /obj/item/clothing/under/solgov/utility/army/urban/service
-	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/service/army)
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/service/fleet)
 
 /obj/item/clothing/under/solgov/utility/army/urban/exploration
-	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/exploration/army)
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/exploration/fleet)
 
 /obj/item/clothing/under/solgov/utility/army/tan
 	name = "tan fatigues"
@@ -298,28 +298,28 @@
 	worn_state = "tanutility"
 	
 /obj/item/clothing/under/solgov/utility/army/tan/command
-	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/command/army)
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/command/fleet)
 
 /obj/item/clothing/under/solgov/utility/army/tan/engineering
-	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/engineering/army)
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/engineering/fleet)
 
 /obj/item/clothing/under/solgov/utility/army/tan/security
-	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/security/army)
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/security/fleet)
 
 /obj/item/clothing/under/solgov/utility/army/tan/medical
-	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/medical/army)
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/medical/fleet)
 
 /obj/item/clothing/under/solgov/utility/army/tan/medical/banded
 	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/medical/army, /obj/item/clothing/accessory/armband/medblue)
 
 /obj/item/clothing/under/solgov/utility/army/tan/supply
-	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/supply/army)
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/supply/fleet)
 
 /obj/item/clothing/under/solgov/utility/army/tan/service
-	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/service/army)
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/service/fleet)
 
 /obj/item/clothing/under/solgov/utility/army/tan/exploration
-	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/exploration/army)
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/exploration/fleet)
 	
 /obj/item/clothing/under/solgov/utility/army/navy
 	name = "navy fatigues"
@@ -328,28 +328,28 @@
 	worn_state = "navycombat"
 	
 /obj/item/clothing/under/solgov/utility/army/navy/command
-	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/command/army)
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/command/fleet)
 
 /obj/item/clothing/under/solgov/utility/army/navy/engineering
-	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/engineering/army)
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/engineering/fleet)
 
 /obj/item/clothing/under/solgov/utility/army/navy/security
-	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/security/army)
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/security/fleet)
 
 /obj/item/clothing/under/solgov/utility/army/navy/medical
-	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/medical/army)
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/medical/fleet)
 
 /obj/item/clothing/under/solgov/utility/army/navy/medical/banded
 	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/medical/army, /obj/item/clothing/accessory/armband/medblue)
 
 /obj/item/clothing/under/solgov/utility/army/navy/supply
-	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/supply/army)
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/supply/fleet)
 
 /obj/item/clothing/under/solgov/utility/army/navy/service
-	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/service/army)
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/service/fleet)
 
 /obj/item/clothing/under/solgov/utility/army/navy/exploration
-	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/exploration/army)
+	starting_accessories = list(/obj/item/clothing/accessory/solgov/department/exploration/fleet)
 
 //Service
 
