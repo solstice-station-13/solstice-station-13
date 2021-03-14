@@ -6,8 +6,9 @@
 	deform = 'modular_solstice/icons/mob/human_races/species/sergal/deformed_body.dmi'
 	husk_icon = 'modular_solstice/icons/mob/human_races/species/sergal/husk.dmi'
 	preview_icon = 'modular_solstice/icons/mob/human_races/species/sergal/preview.dmi'
+	modular_tail = 'modular_solstice/icons/mob/human_races/species/sergal/tail.dmi'
 	bandages_icon = 'icons/mob/bandage.dmi'
-	tail = "sergtail"
+	tail = "sergtail_s"
 	limb_blend = ICON_MULTIPLY
 	tail_blend = ICON_MULTIPLY
 	hidden_from_codex = FALSE
