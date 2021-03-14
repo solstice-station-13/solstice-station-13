@@ -20,13 +20,14 @@
 
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
 
-	description = "This is a genemodded species - either human or some of established ones. It can also work as \
-	subspecies or hybrid of some sorts. Here you can assign various gene traits to them as you wish, to create \
-	a (hopefully) balanced genemodder. You will see the options to customize them on the Genemods tab once \
-	you select and set this species as your species, so please, look into here if you select this."
+	description = "A broad term for a broader group of people. "Genemodder" encompasses everything that isn't one of the main human genetic lines, but is derived from the \
+	genetics of animals that originated from Earth. Canines and felines are the most common, but various other species exist. The defining trait is that they are \
+	ultimately bipedal and humanoid, but with heavy animal traits. They are ultimately considered human by the Federation, as most modifications won't include a neural \
+	remapping to make the person's mental state more animalistic. These modifications are often expensive if one opts for anything more than cosmetic work. More expensive \
+	variants allow the modified genes to be passed down."
 
 	min_age = 18
-	max_age = 200
+	max_age = 100
 	health_hud_intensity = 2
 
 	spawn_flags = SPECIES_CAN_JOIN
@@ -53,22 +54,7 @@
 			CULTURE_HUMAN_SPACER,
 			CULTURE_HUMAN_SPAFRO,
 			CULTURE_HUMAN_CONFED,
-			CULTURE_HUMAN_OTHER,
-			CULTURE_SKRELL_QERR,
-			CULTURE_SKRELL_MALISH,
-			CULTURE_SKRELL_KANIN,
-			CULTURE_SKRELL_TALUM,
-			CULTURE_SKRELL_RASKINTA,
-			CULTURE_UNATHI_YEOSA_ABYSS,
-			CULTURE_UNATHI_YEOSA_LITTORAL,
-			CULTURE_UNATHI_DIAMOND_PEAKS,
-			CULTURE_UNATHI_POLAR,
-			CULTURE_UNATHI_DESERT,
-			CULTURE_UNATHI_SAVANNAH,
-			CULTURE_UNATHI_SALT_SWAMP,
-			CULTURE_UNATHI_SPACE,
-			CULTURE_UNATHI_TERSTEN,
-
+			CULTURE_HUMAN_OTHER
 		),
 		TAG_FACTION = list(
 			FACTION_SOL_CENTRAL,
@@ -83,23 +69,7 @@
 			FACTION_FREETRADE,
 			FACTION_PCRC,
 			FACTION_DAIS,
-			FACTION_OTHER,
-			FACTION_SKRELL_QERRVOAL,
-			FACTION_SKRELL_QALAOA,
-			FACTION_SKRELL_YIITALANA,
-			FACTION_SKRELL_KRRIGLI,
-			FACTION_SKRELL_QONPRRI,
-			FACTION_UNATHI_HEGEMONY,
-			FACTION_UNATHI_TERSTEN_HEGEMONY,
-			FACTION_UNATHI_SSEN_UUMA,
-			FACTION_UNATHI_INDEPENDENT,
-			FACTION_UNATHI_BAASK,
-			FACTION_UNATHI_GRESIS,
-			FACTION_UNATHI_RAH_ZAKEH,
-			FACTION_UNATHI_KHARZA,
-			FACTION_SERGAL_GOLD_RING,
-			FACTION_SERGAL_SHIGU,
-			FACTION_SERGAL_REONO
+			FACTION_OTHER
 		),
 		TAG_RELIGION = list(
 			RELIGION_OTHER,
@@ -117,13 +87,7 @@
 			RELIGION_THELEMA,
 			RELIGION_SPIRITUALISM,
 			RELIGION_SHINTO,
-			RELIGION_TAOISM,
-			RELIGION_SERGAL_ANIMISM,
-			RELIGION_SERGAL_GOLD_RING,
-			RELIGION_UNATHI_VINE,
-			RELIGION_UNATHI_PRECURSOR,
-			RELIGION_UNATHI_STRATAGEM,
-			RELIGION_UNATHI_LIGHTS
+			RELIGION_TAOISM
 		),
 		TAG_HOMEWORLD = list(
 			HOME_SYSTEM_MARS,
@@ -142,14 +106,7 @@
 			HOME_SYSTEM_LORDANIA,
 			HOME_SYSTEM_KINGSTON,
 			HOME_SYSTEM_GAIA,
-			HOME_SYSTEM_MAGNITKA,
-			HOME_SYSTEM_QERRBALAK,
-			HOME_SYSTEM_MOGHES,
-			HOME_SYSTEM_TALAMIRA,
-			HOME_SYSTEM_ROASORA,
-			HOME_SYSTEM_MITORQI,
-			HOME_SYSTEM_SKRELLSPACE,
-			HOME_SYSTEM_ROOT
+			HOME_SYSTEM_MAGNITKA
 		)
 	)
 
