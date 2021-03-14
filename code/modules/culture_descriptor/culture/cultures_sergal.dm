@@ -1,7 +1,7 @@
 /decl/cultural_info/culture/sergal
 	name = CULTURE_SERGAL
 	description = "You are from one of the various planetary cultures of Sergals, or from somewhere beyond the homeworld."
-	economic_power = 0.8
+	economic_power = 1
 	language = LANGUAGE_SERGAL
 	secondary_langs = list(
 		LANGUAGE_SIGN,
