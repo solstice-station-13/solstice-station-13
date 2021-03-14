@@ -16,9 +16,9 @@
 	action_button_name = "Toggle Flashlight"
 	var/on = FALSE
 	var/activation_sound = 'sound/effects/flashlight.ogg'
-	var/flashlight_max_bright = 0.75 //brightness of light when on, must be no greater than 1.
-	var/flashlight_inner_range = 3 //inner range of light when on, can be negative
-	var/flashlight_outer_range = 6 //outer range of light when on, can be negative
+	var/flashlight_max_bright = 0.6 //brightness of light when on, must be no greater than 1.
+	var/flashlight_inner_range = 2 //inner range of light when on, can be negative
+	var/flashlight_outer_range = 4 //outer range of light when on, can be negative
 	var/flashlight_flags = 0 // FLASHLIGHT_ bitflags
 
 /obj/item/device/flashlight/Initialize()
@@ -135,9 +135,9 @@
 	desc = "An energy efficient flashlight."
 	icon_state = "biglight"
 	item_state = "biglight"
-	flashlight_max_bright = 1
+	flashlight_max_bright = 0.8
 	flashlight_inner_range = 3
-	flashlight_outer_range = 9
+	flashlight_outer_range = 6
 
 /obj/item/device/flashlight/flashdark
 	name = "flashdark"
@@ -170,9 +170,9 @@
 	attack_verb = list ("smacked", "thwacked", "thunked")
 	matter = list(MATERIAL_ALUMINIUM = 200, MATERIAL_GLASS = 50)
 	hitsound = "swing_hit"
-	flashlight_max_bright = 0.8
+	flashlight_max_bright = 0.7
 	flashlight_inner_range = 2
-	flashlight_outer_range = 6
+	flashlight_outer_range = 4
 
 /******************************Lantern*******************************/
 /obj/item/device/flashlight/lantern
