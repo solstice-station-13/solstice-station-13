@@ -220,5 +220,6 @@
 #define FACTION_SERGAL_GOLD_RING "Gold Ring Megalopolis"
 #define FACTION_SERGAL_REONO "Reono Lands"
 
+#define RELIGION_SERGAL_OTHER "Other Sergal Faiths"
 #define RELIGION_SERGAL_OLDFAITHS "Old Sergal Faiths"
 // Solstice Station End
