@@ -1,6 +1,7 @@
 /decl/cultural_info/culture/sergal
 	name = CULTURE_SERGAL
-	description = "You are from one of the various planetary cultures of Sergals."
+	description = "You are from one of the various planetary cultures of Sergals, or from somewhere beyond the homeworld."
+	economic_power = 1
 	language = LANGUAGE_SERGAL
 	secondary_langs = list(
 		LANGUAGE_SIGN,
@@ -9,7 +10,7 @@
 		LANGUAGE_HUMAN_EURO
 		)
 
-/decl/cultural_info/culture/sergal/general
+/decl/cultural_info/culture/sergal/common
 	name = CULTURE_SERGAL_COMMON
 	description = "Broad Sergal culture is a culture in flux. They are neither truly Sergals of the past, or human despite Terran occupation. The urban \
 	areas of the planet have become home to a mix of Federation technology and primitive methods of the homeworld. Federation control is strongest \
