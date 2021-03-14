@@ -29,7 +29,10 @@
 	min_age = 18
 	max_age = 100
 
-	description = "Sergals are the native race of a planet named Tal, a planet covered by spawling megacities and districts. Run by corporations and criminal cartels, the planet lies in a system that is now controlled by the Terran Federation. Tal is a protectorate under the Federation, and while the Terran authority and cartel families attempt to bring Tal in as a proper member world with full citizenship, corporate bodies both on and off-world intend to preserve the status quo of near-unrestricted capitalism."
+	description = "Sergals are the native race of a planet named Tal. The planet, since Federation annexation, has sprawling megacities where their cities of old stood \
+	and extensive farmland as rural threats were driven back and exterminated by Federation troops. Today the planet is run by a largely hands off, democratic system \
+	that encourages free trade and continues the relatively libertarian policies of the Federation as a whole. Sergals, meanwhile, mostly enjoy extremely high standards \
+	of living and many have found new homes among the stars and on various Federation worlds."
 
 	cold_level_1 = 260 //Default 260 - Lower is better
 	cold_level_2 = 200 //Default 200
@@ -72,16 +75,34 @@
 
 	available_cultural_info = list(
 		TAG_CULTURE = list(
-			CULTURE_HUMAN_XENO
+			CULTURE_SERGAL,
+			CULTURE_SERGAL_HUMANIZED,
+			CULTURE_SERGAL_RURAL	
 		),
 		TAG_HOMEWORLD = list(
-			HOME_SYSTEM_OTHER
+			HOME_SYSTEM_TAL,
+			HOME_SYSTEM_OTHER,
+			HOME_SYSTEM_LUNA,
+			HOME_SYSTEM_MARS,
+			HOME_SYSTEM_VENUS,
+			HOME_SYSTEM_CERES,
+			HOME_SYSTEM_PLUTO,
+			HOME_SYSTEM_TAU_CETI,
+			HOME_SYSTEM_TERSTEN,
 		),
 		TAG_FACTION = list(
-			FACTION_SOL_CENTRAL
+			FACTION_SOL_CENTRAL,
+			FACTION_FLEET,
+			FACTION_EXPEDITIONARY,
+			FACTION_FREETRADE,
+			FACTION_CORPORATE,
+			FACTION_OTHER
 		),
 		TAG_RELIGION =  list(
-			RELIGION_OTHER
+			RELIGION_OTHER,
+			RELIGION_SPIRITUALISM,
+			RELIGION_SHINTO,
+			RELIGION_TAOISM
 		)
 	)
 
