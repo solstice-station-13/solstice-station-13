@@ -209,10 +209,10 @@
 
 // Solstice Station Begin
 // Sergal culture
-#define CULTURE_SERGAL "Sergal"
-#define CULTURE_SERGAL_COMMON "Common Sergal"
+#define CULTURE_SERGAL 				"Sergal"
+#define CULTURE_SERGAL_COMMON 		"Common Sergal"
 #define CULTURE_SERGAL_HUMANIZED	"Humanized Sergal"
-#define CULTURE_SERGAL_RURAL	"Rural Sergal"
+#define CULTURE_SERGAL_RURAL		"Rural Sergal"
 
 #define HOME_SYSTEM_TAL "Tal"
 
