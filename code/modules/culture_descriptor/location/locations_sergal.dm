@@ -1,4 +1,4 @@
-/decl/cultural_info/location/sergal
+/decl/cultural_info/location/sergal/tal
 	name = HOME_SYSTEM_TAL
 	description = "An old and once dangerous world, and home to the Sergals, Tal has been pacified by the arrival of Terran forces centuries ago. Recruitment \
 	of locals for planetary defense forces, supplemented by off world troops, has paved the way for human expansion on the planet. The old city of Gold Ring has \
