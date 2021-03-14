@@ -210,11 +210,15 @@
 // Solstice Station Begin
 // Sergal culture
 #define CULTURE_SERGAL "Sergal"
+#define CULTURE_SERGAL_COMMON "Common Sergal"
 #define CULTURE_SERGAL_HUMANIZED	"Humanized Sergal"
 #define CULTURE_SERGAL_RURAL	"Rural Sergal"
+
 #define HOME_SYSTEM_TAL "Tal"
+
 #define FACTION_SERGAL_SHIGU "Shigu Dukedom"
 #define FACTION_SERGAL_GOLD_RING "Gold Ring Megalopolis"
 #define FACTION_SERGAL_REONO "Reono Lands"
+
 #define RELIGION_SERGAL_OLDFAITHS "Old Sergal Faiths"
 // Solstice Station End
