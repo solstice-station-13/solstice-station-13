@@ -6,4 +6,4 @@
 	name = RELIGION_SERGAL_OLDFAITHS
 	description = "A combination of the old faiths of pre-Federation Tal. They are largely unremarkable and largely tribal, but \
 	tend to put a focus on the community as a whole and bringing them togethers. Others are built on fear of the countryside and \
-	forests. But with the arrival of, and growing influence of, Terran cultures these faiths are slowly dying out.
+	forests. But with the arrival of, and growing influence of, Terran cultures these faiths are slowly dying out."
