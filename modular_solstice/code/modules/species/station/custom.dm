@@ -20,7 +20,7 @@
 
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite)
 
-	description = "A broad term for a broader group of people. "Genemodder" encompasses everything that isn't one of the main human genetic lines, but is derived from the \
+	description = "A broad term for a broader group of people. 'Genemodder' encompasses everything that isn't one of the main human genetic lines, but is derived from the \
 	genetics of animals that originated from Earth. Canines and felines are the most common, but various other species exist. The defining trait is that they are \
 	ultimately bipedal and humanoid, but with heavy animal traits. They are ultimately considered human by the Federation, as most modifications won't include a neural \
 	remapping to make the person's mental state more animalistic. These modifications are often expensive if one opts for anything more than cosmetic work. More expensive \
