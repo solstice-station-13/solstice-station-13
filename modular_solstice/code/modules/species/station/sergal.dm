@@ -8,7 +8,6 @@
 	preview_icon = 'modular_solstice/icons/mob/human_races/species/sergal/preview.dmi'
 	bandages_icon = 'icons/mob/bandage.dmi'
 	tail = "sergtail"
-	ears = "serg_plain_s"
 	limb_blend = ICON_MULTIPLY
 	tail_blend = ICON_MULTIPLY
 	hidden_from_codex = FALSE
