@@ -25,7 +25,7 @@
 	to be the ones that make it off-world and easily integrate into the various human worlds, stations, and ships."
 	economic_power = 0.9
 
- /decl/cultural_info/culture/sergal/feral
+ /decl/cultural_info/culture/sergal/rural
 	name = CULTURE_SERGAL_RURAL
 	description = "Federation influence doesn't touch all parts of Tal in equal amounts. The greatest control exists in the great cities. Beyond these \
 	cities however their control is limited. Many of those outside the cities live rural, if still peaceful, lives. Most have little technological \
