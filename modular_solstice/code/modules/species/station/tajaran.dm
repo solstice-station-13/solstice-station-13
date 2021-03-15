@@ -23,8 +23,62 @@
 
 	sexybits_location = BP_GROIN
 
-	available_cultural_info = list( //I can do ANYTHING! Placeholder until the loreboys come and figure out what Tajara do
-		TAG_CULTURE = list(CULTURE_TAJ)
+	available_cultural_info = list( //I can do ANYTHING! As a custom species, you can come from pretty much wherever you want!
+		TAG_CULTURE = list(
+			CULTURE_TAJ
+		),
+		TAG_FACTION = list(
+			FACTION_SOL_CENTRAL,
+			FACTION_FLEET,
+			FACTION_CORPORATE,
+			FACTION_INDIE_CONFED,
+			FACTION_EXPEDITIONARY,
+			FACTION_SPACECOPS,
+			FACTION_NANOTRASEN,
+			FACTION_XYNERGY,
+			FACTION_HEPHAESTUS,
+			FACTION_FREETRADE,
+			FACTION_PCRC,
+			FACTION_DAIS,
+			FACTION_OTHER
+		),
+		TAG_RELIGION = list(
+			RELIGION_OTHER,
+			RELIGION_JUDAISM,
+			RELIGION_HINDUISM,
+			RELIGION_BUDDHISM,
+			RELIGION_JAINISM,
+			RELIGION_SIKHISM,
+			RELIGION_ISLAM,
+			RELIGION_CHRISTIANITY,
+			RELIGION_BAHAI_FAITH,
+			RELIGION_AGNOSTICISM,
+			RELIGION_DEISM,
+			RELIGION_ATHEISM,
+			RELIGION_THELEMA,
+			RELIGION_SPIRITUALISM,
+			RELIGION_SHINTO,
+			RELIGION_TAOISM
+		),
+		TAG_HOMEWORLD = list(
+			HOME_SYSTEM_MARS,
+			HOME_SYSTEM_EARTH,
+			HOME_SYSTEM_LUNA,
+			HOME_SYSTEM_VENUS,
+			HOME_SYSTEM_CERES,
+			HOME_SYSTEM_PLUTO,
+			HOME_SYSTEM_TAU_CETI,
+			HOME_SYSTEM_HELIOS,
+			HOME_SYSTEM_TERRA,
+			HOME_SYSTEM_TERSTEN,
+			HOME_SYSTEM_LORRIMAN,
+			HOME_SYSTEM_CINU,
+			HOME_SYSTEM_YUKLID,
+			HOME_SYSTEM_LORDANIA,
+			HOME_SYSTEM_KINGSTON,
+			HOME_SYSTEM_GAIA,
+			HOME_SYSTEM_MAGNITKA
+		)
 	)
 
 /datum/species/tajaran/proc/handle_coco(var/mob/living/carbon/human/M, var/datum/reagent/nutriment/coco, var/efficiency = 1)
