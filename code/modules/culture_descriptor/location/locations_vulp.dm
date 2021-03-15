@@ -20,4 +20,4 @@
 	Landing City, to the idyllic landscapes of the wilderness, Mersi Secundus is one of the great jewels in the crown of the Terran Federation."
 	distance = "12 light years"
 	capital = "Landing City"
-	economic_power = 1
+	economic_power = 1.2
