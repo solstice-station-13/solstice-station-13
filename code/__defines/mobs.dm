@@ -315,7 +315,7 @@
 #define SPECIES_CUSTOM      "Genemodder"
 #define SPECIES_VULP        "Vulpkanin"
 #define SPECIES_VASS        "Vasilissan"
-#define SPECIES_TAJ         "Tajaran"
+#define SPECIES_TAJ         "Sabelkyne"
 #define SPECIES_OLDUNATHI   "Veteris'Unathi" //Placeholder name.
 #define SPECIES_HUMAN2      "Custom Human" //Placeholder name maybe.
 
@@ -347,7 +347,9 @@
 								  SPECIES_VATGROWN,   \
 								  SPECIES_SPACER,	  \
 								  SPECIES_GRAVWORLDER,\
-								  SPECIES_MULE)
+								  SPECIES_MULE,\
+								  SPECIES_CUSTOM,\
+								  SPECIES_AKULA)
 // Solstice Station End
 
 #define SPECIES_NABBER         "giant armoured serpentid"
