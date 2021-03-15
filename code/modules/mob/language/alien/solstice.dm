@@ -26,6 +26,8 @@
 	exclaim_verb = "barks"
 	colour = "vulpkanin"
 	key = "V"
+	space_chance = 40
+	flags = WHITELISTED
 	syllables = list("rur","ya","cen","rawr","bar","kuk","tek","qat","uk","wu","vuh","tah","tch","schz","auch", \
 	"ist","ein","entch","zwichs","tut","mir","wo","bis","es","vor","nic","gro","lll","enem","zandt","tzch","noch", \
 	"hel","ischt","far","wa","baram","iereng","tech","lach","sam","mak","lich","gen","or","ag","eck","gec","stag","onn", \
@@ -46,6 +48,7 @@
 	exclaim_verb = "yowls"
 	colour = "tajaran"
 	key = "j"
+	space_chance = 40
 	flags = WHITELISTED
 	syllables = list("mrr","rr","tajr","kir","raj","kii","mir","kra","ahk","nal","vah","khaz","jri","ran","darr",
 	"mi","jri","dynh","manq","rhe","zar","rrhaz","kal","chur","eech","thaa","dra","jurl","mah","sanu","dra","ii'r",
