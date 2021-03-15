@@ -16,7 +16,7 @@
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite/sharp, /datum/unarmed_attack/claws)
 
 	description = "The Sabelkyne are a mammalian species from the planet Almutahar, closely resembling felines. They are a divided species, with \
-	two major subspecies; the Sabelkyne and the Maunkyne. [this description is a WIP]"
+	two major subspecies; the Sabelkyne and the Maunkyne. This description is a temporary placeholder."
 
 	spawn_flags = SPECIES_CAN_JOIN
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_SKIN_COLOR | HAS_EYE_COLOR
