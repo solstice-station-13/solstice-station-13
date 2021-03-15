@@ -7,8 +7,11 @@
 	colour = "changeling"
 	key = "s"
 	flags = WHITELISTED
-	space_chance = 40
-	syllables = list("grr", "gah", "woof", "arf", "arra", "rah", "wor", "sarg")
+	space_chance = 20
+	syllables = list("za","ryo","tsu","kya","kyu","kyo","pya","pyo","pyu","myo","gya","zu","zi","cho","cha","eru","tasu","byu","ina","byo","bya","sho","shu","sha", \
+	"zyn","hiz","omi","non","bon","ya","yu","yo","ja","ju","jo","ha","hi","he","mi","ho","mu","hu","mu","na","ne","ni","no","ta","te","ti","to","ba","bi","bo","be", \
+	"pa","pi","pe","po","pu","wa","wo","Sieg","ka","da","ke","de","ki","di","ko","do","ku","du","za","zu","sa","ga","se","ge","si","gi","so","go","su","gu","zi","ze", \
+	"ra","zo","re","ro","ri","ru","a","a","e","e","i","i","o","o","u","u","n","y","yip","sieg","jud","act","xian","tal")
 	shorthand = "SG"
 	partial_understanding = list(
 		LANGUAGE_HUMAN_EURO = 2,
