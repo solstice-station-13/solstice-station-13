@@ -12,7 +12,7 @@
 	"zyn","hiz","omi","non","bon","ya","yu","yo","ja","ju","jo","ha","hi","he","mi","ho","mu","hu","mu","na","ne","ni","no","ta","te","ti","to","ba","bi","bo","be", \
 	"pa","pi","pe","po","pu","wa","wo","Sieg","ka","da","ke","de","ki","di","ko","do","ku","du","za","zu","sa","ga","se","ge","si","gi","so","go","su","gu","zi","ze", \
 	"ra","zo","re","ro","ri","ru","a","a","e","e","i","i","o","o","u","u","n","y","yip","sieg","jud","act","xian","tal")
-	shorthand = "SG"
+	shorthand = "GRC"
 	partial_understanding = list(
 		LANGUAGE_HUMAN_EURO = 2,
 		LANGUAGE_SPACER = 2,
@@ -50,7 +50,7 @@
 	ask_verb = "mrowls"
 	exclaim_verb = "yowls"
 	colour = "tajaran"
-	key = "j"
+	key = "m"
 	space_chance = 40
 	flags = WHITELISTED
 	syllables = list("mrr","rr","tajr","kir","raj","kii","mir","kra","ahk","nal","vah","khaz","jri","ran","darr",
