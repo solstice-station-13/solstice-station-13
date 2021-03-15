@@ -221,7 +221,7 @@
 #define RELIGION_SERGAL_OLDFAITHS 	"Old Sergal Faiths"
 
 // Taj culture
-
+#define CULTURE_TAJ					"Sabelkyne"
 
 // Vulp culture
 #define CULTURE_VULP				"Vulpkanin"
