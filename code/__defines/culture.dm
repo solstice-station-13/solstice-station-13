@@ -226,7 +226,8 @@
 // Vulp culture
 #define CULTURE_VULP				"Vulpkanin"
 #define CULTURE_VULP_COMMON			"Common Vulpkanin"
-#define CULTURE_VULP_HUMANIFIED		"Humanified Vulpkanin"
+#define CULTURE_VULP_HUMANIFIEDELITE "Elite Vulpkanin"
+#define CULTURE_VULP_HUMANIFIEDCOMMON "Terran Vulpkanin"
 #define CULTURE_VULP_RURAL			"Rural Vulpkanin"
 #define CULTURE_VULP_TRIBAL			"Tribal Vulpkanin"
 #define CULTURE_VULP_SECUNDUS		"Mersi Secundian"
