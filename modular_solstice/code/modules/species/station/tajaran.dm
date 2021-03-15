@@ -24,7 +24,7 @@
 	sexybits_location = BP_GROIN
 
 	available_cultural_info = list( //I can do ANYTHING! Placeholder until the loreboys come and figure out what Tajara do
-		TAG_CULTURE = list(CULTURE_HUMAN_XENO)
+		TAG_CULTURE = list(CULTURE_TAJ)
 	)
 
 /datum/species/tajaran/proc/handle_coco(var/mob/living/carbon/human/M, var/datum/reagent/nutriment/coco, var/efficiency = 1)
