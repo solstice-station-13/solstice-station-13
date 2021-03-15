@@ -1636,6 +1636,7 @@
 #include "code\modules\culture_descriptor\culture\cultures_sergal.dm"
 #include "code\modules\culture_descriptor\culture\cultures_serpentid.dm"
 #include "code\modules\culture_descriptor\culture\cultures_skrell.dm"
+#include "code\modules\culture_descriptor\culture\cultures_taj.dm"
 #include "code\modules\culture_descriptor\culture\cultures_unathi.dm"
 #include "code\modules\culture_descriptor\culture\cultures_vox.dm"
 #include "code\modules\culture_descriptor\culture\cultures_vulp.dm"
