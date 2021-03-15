@@ -40,7 +40,9 @@
 #define LANGUAGE_MANTID_BROADCAST  "Worldnet"
 
 //Solstice Specific
-#define LANGUAGE_SERGAL				"Sergal"
+#define LANGUAGE_SERGAL				"Gold Ring Common"
+#define LANGUAGE_CANILUNZT			"Canilunzt"
+#define LANGUAGE_SIIK				"Kyn'liij"
 
 // Language flags.
 #define WHITELISTED  1   // Language is available if the speaker is whitelisted.

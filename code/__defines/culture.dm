@@ -209,11 +209,28 @@
 
 // Solstice Station Begin
 // Sergal culture
-#define CULTURE_SERGAL "The Sergals"
-#define HOME_SYSTEM_SERGALTAL "Tal"
-#define FACTION_SERGAL_SHIGU "Shigu Dukedom"
-#define FACTION_SERGAL_GOLD_RING "Gold ring megalopolis"
-#define FACTION_SERGAL_REONO "Reono lands"
-#define RELIGION_SERGAL_ANIMISM "northern religions"
-#define RELIGION_SERGAL_GOLD_RING "religion of Gold ring"
+#define CULTURE_SERGAL 				"Sergal"
+#define CULTURE_SERGAL_COMMON 		"Common Sergal"
+#define CULTURE_SERGAL_HUMANIZED	"Humanized Sergal"
+#define CULTURE_SERGAL_RURAL		"Rural Sergal"
+#define HOME_SYSTEM_TAL 			"Tal"
+#define FACTION_SERGAL_SHIGU 		"Shigu Dukedom"
+#define FACTION_SERGAL_GOLD_RING 	"Gold Ring Megalopolis"
+#define FACTION_SERGAL_REONO 		"Reono Lands"
+#define RELIGION_SERGAL_OTHER 		"Other Sergal Faiths"
+#define RELIGION_SERGAL_OLDFAITHS 	"Old Sergal Faiths"
+
+// Taj culture
+#define CULTURE_TAJ					"Sabelkyne"
+
+// Vulp culture
+#define CULTURE_VULP				"Vulpkanin"
+#define CULTURE_VULP_COMMON			"Common Vulpkanin"
+#define CULTURE_VULP_HUMANIFIEDELITE "Elite Vulpkanin"
+#define CULTURE_VULP_HUMANIFIEDCOMMON "Terran Vulpkanin"
+#define CULTURE_VULP_RURAL			"Rural Vulpkanin"
+#define CULTURE_VULP_TRIBAL			"Tribal Vulpkanin"
+#define CULTURE_VULP_SECUNDUS		"Mersi Secundian"
+#define HOME_SYSTEM_MERSICENTU		"Mersi Centu"
+#define HOME_SYSTEM_MERSISECUNDUS	"Mersi Secundus"
 // Solstice Station End

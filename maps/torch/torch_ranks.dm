@@ -54,7 +54,7 @@
 		/datum/species/unathi/yeosa = list(SEMIRESTRICTED),
 		/datum/species/adherent     = list(RESTRICTED),
 		/datum/species/vox          = list(/datum/mil_branch/alien),
-		/datum/species/akula		= list(SEMIRESTRICTED),
+		/datum/species/akula		= list(UNRESTRICTED),
 		/datum/species/humanathi	= list(SEMIRESTRICTED),
 		/datum/species/sergal		= list(SEMIRESTRICTED),
 		/datum/species/tajaran		= list(SEMIRESTRICTED),

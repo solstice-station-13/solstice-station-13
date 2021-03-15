@@ -1,6 +1,6 @@
 /datum/species/tajaran
 	name = SPECIES_TAJ
-	name_plural = "Tajara"
+	name_plural = "Sabelkyne"
 	icobase = 'modular_solstice/icons/mob/human_races/species/tajaran/body.dmi'
 	deform = 'modular_solstice/icons/mob/human_races/species/tajaran/deformed_body.dmi'
 	husk_icon = 'modular_solstice/icons/mob/human_races/species/tajaran/husk.dmi'
@@ -15,20 +15,70 @@
 
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite/sharp, /datum/unarmed_attack/claws)
 
-	description = "The Tajaran are a mammalian species resembling roughly felines, hailing from Meralar in the Rarkajar system. \
-	While reaching to the stars independently from outside influences, the humans engaged them in peaceful trade contact \
-	and have accelerated the fledgling culture into the interstellar age. Their history is full of war and highly fractious \
-	governments, something that permeates even to today's times. They prefer colder, tundra-like climates, much like their \
-	home worlds."
+	description = "The Sabelkyne are a mammalian species from the planet Almutahar, closely resembling felines. They are a divided species, with \
+	two major subspecies; the Sabelkyne and the Maunkyne. This description is a temporary placeholder."
 
 	spawn_flags = SPECIES_CAN_JOIN
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_SKIN_COLOR | HAS_EYE_COLOR
 
 	sexybits_location = BP_GROIN
 
-
-	available_cultural_info = list( //I can do ANYTHING! Placeholder until the loreboys come and figure out what Tajara do
-		TAG_CULTURE = list(CULTURE_HUMAN_XENO)
+	available_cultural_info = list( //I can do ANYTHING! As a custom species, you can come from pretty much wherever you want!
+		TAG_CULTURE = list(
+			CULTURE_TAJ
+		),
+		TAG_FACTION = list(
+			FACTION_SOL_CENTRAL,
+			FACTION_FLEET,
+			FACTION_CORPORATE,
+			FACTION_INDIE_CONFED,
+			FACTION_EXPEDITIONARY,
+			FACTION_SPACECOPS,
+			FACTION_NANOTRASEN,
+			FACTION_XYNERGY,
+			FACTION_HEPHAESTUS,
+			FACTION_FREETRADE,
+			FACTION_PCRC,
+			FACTION_DAIS,
+			FACTION_OTHER
+		),
+		TAG_RELIGION = list(
+			RELIGION_OTHER,
+			RELIGION_JUDAISM,
+			RELIGION_HINDUISM,
+			RELIGION_BUDDHISM,
+			RELIGION_JAINISM,
+			RELIGION_SIKHISM,
+			RELIGION_ISLAM,
+			RELIGION_CHRISTIANITY,
+			RELIGION_BAHAI_FAITH,
+			RELIGION_AGNOSTICISM,
+			RELIGION_DEISM,
+			RELIGION_ATHEISM,
+			RELIGION_THELEMA,
+			RELIGION_SPIRITUALISM,
+			RELIGION_SHINTO,
+			RELIGION_TAOISM
+		),
+		TAG_HOMEWORLD = list(
+			HOME_SYSTEM_MARS,
+			HOME_SYSTEM_EARTH,
+			HOME_SYSTEM_LUNA,
+			HOME_SYSTEM_VENUS,
+			HOME_SYSTEM_CERES,
+			HOME_SYSTEM_PLUTO,
+			HOME_SYSTEM_TAU_CETI,
+			HOME_SYSTEM_HELIOS,
+			HOME_SYSTEM_TERRA,
+			HOME_SYSTEM_TERSTEN,
+			HOME_SYSTEM_LORRIMAN,
+			HOME_SYSTEM_CINU,
+			HOME_SYSTEM_YUKLID,
+			HOME_SYSTEM_LORDANIA,
+			HOME_SYSTEM_KINGSTON,
+			HOME_SYSTEM_GAIA,
+			HOME_SYSTEM_MAGNITKA
+		)
 	)
 
 /datum/species/tajaran/proc/handle_coco(var/mob/living/carbon/human/M, var/datum/reagent/nutriment/coco, var/efficiency = 1)

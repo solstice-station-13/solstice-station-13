@@ -1,10 +1,10 @@
-/decl/cultural_info/location/sergal
-	name = HOME_SYSTEM_SERGALTAL
-	description = "Primary species in Tal are divided into two broad groups: Eltus and Talyxians. Those two group are \
-	totally different from each other in everything almost. Primary sapient species that Tal hosts are the three races \
-	from Eltus species - Sergals, Agudners, and Nevreans. Tal's most of the wildlife consists of Talyxian creatures and \
-	a host of unclassified or undocumented species, such as a fish, insects, worms, mollusks, and plants inhabiting everywhere \
-	from urban or suburban areas to a virgin forest and deep wilderness. Those creatures are native to Tal and generally \
-	classified as 'Primitive creatures', and recognize as 'alien biomes' from Eltus races."
+/decl/cultural_info/location/sergal/tal
+	name = HOME_SYSTEM_TAL
+	description = "An old and once dangerous world, and home to the Sergals, Tal has been pacified by the arrival of Terran forces centuries ago. Recruitment \
+	of locals for planetary defense forces, supplemented by off world troops, has paved the way for human expansion on the planet. The old city of Gold Ring has \
+	become the de facto capital of the planet, and expanded per human city planning conventions. Other cities have grown up as modern healthcare  and technology \
+	has helped cause a population boom. Today, the planet is a truly Terran world, and one of the jewels in the Federation's crown. It is still a rising star, and \
+	the economic boom brought by once untapped resources continues to spur growth and expansion."
+	distance = "15 light years"
 	capital = "Gold Ring"
 	economic_power = 0.9

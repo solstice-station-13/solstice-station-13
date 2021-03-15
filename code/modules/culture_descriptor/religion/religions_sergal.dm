@@ -1,12 +1,9 @@
-/decl/cultural_info/religion/animism
-	name = RELIGION_SERGAL_ANIMISM
-	description = "Animism faith of the natural that came from the fear for the forest and the wildlife. \
-	that has changed little over time with many of them following a nomadic lifestyle and Shigu being founded. \
-	And the wars that wars followed."
+/decl/cultural_info/religion/sergal
+	name = RELIGION_SERGAL_OTHER
+	description = "One of the many, many niche or relatively unknown Sergal religions."
 
-/decl/cultural_info/religion/gold_ring
-	name = RELIGION_SERGAL_GOLD_RING
-	description = "There is a religion named 'Gold Ring', same as the city's name. \
-	The concept is based on the relationship and history of Southern Sergals and Agudners. \
-	It brings together and organizes the community. \
-	One of the basic concepts of it is the symbiotic relations of Agudner and Sergals that is said to be 'Mother Agudner, Father Sergal'."
+/decl/cultural_info/religion/sergal/animism
+	name = RELIGION_SERGAL_OLDFAITHS
+	description = "A combination of the old faiths of pre-Federation Tal. They are largely unremarkable and largely tribal, but \
+	tend to put a focus on the community as a whole and bringing them togethers. Others are built on fear of the countryside and \
+	forests. But with the arrival of, and growing influence of, Terran cultures these faiths are slowly dying out."
