@@ -13,6 +13,8 @@
 	partial_understanding = list(
 		LANGUAGE_HUMAN_EURO = 2,
 		LANGUAGE_SPACER = 2
+		LANGUAGE_SIIK = 5,
+		LANGUAGE_CANILUNZT = 5
 	)
 
 /datum/language/vulpkanin
@@ -28,6 +30,13 @@
 	"ist","ein","entch","zwichs","tut","mir","wo","bis","es","vor","nic","gro","lll","enem","zandt","tzch","noch", \
 	"hel","ischt","far","wa","baram","iereng","tech","lach","sam","mak","lich","gen","or","ag","eck","gec","stag","onn", \
 	"bin","ket","jarl","vulf","einech","cresthz","azunein","ghzth")
+	shorthand = "CN"
+	partial_understanding = list(
+		LANGUAGE_HUMAN_EURO = 2,
+		LANGUAGE_SPACER = 2,
+		LANGUAGE_SIIK = 5,
+		LANGUAGE_SERGAL = 5
+	)
 	
 /datum/language/tajaran
 	name = LANGUAGE_SIIK
@@ -42,3 +51,10 @@
 	"mi","jri","dynh","manq","rhe","zar","rrhaz","kal","chur","eech","thaa","dra","jurl","mah","sanu","dra","ii'r",
 	"ka","aasi","far","wa","baq","ara","qara","zir","saam","mak","hrar","nja","rir","khan","jun","dar","rik","kah",
 	"hal","ket","jurl","mah","tul","cresh","azu","ragh","mro","mra","mrro","mrra")
+	shorthand = "SB"
+	partial_understanding = list(
+		LANGUAGE_HUMAN_EURO = 2,
+		LANGUAGE_SPACER = 2,
+		LANGUAGE_SERGAL = 5,
+		LANGUAGE_CANILUNZT = 5
+	)
