@@ -224,7 +224,7 @@
 
 
 // Vulp culture
-#define CULTURE_VULP				"Vulpkanin
+#define CULTURE_VULP				"Vulpkanin"
 #define CULTURE_VULP_COMMON			"Common Vulpkanin"
 #define CULTURE_VULP_HUMANIFIED		"Humanified Vulpkanin"
 #define CULTURE_VULP_RURAL			"Rural Vulpkanin"
