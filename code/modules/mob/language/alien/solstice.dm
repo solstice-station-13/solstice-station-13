@@ -15,7 +15,7 @@
 	shorthand = "SG"
 	partial_understanding = list(
 		LANGUAGE_HUMAN_EURO = 2,
-		LANGUAGE_SPACER = 2
+		LANGUAGE_SPACER = 2,
 		LANGUAGE_SIIK = 5,
 		LANGUAGE_CANILUNZT = 5
 	)
