@@ -229,6 +229,7 @@
 #define CULTURE_VULP_HUMANIFIED		"Humanified Vulpkanin"
 #define CULTURE_VULP_RURAL			"Rural Vulpkanin"
 #define CULTURE_VULP_TRIBAL			"Tribal Vulpkanin"
+#define CULTURE_VULP_SECUNDUS		"Mersi Secundian"
 #define HOME_SYSTEM_MERSICENTU		"Mersi Centu"
 #define HOME_SYSTEM_MERSISECUNDUS	"Mersi Secundus"
 // Solstice Station End
