@@ -213,13 +213,20 @@
 #define CULTURE_SERGAL_COMMON 		"Common Sergal"
 #define CULTURE_SERGAL_HUMANIZED	"Humanized Sergal"
 #define CULTURE_SERGAL_RURAL		"Rural Sergal"
+#define HOME_SYSTEM_TAL 			"Tal"
+#define FACTION_SERGAL_SHIGU 		"Shigu Dukedom"
+#define FACTION_SERGAL_GOLD_RING 	"Gold Ring Megalopolis"
+#define FACTION_SERGAL_REONO 		"Reono Lands"
+#define RELIGION_SERGAL_OTHER 		"Other Sergal Faiths"
+#define RELIGION_SERGAL_OLDFAITHS 	"Old Sergal Faiths"
 
-#define HOME_SYSTEM_TAL "Tal"
+// Taj culture
 
-#define FACTION_SERGAL_SHIGU "Shigu Dukedom"
-#define FACTION_SERGAL_GOLD_RING "Gold Ring Megalopolis"
-#define FACTION_SERGAL_REONO "Reono Lands"
 
-#define RELIGION_SERGAL_OTHER "Other Sergal Faiths"
-#define RELIGION_SERGAL_OLDFAITHS "Old Sergal Faiths"
+// Vulp culture
+#define CULTURE_VULP				"Vulpkanin
+#define CULTURE_VULP_COMMON			"Common Vulpkanin"
+#define CULTURE_VULP_HUMANIFIED		"Humanified Vulpkanin"
+#define CULTURE_VULP_RURAL			"Rural Vulpkanin"
+#define CULTURE_VULP_TRIBAL			"Tribal Vulpkanin"
 // Solstice Station End
