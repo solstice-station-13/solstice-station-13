@@ -18,7 +18,7 @@
 	resent it. The fact remains that it has overall been a boon for the planet."
 	economic_power = 0.7
 
- /decl/cultural_info/culture/sergal/humanized
+/decl/cultural_info/culture/sergal/humanized
 	name = CULTURE_SERGAL_HUMANIZED
 	description = "Some Sergals have found themselves under Federation control for centuries. Their culture is long forgotten as they live within the \
 	human designed, newly sprawling cities. Human influence is everywhere, and nearly impossible to escape. The massive boost of technology has given \
@@ -26,7 +26,7 @@
 	to be the ones that make it off-world and easily integrate into the various human worlds, stations, and ships."
 	economic_power = 0.9
 
- /decl/cultural_info/culture/sergal/rural
+/decl/cultural_info/culture/sergal/rural
 	name = CULTURE_SERGAL_RURAL
 	description = "Federation influence doesn't touch all parts of Tal in equal amounts. The greatest control exists in the great cities. Beyond these \
 	cities however their control is limited. Many of those outside the cities live rural, if still peaceful, lives. Most have little technological \
