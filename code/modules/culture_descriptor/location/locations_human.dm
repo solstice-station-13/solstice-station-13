@@ -257,7 +257,7 @@
 	Today, Damascus is seen as a New Earth and is a melting pot of the Federation. Every species can be found on the planet, including with various enclaves and unique \
 	cultural districts throughout Damascus. Beyond the cities, homesteaders stake out land for themselves, and small towns have cropped up. Damascus continues to grow \
 	and is one of the few worlds not severely impacted by the depression in the wake of the Great Terran War."
-	capital = "Damascus"
+	capital = "Alexandria"
 	economic_power = 1
 
 /decl/cultural_info/location/human/zazhitochnost
