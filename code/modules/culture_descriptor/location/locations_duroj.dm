@@ -11,7 +11,7 @@
 	capital = "Landing City"
 	economic_power = 1
 	
-/decl/cultural_info/location/duroj
+/decl/cultural_info/location/duroj/voidborn
 	name = HOME_SYSTEM_ZAZHITOCHNOST_SPACE	
 	description = "Beyond Chaykodny the Zazhitochnost system is full of stations, spaceships, and the decaying remnants of the space race. While there's no true shortage of \
 	parts, materials, and ships to transport them, there remains a persistant pirate problem. Even if a ship departs to supply the stations with necessary parts and expertise \
