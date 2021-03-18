@@ -93,7 +93,10 @@ var/list/admin_verbs_admin = list(
 	/client/proc/add_trader,
 	/client/proc/remove_trader,
 	/datum/admins/proc/sendFax,
-	/client/proc/check_fax_history
+	/client/proc/check_fax_history,
+	/client/proc/BC_WhitelistKeyVerb,
+	/client/proc/BC_RemoveKeyVerb,
+	/client/proc/BC_ToggleState,
 )
 var/list/admin_verbs_ban = list(
 	/client/proc/unban_panel,
