@@ -111,6 +111,27 @@
 	being considered some of the best qualified technical specialists in humanity. Recently there has been a rising transhumanist element in Ceti society resulting in a large \
 	cybernetics culture; it is not uncommon to see many Cetites sporting some chrome."
 	economic_power = 1.1
+	
+/decl/cultural_info/culture/human/zazhitochnost
+	name = CULTURE_HUMAN_ZAZHITOCHNOST
+	description = "Few places have evoked a sense of wonder like Zazhitochnost. A lost colony, reunited with the Federation. Culturally, Zazhitochnost is largely Slavic in \
+	makeup. Early genetic modification was put to use on these colonists, though not all of them. Similar to the Akula, ursine type modifications were widely used to give \
+	better protection from the cold and harsh environments that were expected. This genetic hardiness passed down through the centuries. Today, the modern inhabitant of \
+	Zazhitochnost - or the planet Chaykodny - is often hardy. Coming from a planet or one of the many run down stations, survival is an important part of everyday life. The harsh climates of the planet \
+	and the harsh conditions have space have resulted in a rather cold and distant people. Few leave home as is, and most are hard to get close to. But those few that make \
+	a friend of a Chaykodnian will often have one for life."
+	language = LANGUAGE_HUMAN_RUSSIAN
+	economic_power = 0.9
+
+/decl/cultural_info/culture/human/epsiloneridani
+	name = CULTURE_HUMAN_EPSILONERIDANI
+	description = "Those that come from Damascus are possibly the most progressive people on the Federation. Perhaps not universally, however. Damascus is the great melting \
+	pot of the Federation and is the only planet other than the species homeworlds where the majority is non-human. Humans that call this world home tend to be far more \
+	accepting than even the average Federation citizen. Whether from the cities like the capital of Alexandria or from the extensive farmlands and rural towns, life on \
+	Damascus is suprisingly easy by any standards. Mostly free from the depression that affects the rest of the Federation, and with a constant influx of new workers, \
+	resources, and other goods, the planet's infrastructure is constantly expanding, the wilderness continues to be settled, and the cities continue to grow. Between the \
+	businesses that are relocating to Damascus and some of the best universities in the Federation, Damascus is a bright light in the steady economic decline all around."
+	economic_power = 1.1
 
 /decl/cultural_info/culture/human/spacer_core
 	name = CULTURE_HUMAN_SPACER
@@ -138,7 +159,7 @@
 	resentful of the losses in the last war. An upbringing on Terra emphasises an odd mix of service to the state, liberalism and militarism."
 	language = LANGUAGE_HUMAN_RUSSIAN
 	economic_power = 0.9
-
+	
 /decl/cultural_info/culture/human/other
 	name = CULTURE_HUMAN_OTHER
 	description = "Some people are from places no one has ever heard of or places too wild and fantastical to make it into Encyclopedia Galactica. You are one of these. "

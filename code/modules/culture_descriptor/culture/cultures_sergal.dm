@@ -33,3 +33,11 @@
 	experience, as modern technology is slow to reach these areas. While a rural, peaceful life is expected for most, some have a deep drive for adventure \
 	and a certain boldness in attitude. This drives some of them toward the stars. Even if they know nothing about the stars or much of the Federation beyond."
 	economic_power = 0.6
+	
+/decl/cultural_info/culture/sergal/epsiloneridani
+	name = CULTURE_SERGAL_EPSILONERIDANI
+	description = "Even the Sergals are not immune to the draw of Damascus. A multicultural world, and the only majority non-human, the Sergals have found a place in \
+	a kind of home away from home. Perhaps like the Gold Ring of pre-Federation contact, Alexandria is a cosmopolitan city comprised of every species in the Federation. \
+	Most Sergals that move to Damascus live in Alexandria in their own ethnic enclaves, and many are better off economically than they were at home. Those that were born \
+	on the planet tend to be much more accepting of the diversity of the Federation as a whole."
+	economic_power = 1.1

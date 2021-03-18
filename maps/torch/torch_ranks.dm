@@ -60,7 +60,9 @@
 		/datum/species/tajaran		= list(SEMIRESTRICTED),
 		/datum/species/vasilissan	= list(SEMIRESTRICTED),
 		/datum/species/vulpkanin	= list(SEMIRESTRICTED),
-		/datum/species/machine		= list(RESTRICTED)
+		/datum/species/machine		= list(RESTRICTED),
+		/datum/species/khazan		= list(SEMIRESTRICTED),
+		/datum/species/duroj		= list(UNRESTRICTED)
 	)
 	
 /*
@@ -679,11 +681,12 @@
  *  == =========
  */
  
- /datum/mil_rank/nt/rep
-	name = "NT Rep"
+/datum/mil_rank/nt/rep
+	name = "Representative"
+	name_short = "NTR"
 
 /datum/mil_rank/nt/scientist
-	name = "NT Scientist"
+	name = "Scientist"
 	
 /datum/mil_rank/nt/assetprotection
 	name = "Asset Protection Agent"

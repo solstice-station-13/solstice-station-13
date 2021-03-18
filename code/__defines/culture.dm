@@ -11,21 +11,21 @@
 	)
 
 // Cultural IDs.
-#define FACTION_SOL_CENTRAL    "Terran Federation"
-#define FACTION_INDIE_CONFED  "Gilgamesh Colonial Confederation"
-#define FACTION_NANOTRASEN     "NanoTrasen"
-#define FACTION_FREETRADE      "Free Trade Union"
-#define FACTION_HEPHAESTUS     "Hephaestus Industries"
-#define FACTION_XYNERGY        "Xynergy"
-#define FACTION_FLEET          "Terran Navy"
-#define FACTION_EXPEDITIONARY  "Expeditionary Corps"
-#define FACTION_PCRC           "Proxima Centauri Risk Control"
-#define FACTION_SAARE          "Strategic Assault and Asset Retention Enterprises"
-#define FACTION_CORPORATE       "Expeditionary Corps Organisation"
-#define FACTION_DAIS           "Deimos Advanced Information Systems"
-#define FACTION_OTHER          "Other Faction"
-#define FACTION_TEST_SUBJECTS  "Test Subjects"
-#define FACTION_SPACECOPS  "Terran Marshals Service"
+#define FACTION_SOL_CENTRAL		"Terran Federation"
+#define FACTION_INDIE_CONFED	"Gilgamesh Colonial Confederation"
+#define FACTION_NANOTRASEN		"NanoTrasen"
+#define FACTION_FREETRADE		"Free Trade Union"
+#define FACTION_HEPHAESTUS		"Hephaestus Industries"
+#define FACTION_XYNERGY			"Xynergy"
+#define FACTION_FLEET			"Terran Navy"
+#define FACTION_EXPEDITIONARY	"Expeditionary Corps"
+#define FACTION_PCRC			"Proxima Centauri Risk Control"
+#define FACTION_SAARE			"Strategic Assault and Asset Retention Enterprises"
+#define FACTION_CORPORATE		"Expeditionary Corps Organisation"
+#define FACTION_DAIS			"Deimos Advanced Information Systems"
+#define FACTION_OTHER			"Other Faction"
+#define FACTION_TEST_SUBJECTS	"Test Subjects"
+#define FACTION_SPACECOPS		"Terran Marshals Service"
 
 #define HOME_SYSTEM_EARTH      "Earth"
 #define HOME_SYSTEM_LUNA       "Luna"
@@ -80,7 +80,7 @@
 #define RELIGION_SIKHISM       "Sikhism"
 #define RELIGION_JAINISM       "Jainism"
 #define RELIGION_ISLAM         "Islam"
-#define RELIGION_CHRISTIANITY  "Christianity"
+#define RELIGION_CHRISTIANITY  "Other Christian Sect"
 #define RELIGION_BAHAI_FAITH   "Baha'i Faith"
 #define RELIGION_AGNOSTICISM   "Agnosticism"
 #define RELIGION_DEISM         "Deism"
@@ -89,10 +89,6 @@
 #define RELIGION_SPIRITUALISM  "Spiritualism"
 #define RELIGION_SHINTO        "Shinto"
 #define RELIGION_TAOISM        "Taoism"
-
-// Solstice Station Start
-#define CULTURE_SYMBIOTIC      "Symbiote Host"
-// Solstice Station End
 
 // Skrellian cultures.
 #define CULTURE_SKRELL_QERR     "Qerr-Katish"
@@ -208,6 +204,22 @@
 #define RELIGION_KHARMAANI       "Nest-Lineage Veneration"
 
 // Solstice Station Begin
+// Human Expansion
+#define CULTURE_HUMAN_ZAZHITOCHNOST		"Chaykodnian"
+#define HOME_SYSTEM_ZAZHITOCHNOST		"Zazhitochnost"
+#define RELIGION_CATHOLICISM			"Catholicism"
+#define RELIGION_EASTERNORTHODOX		"Eastern Orthodox"
+
+// Epsilon Eridani
+#define HOME_SYSTEM_EPSILONERIDANI		"Damascus"
+#define CULTURE_HUMAN_EPSILONERIDANI	"Alexandrian"
+#define CULTURE_VULP_EPSILONERIDANI		"Alexandrian Vulpkanin"
+#define CULTURE_SERGAL_EPSILONERIDANI	"Alexandrian Sergal"
+#define CULTURE_TAJ_EPSILONERIDANI		"Alexandrian Sabelkyne"
+#define CULTURE_UNATHI_EPSILONERIDANI	"Alexandrian Unathi"
+#define CULTURE_KHAZAN_EPSILONERIDANI	"Alexandrian Khazan"
+#define CULTURE_DUROJ_EPSILONERIDANI	"Alexandrian Duroj"
+
 // Sergal culture
 #define CULTURE_SERGAL 				"Sergal"
 #define CULTURE_SERGAL_COMMON 		"Common Sergal"
@@ -220,17 +232,38 @@
 #define RELIGION_SERGAL_OTHER 		"Other Sergal Faiths"
 #define RELIGION_SERGAL_OLDFAITHS 	"Old Sergal Faiths"
 
-// Taj culture
-#define CULTURE_TAJ					"Sabelkyne"
+// Sabelkyne culture
+#define CULTURE_TAJ					"Saulkyne"
+#define CULTURE_TAJ_MAUNKYNE		"Maunkyne"
+#define HOME_SYSTEM_ALMUTAHAR		"Almutahar"
 
 // Vulp culture
-#define CULTURE_VULP				"Vulpkanin"
-#define CULTURE_VULP_COMMON			"Common Vulpkanin"
-#define CULTURE_VULP_HUMANIFIEDELITE "Elite Vulpkanin"
-#define CULTURE_VULP_HUMANIFIEDCOMMON "Terran Vulpkanin"
-#define CULTURE_VULP_RURAL			"Rural Vulpkanin"
-#define CULTURE_VULP_TRIBAL			"Tribal Vulpkanin"
-#define CULTURE_VULP_SECUNDUS		"Mersi Secundian"
-#define HOME_SYSTEM_MERSICENTU		"Mersi Centu"
-#define HOME_SYSTEM_MERSISECUNDUS	"Mersi Secundus"
+#define CULTURE_VULP					"Vulpkanin"
+#define CULTURE_VULP_COMMON				"Common Vulpkanin"
+#define CULTURE_VULP_HUMANIFIEDELITE	"Elite Vulpkanin"
+#define CULTURE_VULP_HUMANIFIEDCOMMON	"Terran Vulpkanin"
+#define CULTURE_VULP_RURAL				"Rural Vulpkanin"
+#define CULTURE_VULP_TRIBAL				"Tribal Vulpkanin"
+#define CULTURE_VULP_SECUNDUS			"Mersi Secundian"
+#define HOME_SYSTEM_MERSICENTU			"Mersi Centu"
+#define HOME_SYSTEM_MERSISECUNDUS		"Mersi Secundus"
+
+// Khazan culture
+#define HOME_SYSTEM_CEZHJEDIHN		"Cezh’jedihn"
+#define CULTURE_KHAZAN				"Khazan Nomads"
+#define CULTURE_KHAZAN_URBAN		"Urban Khazan"
+#define CULTURE_KHAZAN_FEDERAL		"Federal Khazan"
+#define RELIGION_KHAZAN				"Khazan Ancestor Worship"
+
+// Duroj culture
+#define CULTURE_DUROJ						"Duroj"
+#define CULTURE_DUROJ_VOIDBORN				"Voidborn Duroj"
+#define CULTURE_DUROJ_CHAYKODNYRURAL		"Chakodny Duroj"
+#define CULTURE_DUROJ_CHAYKODNYIMPERIAL		"Imperial Duroj"
+#define CULTURE_DUROJ_CHAYKODNYFEDERAL		"Federal Duroj"
+#define HOME_SYSTEM_ZAZHITOCHNOST_PLANET	"Zazhitochnost - Chaykodny"
+#define HOME_SYSTEM_ZAZHITOCHNOST_SPACE		"Zazhitochnost - Spacer"
+
+// Other
+#define CULTURE_SYMBIOTIC      "Symbiote Host"
 // Solstice Station End

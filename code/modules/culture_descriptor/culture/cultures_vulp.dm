@@ -67,3 +67,12 @@
 	life in the suburan and rural regions. Much of the planet remains untamed and unclaimed, and is often a destination for those leaving the homeworld in the hopes of finding \
 	a new home and new land elsewhere."
 	economic_power = 1
+
+/decl/cultural_info/culture/vulp/epsiloneridani
+	name = CULTURE_VULP_EPSILONERIDANI
+	description = "Like most other species, some Vulpkanin have flocked to Damascus and its capital of Alexandria. It is yet another world similar to the two in their home \
+	system. Both the average Vulpkanin and the elites have found a place on the growing world. Many Vulpkanin have found employment in the shipping industry, owing in part \
+	to Vulpkanin ownership of several transportation companies that service the planet and their preferential hiring. Others take on a variety of professional jobs. There's \
+	no singular kind of Vulpkanin from Damascus. Doctors, engineers, and other professionals are only a small number of their population. Most live within Alexandria, but \
+	a fair number have built homes outside the cities on land that they can simply claim as theirs."
+	economic_power = 1.1

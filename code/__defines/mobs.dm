@@ -318,6 +318,8 @@
 #define SPECIES_TAJ         "Sabelkyne"
 #define SPECIES_OLDUNATHI   "Veteris'Unathi" //Placeholder name.
 #define SPECIES_HUMAN2      "Custom Human" //Placeholder name maybe.
+#define SPECIES_KHAZAN		"Khazan"
+#define SPECIES_DUROJ		"Duroj"
 
 #define UNRESTRICTED_SPECIES list(	SPECIES_HUMAN, 		\
 									SPECIES_DIONA, 		\
@@ -334,7 +336,10 @@
 									SPECIES_VULP,		\
 									SPECIES_TAJ,		\
 									SPECIES_OLDUNATHI,	\
-									SPECIES_HUMAN2)
+									SPECIES_HUMAN2,		\
+									SPECIES_KHAZAN,		\
+									SPECIES_DUROJ)
+									
 #define RESTRICTED_SPECIES   list(	SPECIES_VOX, 		   \
 									SPECIES_ALIEN, 		   \
 									SPECIES_GOLEM, 		   \
@@ -347,9 +352,11 @@
 								  SPECIES_VATGROWN,   \
 								  SPECIES_SPACER,	  \
 								  SPECIES_GRAVWORLDER,\
+								  SPECIES_TRITONIAN,\
 								  SPECIES_MULE,\
 								  SPECIES_CUSTOM,\
-								  SPECIES_AKULA)
+								  SPECIES_AKULA,\
+								  SPECIES_DUROJ)
 // Solstice Station End
 
 #define SPECIES_NABBER         "giant armoured serpentid"

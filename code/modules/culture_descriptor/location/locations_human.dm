@@ -114,7 +114,7 @@
 	gateway installation in Federation space and provides vital links to many other Federation systems. Practically a city in space unto itself, the HGI is home to a hodgepodge of private individuals, \
 	Fleet and law enforcement outposts, government services and a wide array of private enterprises all catering to the many hangabouts, travellers, merchants and soldiers who pass through it daily. \
 	This fact alone is what has allowed the Helios system and Eos as a whole to weather multiple economic recessions and has allowed Eos to establish itself as a premier commercial centre of the wider \
-	Federation. This process was hindered during the Gaia conflict, when the Helios Gateway was destroyed in a suicide action of the Fourth Fleet to stop the GCC advance. It has recovered rapidly \
+	Federation. This process was hindered during the Great Terran War, when the Helios Gateway was destroyed in a suicide action of the Fourth Fleet to stop the GCC advance. It has recovered rapidly \
 	since the occupation, though the memories of that event carry in the collective consciousness of those who remained through it."
 	capital = "Surya"
 	economic_power = 1.3
@@ -159,8 +159,8 @@
 	Because of this, the planet's cities are either domed or built into mountains. Its economy is built around a technological backbone, providing the technology \
 	and the people skilled to use them.  Its infrastructure is developed enough to support mass transit across the planet. Its capital city is called The Hub, a massive domed structure \
 	that serves both as a spaceport, administrative hub, and habitation zone. It remains the only place on the planet accessible to non-Lorrimanians. \
-	Despite its isolation, the Scientific Institute of Gessshire remains amicable with the Federation.  The Institute is a technocratic republic led by Dr. Johan Montgomery. \
-	It is known by most Defence Forces personnel to act begrudgingly towards any requests given, and only a select few have visited the planet itself.<br><br>\
+	Despite its isolation, the Scientific Institute of Gessshire remains amicable with the Federation.  The Institute is a semi-autonomous, technocratic republic led by Dr. Johan Montgomery. \
+	It is known by most Armed Forces personnel to act begrudgingly towards any requests given, and only a select few have visited the planet itself.<br><br>\
 	Lorrimanians are a quiet, unassuming, academically-driven bunch. They are often sought as researchers or other scientifically-driven career.  It is rare for anyone to immigrate \
 	to the planet, but exceptions have been made. A scientifically driven people, they have served many organisations loyally."
 	capital = "The Hub"
@@ -230,7 +230,7 @@
 	It is an agricultural world, though various conflicts across the planet's surface and the most recent war have left it deeply scarred. The planet is divided into \
 	Terran-Controlled <b>Southern Gaia</b> and Independent-Controlled <b>Northern Gaia</b>, with New Venice remaining a neutral zone inside the DMZ. \
 	The planet's population remain divided even 10 years after the Gaian Conflict. New Venice sits on the edge of Lake Cabot. While Gaia is divided \
-	the current Mayor of New Venice serves as a vital mediator between both sides. <br><br> The Gaian People are tired of war, and long to see their families \
+	the current Mayor of New Venice serves as a vital mediator between both sides. The Gaian People are tired of war, and long to see their families \
 	once again."
 	capital = "New Venice"
 	economic_power = 1.0
@@ -238,11 +238,35 @@
 /decl/cultural_info/location/human/magnitka
 	name = HOME_SYSTEM_MAGNITKA
 	distance = "24 light years"
-	description = "Magnitka is an independent, industrialized mining and ore processing colony located in the Ursa system. \
-	Ruled by an authoritarian government heavily associated with the corporations that founded it, Magnitka's recent history is marked by civil war. Even today, a large number of rebel groups populate the planet. \
-	Founded by German companies in the 2300s, the overwhelming majority of Magnitka's population is descended from Eastern European laborers and their German managers. \
-	Unfortunately, Magnitka's economy is in a decline as its principle export, iron, grows cheaper by the day. The primary careers available to Magnitkans are military service, mining, or organized crime.  \
-	Though historically relatively isolationist, today Magnitka finds itself more and more closely associated with the Gilgamesh Colonial Confederation, in an effort to offset its economic decline."
+	description = "Magnitka is a semi-autonomous, industrialized mining and ore processing colony located in the Ursa system. \
+	Ruled by an authoritarian government heavily associated with the corporations that founded it, Magnitka's recent history is marked by civil war. Even today, a large \
+	number of rebel groups populate the planet. Founded by German companies in the 2300s, the overwhelming majority of Magnitka's population is descended from Eastern \
+	European laborers and their German managers. Unfortunately, Magnitka's economy is in a decline as its principle export, iron, grows cheaper by the day. The primary \
+	careers available to Magnitkans are military service, mining, or organized crime. Though historically relatively isolationist, today Magnitka finds itself more and \
+	more closely associated with the Gilgamesh Colonial Confederation, in an effort to offset its economic decline. The Federation, however, is not keen on letting the \
+	planet slip away."
 	capital = "Labortown"
 	economic_power = 0.8
-	ruling_body = "Magnitka"
+
+/decl/cultural_info/location/human/epsiloneridani
+	name = HOME_SYSTEM_EPSILONERIDANI
+	distance = "10.5 light years"
+	description = "Damascus, more than any other world, is one of the great experiments of the Terran Federation. Established originally in the late 23rd century, \
+	Damascus and its capital of Alexandria was envisioned as a highly planned, and multi-cultural world. The planet itself is very Earth-like in size and atmospheric \
+	composition, and the climate of the world is very similar. Seen as the 'perfect' colonization candidate, the rush to Damascus resulted in a population explosion. \
+	Today, Damascus is seen as a New Earth and is a melting pot of the Federation. Every species can be found on the planet, including with various enclaves and unique \
+	cultural districts throughout Damascus. Beyond the cities, homesteaders stake out land for themselves, and small towns have cropped up. Damascus continues to grow \
+	and is one of the few worlds not severely impacted by the depression in the wake of the Great Terran War."
+	capital = "Alexandria"
+	economic_power = 1
+
+/decl/cultural_info/location/human/zazhitochnost
+	name = HOME_SYSTEM_ZAZHITOCHNOST
+	distance = "43 light years"
+	description = "A unique star system and planet, Zazhitochnost was settled by primarily Slavic colonists in the mid 22nd century after nearly half a century of cryosleep. Isolated from the Federation \
+	the settlers forged their own home independently. They were only recently rediscovered near the beginning of the 26th century by an Expeditionary Corps vessel. While \
+	re-integration has been slow, the once independnent natives of Zazhitochnost have largely embraced the Federation. The star system of Zazhitochnost is comprised of a \
+	single habitable world, a handful of other planets, and many different space stations and outposts scattered across the system. Before Federation arrival, many of these \
+	stations were controlled by warring factions and the planet itself remains divided on national lines."
+	capital = "Chaykodny"
+	economic_power = 1
