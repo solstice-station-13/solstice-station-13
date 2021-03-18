@@ -233,7 +233,9 @@
 #define RELIGION_SERGAL_OLDFAITHS 	"Old Sergal Faiths"
 
 // Sabelkyne culture
-#define CULTURE_TAJ					"Sabelkyne"
+#define CULTURE_TAJ					"Saulkyne"
+#define CULTURE_TAJ_MAUNKYNE		"Maunkyne"
+#define HOME_SYSTEM_ALMUTAHAR		"Almutahar"
 
 // Vulp culture
 #define CULTURE_VULP					"Vulpkanin"
