@@ -318,6 +318,8 @@
 #define SPECIES_TAJ         "Sabelkyne"
 #define SPECIES_OLDUNATHI   "Veteris'Unathi" //Placeholder name.
 #define SPECIES_HUMAN2      "Custom Human" //Placeholder name maybe.
+#define SPECIES_KHAZAN		"Khazan"
+#define SPECIES_DUROJ		"Duroj"
 
 #define UNRESTRICTED_SPECIES list(	SPECIES_HUMAN, 		\
 									SPECIES_DIONA, 		\
