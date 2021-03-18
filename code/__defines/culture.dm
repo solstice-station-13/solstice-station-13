@@ -90,10 +90,6 @@
 #define RELIGION_SHINTO        "Shinto"
 #define RELIGION_TAOISM        "Taoism"
 
-// Solstice Station Start
-#define CULTURE_SYMBIOTIC      "Symbiote Host"
-// Solstice Station End
-
 // Skrellian cultures.
 #define CULTURE_SKRELL_QERR     "Qerr-Katish"
 #define CULTURE_SKRELL_MALISH   "Malish-Katish"
@@ -208,6 +204,18 @@
 #define RELIGION_KHARMAANI       "Nest-Lineage Veneration"
 
 // Solstice Station Begin
+// Human Expansion
+#define CULTURE_HUMAN_ZAZHITOCHNOST		"Zazhitochnostian"
+#define HOME_SYSTEM_ZAZHITOCHNOST		"Zazhitochnost"
+
+// Epsilon Eridani
+#define HOME_SYSTEM_EPSILONERIDANI		"Damascus"
+#define CULTURE_HUMAN_EPSILONERIDANI	"Damascus"
+#define CULTURE_VULP_EPSILONERIDANI		"Damascus"
+#define CULTURE_SERGAL_EPSILONERIDANI	"Damascus"
+#define CULTURE_TAJ_EPSILONERIDANI		"Damascus"
+#define CULTURE_UNATHI_EPSILONERIDANI	"Damascus"
+
 // Sergal culture
 #define CULTURE_SERGAL 				"Sergal"
 #define CULTURE_SERGAL_COMMON 		"Common Sergal"
@@ -233,4 +241,7 @@
 #define CULTURE_VULP_SECUNDUS		"Mersi Secundian"
 #define HOME_SYSTEM_MERSICENTU		"Mersi Centu"
 #define HOME_SYSTEM_MERSISECUNDUS	"Mersi Secundus"
+
+// Other
+#define CULTURE_SYMBIOTIC      "Symbiote Host"
 // Solstice Station End
