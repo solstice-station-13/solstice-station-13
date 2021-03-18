@@ -60,7 +60,7 @@
 		/datum/species/tajaran		= list(SEMIRESTRICTED),
 		/datum/species/vasilissan	= list(SEMIRESTRICTED),
 		/datum/species/vulpkanin	= list(SEMIRESTRICTED),
-		/datum/species/machine		= list(RESTRICTED)
+		/datum/species/machine		= list(RESTRICTED),
 		/datum/species/khazan		= list(SEMIRESTRICTED),
 		/datum/species/duroj		= list(UNRESTRICTED)
 	)
