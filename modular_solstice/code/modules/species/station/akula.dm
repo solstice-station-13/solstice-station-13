@@ -23,11 +23,29 @@
 	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_SKIN_COLOR | HAS_EYE_COLOR
 
 	sexybits_location = BP_GROIN //this is possibly my favorite variable just because of how out of place it is.
+	
+	cold_level_1 = 280 //Default 260 - Lower is better
+	cold_level_2 = 220 //Default 200
+	cold_level_3 = 130 //Default 120
+
+	heat_level_1 = 420 //Default 360 - Higher is better
+	heat_level_2 = 480 //Default 400
+	heat_level_3 = 1100 //Default 1000
+	
+	heat_discomfort_level = 320
+	heat_discomfort_strings = list(
+		"You feel soothingly warm.",
+		"You feel the heat sink into your bones.",
+		)
+
+	cold_discomfort_level = 273
+	cold_discomfort_strings = list(
+		"You feel chilly.",
+		"You feel sluggish and cold.",
+		)
 
 	available_cultural_info = list(
 		TAG_CULTURE = list(
-			CULTURE_HUMAN,
-			CULTURE_HUMAN_VATGROWN,
 			CULTURE_HUMAN_MARTIAN,
 			CULTURE_HUMAN_MARSTUN,
 			CULTURE_HUMAN_LUNAPOOR,
@@ -42,58 +60,6 @@
 			CULTURE_HUMAN_SPAFRO,
 			CULTURE_HUMAN_CONFED,
 			CULTURE_HUMAN_OTHER
-		),
-		TAG_FACTION = list(
-			FACTION_SOL_CENTRAL,
-			FACTION_FLEET,
-			FACTION_CORPORATE,
-			FACTION_INDIE_CONFED,
-			FACTION_EXPEDITIONARY,
-			FACTION_SPACECOPS,
-			FACTION_NANOTRASEN,
-			FACTION_XYNERGY,
-			FACTION_HEPHAESTUS,
-			FACTION_FREETRADE,
-			FACTION_PCRC,
-			FACTION_DAIS,
-			FACTION_OTHER
-		),
-		TAG_RELIGION = list(
-			RELIGION_OTHER,
-			RELIGION_JUDAISM,
-			RELIGION_HINDUISM,
-			RELIGION_BUDDHISM,
-			RELIGION_JAINISM,
-			RELIGION_SIKHISM,
-			RELIGION_ISLAM,
-			RELIGION_CHRISTIANITY,
-			RELIGION_BAHAI_FAITH,
-			RELIGION_AGNOSTICISM,
-			RELIGION_DEISM,
-			RELIGION_ATHEISM,
-			RELIGION_THELEMA,
-			RELIGION_SPIRITUALISM,
-			RELIGION_SHINTO,
-			RELIGION_TAOISM
-		),
-		TAG_HOMEWORLD = list(
-			HOME_SYSTEM_MARS,
-			HOME_SYSTEM_EARTH,
-			HOME_SYSTEM_LUNA,
-			HOME_SYSTEM_VENUS,
-			HOME_SYSTEM_CERES,
-			HOME_SYSTEM_PLUTO,
-			HOME_SYSTEM_TAU_CETI,
-			HOME_SYSTEM_HELIOS,
-			HOME_SYSTEM_TERRA,
-			HOME_SYSTEM_TERSTEN,
-			HOME_SYSTEM_LORRIMAN,
-			HOME_SYSTEM_CINU,
-			HOME_SYSTEM_YUKLID,
-			HOME_SYSTEM_LORDANIA,
-			HOME_SYSTEM_KINGSTON,
-			HOME_SYSTEM_GAIA,
-			HOME_SYSTEM_MAGNITKA
 		)
 	)
 	
