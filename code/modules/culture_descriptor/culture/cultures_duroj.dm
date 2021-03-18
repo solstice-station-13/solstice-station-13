@@ -51,3 +51,11 @@
 	resistance make them valuable in physical jobs. Both born in Zazhitochnost and the greater Federation can also be found as doctors, engineers, and in other professional \
 	careers. However they all prefer colder worlds, and are rarely if ever seen on warmer planets like Cinu, Earth, or Yuklid."  
 	economic_power = 1
+	
+/decl/cultural_info/culture/duroj/epsiloneridani
+	name = CULTURE_DUROJ_EPSILONERIDANI	
+	description = "The planet of Damascus has become one of the largest draws for any species. Even for the Duroj, Epsilon Eridani has its own charm. The polar regions are \
+	much like Chaykodny. The first immigrants to the planet moved into these colder regions, but over the decades more have moved into the cities such as Alexandria. Within \
+	the city, their somewhat unique take on Slavic culture sets them apart. Like most species, the Duroj have their own ethnic enclave within the city even though they are \
+	ultimately human. Most Duroj in Alexandria are hard working, and considerably more open and social than those fresh from Zazhitochnost. Friendly may still be pushing it."
+	economic_power = 1.1
