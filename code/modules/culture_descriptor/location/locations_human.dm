@@ -263,7 +263,6 @@
 /decl/cultural_info/location/human/zazhitochnost
 	name = HOME_SYSTEM_ZAZHITOCHNOST
 	distance = 43 light years
-	language = LANGUAGE_HUMAN_RUSSIAN
 	description = "A unique star system and planet, Zazhitochnost was settled by primarily Slavic colonists in the mid 22nd century after nearly half a century of cryosleep. Isolated from the Federation \
 	the settlers forged their own home independently. They were only recently rediscovered near the beginning of the 26th century by an Expeditionary Corps vessel. While \
 	re-integration has been slow, the once independnent natives of Zazhitochnost have largely embraced the Federation. The star system of Zazhitochnost is comprised of a \
