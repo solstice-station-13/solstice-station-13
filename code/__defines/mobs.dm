@@ -352,6 +352,7 @@
 								  SPECIES_VATGROWN,   \
 								  SPECIES_SPACER,	  \
 								  SPECIES_GRAVWORLDER,\
+								  SPECIES_TRITONIAN,\
 								  SPECIES_MULE,\
 								  SPECIES_CUSTOM,\
 								  SPECIES_AKULA,\
