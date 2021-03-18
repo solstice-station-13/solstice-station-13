@@ -3,7 +3,23 @@
 	supervisors = "the Terran Federation and the Terran Code of Uniform Justice"
 	minimal_player_age = 14
 	economic_power = 16
-	minimum_character_age = list(SPECIES_HUMAN = 40)
+	minimum_character_age = list(
+		SPECIES_HUMAN = 45,
+		SPECIES_UNATHI = 45,
+		SPECIES_TAJ = 45,
+		SPECIES_VULP = 45,
+		SPECIES_SERGAL = 45,
+		SPECIES_AKULA = 45,
+		SPECIES_CUSTOM = 45,
+		SPECIES_DUROJ = 45,
+		SPECIES_KHAZAN = 45,
+		SPECIES_TRITONIAN = 45,
+		SPECIES_GRAVWORLDER = 45,
+		SPECIES_SPACER = 45,
+		SPECIES_OLDUNATHI = 45,
+		SPECIES_YEOSA = 45,
+		SPECIES_SKRELL = 45,
+	)
 	ideal_character_age = 50
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/CO
 	allowed_branches = list(
@@ -40,7 +56,23 @@
 	department_flag = COM
 	minimal_player_age = 14
 	economic_power = 14
-	minimum_character_age = list(SPECIES_HUMAN = 35)
+	minimum_character_age = list(
+		SPECIES_HUMAN = 35,
+		SPECIES_UNATHI = 35,
+		SPECIES_TAJ = 35,
+		SPECIES_VULP = 35,
+		SPECIES_SERGAL = 35,
+		SPECIES_AKULA = 35,
+		SPECIES_CUSTOM = 35,
+		SPECIES_DUROJ = 35,
+		SPECIES_KHAZAN = 35,
+		SPECIES_TRITONIAN = 35,
+		SPECIES_GRAVWORLDER = 35,
+		SPECIES_SPACER = 35,
+		SPECIES_OLDUNATHI = 35,
+		SPECIES_YEOSA = 35,
+		SPECIES_SKRELL = 35,
+	)
 	ideal_character_age = 45
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/XO
 	allowed_branches = list(
@@ -105,7 +137,23 @@
 	supervisors = "the Commanding Officer"
 	economic_power = 12
 	minimal_player_age = 14
-	minimum_character_age = list(SPECIES_HUMAN = 35)
+	minimum_character_age = list(
+		SPECIES_HUMAN = 35,
+		SPECIES_UNATHI = 35,
+		SPECIES_TAJ = 35,
+		SPECIES_VULP = 35,
+		SPECIES_SERGAL = 35,
+		SPECIES_AKULA = 35,
+		SPECIES_CUSTOM = 35,
+		SPECIES_DUROJ = 35,
+		SPECIES_KHAZAN = 35,
+		SPECIES_TRITONIAN = 35,
+		SPECIES_GRAVWORLDER = 35,
+		SPECIES_SPACER = 35,
+		SPECIES_OLDUNATHI = 35,
+		SPECIES_YEOSA = 35,
+		SPECIES_SKRELL = 35,
+	)
 	ideal_character_age = 60
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/research/cso
 	allowed_branches = list(
@@ -154,7 +202,23 @@
 	supervisors = "the Commanding Officer and the Executive Officer"
 	economic_power = 14
 	minimal_player_age = 14
-	minimum_character_age = list(SPECIES_HUMAN = 35)
+	minimum_character_age = list(
+		SPECIES_HUMAN = 35,
+		SPECIES_UNATHI = 35,
+		SPECIES_TAJ = 35,
+		SPECIES_VULP = 35,
+		SPECIES_SERGAL = 35,
+		SPECIES_AKULA = 35,
+		SPECIES_CUSTOM = 35,
+		SPECIES_DUROJ = 35,
+		SPECIES_KHAZAN = 35,
+		SPECIES_TRITONIAN = 35,
+		SPECIES_GRAVWORLDER = 35,
+		SPECIES_SPACER = 35,
+		SPECIES_OLDUNATHI = 35,
+		SPECIES_YEOSA = 35,
+		SPECIES_SKRELL = 35,
+	)
 	ideal_character_age = 48
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/cmo
 	allowed_branches = list(
@@ -200,7 +264,23 @@
 	title = "Chief Engineer"
 	supervisors = "the Commanding Officer and the Executive Officer"
 	economic_power = 12
-	minimum_character_age = list(SPECIES_HUMAN = 27)
+	minimum_character_age = list(
+		SPECIES_HUMAN = 27,
+		SPECIES_UNATHI = 27,
+		SPECIES_TAJ = 27,
+		SPECIES_VULP = 27,
+		SPECIES_SERGAL = 27,
+		SPECIES_AKULA = 27,
+		SPECIES_CUSTOM = 27,
+		SPECIES_DUROJ = 27,
+		SPECIES_KHAZAN = 27,
+		SPECIES_TRITONIAN = 27,
+		SPECIES_GRAVWORLDER = 27,
+		SPECIES_SPACER = 27,
+		SPECIES_OLDUNATHI = 27,
+		SPECIES_YEOSA = 27,
+		SPECIES_SKRELL = 27,
+	)
 	ideal_character_age = 40
 	minimal_player_age = 14
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/chief_engineer
@@ -265,7 +345,23 @@
 	supervisors = "the Commanding Officer and the Executive Officer"
 	economic_power = 10
 	minimal_player_age = 14
-	minimum_character_age = list(SPECIES_HUMAN = 25)
+	minimum_character_age = list(
+		SPECIES_HUMAN = 25,
+		SPECIES_UNATHI = 25,
+		SPECIES_TAJ = 25,
+		SPECIES_VULP = 25,
+		SPECIES_SERGAL = 25,
+		SPECIES_AKULA = 25,
+		SPECIES_CUSTOM = 25,
+		SPECIES_DUROJ = 25,
+		SPECIES_KHAZAN = 25,
+		SPECIES_TRITONIAN = 25,
+		SPECIES_GRAVWORLDER = 25,
+		SPECIES_SPACER = 25,
+		SPECIES_OLDUNATHI = 25,
+		SPECIES_YEOSA = 25,
+		SPECIES_SKRELL = 25,
+	)
 	ideal_character_age = 35
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/cos
 	allowed_branches = list(
@@ -323,7 +419,23 @@
 	min_skill = list(   SKILL_BUREAUCRACY = SKILL_EXPERT,
 	                    SKILL_FINANCE     = SKILL_BASIC)
 	skill_points = 20
-	minimum_character_age = list(SPECIES_HUMAN = 27)
+	minimum_character_age = list(
+		SPECIES_HUMAN = 27,
+		SPECIES_UNATHI = 27,
+		SPECIES_TAJ = 27,
+		SPECIES_VULP = 27,
+		SPECIES_SERGAL = 27,
+		SPECIES_AKULA = 27,
+		SPECIES_CUSTOM = 27,
+		SPECIES_DUROJ = 27,
+		SPECIES_KHAZAN = 27,
+		SPECIES_TRITONIAN = 27,
+		SPECIES_GRAVWORLDER = 27,
+		SPECIES_SPACER = 27,
+		SPECIES_OLDUNATHI = 27,
+		SPECIES_YEOSA = 27,
+		SPECIES_SKRELL = 27,
+	)
 
 	access = list(
 		access_representative, access_security, access_medical,
@@ -346,7 +458,23 @@
 	selection_color = "#2f2f7f"
 	minimal_player_age = 14
 	economic_power = 11
-	minimum_character_age = list(SPECIES_HUMAN = 35)
+	minimum_character_age = list(
+		SPECIES_HUMAN = 35,
+		SPECIES_UNATHI = 35,
+		SPECIES_TAJ = 35,
+		SPECIES_VULP = 35,
+		SPECIES_SERGAL = 35,
+		SPECIES_AKULA = 35,
+		SPECIES_CUSTOM = 35,
+		SPECIES_DUROJ = 35,
+		SPECIES_KHAZAN = 35,
+		SPECIES_TRITONIAN = 35,
+		SPECIES_GRAVWORLDER = 35,
+		SPECIES_SPACER = 35,
+		SPECIES_OLDUNATHI = 35,
+		SPECIES_YEOSA = 35,
+		SPECIES_SKRELL = 35,
+	)
 	ideal_character_age = 45
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/sea/fleet
 	allowed_branches = list(
@@ -399,7 +527,23 @@
 	selection_color = "#2f2f7f"
 	minimal_player_age = 0
 	economic_power = 8
-	minimum_character_age = list(SPECIES_HUMAN = 22)
+	minimum_character_age = list(
+		SPECIES_HUMAN = 22,
+		SPECIES_UNATHI = 22,
+		SPECIES_TAJ = 22,
+		SPECIES_VULP = 22,
+		SPECIES_SERGAL = 22,
+		SPECIES_AKULA = 22,
+		SPECIES_CUSTOM = 22,
+		SPECIES_DUROJ = 22,
+		SPECIES_KHAZAN = 22,
+		SPECIES_TRITONIAN = 22,
+		SPECIES_GRAVWORLDER = 22,
+		SPECIES_SPACER = 22,
+		SPECIES_OLDUNATHI = 22,
+		SPECIES_YEOSA = 22,
+		SPECIES_SKRELL = 22,
+	)
 	ideal_character_age = 24
 	outfit_type = /decl/hierarchy/outfit/job/torch/crew/command/bridgeofficer
 	allowed_branches = list(
