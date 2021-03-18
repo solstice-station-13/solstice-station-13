@@ -205,7 +205,7 @@
 
 // Solstice Station Begin
 // Human Expansion
-#define CULTURE_HUMAN_ZAZHITOCHNOST		"Zazhitochnostian"
+#define CULTURE_HUMAN_ZAZHITOCHNOST		"Chaykodnian"
 #define HOME_SYSTEM_ZAZHITOCHNOST		"Zazhitochnost"
 
 // Epsilon Eridani
