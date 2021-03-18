@@ -1,3 +1,4 @@
+// These are WIP cultures and will be expanded in the future.
 /decl/cultural_info/culture/khazan
 	name = CULTURE_KHAZAN
 	description = "The Khazan Nomads, as they are called somewhat derisively by the Federation, are the largest culture group of the Khazan on Cezh’jedihn."
