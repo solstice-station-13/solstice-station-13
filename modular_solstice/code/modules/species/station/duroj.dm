@@ -1,6 +1,6 @@
 // Currently uses slightly modified Vulpkanin sprites as default. Sprite change may be worked on in the future.
 // A lot of this is WIP, but the framework is there.
-/datum/species/human/duroj
+/datum/species/duroj
 	name = SPECIES_DUROJ
 	name_plural = SPECIES_DUROJ
 	icon_template = 'icons/mob/human_races/species/template.dmi'
