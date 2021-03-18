@@ -61,6 +61,11 @@
 		"You feel sluggish and cold.",
 		"Your fur bristles against the cold."
 		)
+	
+	descriptors = list(
+		/datum/mob_descriptor/height = 2,
+		/datum/mob_descriptor/build = 2
+		)
 
 	sexybits_location = BP_GROIN //this is possibly my favorite variable just because of how out of place it is. - cebu | what the hell does it even do -tori | Basically it just defines where you can hit them for massive (pain) damage. An entire variable dedicated to nutshots. -cebu
 
