@@ -336,7 +336,10 @@
 									SPECIES_VULP,		\
 									SPECIES_TAJ,		\
 									SPECIES_OLDUNATHI,	\
-									SPECIES_HUMAN2)
+									SPECIES_HUMAN2,		\
+									SPECIES_KHAZAN,		\
+									SPECIES_DUROJ)
+									
 #define RESTRICTED_SPECIES   list(	SPECIES_VOX, 		   \
 									SPECIES_ALIEN, 		   \
 									SPECIES_GOLEM, 		   \
@@ -351,7 +354,8 @@
 								  SPECIES_GRAVWORLDER,\
 								  SPECIES_MULE,\
 								  SPECIES_CUSTOM,\
-								  SPECIES_AKULA)
+								  SPECIES_AKULA,\
+								  SPECIES_DUROJ)
 // Solstice Station End
 
 #define SPECIES_NABBER         "giant armoured serpentid"
