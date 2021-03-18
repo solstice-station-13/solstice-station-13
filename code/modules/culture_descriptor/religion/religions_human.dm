@@ -1,14 +1,17 @@
 /decl/cultural_info/religion/other
 	name = RELIGION_OTHER
 	description = "One of the many, many niche or relatively unknown religions of the galaxy."
+	economic_power = 1
 
 /decl/cultural_info/religion/jewish
 	name = RELIGION_JUDAISM
 	description = "An Abrahamic monotheistic religion held to by the Jewish people. Someone who practices Judaism and is of the Jewish culture is called a Jew."
+	economic_power = 3
 
 /decl/cultural_info/religion/hindu
 	name = RELIGION_HINDUISM
 	description = "An Indian religion encompassing a variety of traditions, beliefs and spiritual practices. Someone who practices Hinduism is called a Hindu."
+	economic_power = 1
 
 /decl/cultural_info/religion/buddhist
 	name = RELIGION_BUDDHISM
@@ -28,7 +31,20 @@
 
 /decl/cultural_info/religion/christian
 	name = RELIGION_CHRISTIANITY
-	description = "An Abrahamic monotheistic religion based on the life and teachings of Jesus of Nazareth. Someone who practices Christianity is called a Christian."
+	description = "An Abrahamic monotheistic religion based on the life and teachings of Jesus of Nazareth. There are many sects of Christianity, and you belong to one of \
+	the less common ones, or the broad term of Protestantism, outside the two primary groups."
+
+/decl/cultural_info/religion/christian/catholic
+	name = RELIGION_CATHOLICISM
+	description = "An Abrahamic monotheistic religion based on the life and teachings of Jesus of Nazareth. The modern Catholic Church is the largest Christian sects in the \
+	Federation. Still based out of the Vatican on Earth, the Catholic Church often comes under fire from Federation authorities for its preaching against the Federation. \
+	They have a strong pro-human and anti-alien stance, though the policies of the Vatican doesn't necessarily reflect the rest of the faithful."
+
+/decl/cultural_info/religion/christian/orthodox
+	name = RELIGION_EASTERNORTHODOX
+	description = "An Abrahamic monotheistic religion based on the life and teachings of Jesus of Nazareth. Eastern Orthodoxy is the most common sect of Christianity in \
+	the Gilgamesh Colonial Confederation, and the smallest major sect in the Federation. It's most common among those of Slavic descent, though there are small populations \
+	all across human space. The Eastern Orthodox patriarchs tend to avoid controversy and political concerns."
 
 /decl/cultural_info/religion/bahai
 	name = RELIGION_BAHAI_FAITH
