@@ -69,6 +69,8 @@
 		/datum/mob_descriptor/build = 2
 		)
 
+	blood_color = "#660000"
+
 	sexybits_location = BP_GROIN //this is possibly my favorite variable just because of how out of place it is. - cebu | what the hell does it even do -tori | Basically it just defines where you can hit them for massive (pain) damage. An entire variable dedicated to nutshots. -cebu
 
 	available_cultural_info = list(
