@@ -61,7 +61,7 @@
 	cold_discomfort_strings = list(
 		"You feel comfortably cool.",
 		"You feel invigorated by the cold.",
-		"Your fur protects the cold."
+		"Your fur protects against the cold."
 		)
 		
 	descriptors = list(
