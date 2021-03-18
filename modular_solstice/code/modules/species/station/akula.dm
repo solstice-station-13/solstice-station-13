@@ -1,4 +1,4 @@
-/datum/species/akula
+/datum/species/human/akula
 	name = SPECIES_AKULA
 	name_plural = SPECIES_AKULA
 	icobase = 'modular_solstice/icons/mob/human_races/species/akula/body.dmi'
@@ -45,24 +45,5 @@
 		)
 
 	blood_color = "#990000"
-		
-	available_cultural_info = list(
-		TAG_CULTURE = list(
-			CULTURE_HUMAN_MARTIAN,
-			CULTURE_HUMAN_MARSTUN,
-			CULTURE_HUMAN_LUNAPOOR,
-			CULTURE_HUMAN_LUNARICH,
-			CULTURE_HUMAN_VENUSIAN,
-			CULTURE_HUMAN_VENUSLOW,
-			CULTURE_HUMAN_BELTER,
-			CULTURE_HUMAN_PLUTO,
-			CULTURE_HUMAN_EARTH,
-			CULTURE_HUMAN_CETI,
-			CULTURE_HUMAN_SPACER,
-			CULTURE_HUMAN_SPAFRO,
-			CULTURE_HUMAN_CONFED,
-			CULTURE_HUMAN_OTHER
-		)
-	)
-	
+
 	override_organ_types = list(BP_LUNGS = /obj/item/organ/internal/lungs/gills)
