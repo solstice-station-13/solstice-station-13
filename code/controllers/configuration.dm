@@ -77,6 +77,7 @@ var/list/gamemode_cache = list()
 	var/allow_extra_antags = 0
 	var/guests_allowed = 1
 	var/debugparanoid = 0
+	var/borderControl = 0
 
 	var/serverurl
 	var/server
@@ -295,6 +296,9 @@ var/list/gamemode_cache = list()
 
 				if ("debug_paranoid")
 					config.debugparanoid = 1
+
+				if ("border_control")
+					config.borderControl = text2num(value)
 
 				if ("log_admin")
 					config.log_admin = 1

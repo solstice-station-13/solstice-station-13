@@ -416,3 +416,9 @@ RADIATION_LOWER_LIMIT 0.15
 ## Add lines of 'DISALLOW_VOTABLE_MODE config_tag' to prevent a normally votable mode from being votable, eg:
 ## DISALLOW_VOTABLE_MODE changeling
 ## DISALLOW_VOTABLE_MODE malfunction
+
+## If the server only accepts whitelisted connections
+## 0 Disables Border Control
+## 1 Puts Border Control into 'learning mode' and will have it automatically whitelist new connections
+## 2 Puts Border Control into 'enforcing mode' and will have it deny connections that are not already whitelisted.
+BORDER_CONTROL 0
