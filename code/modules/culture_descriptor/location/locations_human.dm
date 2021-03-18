@@ -250,7 +250,7 @@
 
 /decl/cultural_info/location/human/epsiloneridani
 	name = HOME_SYSTEM_EPSILONERIDANI
-	distance = 10.5 light years
+	distance = "10.5 light years"
 	description = "Damascus, more than any other world, is one of the great experiments of the Terran Federation. Established originally in the late 23rd century, \
 	Damascus and its capital of Alexandria was envisioned as a highly planned, and multi-cultural world. The planet itself is very Earth-like in size and atmospheric \
 	composition, and the climate of the world is very similar. Seen as the 'perfect' colonization candidate, the rush to Damascus resulted in a population explosion. \
@@ -262,7 +262,7 @@
 
 /decl/cultural_info/location/human/zazhitochnost
 	name = HOME_SYSTEM_ZAZHITOCHNOST
-	distance = 43 light years
+	distance = "43 light years"
 	description = "A unique star system and planet, Zazhitochnost was settled by primarily Slavic colonists in the mid 22nd century after nearly half a century of cryosleep. Isolated from the Federation \
 	the settlers forged their own home independently. They were only recently rediscovered near the beginning of the 26th century by an Expeditionary Corps vessel. While \
 	re-integration has been slow, the once independnent natives of Zazhitochnost have largely embraced the Federation. The star system of Zazhitochnost is comprised of a \
