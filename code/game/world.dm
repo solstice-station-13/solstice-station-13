@@ -574,10 +574,13 @@ var/world_topic_spam_protect_time = world.timeofday
 
 	s += "<b>[station_name()]</b>";
 	s += " ("
-	s += "<a href=\"https://forums.baystation12.net/\">" //Change this to wherever you want the hub to link to.
-	s += "Forums"  //Replace this with something else. Or ever better, delete it and uncomment the game version.
+	s += "<a href=\"https://discord.gg/svKyPgB395\">" //Change this to wherever you want the hub to link to.
+	s += "Discord"  //Replace this with something else. Or ever better, delete it and uncomment the game version.
 	s += "</a>"
 	s += ")"
+
+	s += "<br><small>Baystation 12 Based - HRP, Anthro Species, Unique Lore, 18+</small><br>"
+
 
 	var/list/features = list()
 
