@@ -30,7 +30,6 @@ SUBSYSTEM_DEF(jobs)
 
 	for(var/jtype in subtypesof(/datum/job))
 		var/datum/job/job = jtype
-		report_progress("aaa '[job]' '' '[initial(job.title)]'")
 		all_jobs += initial(job.title)
 
 	// Create main map jobs.
