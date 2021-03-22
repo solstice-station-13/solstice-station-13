@@ -80,6 +80,29 @@
 			HOME_SYSTEM_MAGNITKA
 		)
 	)
+	
+	permitted_ears  = list("Plain Sabelkyne Ears",
+		"Sabelkyne Bangs",
+		"Sabelkyne Bob",
+		"Sabelkyne Braid",
+		"Sabelkyne Clean",
+		"Sabelkyne Curly",
+		"Sabelkyne Fingerwave",
+		"Sabelkyne Greaser",
+		"Sabelkyne Housewife",
+		"Sabelkyne Long",
+		"Sabelkyne Messy",
+		"Sabelkyne Mohawk",
+		"Sabelkyne Plait",
+		"Sabelkyne Rat Tail",
+		"Sabelkyne Shaggy",
+		"Sabelkyne Spiky",
+		"Sabelkyne Straight",
+		"Sabelkyne Victory",
+		"Sabelkyne ears, colorable"
+		)
+	permitted_tail  = list("tajaran tail")
+	permitted_wings = list()
 
 /datum/species/tajaran/proc/handle_coco(var/mob/living/carbon/human/M, var/datum/reagent/nutriment/coco, var/efficiency = 1)
 	var/effective_dose = efficiency * M.chem_doses[coco.type]
