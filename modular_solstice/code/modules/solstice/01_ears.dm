@@ -185,6 +185,7 @@
 	. += "<b>Ears</b><br>"
 	. += " Style: <a href='?src=\ref[src];ear_style=1'>[ear_display]</a><br>"
 	if(ear_styles_list[pref.ear_style])
+		var/valid_ears = cspecies.permitted_ears ? cspecies.permitted_ears : GLOB.ears_styles_list
 		var/datum/sprite_accessory/ears/ear = ear_styles_list[pref.ear_style]
 		if (ear.do_colouration)
 			. += "<a href='?src=\ref[src];ear_color=1'>Change Color</a> <font face='fixedsys' size='3' color='#[num2hex(pref.r_ears, 2)][num2hex(pref.g_ears, 2)][num2hex(pref.b_ears, 2)]'><table style='display:inline;' bgcolor='#[num2hex(pref.r_ears, 2)][num2hex(pref.g_ears, 2)][num2hex(pref.b_ears, 2)]'><tr><td>__</td></tr></table> </font><br>"
@@ -193,6 +194,7 @@
 
 	var/tail_display = "Normal"
 	if(pref.tail_style && (pref.tail_style in tail_styles_list))
+		var/valid_tails = cspecies.permitted_tail ? cspecies.permitted_tail : GLOB.tail_styles_list
 		var/datum/sprite_accessory/tail/instance = tail_styles_list[pref.tail_style]
 		tail_display = instance.name
 	else if(pref.tail_style)
@@ -211,6 +213,7 @@
 
 	var/wing_display = "Normal"
 	if(pref.wing_style && (pref.wing_style in wing_styles_list))
+		var/valid_wings = cspecies.permitted_wings ? cspecies.permitted_wings : GLOB.wings_styles_list
 		var/datum/sprite_accessory/wing/instance = wing_styles_list[pref.wing_style]
 		wing_display = instance.name
 	else if(pref.wing_style)
