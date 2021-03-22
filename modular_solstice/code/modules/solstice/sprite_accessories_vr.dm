@@ -25,13 +25,15 @@
 	name = "You should not see this..."
 	icon = 'modular_solstice/icons/mob/ears.dmi'
 	do_colouration = 0 // Set to 1 to blend (ICON_ADD) hair color
+	species_allowed = list(SPECIES_CUSTOM)
 
 	var/color_blend_mode = ICON_ADD // Only appliciable if do_coloration = 1
 	var/extra_overlay // Icon state of an additional overlay to blend in.
 	var/desc = "You should not see this..."
 
-
-// Ears avaliable to anyone
+////////////////////////////
+// Bug Stuff
+////////////////////////////
 
 /datum/sprite_accessory/ears/bee
 	name = "bee antennae"
@@ -45,35 +47,21 @@
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
 
-/datum/sprite_accessory/ears/m_ipc_antenna_synth_horns_ADJ
-	name = "Synth horns, plain"
-	desc = ""
-	icon_state = "m_ipc_antenna_synth_horns_ADJ"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-	extra_overlay = "m_ipc_antenna_synth_hornslight_ADJ"
-
-/datum/sprite_accessory/ears/m_ipc_antenna_synth_thick_ADJ
-	name = "Synth horns, thick"
-	desc = ""
-	icon_state = "m_ipc_antenna_synth_thick_ADJ"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-	extra_overlay = "m_ipc_antenna_synth_thicklight_ADJ"
-
-/datum/sprite_accessory/ears/m_ipc_antenna_synth_curled_ADJ
-	name = "Synth horns, curly"
-	desc = ""
-	icon_state = "m_ipc_antenna_synth_curled_ADJ"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
 /datum/sprite_accessory/ears/curly_bug
 	name = "curly antennae, colorable"
 	desc = ""
 	icon_state = "curly_bug"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
+	
+/datum/sprite_accessory/ears/lilimoth_antennae
+	name = "citheronia antennae"
+	desc = ""
+	icon_state = "lilimoth_antennae"
+
+////////////////////////////
+// Other/Genemod Ears
+////////////////////////////
 
 /datum/sprite_accessory/ears/dual_robot
 	name = "synth antennae, colorable"
@@ -96,173 +84,6 @@
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
 
-/datum/sprite_accessory/ears/oni_h1_c
-	name = "oni horns, colorable"
-	desc = ""
-	icon_state = "oni-h1_c"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
-/datum/sprite_accessory/ears/demon_horns1_c
-	name = "demon horns, colorable"
-	desc = ""
-	icon_state = "demon-horns1_c"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
-/datum/sprite_accessory/ears/demon_horns2
-	name = "demon horns, colorable(outward)"
-	desc = ""
-	icon_state = "demon-horns2"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
-/datum/sprite_accessory/ears/dragon_horns
-	name = "dragon horns, colorable"
-	desc = ""
-	icon_state = "dragon-horns"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
-/datum/sprite_accessory/ears/foxears
-	name = "highlander zorren ears"
-	desc = ""
-	icon_state = "foxears"
-
-/datum/sprite_accessory/ears/fenears
-	name = "flatland zorren ears"
-	desc = ""
-	icon_state = "fenears"
-
-/datum/sprite_accessory/ears/tajplain
-	name = "Plain Tajaran Ears"
-	icon_state = "ears_plain"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
-/datum/sprite_accessory/ears/tajbangs
-	name = "Tajaran Bangs"
-	icon_state = "hair_bangs"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
-/datum/sprite_accessory/ears/tajbob
-	name = "Tajaran Bob"
-	icon_state = "hair_bob"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
-/datum/sprite_accessory/ears/tajbraid
-	name = "Tajaran Braid"
-	icon_state = "hair_braid"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
-/datum/sprite_accessory/ears/tajclean
-	name = "Tajaran Clean"
-	icon_state = "hair_clean"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
-/datum/sprite_accessory/ears/tajcurly
-	name = "Tajaran Curly"
-	icon_state = "hair_curly"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
-/datum/sprite_accessory/ears/tajfingerwave
-	name = "Tajaran Fingerwave"
-	icon_state = "hair_fingerwave"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
-/datum/sprite_accessory/ears/tajgreaser
-	name = "Tajaran Greaser"
-	icon_state = "hair_greaser"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
-/datum/sprite_accessory/ears/tajhousewife
-	name = "Tajaran Housewife"
-	icon_state = "hair_housewife"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
-/datum/sprite_accessory/ears/tajlong
-	name = "Tajaran Long"
-	icon_state = "hair_long"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
-/datum/sprite_accessory/ears/tajmessy
-	name = "Tajaran Messy"
-	icon_state = "hair_messy"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
-/datum/sprite_accessory/ears/tajmohawk
-	name = "Tajaran Mohawk"
-	icon_state = "hair_mohawk"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
-/datum/sprite_accessory/ears/tajplait
-	name = "Tajaran Plait"
-	icon_state = "hair_plait"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
-/datum/sprite_accessory/ears/tajrattail
-	name = "Tajaran Rat Tail"
-	icon_state = "hair_rattail"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
-/datum/sprite_accessory/ears/tajshaggy
-	name = "Tajaran Shaggy"
-	icon_state = "hair_shaggy"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
-/datum/sprite_accessory/ears/tajspiky
-	name = "Tajaran Spiky"
-	icon_state = "hair_spiky"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
-/datum/sprite_accessory/ears/tajstraight
-	name = "Tajaran Straight"
-	icon_state = "hair_straight"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
-/datum/sprite_accessory/ears/tajvictory
-	name = "Tajaran Victory"
-	icon_state = "hair_victory"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
-/datum/sprite_accessory/ears/foxearshc
-	name = "highlander zorren ears, colorable"
-	desc = ""
-	icon_state = "foxearshc"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
-/datum/sprite_accessory/ears/fenearshc
-	name = "flatland zorren ears, colorable"
-	desc = ""
-	icon_state = "fenearshc"
-	extra_overlay = "fenears-inner"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
-/datum/sprite_accessory/ears/sergalhc
-	name = "Sergal ears, colorable"
-	icon_state = "serg_plain_s"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
 /datum/sprite_accessory/ears/mousehc
 	name = "mouse, colorable"
 	desc = ""
@@ -275,50 +96,6 @@
 	name = "mouse, colorable, no inner"
 	desc = ""
 	icon_state = "mouse"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
-/datum/sprite_accessory/ears/wolfhc
-	name = "wolf, colorable"
-	desc = ""
-	icon_state = "wolf"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-	extra_overlay = "wolfinner"
-
-/datum/sprite_accessory/ears/bearhc
-	name = "bear, colorable"
-	desc = ""
-	icon_state = "bear"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
-/datum/sprite_accessory/ears/smallbear
-	name = "small bear"
-	desc = ""
-	icon_state = "smallbear"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
-/datum/sprite_accessory/ears/squirrelhc
-	name = "squirrel, colorable"
-	desc = ""
-	icon_state = "squirrel"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
-/datum/sprite_accessory/ears/kittyhc
-	name = "kitty, colorable"
-	desc = ""
-	icon_state = "kitty"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-	extra_overlay = "kittyinner"
-
-/datum/sprite_accessory/ears/tajhc
-	name = "tajaran ears, colorable"
-	desc = ""
-	icon_state = "taj"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
 
@@ -392,49 +169,12 @@
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
 
-/datum/sprite_accessory/ears/otie
-	name = "otie, colorable"
-	desc = ""
-	icon_state = "otie"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-	extra_overlay = "otie-inner"
-
-/datum/sprite_accessory/ears/zears
-	name = "jagged ears"
-	desc = ""
-	icon_state = "zears"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
-/datum/sprite_accessory/ears/elfs
-	name = "elven ears"
-	desc = ""
-	icon_state = "elfs"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
 /datum/sprite_accessory/ears/sleek
 	name = "sleek ears"
 	desc = ""
 	icon_state = "sleek"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-
-/datum/sprite_accessory/ears/drake
-	name = "drake frills"
-	desc = ""
-	icon_state = "drake"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
-/datum/sprite_accessory/ears/vulp
-	name = "vulpkanin, dual-color"
-	desc = ""
-	icon_state = "vulp"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-	extra_overlay = "vulp-inner"
 
 /datum/sprite_accessory/ears/bunny_floppy
 	name = "floppy bunny ears (colorable)"
@@ -443,17 +183,322 @@
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
 
-// Special snowflake ears go below here.
+////////////////////////////
+// Taj Ears
+////////////////////////////
 
+/datum/sprite_accessory/ears/taj/
+	name = "Plain Sabelkyne Ears"
+	icon_state = "ears_plain"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	species_allowed = list(SPECIES_TAJ)
+
+/datum/sprite_accessory/ears/taj/bangs
+	name = "Sabelkyne Bangs"
+	icon_state = "hair_bangs"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/taj/bob
+	name = "Sabelkyne Bob"
+	icon_state = "hair_bob"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/taj/braid
+	name = "Sabelkyne Braid"
+	icon_state = "hair_braid"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/taj/clean
+	name = "Sabelkyne Clean"
+	icon_state = "hair_clean"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/taj/curly
+	name = "Sabelkyne Curly"
+	icon_state = "hair_curly"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/taj/fingerwave
+	name = "Sabelkyne Fingerwave"
+	icon_state = "hair_fingerwave"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/taj/greaser
+	name = "Sabelkyne Greaser"
+	icon_state = "hair_greaser"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/taj/housewife
+	name = "Sabelkyne Housewife"
+	icon_state = "hair_housewife"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/taj/long
+	name = "Sabelkyne Long"
+	icon_state = "hair_long"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/taj/messy
+	name = "Sabelkyne Messy"
+	icon_state = "hair_messy"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/taj/mohawk
+	name = "Sabelkyne Mohawk"
+	icon_state = "hair_mohawk"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/taj/plait
+	name = "Sabelkyne Plait"
+	icon_state = "hair_plait"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/taj/rattail
+	name = "Sabelkyne Rat Tail"
+	icon_state = "hair_rattail"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/taj/shaggy
+	name = "Sabelkyne Shaggy"
+	icon_state = "hair_shaggy"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/taj/spiky
+	name = "Sabelkyne Spiky"
+	icon_state = "hair_spiky"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/taj/straight
+	name = "Sabelkyne Straight"
+	icon_state = "hair_straight"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/taj/victory
+	name = "Sabelkyne Victory"
+	icon_state = "hair_victory"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	
+/datum/sprite_accessory/ears/taj/hc
+	name = "Sabelkyne ears, colorable"
+	desc = ""
+	icon_state = "taj"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+////////////////////////////
+// Veteris'Unathi Horns/Ears
+////////////////////////////
+
+/datum/sprite_accessory/ears/humanathi
+	name = "short horns, colorable"
+	desc = ""
+	icon_state = "demon-horns1_c"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	species_allowed = list(SPECIES_HUMANATHI,SPECIES_TAJ)
+
+/datum/sprite_accessory/ears/humanathi/oni_h1_c
+	name = "small horns, colorable"
+	desc = ""
+	icon_state = "oni-h1_c"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/humanathi/demon_horns2
+	name = "short horns, colorable(outward)"
+	desc = ""
+	icon_state = "demon-horns2"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/humanthi/dragon_horns
+	name = "long horns, colorable"
+	desc = ""
+	icon_state = "dragon-horns"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	
+/datum/sprite_accessory/ears/m_ipc_antenna_synth_horns_ADJ
+	name = "quad horns, plain"
+	desc = ""
+	icon_state = "m_ipc_antenna_synth_horns_ADJ"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	extra_overlay = "m_ipc_antenna_synth_hornslight_ADJ"
+
+/datum/sprite_accessory/ears/m_ipc_antenna_synth_thick_ADJ
+	name = "long horns, thick"
+	desc = ""
+	icon_state = "m_ipc_antenna_synth_thick_ADJ"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	extra_overlay = "m_ipc_antenna_synth_thicklight_ADJ"
+
+/datum/sprite_accessory/ears/m_ipc_antenna_synth_curled_ADJ
+	name = "thin horns, curly"
+	desc = ""
+	icon_state = "m_ipc_antenna_synth_curled_ADJ"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	
+/datum/sprite_accessory/ears/drake
+	name = "drake frills"
+	desc = ""
+	icon_state = "drake"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	species_allowed = list(SPECIES_HUMANATHI)
+
+////////////////////////////
+// Vulp Ears
+////////////////////////////
+
+/datum/sprite_accessory/ears/vulp
+	name = "Vulpkanin, dual-color"
+	desc = ""
+	icon_state = "vulp"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	extra_overlay = "vulp-inner"
+	species_allowed = list(SPECIES_VULP,SPECIES_KHAZAN,SPECIES_CUSTOM)
+
+/datum/sprite_accessory/ears/vulp/foxears
+	name = "Highland Vulpkanin ears"
+	desc = ""
+	icon_state = "foxears"
+
+/datum/sprite_accessory/ears/vulp/fenears
+	name = "Flatland Vulpkanin ears"
+	desc = ""
+	icon_state = "fenears"
+	
+/datum/sprite_accessory/ears/vulp/foxearshc
+	name = "Highland Vulpkanin ears, colorable"
+	desc = ""
+	icon_state = "foxearshc"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/vulp/fenearshc
+	name = "Flatland Vulpkanin ears, colorable"
+	desc = ""
+	icon_state = "fenearshc"
+	extra_overlay = "fenears-inner"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	
+/datum/sprite_accessory/ears/vulp/otie
+	name = "Pointed ears, colorable"
+	desc = ""
+	icon_state = "otie"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	extra_overlay = "otie-inner"
+	
+/datum/sprite_accessory/ears/vulp/shock
+	name = "Hound ears"
+	desc = ""
+	icon_state = "shock"
+
+////////////////////////////
+// Khazan Ears
+////////////////////////////
+
+
+
+////////////////////////////
+// Duroj Ears
+////////////////////////////
+
+/datum/sprite_accessory/ears/duroj/
+	name = "small bear"
+	desc = ""
+	icon_state = "smallbear"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	species_allowed = list(SPECIES_DUROJ,SPECIES_CUSTOM)
+
+/datum/sprite_accessory/ears/duroj/bearhc
+	name = "bear, colorable"
+	desc = ""
+	icon_state = "bear"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	
+////////////////////////////
+// Sergal Ears
+////////////////////////////
+
+/datum/sprite_accessory/ears/sergal
+	name = "Sergal ears, colorable"
+	icon_state = "serg_plain_s"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	species_allowed = list(SPECIES_SERGAL)
+
+////////////////////////////
+// Snowflake Shit with no sprites/low quality	
+////////////////////////////
+/*
+/datum/sprite_accessory/ears/wolfhc
+	name = "wolf, colorable"
+	desc = ""
+	icon_state = "wolf"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	extra_overlay = "wolfinner"
+
+/datum/sprite_accessory/ears/squirrelhc
+	name = "squirrel, colorable"
+	desc = ""
+	icon_state = "squirrel"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	
+/datum/sprite_accessory/ears/zears
+	name = "jagged ears"
+	desc = ""
+	icon_state = "zears"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	
+/datum/sprite_accessory/ears/elfs
+	name = "elven ears"
+	desc = ""
+	icon_state = "elfs"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	
 /datum/sprite_accessory/ears/molenar_kitsune
 	name = "quintail kitsune ears"
 	desc = ""
 	icon_state = "molenar-kitsune"
 
-/datum/sprite_accessory/ears/lilimoth_antennae
-	name = "citheronia antennae"
+/datum/sprite_accessory/ears/kittyhc
+	name = "kitty, colorable"
 	desc = ""
-	icon_state = "lilimoth_antennae"
+	icon_state = "kitty"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	extra_overlay = "kittyinner"
 
 /datum/sprite_accessory/ears/molenar_deathclaw
 	name = "deathclaw ears"
@@ -500,15 +545,11 @@
 	desc = ""
 	icon_state = "molenar-tentacle"
 
-/datum/sprite_accessory/ears/shock
-	name = "pharoah hound ears"
-	desc = ""
-	icon_state = "shock"
-
 /datum/sprite_accessory/ears/alurane
 	name = "alurane ears/hair"
 	desc = ""
 	icon_state = "alurane-ears"
+*/
 
 /*
 ////////////////////////////
