@@ -457,10 +457,8 @@ default behaviour is:
 	// restore us to conciousness
 	set_stat(CONSCIOUS)
 
-/*	
 	// make the icons look correct
 	regenerate_icons()
-*/	
 
 	BITSET(hud_updateflag, HEALTH_HUD)
 	BITSET(hud_updateflag, STATUS_HUD)
