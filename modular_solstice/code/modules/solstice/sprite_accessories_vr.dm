@@ -313,7 +313,7 @@
 	icon_state = "demon-horns1_c"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_allowed = list(SPECIES_HUMANATHI,SPECIES_TAJ)
+	species_allowed = list(SPECIES_OLDUNATHI,SPECIES_TAJ)
 
 /datum/sprite_accessory/ears/humanathi/oni_h1_c
 	name = "small horns, colorable"
@@ -365,7 +365,7 @@
 	icon_state = "drake"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_allowed = list(SPECIES_HUMANATHI)
+	species_allowed = list(SPECIES_OLDUNATHI)
 
 ////////////////////////////
 // Vulp Ears
