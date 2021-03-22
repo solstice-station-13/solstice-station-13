@@ -164,7 +164,7 @@
 
 
 
-/datum/category_item/player_setup_item/vore/ears/content(var/mob/user)
+/datum/category_item/player_setup_item/vore/ears/content(var/href,var/list/href_list, var/mob/user)
 	. += "<h2>Genemod Selection</h2>"
 
 	if(!pref.preview_icon)
