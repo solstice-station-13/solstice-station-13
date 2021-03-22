@@ -5,7 +5,7 @@
 /datum/preferences
 	var/custom_species	// Custom species name, can't be changed due to it having been used in savefiles already.
 	var/custom_base		// What to base the custom species on
-	var/blood_color = "COLOR_BLOOD_HUMAN"
+	var/blood_color = COLOR_BLOOD_HUMAN
 
 	var/list/pos_traits	= list()	// What traits they've selected for their custom species
 	var/list/neu_traits = list()	// These are NAME -> Instance of trait datum
