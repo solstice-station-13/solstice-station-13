@@ -11,7 +11,7 @@
 	tail = "beartail"
 	limb_blend = ICON_MULTIPLY
 	tail_blend = ICON_MULTIPLY
-	default_ears = /datum/sprite_accessory/ears/smallbear
+	default_ears = /datum/sprite_accessory/ears/duroj
 	hidden_from_codex = FALSE
 	
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite/sharp, /datum/unarmed_attack/claws)
