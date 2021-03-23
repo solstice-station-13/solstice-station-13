@@ -25,7 +25,7 @@
 	name = "You should not see this..."
 	icon = 'modular_solstice/icons/mob/ears.dmi'
 	do_colouration = 0 // Set to 1 to blend (ICON_ADD) hair color
-	species_allowed = list(SPECIES_CUSTOM)
+	species_restricted = list(SPECIES_CUSTOM)
 
 	var/color_blend_mode = ICON_ADD // Only appliciable if do_coloration = 1
 	var/extra_overlay // Icon state of an additional overlay to blend in.
@@ -192,7 +192,7 @@
 	icon_state = "ears_plain"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_allowed = list(SPECIES_TAJ)
+	species_restricted = list(SPECIES_TAJ)
 
 /datum/sprite_accessory/ears/taj/bangs
 	name = "Sabelkyne Bangs"
@@ -313,7 +313,7 @@
 	icon_state = "demon-horns1_c"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_allowed = list(SPECIES_OLDUNATHI,SPECIES_TAJ)
+	species_restricted = list(SPECIES_OLDUNATHI,SPECIES_TAJ)
 
 /datum/sprite_accessory/ears/humanathi/oni_h1_c
 	name = "small horns, colorable"
@@ -365,7 +365,7 @@
 	icon_state = "drake"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_allowed = list(SPECIES_OLDUNATHI)
+	species_restricted = list(SPECIES_OLDUNATHI)
 
 ////////////////////////////
 // Vulp Ears
@@ -378,7 +378,7 @@
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
 	extra_overlay = "vulp-inner"
-	species_allowed = list(SPECIES_VULP,SPECIES_KHAZAN,SPECIES_CUSTOM)
+	species_restricted = list(SPECIES_VULP,SPECIES_KHAZAN,SPECIES_CUSTOM)
 
 /datum/sprite_accessory/ears/vulp/foxears
 	name = "Highland Vulpkanin ears"
@@ -434,7 +434,7 @@
 	icon_state = "smallbear"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_allowed = list(SPECIES_DUROJ,SPECIES_CUSTOM)
+	species_restricted = list(SPECIES_DUROJ,SPECIES_CUSTOM)
 
 /datum/sprite_accessory/ears/duroj/bearhc
 	name = "bear, colorable"
@@ -452,7 +452,7 @@
 	icon_state = "serg_plain_s"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_allowed = list(SPECIES_SERGAL)
+	species_restricted = list(SPECIES_SERGAL)
 
 ////////////////////////////
 // Snowflake Shit with no sprites/low quality	
