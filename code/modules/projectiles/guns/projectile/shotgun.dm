@@ -73,7 +73,7 @@
 			overlays += I
 			
 /obj/item/weapon/gun/projectile/shotgun/pump/combat/secure
-	name = "combat shotgun"
+	name = "combat smart shotgun"
 	desc = "Built for close quarters combat, the Hephaestus Industries KS-40 is widely regarded as a weapon of choice for repelling boarders. This one has an NT1019 chip installed."
 	icon_state = "cshotgun"
 	item_state = "cshotgun"
