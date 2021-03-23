@@ -59,6 +59,9 @@
 	ammo_indicator = TRUE
 	req_access = list(access_brig, access_bridge)
 	authorized_modes = list(UNAUTHORIZED)
+	firemodes = list(
+		list(mode_name="fire"),
+		)
 
 /obj/item/weapon/gun/projectile/pistol/sec
 	name = "pistol"
