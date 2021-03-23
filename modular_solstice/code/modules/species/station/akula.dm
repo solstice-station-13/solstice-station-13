@@ -44,7 +44,7 @@
 		"You feel sluggish and cold.",
 		)
 
-	blood_color = "#990000"
+	blood_color = COLOR_BLOOD_HUMAN
 		
 	available_cultural_info = list(
 		TAG_CULTURE = list(

@@ -44,6 +44,24 @@
 	safety_icon = "safety"
 	origin_tech = list(TECH_COMBAT = 4, TECH_MATERIAL = 2, TECH_ESOTERIC = 8)
 	fire_delay = 8
+	
+/obj/item/weapon/gun/projectile/pistol/military/secure
+	name = "military smartpistol"
+	desc = "The Hephaestus Industries P20 - a mass produced kinetic sidearm in widespread service with the Terran Armed Forces. This one has an integrated NT1019 chip."
+	magazine_type = /obj/item/ammo_magazine/pistol/double/
+	allowed_magazines = /obj/item/ammo_magazine/pistol/double
+	icon = 'icons/obj/guns/military_pistol.dmi'
+	icon_state = "military"
+	item_state = "secgundark"
+	safety_icon = "safety"
+	origin_tech = list(TECH_COMBAT = 3, TECH_MATERIAL = 2)
+	fire_delay = 7
+	ammo_indicator = TRUE
+	req_access = list(access_brig, access_bridge)
+	authorized_modes = list(UNAUTHORIZED)
+	firemodes = list(
+		list(mode_name="fire"),
+		)
 
 /obj/item/weapon/gun/projectile/pistol/sec
 	name = "pistol"

@@ -11,7 +11,7 @@
 	tail = "beartail"
 	limb_blend = ICON_MULTIPLY
 	tail_blend = ICON_MULTIPLY
-	default_ears = /datum/sprite_accessory/ears/smallbear
+	default_ears = /datum/sprite_accessory/ears/duroj
 	hidden_from_codex = FALSE
 	
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite/sharp, /datum/unarmed_attack/claws)
@@ -53,7 +53,7 @@
 	heat_discomfort_level = 300
 	heat_discomfort_strings = list(
 		"You feel uncomfortably warm.",
-		"You feel begin to feel tired.",
+		"You begin to feel tired.",
 		"Your fur is starting to soak."
 		)
 
@@ -69,7 +69,7 @@
 		/datum/mob_descriptor/build = 2
 		)
 
-	blood_color = "#660000"
+	blood_color = COLOR_BLOOD_HUMAN
 
 	sexybits_location = BP_GROIN //this is possibly my favorite variable just because of how out of place it is. - cebu | what the hell does it even do -tori | Basically it just defines where you can hit them for massive (pain) damage. An entire variable dedicated to nutshots. -cebu
 

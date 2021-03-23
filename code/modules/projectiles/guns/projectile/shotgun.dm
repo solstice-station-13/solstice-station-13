@@ -71,6 +71,30 @@
 			var/image/I = image(icon, "shell")
 			I.pixel_x = i * 2
 			overlays += I
+			
+/obj/item/weapon/gun/projectile/shotgun/pump/combat/secure
+	name = "combat smart shotgun"
+	desc = "Built for close quarters combat, the Hephaestus Industries KS-40 is widely regarded as a weapon of choice for repelling boarders. This one has an NT1019 chip installed."
+	icon_state = "cshotgun"
+	item_state = "cshotgun"
+	wielded_item_state = "cshotgun-wielded"
+	origin_tech = list(TECH_COMBAT = 5, TECH_MATERIAL = 2)
+	max_shells = 7 //match the ammo box capacity, also it can hold a round in the chamber anyways, for a total of 8.
+	ammo_type = /obj/item/ammo_casing/shotgun/pellet
+	one_hand_penalty = 8
+	req_access = list(list(access_brig, access_bridge))
+	authorized_modes = list(UNAUTHORIZED)
+	firemodes = list(
+		list(mode_name="fire"),
+		)
+
+/obj/item/weapon/gun/projectile/shotgun/pump/combat/secure/on_update_icon()
+	..()
+	if(length(loaded) > 3)
+		for(var/i = 0 to length(loaded) - 4)
+			var/image/I = image(icon, "shell")
+			I.pixel_x = i * 2
+			overlays += I
 
 /obj/item/weapon/gun/projectile/shotgun/doublebarrel
 	name = "double-barreled shotgun"
