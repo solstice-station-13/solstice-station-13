@@ -7,6 +7,16 @@ var/savefile/borderControlFile = new /savefile("data/bordercontrol.db")
 var/whitelistLoaded = 0
 
 //////////////////////////////////////////////////////////////////////////////////
+proc/BC_ModeToText(var/mode)
+	switch(mode)
+		if(BORDER_CONTROL_DISABLED)
+			return "Disabled"
+		if(BORDER_CONTROL_LEARNING)
+			return "Learning"
+		if(BORDER_CONTROL_ENFORCED)
+			return "Enforced"
+
+//////////////////////////////////////////////////////////////////////////////////
 proc/BC_IsKeyAllowedToConnect(var/key)
 	key = ckey(key)
 
@@ -105,7 +115,7 @@ proc/BC_WhitelistKey(var/key)
 	set name = "Border Control - Toggle Mode"
 	set category = "Admin"
 
-	var/choice = input("New State", "Border Control State") as null|anything in list("Disabled", "Learning", "Enforced")
+	var/choice = input("New State (Current state is: [BC_ModeToText(config.borderControl)])", "Border Control State") as null|anything in list("Disabled", "Learning", "Enforced")
 
 	switch(choice)
 		if("Disabled")

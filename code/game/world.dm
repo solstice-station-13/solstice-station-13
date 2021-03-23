@@ -147,7 +147,7 @@ var/world_topic_spam_protect_time = world.timeofday
 		s["players"] = 0
 		s["stationtime"] = stationtime2text()
 		s["roundduration"] = roundduration2text()
-		s["map"] = replacetext(GLOB.using_map.full_name, "\improper", "") //Done to remove the non-UTF-8 text macros 
+		s["map"] = replacetext(GLOB.using_map.full_name, "\improper", "") //Done to remove the non-UTF-8 text macros
 
 		var/active = 0
 		var/list/players = list()
@@ -574,10 +574,13 @@ var/world_topic_spam_protect_time = world.timeofday
 
 	s += "<b>[station_name()]</b>";
 	s += " ("
-	s += "<a href=\"https://forums.baystation12.net/\">" //Change this to wherever you want the hub to link to.
-	s += "Forums"  //Replace this with something else. Or ever better, delete it and uncomment the game version.
+	s += "<a href=\"https://discord.gg/svKyPgB395\">" //Change this to wherever you want the hub to link to.
+	s += "Discord"  //Replace this with something else. Or ever better, delete it and uncomment the game version.
 	s += "</a>"
-	s += ")"
+	s += ")]"
+
+	s += "<br><small>Baystation 12 Based - HRP, Anthro Species, Unique Lore, 18+</small><br>"
+
 
 	var/list/features = list()
 
@@ -609,7 +612,7 @@ var/world_topic_spam_protect_time = world.timeofday
 		features += "hosted by <b>[config.hostedby]</b>"
 
 	if (features)
-		s += ": [jointext(features, ", ")]"
+		s += "<br>\[[jointext(features, ", ")]"
 
 	/* does this help? I do not know */
 	if (src.status != s)
