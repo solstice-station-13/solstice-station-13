@@ -57,7 +57,7 @@
 	origin_tech = list(TECH_COMBAT = 3, TECH_MATERIAL = 2)
 	fire_delay = 7
 	ammo_indicator = TRUE
- 	req_access = list(list(access_brig, access_bridge))
+	req_access = list(access_brig, access_bridge)
 	authorized_modes = list(UNAUTHORIZED)
 
 /obj/item/weapon/gun/projectile/pistol/sec
