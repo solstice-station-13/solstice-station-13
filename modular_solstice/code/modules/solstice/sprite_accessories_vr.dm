@@ -29,7 +29,6 @@
 	var/color_blend_mode = ICON_ADD // Only appliciable if do_coloration = 1
 	var/extra_overlay // Icon state of an additional overlay to blend in.
 	var/desc = "You should not see this..."
-	var/list/species_allowed = list()
 
 ////////////////////////////
 // Other/Genemod Ears
