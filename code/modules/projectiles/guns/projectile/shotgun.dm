@@ -80,7 +80,7 @@
 	wielded_item_state = "cshotgun-wielded"
 	origin_tech = list(TECH_COMBAT = 5, TECH_MATERIAL = 2)
 	max_shells = 7 //match the ammo box capacity, also it can hold a round in the chamber anyways, for a total of 8.
-	ammo_type = /obj/item/ammo_casing/shotgun
+	ammo_type = /obj/item/ammo_casing/shotgun/pellet
 	one_hand_penalty = 8
 	req_access = list(list(access_brig, access_bridge))
 	authorized_modes = list(UNAUTHORIZED)
