@@ -26,7 +26,7 @@
 	icon = 'modular_solstice/icons/mob/ears.dmi'
 	do_colouration = 0 // Set to 1 to blend (ICON_ADD) hair color
 	
-	var/list/species_restricted = list("include",)
+	var/list/species_restricted = list("exclude",)
 	var/color_blend_mode = ICON_ADD // Only appliciable if do_coloration = 1
 	var/extra_overlay // Icon state of an additional overlay to blend in.
 	var/desc = "You should not see this..."
@@ -42,7 +42,7 @@
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
 	extra_overlay = "mouseinner"
-	species_restricted = list("include",SPECIES_CUSTOM)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_YEOSA,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_TAJ,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/mousehcno
 	name = "Genemod, mouse colorable no inner"
@@ -50,7 +50,7 @@
 	icon_state = "mouse"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include","include",SPECIES_CUSTOM)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_YEOSA,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_TAJ,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/bunnyhc
 	name = "Genemod, bunny colorable"
@@ -58,7 +58,7 @@
 	icon_state = "bunny"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_CUSTOM)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_YEOSA,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_TAJ,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/antlers
 	name = "Genemod deer antlers"
@@ -66,7 +66,7 @@
 	icon_state = "antlers"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_CUSTOM)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_YEOSA,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_TAJ,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/antlers_e
 	name = "Genemod, deer antlers with ears"
@@ -75,7 +75,7 @@
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
 	extra_overlay = "antlers_mark"
-	species_restricted = list("include",SPECIES_CUSTOM)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_YEOSA,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_TAJ,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/smallantlers
 	name = "Genemod, deer small antlers"
@@ -83,7 +83,7 @@
 	icon_state = "smallantlers"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_CUSTOM)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_YEOSA,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_TAJ,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/smallantlers_e
 	name = "Genemod, deer small antlers with ears"
@@ -92,7 +92,7 @@
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
 	extra_overlay = "deer"
-	species_restricted = list("include",SPECIES_CUSTOM)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_YEOSA,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_TAJ,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/deer
 	name = "Genemod, deer ears"
@@ -100,13 +100,13 @@
 	icon_state = "deer"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_CUSTOM)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_YEOSA,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_TAJ,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/cow
 	name = "Genemod, cow horns"
 	desc = ""
 	icon_state = "cow"
-	species_restricted = list("include",SPECIES_CUSTOM)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_YEOSA,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_TAJ,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/cowc
 	name = "Genemod, cow horns colorable"
@@ -114,7 +114,7 @@
 	icon_state = "cow-c"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_CUSTOM)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_YEOSA,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_TAJ,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/cow_nohorns
 	name = "Genemod, cow no horns"
@@ -122,7 +122,7 @@
 	icon_state = "cow-nohorns"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_CUSTOM)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_YEOSA,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_TAJ,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/caprahorns
 	name = "Genemod, caprine horns"
@@ -130,7 +130,7 @@
 	icon_state = "caprahorns"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_CUSTOM)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_YEOSA,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_TAJ,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/bunny_floppy
 	name = "floppy bunny ears (colorable)"
@@ -138,7 +138,7 @@
 	icon_state = "floppy_bun"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_CUSTOM)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_YEOSA,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_TAJ,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 ////////////////////////////
 // Bug Stuff/Antennae
@@ -150,13 +150,13 @@
 	icon_state = "antennae"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_CUSTOM)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_YEOSA,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_TAJ,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 	
 /datum/sprite_accessory/ears/antennae/bee
 	name = "antennae"
 	desc = ""
 	icon_state = "bee"
-	species_restricted = list("include",SPECIES_CUSTOM)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_YEOSA,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_TAJ,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/antennae/curly_bug
 	name = "curly antennae, colorable"
@@ -164,13 +164,13 @@
 	icon_state = "curly_bug"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_CUSTOM)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_YEOSA,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_TAJ,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 	
 /datum/sprite_accessory/ears/antennae/lilimoth_antennae
 	name = "citheronia antennae"
 	desc = ""
 	icon_state = "lilimoth_antennae"
-	species_restricted = list("include",SPECIES_CUSTOM)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_YEOSA,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_TAJ,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 	
 /datum/sprite_accessory/ears/antennae/dual_robot
 	name = "synth antennae, colorable"
@@ -178,7 +178,7 @@
 	icon_state = "dual_robot_antennae"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_CUSTOM)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_YEOSA,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_TAJ,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/antennae/right_robot
 	name = "right synth antennae, colorable"
@@ -186,7 +186,7 @@
 	icon_state = "right_robot_antennae"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_CUSTOM)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_YEOSA,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_TAJ,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/antennae/left_robot
 	name = "left synth antennae, colorable"
@@ -194,137 +194,137 @@
 	icon_state = "left_robot_antennae"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_CUSTOM)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_YEOSA,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_TAJ,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 ////////////////////////////
 // Taj Ears
 ////////////////////////////
 
 /datum/sprite_accessory/ears/taj/
-	name = " Sabelkyne Plain Ears"
+	name = "Sabelkyne Plain Ears"
 	icon_state = "ears_plain"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_TAJ)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/taj/bangs
 	name = "Sabelkyne Bangs"
 	icon_state = "hair_bangs"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_TAJ)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/taj/bob
 	name = "Sabelkyne Bob"
 	icon_state = "hair_bob"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_TAJ)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/taj/braid
 	name = "Sabelkyne Braid"
 	icon_state = "hair_braid"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_TAJ)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/taj/clean
 	name = "Sabelkyne Clean"
 	icon_state = "hair_clean"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_TAJ)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/taj/curly
 	name = "Sabelkyne Curly"
 	icon_state = "hair_curly"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_TAJ)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/taj/fingerwave
 	name = "Sabelkyne Fingerwave"
 	icon_state = "hair_fingerwave"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_TAJ)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/taj/greaser
 	name = "Sabelkyne Greaser"
 	icon_state = "hair_greaser"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_TAJ)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/taj/housewife
 	name = "Sabelkyne Housewife"
 	icon_state = "hair_housewife"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_TAJ)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/taj/long
 	name = "Sabelkyne Long"
 	icon_state = "hair_long"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_TAJ)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/taj/messy
 	name = "Sabelkyne Messy"
 	icon_state = "hair_messy"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_TAJ)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/taj/mohawk
 	name = "Sabelkyne Mohawk"
 	icon_state = "hair_mohawk"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_TAJ)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/taj/plait
 	name = "Sabelkyne Plait"
 	icon_state = "hair_plait"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_TAJ)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/taj/rattail
 	name = "Sabelkyne Rat Tail"
 	icon_state = "hair_rattail"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_TAJ)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/taj/shaggy
 	name = "Sabelkyne Shaggy"
 	icon_state = "hair_shaggy"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_TAJ)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/taj/spiky
 	name = "Sabelkyne Spiky"
 	icon_state = "hair_spiky"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_TAJ)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/taj/straight
 	name = "Sabelkyne Straight"
 	icon_state = "hair_straight"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_TAJ)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/taj/victory
 	name = "Sabelkyne Victory"
 	icon_state = "hair_victory"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_TAJ)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 	
 /datum/sprite_accessory/ears/taj/hc
 	name = "Sabelkyne ears, colorable"
@@ -332,7 +332,7 @@
 	icon_state = "taj"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_TAJ)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 ////////////////////////////
 // Veteris'Unathi Horns/Ears
@@ -344,7 +344,7 @@
 	icon_state = "demon-horns1_c"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_OLDUNATHI,SPECIES_TAJ)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/humanathi/oni_h1_c
 	name = "Unathi, small horns colorable"
@@ -352,7 +352,7 @@
 	icon_state = "oni-h1_c"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_OLDUNATHI,SPECIES_TAJ)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 	
 /datum/sprite_accessory/ears/humanathi/demon_horns2
 	name = "Unathi, short horns colorable(outward)"
@@ -360,7 +360,7 @@
 	icon_state = "demon-horns2"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_OLDUNATHI,SPECIES_TAJ)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/humanthi/dragon_horns
 	name = "Unathi, long horns colorable"
@@ -368,7 +368,7 @@
 	icon_state = "dragon-horns"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_OLDUNATHI,SPECIES_TAJ)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/m_ipc_antenna_synth_horns_ADJ
 	name = "Unathi, quad horns plain"
@@ -377,7 +377,7 @@
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
 	extra_overlay = "m_ipc_antenna_synth_hornslight_ADJ"
-	species_restricted = list("include",SPECIES_OLDUNATHI,SPECIES_TAJ)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 	
 /datum/sprite_accessory/ears/m_ipc_antenna_synth_thick_ADJ
 	name = "Unathi, long horns thick"
@@ -386,7 +386,7 @@
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
 	extra_overlay = "m_ipc_antenna_synth_thicklight_ADJ"
-	species_restricted = list("include",SPECIES_OLDUNATHI,SPECIES_TAJ)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 	
 /datum/sprite_accessory/ears/m_ipc_antenna_synth_curled_ADJ
 	name = "Unathi, thin horns curly"
@@ -394,7 +394,7 @@
 	icon_state = "m_ipc_antenna_synth_curled_ADJ"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_OLDUNATHI,SPECIES_TAJ)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 	
 /datum/sprite_accessory/ears/drake
 	name = "Unathi, frills"
@@ -402,7 +402,7 @@
 	icon_state = "drake"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_OLDUNATHI)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ,SPECIES_TAJ)
 
 ////////////////////////////
 // Vulp Ears
@@ -415,19 +415,19 @@
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
 	extra_overlay = "vulp-inner"
-	species_restricted = list("include",SPECIES_VULP,SPECIES_KHAZAN,SPECIES_CUSTOM)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_YEOSA,SPECIES_VOX,SPECIES_AKULA,SPECIES_TAJ,SPECIES_IPC,SPECIES_SERGAL,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/vulp/foxears
 	name = "Vulpkanin, highland ears"
 	desc = ""
 	icon_state = "foxears"
-	species_restricted = list("include",SPECIES_VULP,SPECIES_KHAZAN,SPECIES_CUSTOM)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_YEOSA,SPECIES_VOX,SPECIES_AKULA,SPECIES_TAJ,SPECIES_IPC,SPECIES_SERGAL,SPECIES_DUROJ)
 	
 /datum/sprite_accessory/ears/vulp/fenears
 	name = "Vulpkanin, flatland ears"
 	desc = ""
 	icon_state = "fenears"
-	species_restricted = list("include",SPECIES_VULP,SPECIES_KHAZAN,SPECIES_CUSTOM)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_YEOSA,SPECIES_VOX,SPECIES_AKULA,SPECIES_TAJ,SPECIES_IPC,SPECIES_SERGAL,SPECIES_DUROJ)
 	
 /datum/sprite_accessory/ears/vulp/foxearshc
 	name = "Vulpkanin, highland ears colorable"
@@ -435,7 +435,7 @@
 	icon_state = "foxearshc"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_VULP,SPECIES_KHAZAN,SPECIES_CUSTOM)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_YEOSA,SPECIES_VOX,SPECIES_AKULA,SPECIES_TAJ,SPECIES_IPC,SPECIES_SERGAL,SPECIES_DUROJ)
 	
 /datum/sprite_accessory/ears/vulp/fenearshc
 	name = "Vulpkanin, flatland ears colorable"
@@ -444,7 +444,7 @@
 	extra_overlay = "fenears-inner"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_VULP,SPECIES_KHAZAN,SPECIES_CUSTOM)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_YEOSA,SPECIES_VOX,SPECIES_AKULA,SPECIES_TAJ,SPECIES_IPC,SPECIES_SERGAL,SPECIES_DUROJ)
 	
 /datum/sprite_accessory/ears/vulp/otie
 	name = "Vulpkanin, pointed ears colorable"
@@ -453,13 +453,13 @@
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
 	extra_overlay = "otie-inner"
-	species_restricted = list("include",SPECIES_VULP,SPECIES_KHAZAN,SPECIES_CUSTOM)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_YEOSA,SPECIES_VOX,SPECIES_AKULA,SPECIES_TAJ,SPECIES_IPC,SPECIES_SERGAL,SPECIES_DUROJ)
 	
 /datum/sprite_accessory/ears/vulp/shock
 	name = "Vulpkanin, hound ears"
 	desc = ""
 	icon_state = "shock"
-	species_restricted = list("include",SPECIES_VULP,SPECIES_KHAZAN,SPECIES_CUSTOM)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_YEOSA,SPECIES_VOX,SPECIES_AKULA,SPECIES_TAJ,SPECIES_IPC,SPECIES_SERGAL,SPECIES_DUROJ)
 	
 ////////////////////////////
 // Khazan Ears
@@ -477,7 +477,7 @@
 	icon_state = "smallbear"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_DUROJ,SPECIES_CUSTOM)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_TAJ)
 
 /datum/sprite_accessory/ears/duroj/bearhc
 	name = "Duroj, bear colorable"
@@ -485,7 +485,7 @@
 	icon_state = "bear"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_DUROJ,SPECIES_CUSTOM)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_IPC,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_TAJ))
 	
 ////////////////////////////
 // Sergal Ears
@@ -496,7 +496,7 @@
 	icon_state = "serg_plain_s"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_SERGAL)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_IPC,SPECIES_KHAZAN,SPECIES_TAJ,SPECIES_DUROJ)
 
 /datum/sprite_accessory/ears/sergal/sleek
 	name = "Sergal, sleek ears"
@@ -504,7 +504,7 @@
 	icon_state = "sleek"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_restricted = list("include",SPECIES_SERGAL)
+	species_restricted = list("exclude",SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_IPC,SPECIES_KHAZAN,SPECIES_TAJ,SPECIES_DUROJ)
 
 ////////////////////////////
 // Snowflake Shit with no sprites/low quality	
