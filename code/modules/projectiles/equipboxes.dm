@@ -31,7 +31,7 @@
 	options["Ballistic - Military Pistol"] = list(/obj/item/weapon/gun/projectile/pistol/military/secure,/obj/item/ammo_magazine/pistol/double,/obj/item/ammo_magazine/pistol/double)
 	options["Energy - Smartgun"] = list(/obj/item/weapon/gun/energy/gun/secure)
 	options["Taser - Stun Revolver"] = list(/obj/item/weapon/gun/energy/stunrevolver/secure)
-	var/choice = input(user,"What type of equipment?") as null|anything in options
+	var/choice = input(user,"What type of equipment?  WARNING - Ballistics are equipped with LETHAL ammunition. They are for emergency use only.") as null|anything in options
 	if(src && choice)
 		var/list/things_to_spawn = options[choice]
 		for(var/new_type in things_to_spawn)
@@ -51,7 +51,7 @@
 	var/list/options = list()
 	options["Ballistic - Military Pistol/Shotgun"] = list(/obj/item/weapon/gun/projectile/pistol/military/secure,/obj/item/ammo_magazine/pistol/double,/obj/item/ammo_magazine/pistol/double, /obj/item/weapon/gun/projectile/shotgun/pump/combat/secure,/obj/item/ammo_magazine/shotholder,/obj/item/ammo_magazine/shotholder,/obj/item/ammo_casing/shotgun)
 	options["Energy - Smartgun"] = list(/obj/item/weapon/gun/energy/gun/secure)
-	var/choice = input(user,"What type of equipment?") as null|anything in options
+	var/choice = input(user,"What type of equipment?  WARNING - Ballistics are equipped with LETHAL ammunition. They are for emergency use only.") as null|anything in options
 	if(src && choice)
 		var/list/things_to_spawn = options[choice]
 		for(var/new_type in things_to_spawn)
