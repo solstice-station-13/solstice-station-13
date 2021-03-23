@@ -84,6 +84,9 @@
 	one_hand_penalty = 8
 	req_access = list(list(access_brig, access_bridge))
 	authorized_modes = list(UNAUTHORIZED)
+	firemodes = list(
+		list(mode_name="fire"),
+		)
 
 /obj/item/weapon/gun/projectile/shotgun/pump/combat/secure/on_update_icon()
 	..()
