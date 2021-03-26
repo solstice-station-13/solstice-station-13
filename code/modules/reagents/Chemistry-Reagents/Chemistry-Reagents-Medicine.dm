@@ -164,7 +164,7 @@
 		var/obj/item/organ/internal/liver/L = H.internal_organs_by_name[BP_LIVER]
 		if(H && istype(H))
 			if(L.damage > 0)
-				L.damage = max(L.damage - 3 * removed, 0)
+				L.damage = max(L.damage - 1 * removed, 0)
 
 	if(remove_generic)
 		M.drowsyness = max(0, M.drowsyness - 6 * removed)
@@ -540,7 +540,7 @@
 	overdose = 5
 	scannable = 1
 	flags = IGNORE_MOB_SIZE
-	value = 12
+	value = 8
 
 /datum/reagent/peridaxonplus/affect_blood(var/mob/living/carbon/M, var/alien, var/removed)
 	if(ishuman(M))
