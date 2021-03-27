@@ -19,7 +19,7 @@ var/global/list/all_jobs = list()			// All jobs
 	// Custom Ears
 	paths = typesof(/datum/sprite_accessory/ears) - /datum/sprite_accessory/ears
 	for(var/path in paths)
-		var/obj/item/clothing/head/instance = path
+		var/datum/sprite_accessory/ears/instance = path
 
 		if(!initial(instance.name))
 			continue
