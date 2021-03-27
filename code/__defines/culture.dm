@@ -246,7 +246,7 @@
 #define HOME_SYSTEM_ALTERRAN		"Almutahar - Terran Embassy"
 #define RELIGION_SAULI				"Sauli"
 #define RELIGION_SHAVIIRI			"Shaviiri"
-#define RELIGION_TAJ_ATHEISM		"Atheist"
+#define RELIGION_TAJ_ATHEISM		"Sabelkyne Atheism"
 
 // Vulp culture
 #define CULTURE_VULP					"Vulpkanin"
