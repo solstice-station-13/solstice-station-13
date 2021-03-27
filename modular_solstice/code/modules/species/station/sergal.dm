@@ -49,8 +49,7 @@
 	flesh_color = "#34af10"
 
 	reagent_tag = IS_SERGAL
-	base_color = "#066000"
-	blood_color = "#660000"
+	blood_color = COLOR_BLOOD_HUMAN
 
 	move_trail = /obj/effect/decal/cleanable/blood/tracks/claw
 
