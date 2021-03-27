@@ -233,9 +233,20 @@
 #define RELIGION_SERGAL_OLDFAITHS 	"Old Sergal Faiths"
 
 // Sabelkyne culture
-#define CULTURE_TAJ					"Saulkyne"
-#define CULTURE_TAJ_MAUNKYNE		"Maunkyne"
+#define CULTURE_TAJ					"Maunkyne"
+#define CULTURE_TAJ_NORTHERN		"Northern Saulkyne"
+#define CULTURE_TAJ_SOUTHERN		"Southern Saulkyne"
+#define CULTURE_TAJ_FEDERAL			"Offworld Sabelkyne"
 #define HOME_SYSTEM_ALMUTAHAR		"Almutahar"
+#define HOME_SYSTEM_SHAVIIR			"Almutahar - Shaviir"
+#define HOME_SYSTEM_JEZZAIL			"Almutahar - Jezzail"
+#define HOME_SYSTEM_KHAANE			"Almutahar - Khaane"
+#define HOME_SYSTEM_ALNORTH			"Almutahar - Ashkaar"
+#define HOME_SYSTEM_ALSOUTH			"Almutahar - Koraal"
+#define HOME_SYSTEM_ALTERRAN		"Almutahar - Terran Embassy"
+#define RELIGION_SAULI				"Sauli"
+#define RELIGION_SHAVIIRI			"Shaviiri"
+#define RELIGION_TAJ_ATHEISM		"Atheist"
 
 // Vulp culture
 #define CULTURE_VULP					"Vulpkanin"
