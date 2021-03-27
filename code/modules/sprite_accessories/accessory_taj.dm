@@ -21,7 +21,6 @@
 	name = "Sabelkyne Ram Horns"
 	icon_state = "horns_ram"
 	
-	
 /datum/sprite_accessory/hair/taj2
 	name = "You should not see this..."
 	icon = 'modular_solstice/icons/mob/ears.dmi'
