@@ -23,23 +23,23 @@
 	
 /datum/sprite_accessory/hair/taj/thin
 	name = "Sablekyne Thin Horns"
-	icon_state = "demon-horns1_c"
+	icon_state = "horns1"
 
 /datum/sprite_accessory/hair/taj/demon_horns2
 	name = "Sablekyne Thin Horns Outward"
-	icon_state = "demon-horns2"
+	icon_state = "horns2"
 
 /datum/sprite_accessory/hair/taj/dragon_horns
 	name = "Sablekyne Thick Horns"
-	icon_state = "dragon-horns"
+	icon_state = "dragon"
 
 /datum/sprite_accessory/hair/taj/m_ipc_antenna_synth_thick_ADJ
 	name = "Sablekyne Pointed Horns"
-	icon_state = "m_ipc_antenna_synth_thick_ADJ"
+	icon_state = "pointed"
 
 /datum/sprite_accessory/hair/taj/m_ipc_antenna_synth_curled_ADJ
 	name = "Sablekyne Curled Horns"
-	icon_state = "m_ipc_antenna_synth_curled_ADJ"
+	icon_state = "curled"
 
 // Markings
 /datum/sprite_accessory/marking/taj
