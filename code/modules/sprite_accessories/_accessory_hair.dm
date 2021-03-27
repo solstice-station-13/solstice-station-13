@@ -8,7 +8,7 @@
 
 /datum/sprite_accessory/hair
 	icon = 'icons/mob/human_races/species/human/hair.dmi'
-	species_allowed = list(SPECIES_HUMAN,SPECIES_AKULA,SPECIES_VULP,SPECIES_VASS,SPECIES_TAJ,SPECIES_CUSTOM,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
+	species_allowed = list(SPECIES_HUMAN,SPECIES_AKULA,SPECIES_VULP,SPECIES_CUSTOM,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 	var/flags
 
 /datum/sprite_accessory/hair/bald
