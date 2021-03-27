@@ -2,6 +2,13 @@
 // Horn Stuff
 /////////////////////
 
+/datum/sprite_accessory/hair/taj2
+	name = "You should not see this..."
+	icon = 'modular_solstice/icons/mob/ears.dmi'
+	do_colouration = 0 // Set to 1 to blend (ICON_ADD) hair color
+	var/color_blend_mode = ICON_ADD // Only appliciable if do_coloration = 1
+	var/extra_overlay // Icon state of an additional overlay to blend in.
+	
 /datum/sprite_accessory/hair/taj
 	name = "Sabelkyne Horns"
 	icon = 'modular_solstice/icons/mob/human_races/species/humanathi/hair.dmi'
@@ -20,17 +27,8 @@
 /datum/sprite_accessory/hair/taj/horns_ram
 	name = "Sabelkyne Ram Horns"
 	icon_state = "horns_ram"
-	
-/datum/sprite_accessory/hair/taj2
-	name = "You should not see this..."
-	icon = 'modular_solstice/icons/mob/ears.dmi'
-	do_colouration = 0 // Set to 1 to blend (ICON_ADD) hair color
-	
-	var/color_blend_mode = ICON_ADD // Only appliciable if do_coloration = 1
-	var/extra_overlay // Icon state of an additional overlay to blend in.
-	var/desc = "You should not see this..."
 
-/datum/sprite_accessory/ears/taj2/demon
+/datum/sprite_accessory/hair/taj2/demon
 	icon_state = "demon-horns1_c"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
