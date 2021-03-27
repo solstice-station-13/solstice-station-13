@@ -30,13 +30,17 @@
 	
 /decl/cultural_info/location/taj/ashkaar
 	name = HOME_SYSTEM_ALNORTH
-	description = "The northern regions, known as Ashkaar, are a forested and cold area. Coniferous forests and tundras cover much of the north. It is home to the Northern \
-	Saulkyne. The various tribes of the north are largely hunters and excellent trackers."
+	description = "The Ashkaar region is a frigid, mountainous tundra populated by large herbivores, large cats which prey upon them, and Saulkyne that prey upon both. Most \
+	permanent settlements are constructed of the plentiful coniferous wood in the region, but hunting parties will often build temporary camps out of packed snow and ice, \
+	which also helps to preserve meat from their hunts in the short term, until it can be made suitable for travel. Saulkyne closer to the border of Ashkaar instead catch \
+	freshwater fish from the rivers, and transport them back to the larders in ice-filled baskets."
 	
 /decl/cultural_info/location/taj/koraal
 	name = HOME_SYSTEM_ALSOUTH
-	description = "The southern regions, known as Koraal, is a wet region covered primarily with a freshwater sea and wetlands. The southern Saulkyne have adapted to the \
-	conditions and focus especially on fishing and farming. The agricultural focus of the region has resulted in a rather agrarian society." 
+	description = "The Koraal region is a lukewarm, humid wetland that experiences heavy rains for half of the year. Saulkyne in this region construct their stilted homes \
+	with rattan, and are skilled practitioners of horticulture and apiculture. Beeswax is plentiful, and used to keep roofing and storage vessels watertight and airtight \
+	respectively. The frequent flooding also makes the use of rafts and fishing boats a part of everyday life, and the primary source of protein is freshwater prawn, which \
+	is also considered a delicacy by the Maunkyne. Most Saulkyne who assimilate into the Federation from Koraal are skilled xenobotanists." 
 	
 /decl/cultural_info/location/taj/terran
 	name = HOME_SYSTEM_ALTERRAN
