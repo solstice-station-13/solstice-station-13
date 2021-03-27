@@ -237,7 +237,126 @@
 // Ear Stuff
 /////////////////////
 
+/datum/sprite_accessory/ears/genemod
+	name = "Genemod, mouse colorable"
+	desc = ""
+	icon_state = "mouse"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	extra_overlay = "mouseinner"
+	species_allowed = list(SPECIES_CUSTOM)
 
+/datum/sprite_accessory/ears/genemod/mousehcno
+	name = "Genemod, mouse colorable no inner"
+	desc = ""
+	icon_state = "mouse"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/genemod/bunnyhc
+	name = "Genemod, bunny colorable"
+	desc = ""
+	icon_state = "bunny"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/genemod/antlers
+	name = "Genemod, deer antlers"
+	desc = ""
+	icon_state = "antlers"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/genemod/antlers_e
+	name = "Genemod, deer antlers with ears"
+	desc = ""
+	icon_state = "cow-nohorns"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	extra_overlay = "antlers_mark"
+
+/datum/sprite_accessory/ears/genemod/smallantlers
+	name = "Genemod, deer small antlers"
+	desc = ""
+	icon_state = "smallantlers"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/genemod/smallantlers_e
+	name = "Genemod, deer small antlers with ears"
+	desc = ""
+	icon_state = "smallantlers"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	extra_overlay = "deer"
+
+/datum/sprite_accessory/ears/genemod/deer
+	name = "Genemod, deer ears"
+	desc = ""
+	icon_state = "deer"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/genemod/cow
+	name = "Genemod, cow horns"
+	desc = ""
+	icon_state = "cow"
+
+/datum/sprite_accessory/ears/genemod/cowc
+	name = "Genemod, cow horns colorable"
+	desc = ""
+	icon_state = "cow-c"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/genemod/cow_nohorns
+	name = "Genemod, cow no horns"
+	desc = ""
+	icon_state = "cow-nohorns"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/genemod/caprahorns
+	name = "Genemod, caprine horns"
+	desc = ""
+	icon_state = "caprahorns"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/genemod/bunny_floppy
+	name = "floppy bunny ears (colorable)"
+	desc = ""
+	icon_state = "floppy_bun"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+////////////////////////////
+// Bug Stuff/Antennae
+////////////////////////////
+
+/datum/sprite_accessory/ears/genemod/antennae
+	name = "Genemod, antennae colorable"
+	desc = ""
+	icon_state = "antennae"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	
+/datum/sprite_accessory/ears/genemod/antennaebee
+	name = "Genemod, antennae"
+	desc = ""
+	icon_state = "bee"
+
+/datum/sprite_accessory/ears/genemod/antennaecurly_bug
+	name = "Genemod, curly antennae colorable"
+	desc = ""
+	icon_state = "curly_bug"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	
+/datum/sprite_accessory/ears/genemod/lilimoth_antennae
+	name = "Genemod, citheronia antennae"
+	desc = ""
+	icon_state = "lilimoth_antennae"
 
 /////////////////////
 // Markings
