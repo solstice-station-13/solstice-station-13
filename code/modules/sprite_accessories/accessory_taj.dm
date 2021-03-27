@@ -108,3 +108,13 @@
 	name = "All Taj Head (Taj)"
 	icon_state = "taj_all"
 	body_parts = list(BP_HEAD)
+
+/datum/sprite_accessory/marking/taj/saber_teeth
+		name = "Sabelkyne, saber teeth"
+		icon_state = "saber"
+		body_parts = list(BP_HEAD)
+
+/datum/sprite_accessory/marking/taj/spots
+		name = "Sablekyne, spots"
+		icon_state = "spots"
+		body_parts = list(BP_L_FOOT,BP_R_FOOT,BP_L_LEG,BP_R_LEG,BP_L_ARM,BP_R_ARM,BP_L_HAND,BP_R_HAND,BP_GROIN,BP_CHEST)
