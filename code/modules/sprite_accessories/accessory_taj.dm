@@ -21,39 +21,48 @@
 	name = "Sabelkyne Ram Horns"
 	icon_state = "horns_ram"
 
-/datum/sprite_accessory/hair/taj2
-	name = "Sabelkyne, horns"
+/////////////////////
+// Extra Horn Stuff
+/////////////////////
+
+/datum/sprite_accessory/hair/tajextra
 	icon = 'modular_solstice/icons/mob/ears.dmi'
+	species_allowed = list(SPECIES_TAJ,SPECIES_CUSTOM)
+	var/color_blend_mode = ICON_ADD // Only appliciable if do_coloration = 1
+	var/extra_overlay // Icon state of an additional overlay to blend in.
+
+/datum/sprite_accessory/hair/tajextra/demon
+	name = "Sabelkyne, horns"
 	icon_state = "demon-horns1_c"
 	do_colouration = 1 
 	color_blend_mode = ICON_MULTIPLY
 
-/datum/sprite_accessory/hair/taj2/oni_h1_c
+/datum/sprite_accessory/hair/tajextra/oni_h1_c
 	name = "Sabelkyne, small horns colorable"
 	icon_state = "oni-h1_c"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
 
-/datum/sprite_accessory/hair/taj2/demon_horns2
+/datum/sprite_accessory/hair/tajextra/demon_horns2
 	name = "Sabelkyne, short horns colorable(outward)"
 	icon_state = "demon-horns2"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
 
-/datum/sprite_accessory/hair/taj2/dragon_horns
+/datum/sprite_accessory/hair/tajextra/dragon_horns
 	name = "Sabelkyne, long horns colorable"
 	icon_state = "dragon-horns"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
 
-/datum/sprite_accessory/hair/taj2/m_ipc_antenna_synth_thick_ADJ
+/datum/sprite_accessory/hair/tajextra/m_ipc_antenna_synth_thick_ADJ
 	name = "Sabelkyne, long horns thick"
 	icon_state = "m_ipc_antenna_synth_thick_ADJ"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
 	extra_overlay = "m_ipc_antenna_synth_thicklight_ADJ"
 
-/datum/sprite_accessory/hair/taj2/m_ipc_antenna_synth_curled_ADJ
+/datum/sprite_accessory/hair/tajextra/m_ipc_antenna_synth_curled_ADJ
 	name = "Sabelkyne, thin horns curly"
 	icon_state = "m_ipc_antenna_synth_curled_ADJ"
 	do_colouration = 1
