@@ -2,8 +2,6 @@
 // Horn Stuff
 /////////////////////
 
-
-	
 /datum/sprite_accessory/hair/taj
 	name = "Sabelkyne Horns"
 	icon = 'modular_solstice/icons/mob/human_races/species/humanathi/hair.dmi'
