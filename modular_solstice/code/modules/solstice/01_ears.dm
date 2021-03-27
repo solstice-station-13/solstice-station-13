@@ -238,7 +238,7 @@
 			var/datum/sprite_accessory/ears/instance = ear_styles_list[path]
 			if((!instance.ckeys_allowed) || (usr.ckey in instance.ckeys_allowed))
 				pretty_ear_styles[instance.name] = path
-			if(!ear_styles_list.species_allowed) || (species.get_bodytype(owner) in ear_styles_list.species_allowed)
+			if(!ear_styles_list.species_allowed) && (species.get_bodytype(owner) in ear_styles_list.species_allowed)
 				ear_style[instance.name] = path		
 
 		// Present choice to user
