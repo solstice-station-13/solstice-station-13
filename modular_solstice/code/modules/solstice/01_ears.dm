@@ -238,9 +238,6 @@
 			var/datum/sprite_accessory/ears/instance = ear_styles_list[path]
 			if((!instance.ckeys_allowed) || (usr.ckey in instance.ckeys_allowed))
 				pretty_ear_styles[instance.name] = path
-			if(S.species_allowed && !(get_bodytype() in S.species_allowed))
-				pretty_ear_styles[instance.name] = path
-			
 
 		// Present choice to user
 		var/new_ear_style = input(user, "Pick ears", "Character Preference", pref.ear_style) as null|anything in pretty_ear_styles
