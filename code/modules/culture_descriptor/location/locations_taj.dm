@@ -8,8 +8,12 @@
 	
 /decl/cultural_info/location/taj/shaviir
 	name = HOME_SYSTEM_SHAVIIR
-	description = "Shaviir is the capital of Almutahar, and one of the great Maunkyne cities within the equatorial desert. Of note is the city being built atop the ruins of \
-	the former palace of the Padishah Almuta, of the old empire, and it is known as the Center of Progress by Maunkyne and Saulkyne alike."
+	description = "Shaviir is the capital of Almutahar, and the birthplace of the Shaviiri faith. It was once the seat of power of the old empire, and the catacombs beneath \
+	the palace were the first to open, when the planet was finally made habitable again. It is sometimes called the City of Change, because it is very often the first city to \
+	embrace new ideas and technologies when they presented to the Landsraad, serving as an example that many other cities follow. It remains the largest and most \
+	technologically advanced city on the planet, with the buildings becoming more sophisticated in the methods and materials of their construction the further out from the \
+	central palace one gets. Shaviiran scholars are well-known for sharing their findings with the wider scientific community, but the most valued Maunkyne from this city are \
+	adjutants, whose capacity to navigate paperwork and recognize patterns makes them excellent accountants and lawyers."
 	
 /decl/cultural_info/location/taj/jezzail
 	name = HOME_SYSTEM_JEZZAIL
@@ -17,7 +21,6 @@
 	crater that has existed since the war with the Vox. It is the center of industry for Almutahar, and the vast majority of metalwork in use across the new Almutahari empire \
 	originates from there. The crater is coated in a layer of glass that helps focus solar energy on a prism tower in the center, directing the solar energy down the spire to \
 	be harnessed as a source of energy during the day, when the city is at rest."
-
 	
 /decl/cultural_info/location/taj/khaane
 	name = HOME_SYSTEM_KHAANE
