@@ -185,3 +185,58 @@
 	icon = 'modular_solstice/icons/mob/human_races/species/humanathi/body.dmi'
 	species_allowed = list(SPECIES_OLDUNATHI)
 
+// Tails
+
+ /datum/sprite_accessory/tail/una
+	name = "Unathi, long colorable"
+	desc = ""
+	icon_state = "chameleon"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	species_allowed = list(SPECIES_OLDUNATHI,SPECIES_UNATHI,SPECIES_YEOSA)
+  
+ /datum/sprite_accessory/tail/una/chameleon
+	name = "Unathi, chameleon colorable"
+	desc = ""
+	icon_state = "dragon"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/tail/una/tail_smooth
+	name = "Unathi, extra long colorable"
+	desc = ""
+	icon_state = "tail_smooth"
+	ani_state = "tail_smooth_w"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/tail/una/lizard_tail_dark_tiger
+	name = "Unathi, extra long dark stripe"
+	desc = ""
+	icon_state = "lizard_tail_dark_tiger"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/tail/una/lizard_tail_light_tiger
+	name = "Unathi, extra long light stripe"
+	desc = ""
+	icon_state = "lizard_tail_light_tiger"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/tail/una/lizard_tail_spiked
+	name = "Unathi, extra long spiked"
+	desc = ""
+	icon_state = "lizard_tail_spiked"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/tail/una/Easterntail
+	name = "Unathi, eastern (animated)"
+	desc = ""
+	icon_state = "Easterntail"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	extra_overlay = "EasterntailColorTip"
+	ani_state = "Easterntail_w"
+	extra_overlay_w = "EasterntailColorTip_w"
