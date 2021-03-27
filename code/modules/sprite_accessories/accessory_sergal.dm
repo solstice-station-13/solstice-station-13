@@ -2,13 +2,32 @@
 // Ear Stuff
 /////////////////////
 
+/datum/sprite_accessory/ears/sergal
+	name = "Sergal, ears colorable"
+	icon_state = "serg_plain_s"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	species_allowed = list(SPECIES_SERGAL)
 
+/datum/sprite_accessory/ears/sergal/sleek
+	name = "Sergal, sleek ears"
+	desc = ""
+	icon_state = "sleek"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
 
 /////////////////////
 // Tail Stuff
 /////////////////////
 
-
+/datum/sprite_accessory/tail/sergaltaildc
+	name = "Sergal, dual-color"
+	desc = ""
+	icon_state = "sergal"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	extra_overlay = "sergal_mark"
+	species_allowed = list(SPECIES_SERGAL)
 
 /////////////////////
 // Markings
