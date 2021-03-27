@@ -240,3 +240,64 @@
 	extra_overlay = "EasterntailColorTip"
 	ani_state = "Easterntail_w"
 	extra_overlay_w = "EasterntailColorTip_w"
+
+// Ear/Horn Stuff
+
+/datum/sprite_accessory/ears/humanathi
+	name = "Unathi, short horns colorable"
+	desc = ""
+	icon_state = "demon-horns1_c"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	species_allowed = list(SPECIES_OLDUNATHI)
+
+/datum/sprite_accessory/ears/humanathi/oni_h1_c
+	name = "Unathi, small horns colorable"
+	desc = ""
+	icon_state = "oni-h1_c"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/humanathi/demon_horns2
+	name = "Unathi, short horns colorable(outward)"
+	desc = ""
+	icon_state = "demon-horns2"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/humanathi/dragon_horns
+	name = "Unathi, long horns colorable"
+	desc = ""
+	icon_state = "dragon-horns"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	
+/datum/sprite_accessory/ears/humanathi/m_ipc_antenna_synth_horns_ADJ
+	name = "Unathi, quad horns plain"
+	desc = ""
+	icon_state = "m_ipc_antenna_synth_horns_ADJ"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	extra_overlay = "m_ipc_antenna_synth_hornslight_ADJ"
+
+/datum/sprite_accessory/ears/humanathi/m_ipc_antenna_synth_thick_ADJ
+	name = "Unathi, long horns thick"
+	desc = ""
+	icon_state = "m_ipc_antenna_synth_thick_ADJ"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	extra_overlay = "m_ipc_antenna_synth_thicklight_ADJ"
+
+/datum/sprite_accessory/ears/humanathi/m_ipc_antenna_synth_curled_ADJ
+	name = "Unathi, thin horns curly"
+	desc = ""
+	icon_state = "m_ipc_antenna_synth_curled_ADJ"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	
+/datum/sprite_accessory/ears/humanathi/drake
+	name = "Unathi, frills"
+	desc = ""
+	icon_state = "drake"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
