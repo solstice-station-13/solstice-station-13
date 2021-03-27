@@ -187,7 +187,7 @@
 
 // Tails
 
- /datum/sprite_accessory/tail/humanathi
+/datum/sprite_accessory/tail/humanathi
 	name = "Unathi, long colorable"
 	desc = ""
 	icon_state = "chameleon"
@@ -195,7 +195,7 @@
 	color_blend_mode = ICON_MULTIPLY
 	species_allowed = list(SPECIES_OLDUNATHI,SPECIES_UNATHI,SPECIES_YEOSA)
   
- /datum/sprite_accessory/tail/humanathi/chameleon
+/datum/sprite_accessory/tail/humanathi/chameleon
 	name = "Unathi, chameleon colorable"
 	desc = ""
 	icon_state = "dragon"
