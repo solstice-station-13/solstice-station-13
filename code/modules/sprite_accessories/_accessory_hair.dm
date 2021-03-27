@@ -8,12 +8,12 @@
 
 /datum/sprite_accessory/hair
 	icon = 'icons/mob/human_races/species/human/hair.dmi'
+	species_allowed = list(SPECIES_HUMAN,SPECIES_AKULA,SPECIES_VULP,SPECIES_VASS,SPECIES_TAJ,SPECIES_CUSTOM,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 	var/flags
 
 /datum/sprite_accessory/hair/bald
 	name = "Bald"
 	icon_state = "bald"
-	species_allowed = list(SPECIES_HUMAN,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_VOX,SPECIES_AKULA,SPECIES_VULP,SPECIES_VASS,SPECIES_TAJ,SPECIES_IPC,SPECIES_CUSTOM,SPECIES_HUMAN2,SPECIES_PROMETHEAN,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ)
 	flags = VERY_SHORT | HAIR_BALD
 
 /datum/sprite_accessory/hair/short
@@ -904,3 +904,4 @@
 	name = "Mullet-Hawk"
 	icon_state = "hair_mullethawk"
 	gender = MALE
+
