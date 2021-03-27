@@ -144,7 +144,6 @@
 	
 /datum/sprite_accessory/hair/taj/hc
 	name = "Sabelkyne ears, colorable"
-	desc = ""
 	icon_state = "taj"
 	do_colouration = 1
 
