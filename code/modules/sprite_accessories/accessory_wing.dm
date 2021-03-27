@@ -228,4 +228,4 @@
 	desc = ""
 	icon_state = "cyberdoe_s"
 	do_colouration = 0
-/*
+*/
