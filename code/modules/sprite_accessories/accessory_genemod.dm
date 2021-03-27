@@ -98,10 +98,7 @@
 	color_blend_mode = ICON_MULTIPLY
 	extra_overlay = "deertail_mark"
   
-////////////////////////////
 // Bug Stuff
-////////////////////////////
-
 /datum/sprite_accessory/tail/genemod/beethorax
 	name = "Genemod, bee thorax"
 	desc = ""
@@ -357,6 +354,115 @@
 	name = "Genemod, citheronia antennae"
 	desc = ""
 	icon_state = "lilimoth_antennae"
+
+/////////////////////
+// Wing Stuff
+/////////////////////
+
+/datum/sprite_accessory/wing/genemod
+	name = "Genemod, large feathered wings (colorable)"
+	desc = ""
+	icon_state = "feathered2"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	species_allowed = list(SPECIES_CUSTOM)
+
+/datum/sprite_accessory/wing/genemod/feathered
+	name = "Genemod, feathered wings colorable"
+	desc = ""
+	icon_state = "feathered"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/wing/genemod/feathered_medium
+	name = "Genemod, medium feathered wings colorable"
+	desc = ""
+	icon_state = "feathered3"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/wing/genemod/bat_black
+	name = "Genemod, bat wings black"
+	desc = ""
+	icon_state = "bat-black"
+
+/datum/sprite_accessory/wing/genemod/bat_red
+	name = "Genemod, bat wings red"
+	desc = ""
+	icon_state = "bat-red"
+
+/datum/sprite_accessory/wing/genemod/bat_purpley_yw
+	name = "Genemod, bat wings purple"
+	desc = ""
+	icon_state = "succubus-purple"
+
+/datum/sprite_accessory/wing/genemod/bat_color
+	name = "Genemod, bat wings colorable"
+	desc = ""
+	icon_state = "bat-color"
+	do_colouration = 1
+
+/datum/sprite_accessory/wing/genemod/feathered
+	name = "feathered wings, colorable"
+	desc = ""
+	icon_state = "feathered"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+// Bug Wings
+/datum/sprite_accessory/wing/genemod/spider_legs
+	name = "Genemod, spider legs"
+	desc = ""
+	icon_state = "spider-legs"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/wing/genemod/moth
+	name = "Genemod, moth wings"
+	desc = ""
+	icon_state = "moth"
+
+/datum/sprite_accessory/wing/genemod/mothc
+	name = "Genemod, moth wings colorable"
+	desc = ""
+	icon_state = "moth"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/wing/genemod/moth_full
+	name = "Genemod, moth antenna and wings"
+	desc = ""
+	icon_state = "moth_full"
+
+/datum/sprite_accessory/wing/genemod/moth_full_gray
+	name = "Genemod, moth antenna and wings colorable"
+	desc = ""
+	icon_state = "moth_full_gray"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/wing/genemod/Moth_royal
+	name = "Genemod, moth royal"
+	desc = ""
+	icon_state = "Moth_royal"
+
+/datum/sprite_accessory/wing/genemod/Moth_royal_colorable
+	name = "Genemod, moth royal colorable"
+	desc = ""
+	icon_state = "Moth_royal_colorable"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/wing/genemod/dragonfly
+	name = "Genemod, dragonfly"
+	desc = ""
+	icon_state = "dragonfly"
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/wing/genemod/beewings
+	name = "Genemod, bee wings"
+	desc = ""
+	icon_state = "beewings"
 
 /////////////////////
 // Markings
