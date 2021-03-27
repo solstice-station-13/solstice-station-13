@@ -60,7 +60,7 @@
 	species_allowed = list(SPECIES_CUSTOM)
 
 /datum/sprite_accessory/ears/antlers
-	name = "Genemod deer antlers"
+	name = "Genemod, deer antlers"
 	desc = ""
 	icon_state = "antlers"
 	do_colouration = 1
