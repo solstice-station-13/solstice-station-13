@@ -14,7 +14,7 @@
 // Markings
 /////////////////////
 
-/datum/sprite_accessory/marking/akula/sharkface
+/datum/sprite_accessory/marking/akula
 		name = "Akula, snout"
 		icon_state = "sharkface"
 		color_blend_mode = ICON_MULTIPLY
