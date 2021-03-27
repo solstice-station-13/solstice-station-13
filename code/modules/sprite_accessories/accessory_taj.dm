@@ -55,117 +55,98 @@
 	name = "Plain Sabelkyne Ears"
 	icon_state = "ears_plain"
 	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 	species_allowed = list(SPECIES_TAJ,SPECIES_CUSTOM)
 
 /datum/sprite_accessory/hair/taj/bangs
 	name = "Sabelkyne Bangs"
 	icon_state = "hair_bangs"
 	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/hair/taj/bob
 	name = "Sabelkyne Bob"
 	icon_state = "hair_bob"
 	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/hair/taj/braid
 	name = "Sabelkyne Braid"
 	icon_state = "hair_braid"
 	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/hair/taj/clean
 	name = "Sabelkyne Clean"
 	icon_state = "hair_clean"
 	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/hair/taj/curly
 	name = "Sabelkyne Curly"
 	icon_state = "hair_curly"
 	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/hair/taj/fingerwave
 	name = "Sabelkyne Fingerwave"
 	icon_state = "hair_fingerwave"
 	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/hair/taj/greaser
 	name = "Sabelkyne Greaser"
 	icon_state = "hair_greaser"
 	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/hair/taj/housewife
 	name = "Sabelkyne Housewife"
 	icon_state = "hair_housewife"
 	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/hair/taj/long
 	name = "Sabelkyne Long"
 	icon_state = "hair_long"
 	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/hair/taj/messy
 	name = "Sabelkyne Messy"
 	icon_state = "hair_messy"
 	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/hair/taj/mohawk
 	name = "Sabelkyne Mohawk"
 	icon_state = "hair_mohawk"
 	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/hair/taj/plait
 	name = "Sabelkyne Plait"
 	icon_state = "hair_plait"
 	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/hair/taj/rattail
 	name = "Sabelkyne Rat Tail"
 	icon_state = "hair_rattail"
 	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/hair/taj/shaggy
 	name = "Sabelkyne Shaggy"
 	icon_state = "hair_shaggy"
 	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/hair/taj/spiky
 	name = "Sabelkyne Spiky"
 	icon_state = "hair_spiky"
 	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/hair/taj/straight
 	name = "Sabelkyne Straight"
 	icon_state = "hair_straight"
 	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/hair/taj/victory
 	name = "Sabelkyne Victory"
 	icon_state = "hair_victory"
 	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 	
 /datum/sprite_accessory/hair/taj/hc
 	name = "Sabelkyne ears, colorable"
 	desc = ""
 	icon_state = "taj"
 	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 
 /////////////////////
 // Horn Stuff (Set as Ears)
