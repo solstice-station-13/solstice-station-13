@@ -1,47 +1,18 @@
 /////////////////////
-// Horn Stuff
+// Ear Stuff (Set as Hair)
 /////////////////////
 
-/datum/sprite_accessory/hair/taj
-	name = "Sabelkyne Horns"
-	icon = 'modular_solstice/icons/mob/human_races/species/humanathi/hair.dmi'
-	icon_state = "horns_simple"
-	blend = ICON_MULTIPLY
-	species_allowed = list(SPECIES_TAJ,SPECIES_CUSTOM)
 
-/datum/sprite_accessory/hair/taj/horns_short
-	name = "Sabelkyne Short Horns"
-	icon_state = "horns_short"
 
-/datum/sprite_accessory/hair/taj/horns_curved
-	name = "Sabelkyne Curved Horns"
-	icon_state = "horns_curved"
+/////////////////////
+// Horn Stuff (Set as Ears)
+/////////////////////
 
-/datum/sprite_accessory/hair/taj/horns_ram
-	name = "Sabelkyne Ram Horns"
-	icon_state = "horns_ram"
-	
-/datum/sprite_accessory/hair/taj/thin
-	name = "Sablekyne Thin Horns"
-	icon_state = "horns1"
 
-/datum/sprite_accessory/hair/taj/demon_horns2
-	name = "Sablekyne Thin Horns Outward"
-	icon_state = "horns2"
 
-/datum/sprite_accessory/hair/taj/dragon_horns
-	name = "Sablekyne Thick Horns"
-	icon_state = "dragon"
-
-/datum/sprite_accessory/hair/taj/m_ipc_antenna_synth_thick_ADJ
-	name = "Sablekyne Pointed Horns"
-	icon_state = "pointed"
-
-/datum/sprite_accessory/hair/taj/m_ipc_antenna_synth_curled_ADJ
-	name = "Sablekyne Curled Horns"
-	icon_state = "curled"
-
+/////////////////////
 // Markings
+/////////////////////
 /datum/sprite_accessory/marking/taj
 	name = "Socks Coloration (Taj)"
 	icon_state = "taj_pawsocks"
