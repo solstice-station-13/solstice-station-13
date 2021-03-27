@@ -25,7 +25,7 @@
 	
 /decl/cultural_info/culture/taj/southern
 	name = CULTURE_TAJ_SOUTHERN
-	description = ""The diurnal Saulkyne are one of the two subspecies. Largely they believe the cataclysm that befell their planet was a punishment from Saul himself – who \
+	description = "The diurnal Saulkyne are one of the two subspecies. Largely they believe the cataclysm that befell their planet was a punishment from Saul himself – who \
 	created Almutahar and the Sabelkyne themselves and is the personification of the planet’s sun – for creating a mockery of life in the form of the automaton and occupy the \
 	still-hospitable polar regions. The southern Saulkyne live within the polar wetlands of the Koraal region. Where the northern Ashkaaran Saulkyne are trackers and hunters, \
 	Koraalan Saulkyne are skilled weavers, fishermen, and farmers. They have a particular knack for identifying what conditions are best suited for different plants, \
