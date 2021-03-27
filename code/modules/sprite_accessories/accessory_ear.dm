@@ -144,7 +144,7 @@
 ////////////////////////////
 
 /datum/sprite_accessory/ears/antennae
-	name = "antennae, colorable"
+	name = "Genemod, antennae colorable"
 	desc = ""
 	icon_state = "antennae"
 	do_colouration = 1
@@ -152,38 +152,38 @@
 	species_allowed = list(SPECIES_CUSTOM)
 	
 /datum/sprite_accessory/ears/antennae/bee
-	name = "antennae"
+	name = "Genemod, antennae"
 	desc = ""
 	icon_state = "bee"
 
 /datum/sprite_accessory/ears/antennae/curly_bug
-	name = "curly antennae, colorable"
+	name = "Genemod, curly antennae colorable"
 	desc = ""
 	icon_state = "curly_bug"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
 	
 /datum/sprite_accessory/ears/antennae/lilimoth_antennae
-	name = "citheronia antennae"
+	name = "Genemod, citheronia antennae"
 	desc = ""
 	icon_state = "lilimoth_antennae"
 	
 /datum/sprite_accessory/ears/antennae/dual_robot
-	name = "synth antennae, colorable"
+	name = "Machine, synth antennae colorable"
 	desc = ""
 	icon_state = "dual_robot_antennae"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/ears/antennae/right_robot
-	name = "right synth antennae, colorable"
+	name = "Machine, right synth antennae colorable"
 	desc = ""
 	icon_state = "right_robot_antennae"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/ears/antennae/left_robot
-	name = "left synth antennae, colorable"
+	name = "Machine, left synth antennae colorable"
 	desc = ""
 	icon_state = "left_robot_antennae"
 	do_colouration = 1
