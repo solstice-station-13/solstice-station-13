@@ -20,53 +20,26 @@
 /datum/sprite_accessory/hair/taj/horns_ram
 	name = "Sabelkyne Ram Horns"
 	icon_state = "horns_ram"
-
-/////////////////////
-// Extra Horn Stuff
-/////////////////////
-
-/datum/sprite_accessory/hair/tajextra
-	icon = 'modular_solstice/icons/mob/ears.dmi'
-	species_allowed = list(SPECIES_TAJ,SPECIES_CUSTOM)
-	var/color_blend_mode = ICON_ADD // Only appliciable if do_coloration = 1
-	var/extra_overlay // Icon state of an additional overlay to blend in.
-
-/datum/sprite_accessory/hair/tajextra/demon
-	name = "Sabelkyne, horns"
+	
+/datum/sprite_accessory/hair/taj/thin
+	name = "Sablekyne Thin Horns"
 	icon_state = "demon-horns1_c"
-	do_colouration = 1 
-	color_blend_mode = ICON_MULTIPLY
 
-/datum/sprite_accessory/hair/tajextra/oni_h1_c
-	name = "Sabelkyne, small horns colorable"
-	icon_state = "oni-h1_c"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-
-/datum/sprite_accessory/hair/tajextra/demon_horns2
-	name = "Sabelkyne, short horns colorable(outward)"
+/datum/sprite_accessory/hair/taj/demon_horns2
+	name = "Sablekyne Thin Horns Outward"
 	icon_state = "demon-horns2"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 
-/datum/sprite_accessory/hair/tajextra/dragon_horns
-	name = "Sabelkyne, long horns colorable"
+/datum/sprite_accessory/hair/taj/dragon_horns
+	name = "Sablekyne Thick Horns"
 	icon_state = "dragon-horns"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 
-/datum/sprite_accessory/hair/tajextra/m_ipc_antenna_synth_thick_ADJ
-	name = "Sabelkyne, long horns thick"
+/datum/sprite_accessory/hair/taj/m_ipc_antenna_synth_thick_ADJ
+	name = "Sablekyne Pointed Horns"
 	icon_state = "m_ipc_antenna_synth_thick_ADJ"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
-	extra_overlay = "m_ipc_antenna_synth_thicklight_ADJ"
 
-/datum/sprite_accessory/hair/tajextra/m_ipc_antenna_synth_curled_ADJ
-	name = "Sabelkyne, thin horns curly"
+/datum/sprite_accessory/hair/taj/m_ipc_antenna_synth_curled_ADJ
+	name = "Sablekyne Curled Horns"
 	icon_state = "m_ipc_antenna_synth_curled_ADJ"
-	do_colouration = 1
-	color_blend_mode = ICON_MULTIPLY
 
 // Markings
 /datum/sprite_accessory/marking/taj
