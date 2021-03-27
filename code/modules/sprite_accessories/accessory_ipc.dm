@@ -19,3 +19,26 @@
 /datum/sprite_accessory/marking/ipc/morpheus
 	name = "Morpheus Optics (IPC)"
 	icon_state = "morpheus_optics"
+	
+// Ears
+/datum/sprite_accessory/ears/machine
+	name = "Machine, synth antennae colorable"
+	desc = ""
+	icon_state = "dual_robot_antennae"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	species_allowed = list(SPECIES_IPC)
+
+/datum/sprite_accessory/ears/machine/right_robot
+	name = "Machine, right synth antennae colorable"
+	desc = ""
+	icon_state = "right_robot_antennae"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/machine/left_robot
+	name = "Machine, left synth antennae colorable"
+	desc = ""
+	icon_state = "left_robot_antennae"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
