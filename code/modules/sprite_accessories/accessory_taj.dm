@@ -2,12 +2,7 @@
 // Horn Stuff
 /////////////////////
 
-/datum/sprite_accessory/hair/taj2
-	name = "You should not see this..."
-	icon = 'modular_solstice/icons/mob/ears.dmi'
-	do_colouration = 0 // Set to 1 to blend (ICON_ADD) hair color
-	var/color_blend_mode = ICON_ADD // Only appliciable if do_coloration = 1
-	var/extra_overlay // Icon state of an additional overlay to blend in.
+
 	
 /datum/sprite_accessory/hair/taj
 	name = "Sabelkyne Horns"
@@ -28,11 +23,12 @@
 	name = "Sabelkyne Ram Horns"
 	icon_state = "horns_ram"
 
-/datum/sprite_accessory/hair/taj2/demon
+/datum/sprite_accessory/hair/taj2
+	name = "Sabelkyne, horns"
+	icon = 'modular_solstice/icons/mob/ears.dmi'
 	icon_state = "demon-horns1_c"
-	do_colouration = 1
+	do_colouration = 1 
 	color_blend_mode = ICON_MULTIPLY
-	species_allowed = list(SPECIES_TAJ,SPECIES_CUSTOM)
 
 /datum/sprite_accessory/hair/taj2/oni_h1_c
 	name = "Sabelkyne, small horns colorable"
