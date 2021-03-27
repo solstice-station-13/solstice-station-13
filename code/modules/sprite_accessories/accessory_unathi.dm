@@ -130,6 +130,20 @@
 // Veteris Stuff
 /////////////////////
 
+/datum/sprite_accessory/marking/humanathi/unathihood
+		name = "Cobra Hood"
+		icon_state = "unathihood"
+		color_blend_mode = ICON_MULTIPLY
+		body_parts = list(BP_HEAD)
+		species_allowed = list(SPECIES_OLDUNATHI,SPECIES_CUSTOM)
+
+/datum/sprite_accessory/marking/humanathi/unathidoublehorns
+		name = "Double Unathi Horns"
+		icon_state = "unathidoublehorns"
+		color_blend_mode = ICON_MULTIPLY
+		body_parts = list(BP_HEAD)
+		species_allowed = list(SPECIES_OLDUNATHI,SPECIES_CUSTOM)
+
 /datum/sprite_accessory/hair/humanathi
 	name = "Veteris'Unathi Horns"
 	icon = 'modular_solstice/icons/mob/human_races/species/humanathi/hair.dmi'
@@ -170,3 +184,4 @@
 	icon_state = "default"
 	icon = 'modular_solstice/icons/mob/human_races/species/humanathi/body.dmi'
 	species_allowed = list(SPECIES_OLDUNATHI)
+
