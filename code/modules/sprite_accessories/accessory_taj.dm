@@ -53,6 +53,7 @@
 
 /datum/sprite_accessory/hair/taj/
 	name = "Plain Sabelkyne Ears"
+	icon = 'modular_solstice/icons/mob/human_races/species/tajaran/hair.dmi'
 	icon_state = "ears_plain"
 	do_colouration = 1
 	species_allowed = list(SPECIES_TAJ,SPECIES_CUSTOM)
