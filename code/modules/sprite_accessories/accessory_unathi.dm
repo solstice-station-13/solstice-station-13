@@ -130,6 +130,20 @@
 // Veteris Stuff
 /////////////////////
 
+/datum/sprite_accessory/marking/humanathi/unathihood
+		name = "Cobra Hood"
+		icon_state = "unathihood"
+		color_blend_mode = ICON_MULTIPLY
+		body_parts = list(BP_HEAD)
+		species_allowed = list(SPECIES_OLDUNATHI,SPECIES_CUSTOM)
+
+/datum/sprite_accessory/marking/humanathi/unathidoublehorns
+		name = "Double Unathi Horns"
+		icon_state = "unathidoublehorns"
+		color_blend_mode = ICON_MULTIPLY
+		body_parts = list(BP_HEAD)
+		species_allowed = list(SPECIES_OLDUNATHI,SPECIES_CUSTOM)
+
 /datum/sprite_accessory/hair/humanathi
 	name = "Veteris'Unathi Horns"
 	icon = 'modular_solstice/icons/mob/human_races/species/humanathi/hair.dmi'
@@ -170,3 +184,120 @@
 	icon_state = "default"
 	icon = 'modular_solstice/icons/mob/human_races/species/humanathi/body.dmi'
 	species_allowed = list(SPECIES_OLDUNATHI)
+
+// Tails
+
+ /datum/sprite_accessory/tail/una
+	name = "Unathi, long colorable"
+	desc = ""
+	icon_state = "chameleon"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	species_allowed = list(SPECIES_OLDUNATHI,SPECIES_UNATHI,SPECIES_YEOSA)
+  
+ /datum/sprite_accessory/tail/una/chameleon
+	name = "Unathi, chameleon colorable"
+	desc = ""
+	icon_state = "dragon"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/tail/una/tail_smooth
+	name = "Unathi, extra long colorable"
+	desc = ""
+	icon_state = "tail_smooth"
+	ani_state = "tail_smooth_w"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/tail/una/lizard_tail_dark_tiger
+	name = "Unathi, extra long dark stripe"
+	desc = ""
+	icon_state = "lizard_tail_dark_tiger"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/tail/una/lizard_tail_light_tiger
+	name = "Unathi, extra long light stripe"
+	desc = ""
+	icon_state = "lizard_tail_light_tiger"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/tail/una/lizard_tail_spiked
+	name = "Unathi, extra long spiked"
+	desc = ""
+	icon_state = "lizard_tail_spiked"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/tail/una/Easterntail
+	name = "Unathi, eastern (animated)"
+	desc = ""
+	icon_state = "Easterntail"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	extra_overlay = "EasterntailColorTip"
+	ani_state = "Easterntail_w"
+	extra_overlay_w = "EasterntailColorTip_w"
+
+// Ear/Horn Stuff
+
+/datum/sprite_accessory/ears/humanathi
+	name = "Unathi, short horns colorable"
+	desc = ""
+	icon_state = "demon-horns1_c"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	species_allowed = list(SPECIES_OLDUNATHI)
+
+/datum/sprite_accessory/ears/humanathi/oni_h1_c
+	name = "Unathi, small horns colorable"
+	desc = ""
+	icon_state = "oni-h1_c"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/humanathi/demon_horns2
+	name = "Unathi, short horns colorable(outward)"
+	desc = ""
+	icon_state = "demon-horns2"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/ears/humanathi/dragon_horns
+	name = "Unathi, long horns colorable"
+	desc = ""
+	icon_state = "dragon-horns"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	
+/datum/sprite_accessory/ears/humanathi/m_ipc_antenna_synth_horns_ADJ
+	name = "Unathi, quad horns plain"
+	desc = ""
+	icon_state = "m_ipc_antenna_synth_horns_ADJ"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	extra_overlay = "m_ipc_antenna_synth_hornslight_ADJ"
+
+/datum/sprite_accessory/ears/humanathi/m_ipc_antenna_synth_thick_ADJ
+	name = "Unathi, long horns thick"
+	desc = ""
+	icon_state = "m_ipc_antenna_synth_thick_ADJ"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	extra_overlay = "m_ipc_antenna_synth_thicklight_ADJ"
+
+/datum/sprite_accessory/ears/humanathi/m_ipc_antenna_synth_curled_ADJ
+	name = "Unathi, thin horns curly"
+	desc = ""
+	icon_state = "m_ipc_antenna_synth_curled_ADJ"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	
+/datum/sprite_accessory/ears/humanathi/drake
+	name = "Unathi, frills"
+	desc = ""
+	icon_state = "drake"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
