@@ -18,7 +18,7 @@
 	two major subspecies; the Saulkyne and the Maunkyne. This description is a temporary placeholder."
 
 	spawn_flags = SPECIES_CAN_JOIN
-	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_xSKIN_COLOR | HAS_EYE_COLOR
+	appearance_flags = HAS_HAIR_COLOR | HAS_UNDERWEAR | HAS_SKIN_COLOR | HAS_EYE_COLOR
 
 	sexybits_location = BP_GROIN
 
