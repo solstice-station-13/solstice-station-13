@@ -23,6 +23,11 @@
 
 	sexybits_location = BP_GROIN
 
+	descriptors = list(
+		/datum/mob_descriptor/height = 1,
+		/datum/mob_descriptor/build = 1
+		)
+
 	available_cultural_info = list( //I can do ANYTHING! As a custom species, you can come from pretty much wherever you want!
 		TAG_CULTURE = list(
 			CULTURE_TAJ
