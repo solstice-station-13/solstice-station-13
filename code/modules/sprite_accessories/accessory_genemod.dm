@@ -1,5 +1,5 @@
 /////////////////////
-// Ear Stuff
+// Tail Stuff
 /////////////////////
 
 /datum/sprite_accessory/tail/genemod/
@@ -234,7 +234,7 @@
 	extra_overlay_w = "buggofatfirefly_markings"
 
 /////////////////////
-// Tail Stuff
+// Ear Stuff
 /////////////////////
 
 
