@@ -41,29 +41,7 @@
 	blood_color = COLOR_BLOOD_HUMAN
 	
 	min_age = 18
-	max_age = 150
-
-	cold_level_1 = 280 //Default 260 - Lower is better
-	cold_level_2 = 220 //Default 200
-	cold_level_3 = 130 //Default 120
-
-	heat_level_1 = 420 //Default 360 - Higher is better
-	heat_level_2 = 480 //Default 400
-	heat_level_3 = 1100 //Default 1000
-	
-	heat_discomfort_level = 310
-	heat_discomfort_strings = list(
-		"You feel soothingly warm.",
-		"You feel the heat sink into your bones.",
-		"You feel warm enough to take a nap."
-		)
-
-	cold_discomfort_level = 280
-	cold_discomfort_strings = list(
-		"You feel chilly.",
-		"You feel sluggish and cold.",
-		"Your fur bristles against the cold."
-		)
+	max_age = 280
 		
 	available_cultural_info = list( //I can do ANYTHING! As a custom species, you can come from pretty much wherever you want!
 		TAG_CULTURE = list(
