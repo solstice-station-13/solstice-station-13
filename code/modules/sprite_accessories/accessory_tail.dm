@@ -433,7 +433,7 @@
 	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/tail/ztail
-	name = "jagged flufftail"
+	name = "Vulpkanin, jagged flufftail"
 	desc = ""
 	icon_state = "ztail"
 	do_colouration = 1
