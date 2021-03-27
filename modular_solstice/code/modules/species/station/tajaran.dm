@@ -12,7 +12,6 @@
 	tail_blend = ICON_MULTIPLY
 	hidden_from_codex = FALSE
 
-
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite/sharp, /datum/unarmed_attack/claws)
 
 	description = "The Sabelkyne are a mammalian species from the planet Almutahar, closely resembling felines. They are a divided species, with \
@@ -28,6 +27,8 @@
 		/datum/mob_descriptor/build = 1
 		)
 
+	blood_color = COLOR_BLOOD_HUMAN
+	
 	available_cultural_info = list( //I can do ANYTHING! As a custom species, you can come from pretty much wherever you want!
 		TAG_CULTURE = list(
 			CULTURE_TAJ
