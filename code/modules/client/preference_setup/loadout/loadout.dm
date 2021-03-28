@@ -346,7 +346,6 @@ var/list/gear_datums = list()
 		gear_tweaks += new/datum/gear_tweak/path/subtype(path)
 	if(custom_setup_proc)
 		gear_tweaks += new/datum/gear_tweak/custom_setup(custom_setup_proc)
-	gear_tweaks = list(gear_tweak_free_name, gear_tweak_free_desc)
 
 /datum/gear/proc/get_description(var/metadata)
 	. = description
