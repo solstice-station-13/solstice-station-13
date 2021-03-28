@@ -9,7 +9,7 @@
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
 	extra_overlay = "vulp-inner"
-	species_allowed = list(SPECIES_VULP,SPECIES_KHAZAN,SPECIES_CUSTOM)
+	species_allowed = list(SPECIES_VULP,SPECIES_KHAZAN,SPECIES_HUMAN)
 
 /datum/sprite_accessory/ears/vulp/foxears
 	name = "Vulpkanin, highland ears"
@@ -70,7 +70,7 @@
 	color_blend_mode = ICON_MULTIPLY
 	extra_overlay = "vulptail_mark"
 	extra_overlay_w = "vulptail_mark_w"
-	species_allowed = list(SPECIES_VULP,SPECIES_CUSTOM)
+	species_allowed = list(SPECIES_VULP,SPECIES_HUMAN)
 
 /datum/sprite_accessory/tail/vulp/wolf
 	name = "Vulpkanin, lupine colorable"
@@ -158,7 +158,7 @@
 		icon_state = "vulp_belly"
 		color_blend_mode = ICON_MULTIPLY
 		body_parts = list(BP_CHEST,BP_GROIN)
-		species_allowed = list(SPECIES_VULP,SPECIES_CUSTOM)
+		species_allowed = list(SPECIES_VULP,SPECIES_HUMAN)
 
 /datum/sprite_accessory/marking/vulp/vulp_fullbelly
 		name = "Vulpkanin, full belly fur"
