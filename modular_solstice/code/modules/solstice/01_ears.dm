@@ -124,22 +124,22 @@
 	pref.g_wing3	= sanitize_integer(pref.g_wing3, 0, 255, initial(pref.g_wing3))
 	pref.b_wing3	= sanitize_integer(pref.b_wing3, 0, 255, initial(pref.b_wing3))
 	if(pref.ear_style)
-		pref.ear_style	= sanitize_inlist(pref.ear_style, ear_styles_list, initial(pref.ear_style))
+		pref.ear_style	= sanitize_inlist(pref.ear_style, GLOB.ear_styles_list, initial(pref.ear_style))
 	if(pref.tail_style)
-		pref.tail_style	= sanitize_inlist(pref.tail_style, tail_styles_list, initial(pref.tail_style))
+		pref.tail_style	= sanitize_inlist(pref.tail_style, GLOB.tail_styles_list, initial(pref.tail_style))
 	if(pref.wing_style)
-		pref.wing_style	= sanitize_inlist(pref.wing_style, wing_styles_list, initial(pref.wing_style))
+		pref.wing_style	= sanitize_inlist(pref.wing_style, GLOB.wing_styles_list, initial(pref.wing_style))
 
 /datum/preferences/copy_to(mob/living/carbon/human/character, is_preview_copy = FALSE)
 	..()
-	character.ear_style			= ear_styles_list[ear_style]
+	character.ear_style			= GLOB.ear_styles_list[ear_style]
 	character.r_ears			= r_ears
 	character.b_ears			= b_ears
 	character.g_ears			= g_ears
 	character.r_ears2			= r_ears2
 	character.b_ears2			= b_ears2
 	character.g_ears2			= g_ears2
-	character.tail_style		= tail_styles_list[tail_style]
+	character.tail_style		= GLOB.tail_styles_list[tail_style]
 	character.r_tail			= r_tail
 	character.b_tail			= b_tail
 	character.g_tail			= g_tail
@@ -149,7 +149,7 @@
 	character.r_tail3			= r_tail3
 	character.b_tail3			= b_tail3
 	character.g_tail3			= g_tail3
-	character.wing_style		= wing_styles_list[wing_style]
+	character.wing_style		= GLOB.wing_styles_list[wing_style]
 	character.r_wing			= r_wing
 	character.b_wing			= b_wing
 	character.g_wing			= g_wing
@@ -176,32 +176,32 @@
 	. += "<br><a href='?src=\ref[src];toggle_clothing=1'>[pref.dress_mob ? "Hide equipment" : "Show equipment"]</a><br>"
 
 	var/ear_display = "Normal"
-	if(pref.ear_style && (pref.ear_style in ear_styles_list))
-		var/datum/sprite_accessory/ears/instance = ear_styles_list[pref.ear_style]
+	if(pref.ear_style && (pref.ear_style in GLOB.ear_styles_list))
+		var/datum/sprite_accessory/ears/instance = GLOB.ear_styles_list[pref.ear_style]
 		ear_display = instance.name
 
 	else if(pref.ear_style)
 		ear_display = "REQUIRES UPDATE"
 	. += "<b>Ears</b><br>"
 	. += " Style: <a href='?src=\ref[src];ear_style=1'>[ear_display]</a><br>"
-	if(ear_styles_list[pref.ear_style])
-		var/datum/sprite_accessory/ears/ear = ear_styles_list[pref.ear_style]
+	if(GLOB.ear_styles_list[pref.ear_style])
+		var/datum/sprite_accessory/ears/ear = GLOB.ear_styles_list[pref.ear_style]
 		if (ear.do_colouration)
 			. += "<a href='?src=\ref[src];ear_color=1'>Change Color</a> <font face='fixedsys' size='3' color='#[num2hex(pref.r_ears, 2)][num2hex(pref.g_ears, 2)][num2hex(pref.b_ears, 2)]'><table style='display:inline;' bgcolor='#[num2hex(pref.r_ears, 2)][num2hex(pref.g_ears, 2)][num2hex(pref.b_ears, 2)]'><tr><td>__</td></tr></table> </font><br>"
 		if (ear.extra_overlay)
 			. += "<a href='?src=\ref[src];ear_color2=1'>Change Secondary Color</a> <font face='fixedsys' size='3' color='#[num2hex(pref.r_ears2, 2)][num2hex(pref.g_ears2, 2)][num2hex(pref.b_ears2, 2)]'><table style='display:inline;' bgcolor='#[num2hex(pref.r_ears2, 2)][num2hex(pref.g_ears2, 2)][num2hex(pref.b_ears2, 2)]'><tr><td>__</td></tr></table> </font><br>"
 
 	var/tail_display = "Normal"
-	if(pref.tail_style && (pref.tail_style in tail_styles_list))
-		var/datum/sprite_accessory/tail/instance = tail_styles_list[pref.tail_style]
+	if(pref.tail_style && (pref.tail_style in GLOB.tail_styles_list))
+		var/datum/sprite_accessory/tail/instance = GLOB.tail_styles_list[pref.tail_style]
 		tail_display = instance.name
 	else if(pref.tail_style)
 		tail_display = "REQUIRES UPDATE"
 	. += "<b>Tail</b><br>"
 	. += " Style: <a href='?src=\ref[src];tail_style=1'>[tail_display]</a><br>"
 
-	if(tail_styles_list[pref.tail_style])
-		var/datum/sprite_accessory/tail/T = tail_styles_list[pref.tail_style]
+	if(GLOB.tail_styles_list[pref.tail_style])
+		var/datum/sprite_accessory/tail/T = GLOB.tail_styles_list[pref.tail_style]
 		if (T.do_colouration)
 			. += "<a href='?src=\ref[src];tail_color=1'>Change Color</a> <font face='fixedsys' size='3' color='#[num2hex(pref.r_tail, 2)][num2hex(pref.g_tail, 2)][num2hex(pref.b_tail, 2)]'><table style='display:inline;' bgcolor='#[num2hex(pref.r_tail, 2)][num2hex(pref.g_tail, 2)][num2hex(pref.b_tail, 2)]'><tr><td>__</td></tr></table> </font><br>"
 		if (T.extra_overlay)
@@ -210,16 +210,16 @@
 			. += "<a href='?src=\ref[src];tail_color3=1'>Change tertiary Color</a> <font face='fixedsys' size='3' color='#[num2hex(pref.r_tail3, 2)][num2hex(pref.g_tail3, 2)][num2hex(pref.b_tail3, 2)]'><table style='display:inline;' bgcolor='#[num2hex(pref.r_tail3, 2)][num2hex(pref.g_tail3, 2)][num2hex(pref.b_tail3, 2)]'><tr><td>__</td></tr></table> </font><br>"
 
 	var/wing_display = "Normal"
-	if(pref.wing_style && (pref.wing_style in wing_styles_list))
-		var/datum/sprite_accessory/wing/instance = wing_styles_list[pref.wing_style]
+	if(pref.wing_style && (pref.wing_style in GLOB.wing_styles_list))
+		var/datum/sprite_accessory/wing/instance = GLOB.wing_styles_list[pref.wing_style]
 		wing_display = instance.name
 	else if(pref.wing_style)
 		wing_display = "REQUIRES UPDATE"
 	. += "<b>Wing</b><br>"
 	. += " Style: <a href='?src=\ref[src];wing_style=1'>[wing_display]</a><br>"
 
-	if(wing_styles_list[pref.wing_style])
-		var/datum/sprite_accessory/wing/T = wing_styles_list[pref.wing_style]
+	if(GLOB.wing_styles_list[pref.wing_style])
+		var/datum/sprite_accessory/wing/T = GLOB.wing_styles_list[pref.wing_style]
 		if (T.do_colouration)
 			. += "<a href='?src=\ref[src];wing_color=1'>Change Color</a> <font face='fixedsys' size='3' color='#[num2hex(pref.r_wing, 2)][num2hex(pref.g_wing, 2)][num2hex(pref.b_wing, 2)]'><table style='display:inline;' bgcolor='#[num2hex(pref.r_wing, 2)][num2hex(pref.g_wing, 2)][num2hex(pref.b_wing, 2)]'><tr><td>__</td></tr></table> </font><br>"
 		if (T.extra_overlay)
@@ -228,23 +228,21 @@
 			. += "<a href='?src=\ref[src];wing_color3=1'>Change tertiary Color</a> <font face='fixedsys' size='3' color='#[num2hex(pref.r_wing3, 2)][num2hex(pref.g_wing3, 2)][num2hex(pref.b_wing3, 2)]'><table style='display:inline;' bgcolor='#[num2hex(pref.r_wing3, 2)][num2hex(pref.g_wing3, 2)][num2hex(pref.b_wing3, 2)]'><tr><td>__</td></tr></table> </font><br>"
 
 /datum/category_item/player_setup_item/vore/ears/OnTopic(var/href,var/list/href_list, var/mob/user)
+
+	var/datum/species/mob_species = all_species[pref.species]
+
 	if(!CanUseTopic(user))
 		return TOPIC_NOACTION
 
 	else if(href_list["ear_style"])
-		// Construct the list of names allowed for this user.
-		var/list/pretty_ear_styles = list("Normal" = null)
-		for(var/path in ear_styles_list)
-			var/datum/sprite_accessory/ears/instance = ear_styles_list[path]
-			if((!instance.ckeys_allowed) || (usr.ckey in instance.ckeys_allowed))
-				pretty_ear_styles[instance.name] = path
+		// Construct the list of values allowed for this user.
+		var/list/valid_styles = mob_species.get_ear_styles()
+		log_debug("A: [mob_species] - [LAZYLEN(valid_styles)]")
+		var/new_style = input(user, "Choose your character's ear style:", CHARACTER_PREFERENCE_INPUT_TITLE, pref.ear_style)  as null|anything in valid_styles
 
-		// Present choice to user
-		var/new_ear_style = input(user, "Pick ears", "Character Preference", pref.ear_style) as null|anything in pretty_ear_styles
-		if(new_ear_style)
-			pref.ear_style = pretty_ear_styles[new_ear_style]
-
-		return TOPIC_REFRESH_UPDATE_PREVIEW
+		if(new_style && CanUseTopic(user) && (new_style in valid_styles))
+			pref.ear_style = new_style
+			return TOPIC_REFRESH_UPDATE_PREVIEW
 
 	else if(href_list["ear_color"])
 		var/new_earc = input(user, "Choose your character's ear colour:", "Character Preference",
@@ -265,19 +263,13 @@
 			return TOPIC_REFRESH_UPDATE_PREVIEW
 
 	else if(href_list["tail_style"])
-		// Construct the list of names allowed for this user.
-		var/list/pretty_tail_styles = list("Normal" = null)
-		for(var/path in tail_styles_list)
-			var/datum/sprite_accessory/tail/instance = tail_styles_list[path]
-			if((!instance.ckeys_allowed) || (user.ckey in instance.ckeys_allowed))
-				pretty_tail_styles[instance.name] = path
-
-		// Present choice to user
-		var/new_tail_style = input(user, "Pick tails", "Character Preference", pref.tail_style) as null|anything in pretty_tail_styles
-		if(new_tail_style)
-			pref.tail_style = pretty_tail_styles[new_tail_style]
-
-		return TOPIC_REFRESH_UPDATE_PREVIEW
+		// Construct the list of values allowed for this user.
+		var/list/valid_styles = mob_species.get_tail_styles()
+		var/new_style = input(user, "Choose your character's tail style:", CHARACTER_PREFERENCE_INPUT_TITLE, pref.tail_style)  as null|anything in valid_styles
+		
+		if(new_style && CanUseTopic(user) && (new_style in valid_styles))
+			pref.tail_style = new_style
+			return TOPIC_REFRESH_UPDATE_PREVIEW
 
 	else if(href_list["tail_color"])
 		var/new_tailc = input(user, "Choose your character's tail colour:", "Character Preference",
@@ -307,19 +299,13 @@
 			return TOPIC_REFRESH_UPDATE_PREVIEW
 
 	else if(href_list["wing_style"])
-		// Construct the list of names allowed for this user.
-		var/list/pretty_wing_styles = list("Normal" = null)
-		for(var/path in wing_styles_list)
-			var/datum/sprite_accessory/wing/instance = wing_styles_list[path]
-			if((!instance.ckeys_allowed) || (user.ckey in instance.ckeys_allowed))
-				pretty_wing_styles[instance.name] = path
-
-		// Present choice to user
-		var/new_wing_style = input(user, "Pick wings", "Character Preference", pref.wing_style) as null|anything in pretty_wing_styles
-		if(new_wing_style)
-			pref.wing_style = pretty_wing_styles[new_wing_style]
-
-		return TOPIC_REFRESH_UPDATE_PREVIEW
+		// Construct the list of values allowed for this user.
+		var/list/valid_styles = mob_species.get_wing_styles()
+		var/new_style = input(user, "Choose your character's wing style:", CHARACTER_PREFERENCE_INPUT_TITLE, pref.wing_style)  as null|anything in valid_styles
+		
+		if(new_style && CanUseTopic(user) && (new_style in valid_styles))
+			pref.wing_style = new_style
+			return TOPIC_REFRESH_UPDATE_PREVIEW
 
 	else if(href_list["wing_color"])
 		var/new_wingc = input(user, "Choose your character's wing colour:", "Character Preference",

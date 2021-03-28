@@ -3250,6 +3250,7 @@
 #include "modular_solstice\code\modules\solstice\traits_neutral.dm"
 #include "modular_solstice\code\modules\solstice\traits_positive.dm"
 #include "modular_solstice\code\modules\solstice\update_icons_vr.dm"
+#include "modular_solstice\code\modules\species\species.dm"
 #include "modular_solstice\code\modules\species\station\akula.dm"
 #include "modular_solstice\code\modules\species\station\custom.dm"
 #include "modular_solstice\code\modules\species\station\duroj.dm"
