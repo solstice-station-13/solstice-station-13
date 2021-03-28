@@ -9,7 +9,7 @@
 	ani_state = "tajtail_loop1"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_allowed = list(SPECIES_TAJ,SPECIES_CUSTOM)
+	species_allowed = list(SPECIES_TAJ,SPECIES_HUMAN)
 
 /datum/sprite_accessory/tail/tajaran/tiger_white
 	name = "Sablekyne, tiger colorable"
@@ -56,7 +56,7 @@
 	icon = 'modular_solstice/icons/mob/human_races/species/tajaran/hair.dmi'
 	icon_state = "ears_plain"
 	do_colouration = 1
-	species_allowed = list(SPECIES_TAJ,SPECIES_CUSTOM)
+	species_allowed = list(SPECIES_TAJ,SPECIES_HUMAN)
 
 /datum/sprite_accessory/hair/taj/bangs
 	name = "Sabelkyne Bangs"
@@ -158,7 +158,7 @@
 	icon_state = "demon-horns1_c"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_allowed = list(SPECIES_TAJ,SPECIES_CUSTOM)
+	species_allowed = list(SPECIES_TAJ,SPECIES_HUMAN)
 
 /datum/sprite_accessory/ears/taj/oni_h1_c
 	name = "Sabelkyne, small horns colorable"
@@ -203,7 +203,7 @@
 /datum/sprite_accessory/marking/taj
 	name = "Sabelkyne, socks coloration"
 	icon_state = "taj_pawsocks"
-	species_allowed = list(SPECIES_TAJ,SPECIES_CUSTOM)
+	species_allowed = list(SPECIES_TAJ,SPECIES_HUMAN)
 	body_parts = list(BP_L_FOOT,BP_R_FOOT,BP_L_LEG,BP_R_LEG,BP_L_ARM,BP_R_ARM,BP_L_HAND,BP_R_HAND)
 
 /datum/sprite_accessory/marking/taj/paw_socks
