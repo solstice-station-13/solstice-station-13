@@ -369,6 +369,7 @@ var/list/gear_datums = list()
 	for(var/datum/gear_tweak/gt in gear_tweaks)
 		gt.tweak_item(user, item, metadata && metadata["[gt]"])
 	return item
+	log_debug("A - [user] - [location] - [metadata]") 
 
 /datum/gear/proc/spawn_on_mob(var/mob/living/carbon/human/H, var/metadata)
 	var/obj/item/item = spawn_item(H, H, metadata)
