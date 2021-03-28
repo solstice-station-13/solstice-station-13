@@ -321,7 +321,7 @@
 	color_blend_mode = ICON_MULTIPLY
 
 /datum/sprite_accessory/ears/genemod/bunny_floppy
-	name = "floppy bunny ears (colorable)"
+	name = "Genemod, floppy bunny ears colorable"
 	desc = ""
 	icon_state = "floppy_bun"
 	do_colouration = 1
@@ -403,7 +403,7 @@
 	do_colouration = 1
 
 /datum/sprite_accessory/wing/genemod/feathered
-	name = "feathered wings, colorable"
+	name = "Genemod, feathered wings colorable"
 	desc = ""
 	icon_state = "feathered"
 	do_colouration = 1
