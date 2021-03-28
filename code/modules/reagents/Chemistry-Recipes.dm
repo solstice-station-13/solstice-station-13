@@ -94,7 +94,7 @@
 /datum/chemical_reaction/carthatoline
 	name = "Carthatoline"
 	result = /datum/reagent/carthatoline
-	required_reagents = list(/datum/reagent/dylovene = 2, /datum/reagent/toxin/phoron = 1)
+	required_reagents = list(/datum/reagent/dylovene = 2)
 	catalysts = list(/datum/reagent/toxin/phoron = 5)
 	result_amount = 2
 
@@ -195,7 +195,7 @@
 	result = /datum/reagent/peridaxonplus
 	required_reagents = list(/datum/reagent/bicaridine = 2, /datum/reagent/respirodaxon = 2, /datum/reagent/toxin/phoron = 1)
 	catalysts = list(/datum/reagent/toxin/phoron = 5)
-	result_amount = 1
+	result_amount = 2
 
 /datum/chemical_reaction/respirodaxon
 	name = "Respirodaxon"
