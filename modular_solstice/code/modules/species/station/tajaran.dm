@@ -12,7 +12,6 @@
 	tail_blend = ICON_MULTIPLY
 	hidden_from_codex = FALSE
 
-
 	unarmed_types = list(/datum/unarmed_attack/stomp, /datum/unarmed_attack/kick, /datum/unarmed_attack/punch, /datum/unarmed_attack/bite/sharp, /datum/unarmed_attack/claws)
 
 	description = "The Sabelkyne are a mammalian species from the planet Almutahar, closely resembling felines. They are a divided species, with \
@@ -23,9 +22,33 @@
 
 	sexybits_location = BP_GROIN
 
+	darksight_range = 3
+	darksight_tint = DARKTINT_MODERATE
+	gluttonous = GLUT_TINY
+	strength = STR_HIGH
+	breath_pressure = 19 //larger species, needs slightly more oxygen
+	slowdown = 0		//No change
+	brute_mod = 1		//No change
+	burn_mod = 0.9		//Reduced burn damage
+	flash_mod = 1.4		//considerably more sensitive to flashes
+	blood_volume = 550	//slightly more blood than normal
+
+	descriptors = list(
+		/datum/mob_descriptor/height = 1,
+		/datum/mob_descriptor/build = 1
+		)
+
+	blood_color = COLOR_BLOOD_HUMAN
+	
+	min_age = 18
+	max_age = 280
+		
 	available_cultural_info = list( //I can do ANYTHING! As a custom species, you can come from pretty much wherever you want!
 		TAG_CULTURE = list(
-			CULTURE_TAJ
+			CULTURE_TAJ,
+			CULTURE_TAJ_NORTHERN,
+			CULTURE_TAJ_SOUTHERN,
+			CULTURE_TAJ_FEDERAL
 		),
 		TAG_FACTION = list(
 			FACTION_SOL_CENTRAL,
@@ -33,7 +56,6 @@
 			FACTION_CORPORATE,
 			FACTION_INDIE_CONFED,
 			FACTION_EXPEDITIONARY,
-			FACTION_SPACECOPS,
 			FACTION_NANOTRASEN,
 			FACTION_XYNERGY,
 			FACTION_HEPHAESTUS,
@@ -43,6 +65,9 @@
 			FACTION_OTHER
 		),
 		TAG_RELIGION = list(
+			RELIGION_SHAVIIRI,
+			RELIGION_SAULI,
+			RELIGION_TAJ_ATHEISM,
 			RELIGION_OTHER,
 			RELIGION_JUDAISM,
 			RELIGION_HINDUISM,
@@ -61,6 +86,13 @@
 			RELIGION_TAOISM
 		),
 		TAG_HOMEWORLD = list(
+			HOME_SYSTEM_ALMUTAHAR,
+			HOME_SYSTEM_SHAVIIR,
+			HOME_SYSTEM_JEZZAIL,
+			HOME_SYSTEM_KHAANE,
+			HOME_SYSTEM_ALNORTH,
+			HOME_SYSTEM_ALSOUTH,
+			HOME_SYSTEM_ALTERRAN,
 			HOME_SYSTEM_MARS,
 			HOME_SYSTEM_EARTH,
 			HOME_SYSTEM_LUNA,
@@ -69,14 +101,12 @@
 			HOME_SYSTEM_PLUTO,
 			HOME_SYSTEM_TAU_CETI,
 			HOME_SYSTEM_HELIOS,
-			HOME_SYSTEM_TERRA,
 			HOME_SYSTEM_TERSTEN,
 			HOME_SYSTEM_LORRIMAN,
 			HOME_SYSTEM_CINU,
 			HOME_SYSTEM_YUKLID,
 			HOME_SYSTEM_LORDANIA,
 			HOME_SYSTEM_KINGSTON,
-			HOME_SYSTEM_GAIA,
 			HOME_SYSTEM_MAGNITKA
 		)
 	)

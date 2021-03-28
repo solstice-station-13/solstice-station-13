@@ -2,9 +2,12 @@
  * solsticestation global lists
 */
 
-var/global/list/ear_styles_list = list()	// Stores /datum/sprite_accessory/ears indexed by type name
-var/global/list/tail_styles_list = list()	// Stores /datum/sprite_accessory/tail indexed by type name
-var/global/list/wing_styles_list = list()	// Stores /datum/sprite_accessory/wing indexed by type name
+GLOBAL_LIST_EMPTY(ear_styles_list)  // Stores /datum/sprite_accessory/ears indexed by type name
+GLOBAL_LIST_EMPTY(tail_styles_list) // Stores /datum/sprite_accessory/tail indexed by type name
+GLOBAL_LIST_EMPTY(wing_styles_list) // Stores /datum/sprite_accessory/wing indexed by type name
+
+
+
 var/global/list/negative_traits = list()	// Negative custom species traits, indexed by path
 var/global/list/neutral_traits = list()		// Neutral custom species traits, indexed by path
 var/global/list/positive_traits = list()	// Positive custom species traits, indexed by path
@@ -25,7 +28,7 @@ var/global/list/all_jobs = list()			// All jobs
 			continue
 
 		instance = new path()
-		ear_styles_list[instance.name] = instance
+		GLOB.ear_styles_list[instance.name] = instance
 
 	// Custom Tails
 	paths = typesof(/datum/sprite_accessory/tail) - /datum/sprite_accessory/tail
@@ -37,7 +40,7 @@ var/global/list/all_jobs = list()			// All jobs
 
 		instance = new path()
 
-		tail_styles_list[instance.name] = instance
+		GLOB.tail_styles_list[instance.name] = instance
 
 	// Custom Wings
 	paths = typesof(/datum/sprite_accessory/wing) - /datum/sprite_accessory/wing
@@ -49,7 +52,7 @@ var/global/list/all_jobs = list()			// All jobs
 
 		instance = new path()
 
-		wing_styles_list[instance.name] = instance
+		GLOB.wing_styles_list[instance.name] = instance
 
 
 

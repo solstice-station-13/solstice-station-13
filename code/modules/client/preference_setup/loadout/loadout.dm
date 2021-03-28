@@ -361,6 +361,7 @@ var/list/gear_datums = list()
 	src.location = location
 
 /datum/gear/proc/spawn_item(user, location, metadata)
+	log_debug("A - [user] - [location] - [metadata]") 
 	var/datum/gear_data/gd = new(path, location)
 	for(var/datum/gear_tweak/gt in gear_tweaks)
 		gt.tweak_gear_data(metadata && metadata["[gt]"], gd)
