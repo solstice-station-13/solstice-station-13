@@ -10,6 +10,7 @@
 	name = "You should not see this..."
 	icon = 'modular_solstice/icons/mob/tails.dmi'
 	do_colouration = 0 //Set to 1 to enable coloration using the tail color.
+	species_allowed = list(SPECIES_CUSTOM)
 
 	var/color_blend_mode = ICON_ADD // Only appliciable if do_coloration = 1
 	var/extra_overlay // Icon state of an additional overlay to blend in.
@@ -29,6 +30,7 @@
 	name = "hide species-sprite tail"
 	icon = null
 	icon_state = null
+	species_allowed = list(SPECIES_CUSTOM,SPECIES_AKULA,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ,SPECIES_VULP,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_YEOSA,SPECIES_TAJ)
 
 ////////////////////////////
 // Snowflake Shit with no sprites/low quality	
