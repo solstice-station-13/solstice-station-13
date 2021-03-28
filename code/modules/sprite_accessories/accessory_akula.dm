@@ -2,7 +2,13 @@
 // Ear Stuff
 /////////////////////
 
-
+/datum/sprite_accessory/ears/sergal/sleek
+	name = "Akula, sleek ears"
+	desc = ""
+	icon_state = "sleek"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	species_allowed = list(SPECIES_AKULA)
 
 /////////////////////
 // Tail Stuff
@@ -14,7 +20,7 @@
 	icon_state = "aktail"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_allowed = list(SPECIES_AKULA,SPECIES_CUSTOM)
+	species_allowed = list(SPECIES_AKULA)
 
 /////////////////////
 // Markings
