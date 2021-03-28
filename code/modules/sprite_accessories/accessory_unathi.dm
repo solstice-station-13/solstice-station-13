@@ -135,21 +135,21 @@
 		icon_state = "unathihood"
 		color_blend_mode = ICON_MULTIPLY
 		body_parts = list(BP_HEAD)
-		species_allowed = list(SPECIES_OLDUNATHI,SPECIES_CUSTOM)
+		species_allowed = list(SPECIES_OLDUNATHI,SPECIES_HUMAN)
 
 /datum/sprite_accessory/marking/humanathi/unathidoublehorns
 		name = "Double Unathi Horns"
 		icon_state = "unathidoublehorns"
 		color_blend_mode = ICON_MULTIPLY
 		body_parts = list(BP_HEAD)
-		species_allowed = list(SPECIES_OLDUNATHI,SPECIES_CUSTOM)
+		species_allowed = list(SPECIES_OLDUNATHI,SPECIES_HUMAN)
 
 /datum/sprite_accessory/hair/humanathi
 	name = "Veteris'Unathi Horns"
 	icon = 'modular_solstice/icons/mob/human_races/species/humanathi/hair.dmi'
 	icon_state = "horns_simple"
 	blend = ICON_MULTIPLY
-	species_allowed = list(SPECIES_OLDUNATHI,SPECIES_CUSTOM)
+	species_allowed = list(SPECIES_OLDUNATHI,SPECIES_HUMAN)
 
 /datum/sprite_accessory/hair/humanathi/horns_short
 	name = "Veteris'Unathi Short Horns"
@@ -193,7 +193,7 @@
 	icon_state = "chameleon"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_allowed = list(SPECIES_OLDUNATHI,SPECIES_UNATHI,SPECIES_YEOSA)
+	species_allowed = list(SPECIES_OLDUNATHI,SPECIES_UNATHI,SPECIES_YEOSA,SPECIES_HUMAN)
   
 /datum/sprite_accessory/tail/humanathi/chameleon
 	name = "Unathi, chameleon colorable"
@@ -249,7 +249,7 @@
 	icon_state = "demon-horns1_c"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_allowed = list(SPECIES_OLDUNATHI)
+	species_allowed = list(SPECIES_OLDUNATHI,SPECIES_HUMAN)
 
 /datum/sprite_accessory/ears/humanathi/oni_h1_c
 	name = "Unathi, small horns colorable"
