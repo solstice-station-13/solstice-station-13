@@ -8,7 +8,7 @@
 	icon_state = "squirrel"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_allowed = list(SPECIES_CUSTOM)
+	species_allowed = list(SPECIES_HUMAN)
 
 /datum/sprite_accessory/tail/genemod/bunny
 	name = "Genemod, bunny colorable"
@@ -241,7 +241,7 @@
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
 	extra_overlay = "mouseinner"
-	species_allowed = list(SPECIES_CUSTOM)
+	species_allowed = list(SPECIES_HUMAN)
 
 /datum/sprite_accessory/ears/genemod/mousehcno
 	name = "Genemod, mouse colorable no inner"
@@ -365,7 +365,7 @@
 	icon_state = "feathered2"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_allowed = list(SPECIES_CUSTOM)
+	species_allowed = list(SPECIES_HUMAN)
 
 /datum/sprite_accessory/wing/genemod/feathered
 	name = "Genemod, feathered wings colorable"
@@ -473,7 +473,7 @@
 		icon_state = "bellyandbutt"
 		color_blend_mode = ICON_MULTIPLY
 		body_parts = list(BP_GROIN,BP_CHEST)
-		species_allowed = list(SPECIES_CUSTOM)
+		species_allowed = list(SPECIES_HUMAN)
 
 /datum/sprite_accessory/marking/genemod/fingers_toes
 		name = "Genemod, fingers and toes"
@@ -557,7 +557,6 @@
 		name = "Genemod, panda eye"
 		icon_state = "eyes_panda"
 		body_parts = list(BP_HEAD)
-		species_allowed = list("Human")
 		
 /datum/sprite_accessory/marking/genemod/chooves
 		name = "Genemod, cloven hooves"
