@@ -55,7 +55,7 @@
 #define DNA_UI_WING_B 		35 // end snippet
 #define DNA_UI_LENGTH      35 // Updated for all those custom species
 
-#define DNA_SE_LENGTH 46 
+#define DNA_SE_LENGTH 46
 // Solstice Station End
 
 
@@ -168,17 +168,17 @@ var/global/list/datum/dna/gene/dna_genes[0]
 	// Demi Ears
 	var/ear_style = 0
 	if(character.ear_style)
-		ear_style = ear_styles_list.Find(character.ear_style.type)
+		ear_style = GLOB.ear_styles_list.Find(character.ear_style.type)
 
 	// Demi Tails
 	var/tail_style = 0
 	if(character.tail_style)
-		tail_style = tail_styles_list.Find(character.tail_style.type)
+		tail_style = GLOB.tail_styles_list.Find(character.tail_style.type)
 
 	// Demi Wings
 	var/wing_style = 0
 	if(character.wing_style)
-		wing_style = wing_styles_list.Find(character.wing_style.type)
+		wing_style = GLOB.wing_styles_list.Find(character.wing_style.type)
 
 	// Technically custom_species is not part of the UI, but this place avoids merge problems.
 	src.custom_species = character.custom_species
@@ -189,9 +189,9 @@ var/global/list/datum/dna/gene/dna_genes[0]
 		src.blood_color = CS.blood_color
 
 	// +1 to account for the none-of-the-above possibility
-	SetUIValueRange(DNA_UI_EAR_STYLE,	ear_style + 1,     ear_styles_list.len  + 1,  1)
-	SetUIValueRange(DNA_UI_TAIL_STYLE,	tail_style + 1,    tail_styles_list.len + 1,  1)
-	SetUIValueRange(DNA_UI_WING_STYLE,	wing_style + 1,    wing_styles_list.len + 1,  1)
+	SetUIValueRange(DNA_UI_EAR_STYLE,	ear_style + 1,     GLOB.ear_styles_list.len  + 1,  1)
+	SetUIValueRange(DNA_UI_TAIL_STYLE,	tail_style + 1,    GLOB.tail_styles_list.len + 1,  1)
+	SetUIValueRange(DNA_UI_WING_STYLE,	wing_style + 1,    GLOB.wing_styles_list.len + 1,  1)
 
 	SetUIValueRange(DNA_UI_TAIL_R,    character.r_tail,    255,    1)
 	SetUIValueRange(DNA_UI_TAIL_G,    character.g_tail,    255,    1)
