@@ -10,6 +10,7 @@
 	name = "You should not see this..."
 	icon = 'modular_solstice/icons/mob/wings.dmi'
 	do_colouration = 0 //Set to 1 to enable coloration using the tail color.
+	species_allowed = list(SPECIES_CUSTOM)
 
 	var/color_blend_mode = ICON_ADD // Only appliciable if do_coloration = 1
 	var/extra_overlay // Icon state of an additional overlay to blend in.
