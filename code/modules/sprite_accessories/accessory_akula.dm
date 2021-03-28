@@ -2,7 +2,7 @@
 // Ear Stuff
 /////////////////////
 
-/datum/sprite_accessory/ears/sergal/sleek
+/datum/sprite_accessory/ears/akula
 	name = "Akula, sleek ears"
 	desc = ""
 	icon_state = "sleek"
