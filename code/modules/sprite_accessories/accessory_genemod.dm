@@ -97,6 +97,20 @@
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
 	extra_overlay = "deertail_mark"
+	
+/datum/sprite_accessory/tail/genemod/fantail
+	name = "Genemod, avian fantail colorable"
+	desc = ""
+	icon_state = "fantail"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+
+/datum/sprite_accessory/tail/genemod/wagtail
+	name = "Genemod, avian wagtail colorable"
+	desc = ""
+	icon_state = "wagtail"
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
   
 // Bug Stuff
 /datum/sprite_accessory/tail/genemod/beethorax
