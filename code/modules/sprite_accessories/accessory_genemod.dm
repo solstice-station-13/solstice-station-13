@@ -577,3 +577,21 @@
 		icon_state = "chooves"
 		color_blend_mode = ICON_MULTIPLY
 		body_parts = list(BP_L_FOOT,BP_R_FOOT)
+		
+/datum/sprite_accessory/marking/genemod/backstripes
+		name = "Genemod, back stripes"
+		icon_state = "otiestripes"
+		color_blend_mode = ICON_MULTIPLY
+		body_parts = list(BP_CHEST,BP_HEAD)
+
+/datum/sprite_accessory/marking/genemod/corvid_beak
+		name = "Genemod, corvid beak"
+		icon_state = "corvidbeak"
+		color_blend_mode = ICON_MULTIPLY
+		body_parts = list(BP_HEAD)
+
+/datum/sprite_accessory/marking/genemod/corvid_belly
+		name = "Genemod, corvid belly"
+		icon_state = "corvidbelly"
+		color_blend_mode = ICON_MULTIPLY
+		body_parts = list(BP_GROIN,BP_CHEST,BP_HEAD)
