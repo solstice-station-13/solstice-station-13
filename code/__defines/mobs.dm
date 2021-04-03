@@ -321,6 +321,8 @@
 #define SPECIES_KHAZAN		"Khazan"
 #define SPECIES_DUROJ		"Duroj"
 
+
+
 #define UNRESTRICTED_SPECIES list(	SPECIES_HUMAN, 		\
 									SPECIES_DIONA, 		\
 									SPECIES_IPC, 		\
@@ -340,6 +342,10 @@
 									SPECIES_KHAZAN,		\
 									SPECIES_DUROJ)
 									
+// Shorthand...
+#define HUMANOID_SPECIES UNRESTRICTED_SPECIES
+
+
 #define RESTRICTED_SPECIES   list(	SPECIES_VOX, 		   \
 									SPECIES_ALIEN, 		   \
 									SPECIES_GOLEM, 		   \

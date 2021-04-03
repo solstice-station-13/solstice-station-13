@@ -10,7 +10,7 @@
 	name = "You should not see this..."
 	icon = 'modular_solstice/icons/mob/tails.dmi'
 	do_colouration = 0 //Set to 1 to enable coloration using the tail color.
-	species_allowed = list(SPECIES_CUSTOM)
+	species_allowed = HUMANOID_SPECIES
 
 	var/color_blend_mode = ICON_ADD // Only appliciable if do_coloration = 1
 	var/extra_overlay // Icon state of an additional overlay to blend in.
@@ -30,12 +30,12 @@
 	name = "hide species-sprite tail"
 	icon = null
 	icon_state = null
-	species_allowed = list(SPECIES_CUSTOM,SPECIES_AKULA,SPECIES_SERGAL,SPECIES_KHAZAN,SPECIES_DUROJ,SPECIES_VULP,SPECIES_UNATHI,SPECIES_OLDUNATHI,SPECIES_YEOSA,SPECIES_TAJ)
+	species_allowed = HUMANOID_SPECIES
 
 ////////////////////////////
 // Snowflake Shit with no sprites/low quality	
 ////////////////////////////
-/*
+
 /datum/sprite_accessory/tail/kitty
 	name = "kitty, colorable, downwards"
 	desc = ""
@@ -93,7 +93,7 @@
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
   
- /datum/sprite_accessory/tail/raccoon_tail
+/datum/sprite_accessory/tail/raccoon_tail
 	name = "Raccoon gray tail"
 	desc = ""
 	icon_state = "raccoon_tail"
@@ -143,4 +143,4 @@
 	extra_overlay = "Segmentedlights"
 	ani_state = "Segmentedtail_w"
 	extra_overlay_w = "Segmentedlights_w"
-*/
+

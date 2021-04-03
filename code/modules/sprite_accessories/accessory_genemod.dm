@@ -3,12 +3,19 @@
 /////////////////////
 
 /datum/sprite_accessory/tail/genemod/
+	name = "Genemod, no tail"
+	desc = ""
+	icon_state = ""
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	species_allowed = HUMANOID_SPECIES
+
+/datum/sprite_accessory/tail/genemod/squirrel
 	name = "Genemod, squirrel colorable"
 	desc = ""
 	icon_state = "squirrel"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_allowed = list(SPECIES_HUMAN)
 
 /datum/sprite_accessory/tail/genemod/bunny
 	name = "Genemod, bunny colorable"
@@ -249,13 +256,20 @@
 /////////////////////
 
 /datum/sprite_accessory/ears/genemod
+	name = "Genemod, no ears"
+	desc = ""
+	icon_state = ""
+	do_colouration = 1
+	color_blend_mode = ICON_MULTIPLY
+	species_allowed = HUMANOID_SPECIES
+
+/datum/sprite_accessory/ears/genemod
 	name = "Genemod, mouse colorable"
 	desc = ""
 	icon_state = "mouse"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
 	extra_overlay = "mouseinner"
-	species_allowed = list(SPECIES_HUMAN)
 
 /datum/sprite_accessory/ears/genemod/mousehcno
 	name = "Genemod, mouse colorable no inner"
@@ -373,13 +387,19 @@
 // Wing Stuff
 /////////////////////
 
+
 /datum/sprite_accessory/wing/genemod
+	name = "No wings"
+	desc = ""
+	icon_state = "2"
+	species_allowed = HUMANOID_SPECIES
+
+/datum/sprite_accessory/wing/genemod/largefeathered
 	name = "Genemod, large feathered wings (colorable)"
 	desc = ""
 	icon_state = "feathered2"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	species_allowed = list(SPECIES_HUMAN)
 
 /datum/sprite_accessory/wing/genemod/feathered
 	name = "Genemod, feathered wings colorable"
@@ -483,11 +503,15 @@
 /////////////////////
 
 /datum/sprite_accessory/marking/genemod/
+		name = "Genemod, no markings"
+		icon_state = ""
+		species_allowed = HUMANOID_SPECIES
+
+/datum/sprite_accessory/marking/genemod/
 		name = "Genemod, belly and butt"
 		icon_state = "bellyandbutt"
 		color_blend_mode = ICON_MULTIPLY
 		body_parts = list(BP_GROIN,BP_CHEST)
-		species_allowed = list(SPECIES_HUMAN)
 
 /datum/sprite_accessory/marking/genemod/fingers_toes
 		name = "Genemod, fingers and toes"
