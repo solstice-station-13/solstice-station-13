@@ -10,7 +10,7 @@
 	name = "You should not see this..."
 	icon = 'modular_solstice/icons/mob/wings.dmi'
 	do_colouration = 0 //Set to 1 to enable coloration using the tail color.
-	species_allowed = list(SPECIES_CUSTOM)
+	species_allowed = HUMANOID_SPECIES
 
 	var/color_blend_mode = ICON_ADD // Only appliciable if do_coloration = 1
 	var/extra_overlay // Icon state of an additional overlay to blend in.
@@ -25,15 +25,16 @@
 // Genemod Wings
 ////////////////////////////
 
-/datum/sprite_accessory/wing/none //Temp fix.
-	name = "NONE"
-	desc = ""
+/datum/sprite_accessory/wing/invisible
+	name = "hide species-sprite wings"
+	icon = null
 	icon_state = null
+	species_allowed = HUMANOID_SPECIES
 
 ////////////////////////////
 // Snowflake shit with no sprites or low quality
 ////////////////////////////
-/*
+
 /datum/sprite_accessory/wing/harpywings
 	name = "harpy wings, colorable"
 	desc = ""
@@ -58,33 +59,33 @@
 	color_blend_mode = ICON_MULTIPLY
 	extra_overlay = "Neckfur"
 	extra_overlay2 = "Harpywings_BatMarkings"
-	
+
 /datum/sprite_accessory/wing/liquidfirefly_gazer
 	name = "gazer eyestalks"
 	desc = ""
 	icon_state = "liquidfirefly-eyestalks"
-	
+
 /datum/sprite_accessory/wing/snag
 	name = "xenomorph backplate"
 	desc = ""
 	icon_state = "snag-backplate"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	
+
 /datum/sprite_accessory/wing/Neckfur
 	name = "Neck fur"
 	desc = ""
 	icon_state = "Neckfur"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	
+
 /datum/sprite_accessory/wing/nevrean
 	name = "nevrean wings/fantail"
 	desc = ""
 	icon_state = "nevrean_s"
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
-	
+
 /datum/sprite_accessory/wing/sepulchre_yw
 	name = "demon wings, red"
 	desc = ""
@@ -95,7 +96,7 @@
 	desc = ""
 	icon_state = "sepulchre_wingsc"
 	do_colouration = 1
-	
+
 /datum/sprite_accessory/wing/drago_wing
 	name = "Cybernetic Dragon wings"
 	desc = ""
@@ -122,4 +123,4 @@
 	desc = ""
 	icon_state = "cyberdoe_s"
 	do_colouration = 0
-*/
+

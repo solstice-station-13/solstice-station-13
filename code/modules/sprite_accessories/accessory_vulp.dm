@@ -3,6 +3,12 @@
 /////////////////////
 
 /datum/sprite_accessory/ears/vulp
+	name = "Vulpkanin, normal"
+	desc = ""
+	icon_state = "vulp"
+	species_allowed = list(SPECIES_VULP,SPECIES_KHAZAN,SPECIES_HUMAN)
+
+/datum/sprite_accessory/ears/vulp/normal
 	name = "Vulpkanin, dual-color"
 	desc = ""
 	icon_state = "vulp"
@@ -62,6 +68,12 @@
 /////////////////////
 
 /datum/sprite_accessory/tail/vulp
+	name = "Vulpkanin, normal tail"
+	desc = ""
+	icon_state = "vulptail"
+	species_allowed = list(SPECIES_VULP,SPECIES_HUMAN)
+
+/datum/sprite_accessory/tail/vulp/normal
 	name = "Vulpkanin, normal tail (vwag)"
 	desc = ""
 	icon_state = "vulptail"
@@ -76,6 +88,7 @@
 	name = "Vulpkanin, lupine colorable"
 	desc = ""
 	icon_state = "wolf"
+	ani_state = ""
 	do_colouration = 1
 	color_blend_mode = ICON_MULTIPLY
 	extra_overlay = "wolfinner"
@@ -153,6 +166,7 @@
 // Markings
 /////////////////////
 
+// This shouldn't really be a base type, but it doesn't have anything that isn't overriden somewhere else, so I'm going to leave it.
 /datum/sprite_accessory/marking/vulp/
 		name = "Vulpkanin, belly fur"
 		icon_state = "vulp_belly"
