@@ -3237,6 +3237,7 @@
 #include "modular_solstice\code\modules\clothing\spacesuits\void\void.dm"
 #include "modular_solstice\code\modules\mob\animations.dm"
 #include "modular_solstice\code\modules\mob\inventory.dm"
+#include "modular_solstice\code\modules\mob\say_vr.dm"
 #include "modular_solstice\code\modules\organs\robolimbs.dm"
 #include "modular_solstice\code\modules\reagents\reagent_containers\glass.dm"
 #include "modular_solstice\code\modules\research\designs.dm"

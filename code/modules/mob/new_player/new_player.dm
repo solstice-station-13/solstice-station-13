@@ -181,6 +181,11 @@
 			if (dsdiff > 0)
 				to_chat(usr, SPAN_WARNING("You must wait [time2text(dsdiff, "mm:ss")] before rejoining."))
 				return
+		if(!BC_IsKeyAllowedToConnect(ckey) && !usr.client.holder)
+			alert("Border Control is enabled, and you haven't been whitelisted!  You're welcome to observe, \
+					but in order to play, you'll need to be whitelisted!  Please visit our discord to submit an access request!)" , "Border Control Active")
+			return
+
 		LateChoices() //show the latejoin job selection menu
 
 	if(href_list["manifest"])
@@ -195,6 +200,11 @@
 		var/datum/species/S = all_species[client.prefs.species]
 		if(!check_species_allowed(S))
 			return 0
+
+		if(!BC_IsKeyAllowedToConnect(ckey) && !usr.client.holder)
+			alert("Border Control is enabled, and you haven't been whitelisted!  You're welcome to observe, \
+					but in order to play, you'll need to be whitelisted!  Please visit our discord to submit an access request!)" , "Border Control Active")
+			return FALSE
 
 		AttemptLateSpawn(job, client.prefs.spawnpoint)
 		return
